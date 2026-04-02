@@ -1,0 +1,122 @@
+using Aiursoft.EventsRecorder.Entities;
+using Aiursoft.UiStack.Layout;
+
+namespace Aiursoft.EventsRecorder.Models.EventRecordsViewModels;
+
+public class IndexViewModel : UiStackLayoutViewModel
+{
+    public IndexViewModel()
+    {
+        PageTitle = "My Records";
+    }
+
+    public required List<RecordSummaryViewModel> Records { get; set; }
+    public List<EventTypeFilterViewModel> EventTypes { get; set; } = [];
+    public int? SelectedEventTypeId { get; set; }
+}
+
+public class RecordSummaryViewModel
+{
+    public int Id { get; set; }
+    public required string EventTypeName { get; set; }
+    public int EventTypeId { get; set; }
+    public DateTime RecordedAt { get; set; }
+    public string? Notes { get; set; }
+    public int FieldValueCount { get; set; }
+}
+
+public class EventTypeFilterViewModel
+{
+    public int Id { get; set; }
+    public required string Name { get; set; }
+}
+
+public class SelectTypeViewModel : UiStackLayoutViewModel
+{
+    public SelectTypeViewModel()
+    {
+        PageTitle = "Record!";
+    }
+
+    public required List<EventTypeFilterViewModel> EventTypes { get; set; }
+}
+
+public class RecordViewModel : UiStackLayoutViewModel
+{
+    public RecordViewModel()
+    {
+        PageTitle = "Record!";
+    }
+
+    public int EventTypeId { get; set; }
+    public required string EventTypeName { get; set; }
+    public required List<FieldInputViewModel> Fields { get; set; }
+    public string? Notes { get; set; }
+}
+
+public class FieldInputViewModel
+{
+    public int FieldId { get; set; }
+    public required string Name { get; set; }
+    public FieldType FieldType { get; set; }
+    public bool IsRequired { get; set; }
+    public string? StringValue { get; set; }
+    public string? NumberValue { get; set; }
+    public bool BoolValue { get; set; }
+    public string? TimespanHours { get; set; }
+    public string? TimespanMinutes { get; set; }
+    public string? ExistingFilePath { get; set; }
+}
+
+public class DetailsViewModel : UiStackLayoutViewModel
+{
+    public DetailsViewModel()
+    {
+        PageTitle = "Record Details";
+    }
+
+    public int Id { get; set; }
+    public required string EventTypeName { get; set; }
+    public int EventTypeId { get; set; }
+    public DateTime RecordedAt { get; set; }
+    public string? Notes { get; set; }
+    public required List<FieldValueDisplayViewModel> FieldValues { get; set; }
+}
+
+public class FieldValueDisplayViewModel
+{
+    public required string FieldName { get; set; }
+    public FieldType FieldType { get; set; }
+    public string? StringValue { get; set; }
+    public decimal? NumberValue { get; set; }
+    public bool? BoolValue { get; set; }
+    public long? TimespanTicks { get; set; }
+    public string? FileRelativePath { get; set; }
+    public string? FileDownloadUrl { get; set; }
+}
+
+public class EditViewModel : UiStackLayoutViewModel
+{
+    public EditViewModel()
+    {
+        PageTitle = "Edit Record";
+    }
+
+    public int Id { get; set; }
+    public int EventTypeId { get; set; }
+    public required string EventTypeName { get; set; }
+    public required List<FieldInputViewModel> Fields { get; set; }
+    public string? Notes { get; set; }
+}
+
+public class DeleteViewModel : UiStackLayoutViewModel
+{
+    public DeleteViewModel()
+    {
+        PageTitle = "Delete Record";
+    }
+
+    public int Id { get; set; }
+    public required string EventTypeName { get; set; }
+    public DateTime RecordedAt { get; set; }
+}

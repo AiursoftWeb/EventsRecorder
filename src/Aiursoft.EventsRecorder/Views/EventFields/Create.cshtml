@@ -1,0 +1,45 @@
+@using Aiursoft.EventsRecorder.Entities
+@model Aiursoft.EventsRecorder.Models.EventFieldsViewModels.CreateViewModel
+
+<h1 class="h3 mb-3">@Localizer["Add Field to"] <span class="text-muted">@Model.EventTypeName</span></h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Field Details"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <input type="hidden" asp-for="EventTypeId" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label">@Localizer["Field Name"]</label>
+                        <input asp-for="Name" class="form-control form-control-lg" placeholder="@Localizer["e.g. Weight, Duration, Photo..."]" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="FieldType" class="form-label">@Localizer["Field Type"]</label>
+                        <select asp-for="FieldType" class="form-select form-select-lg" asp-items="@(new Microsoft.AspNetCore.Mvc.Rendering.SelectList(Enum.GetValues<FieldType>()))">
+                        </select>
+                        <span asp-validation-for="FieldType" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input asp-for="IsRequired" class="form-check-input" />
+                        <label asp-for="IsRequired" class="form-check-label">@Localizer["This field is required"]</label>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-2" data-lucide="plus"></i> @Localizer["Add Field"]
+                        </button>
+                        <a asp-controller="EventTypes" asp-action="Details" asp-route-id="@Model.EventTypeId" class="btn btn-light">@Localizer["Cancel"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

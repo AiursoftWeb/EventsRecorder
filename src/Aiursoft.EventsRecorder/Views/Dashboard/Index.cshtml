@@ -1,21 +1,75 @@
 <div class="text-center mt-5">
-    <h1 class="display-4">@Localizer["Hello World!"]</h1>
-    <p>@Localizer["This is a template project, where we start the voyager..."]</p>
+    <h1 class="display-4">@Localizer["Events Recorder"]</h1>
+    <p class="text-muted mb-4">@Localizer["Define your event types, then record life moments with a single tap."]</p>
+    <a asp-controller="EventRecords" asp-action="Record" class="btn btn-success btn-lg px-5 py-3 shadow-sm" style="font-size: 1.5rem;">
+        <i class="align-middle me-2" data-lucide="pen-line"></i> @Localizer["Record!"]
+    </a>
 </div>
 
 <div class="container-fluid p-5">
     <div class="row mb-2 mb-xl-3">
         <div class="col-auto d-none d-sm-block">
-            <h3>@Localizer["Welcome"]</h3>
+            <h3>@Localizer["Quick Links"]</h3>
         </div>
+    </div>
 
-        <div class="col-auto ms-auto text-end mt-n1">
-            <a href="https://template-docs.aiursoft.com/en/Tutorial/before.html" class="btn btn-primary me-2 shadow-sm" target="_blank">
-                <i class="align-middle" data-lucide="rocket"></i> @Localizer["Start a new project"]
+    <div class="row mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <a asp-controller="EventTypes" asp-action="Index" class="text-decoration-none">
+                <div class="card h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="d-inline-block me-3">
+                            <div class="stat">
+                                <i class="align-middle text-primary" data-lucide="layers"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="mt-0 mb-1">@Localizer["My Event Types"]</h5>
+                            <p class="mb-0 text-muted">@Localizer["Define and manage event types and their fields."]</p>
+                        </div>
+                    </div>
+                </div>
             </a>
-            <a href="https://template-docs.aiursoft.com/" class="btn btn-outline-primary shadow-sm" target="_blank">
-                <i class="align-middle" data-lucide="book"></i> @Localizer["Read the document"]
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <a asp-controller="EventRecords" asp-action="Index" class="text-decoration-none">
+                <div class="card h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="d-inline-block me-3">
+                            <div class="stat">
+                                <i class="align-middle text-success" data-lucide="file-text"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="mt-0 mb-1">@Localizer["My Records"]</h5>
+                            <p class="mb-0 text-muted">@Localizer["View your event recording timeline."]</p>
+                        </div>
+                    </div>
+                </div>
             </a>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <a asp-controller="EventTypes" asp-action="Create" class="text-decoration-none">
+                <div class="card h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="d-inline-block me-3">
+                            <div class="stat">
+                                <i class="align-middle text-warning" data-lucide="plus-circle"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="mt-0 mb-1">@Localizer["New Event Type"]</h5>
+                            <p class="mb-0 text-muted">@Localizer["Create a new event type to start tracking."]</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mb-2 mb-xl-3">
+        <div class="col-auto d-none d-sm-block">
+            <h3>@Localizer["About"]</h3>
         </div>
     </div>
 

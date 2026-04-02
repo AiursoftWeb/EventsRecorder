@@ -1,0 +1,104 @@
+@using Aiursoft.EventsRecorder.Entities
+@model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.RecordViewModel
+
+<h1 class="h3 mb-3">@Localizer["Record:"] <span class="text-muted">@Model.EventTypeName</span></h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <form asp-action="Record" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="EventTypeId" />
+
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="pen-line"></i> @Model.EventTypeName</h5>
+                </div>
+                <div class="card-body">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    @for (var i = 0; i < Model.Fields.Count; i++)
+                    {
+                        var field = Model.Fields[i];
+                        <input type="hidden" name="Fields[@i].FieldId" value="@field.FieldId" />
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                @field.Name
+                                @if (field.IsRequired)
+                                {
+                                    <span class="text-danger">*</span>
+                                }
+                            </label>
+
+                            @switch (field.FieldType)
+                            {
+                                case FieldType.String:
+                                    <input type="text" name="Fields[@i].StringValue" value="@field.StringValue"
+                                           class="form-control" placeholder="@field.Name"
+                                           @(field.IsRequired ? "required" : "") />
+                                    break;
+
+                                case FieldType.Number:
+                                    <input type="number" step="any" name="Fields[@i].NumberValue" value="@field.NumberValue"
+                                           class="form-control" placeholder="@field.Name"
+                                           @(field.IsRequired ? "required" : "") />
+                                    break;
+
+                                case FieldType.Boolean:
+                                    <div class="form-check">
+                                        <input type="checkbox" name="Fields[@i].BoolValue" value="true"
+                                               class="form-check-input" @(field.BoolValue ? "checked" : "") />
+                                        <label class="form-check-label">@field.Name</label>
+                                    </div>
+                                    break;
+
+                                case FieldType.Timespan:
+                                    <div class="row g-2">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <input type="number" name="Fields[@i].TimespanHours" value="@field.TimespanHours"
+                                                       class="form-control" placeholder="0" min="0" />
+                                                <span class="input-group-text">@Localizer["hours"]</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <input type="number" name="Fields[@i].TimespanMinutes" value="@field.TimespanMinutes"
+                                                       class="form-control" placeholder="0" min="0" max="59" />
+                                                <span class="input-group-text">@Localizer["min"]</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    break;
+
+                                case FieldType.File:
+                                    <input type="file" name="file_@(field.FieldId)" class="form-control"
+                                           @(field.IsRequired ? "required" : "") />
+                                    break;
+                            }
+
+                            @{
+                                var errorKey = $"field_{field.FieldId}";
+                                if (ViewData.ModelState.ContainsKey(errorKey) && ViewData.ModelState[errorKey]!.Errors.Count > 0)
+                                {
+                                    <span class="text-danger">@ViewData.ModelState[errorKey]!.Errors[0].ErrorMessage</span>
+                                }
+                            }
+                        </div>
+                    }
+
+                    <div class="mb-3">
+                        <label asp-for="Notes" class="form-label">@Localizer["Notes"]</label>
+                        <textarea asp-for="Notes" class="form-control" rows="2" placeholder="@Localizer["Optional notes..."]"></textarea>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-success btn-lg">
+                        <i class="align-middle me-2" data-lucide="check"></i> @Localizer["Record!"]
+                    </button>
+                    <a asp-action="Record" class="btn btn-light">@Localizer["Change Type"]</a>
+                    <a asp-action="Index" class="btn btn-light">@Localizer["Cancel"]</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

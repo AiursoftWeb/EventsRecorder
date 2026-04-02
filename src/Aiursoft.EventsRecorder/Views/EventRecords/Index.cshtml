@@ -1,0 +1,116 @@
+@using Aiursoft.WebTools
+@model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.IndexViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["My Records"]</h3>
+    </div>
+    <div class="col-auto ms-auto mt-n1">
+        <a asp-action="Record" class="btn btn-success btn-lg">
+            <i class="align-middle" data-lucide="pen-line"></i> @Localizer["Record!"]
+        </a>
+    </div>
+</div>
+
+@if (Model.EventTypes.Any())
+{
+    <div class="card mb-4">
+        <div class="card-body py-2">
+            <div class="d-flex flex-wrap gap-2 align-items-center">
+                <span class="text-muted me-2">@Localizer["Filter:"]</span>
+                <a asp-action="Index" class="btn btn-sm @(Model.SelectedEventTypeId == null ? "btn-primary" : "btn-outline-secondary")">
+                    @Localizer["All"]
+                </a>
+                @foreach (var et in Model.EventTypes)
+                {
+                    <a asp-action="Index" asp-route-eventTypeId="@et.Id"
+                       class="btn btn-sm @(Model.SelectedEventTypeId == et.Id ? "btn-primary" : "btn-outline-secondary")">
+                        @et.Name
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+@if (!Model.Records.Any())
+{
+    <div class="card">
+        <div class="card-body text-center py-5">
+            <i class="align-middle text-muted mb-3" data-lucide="file-text" style="width: 48px; height: 48px;"></i>
+            <h4 class="text-muted">@Localizer["No records yet"]</h4>
+            <p class="text-muted">@Localizer["Press the Record button to create your first entry."]</p>
+            <a asp-action="Record" class="btn btn-success btn-lg">
+                <i class="align-middle" data-lucide="pen-line"></i> @Localizer["Record!"]
+            </a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                <tr>
+                    <th>@Localizer["Time"]</th>
+                    <th>@Localizer["Event Type"]</th>
+                    <th>@Localizer["Notes"]</th>
+                    <th>@Localizer["Fields"]</th>
+                    <th class="text-end">@Localizer["Actions"]</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var record in Model.Records)
+                {
+                    <tr class="clickable-row" data-href="@Url.Action("Details", new { id = record.Id })" style="cursor:pointer;">
+                        <td>
+                            <label data-utc-time="@record.RecordedAt.ToHtmlDateTime()"></label>
+                        </td>
+                        <td>
+                            <a asp-controller="EventTypes" asp-action="Details" asp-route-id="@record.EventTypeId" class="badge badge-subtle-primary">
+                                @record.EventTypeName
+                            </a>
+                        </td>
+                        <td>
+                            @if (!string.IsNullOrWhiteSpace(record.Notes))
+                            {
+                                @(record.Notes.Length > 50 ? record.Notes[..50] + "..." : record.Notes)
+                            }
+                            else
+                            {
+                                <span class="text-muted">-</span>
+                            }
+                        </td>
+                        <td>@record.FieldValueCount</td>
+                        <td class="text-end">
+                            <a asp-action="Edit" asp-route-id="@record.Id" class="btn btn-sm btn-outline-primary">
+                                <i class="align-middle" data-lucide="edit-2" style="width: 14px; height: 14px;"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@record.Id" class="btn btn-sm btn-outline-danger">
+                                <i class="align-middle" data-lucide="trash-2" style="width: 14px; height: 14px;"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const rows = document.querySelectorAll(".clickable-row");
+            rows.forEach(row => {
+                row.addEventListener("click", function (event) {
+                    const target = event.target;
+                    if (!target.matches('a, a *, button, button *')) {
+                        window.location.href = row.dataset.href;
+                    }
+                });
+            });
+        });
+    </script>
+}

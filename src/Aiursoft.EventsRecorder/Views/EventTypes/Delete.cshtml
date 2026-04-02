@@ -1,0 +1,68 @@
+@model Aiursoft.EventsRecorder.Models.EventTypesViewModels.DeleteViewModel
+
+<h1 class="h3 mb-3">@Localizer["Delete Event Type"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <div class="card">
+            <div class="card-header text-center">
+                <i class="align-middle text-danger" data-lucide="shield-alert" style="width: 48px; height: 48px;"></i>
+            </div>
+            <div class="card-body">
+                <div class="text-center">
+                    <h2 class="h4 card-title fw-bold">@Localizer["Are you sure?"]</h2>
+                    <p class="mb-3 text-muted">@Localizer["This action is irreversible. All records and field values belonging to this event type will be permanently deleted."]</p>
+                </div>
+
+                <div class="list-group list-group-flush my-4">
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Name"]</strong>
+                            <div class="col-sm-9">@Model.Name</div>
+                        </div>
+                    </div>
+                    @if (!string.IsNullOrWhiteSpace(Model.Description))
+                    {
+                        <div class="list-group-item">
+                            <div class="row">
+                                <strong class="col-sm-3">@Localizer["Description"]</strong>
+                                <div class="col-sm-9">@Model.Description</div>
+                            </div>
+                        </div>
+                    }
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Fields"]</strong>
+                            <div class="col-sm-9">@Model.FieldCount</div>
+                        </div>
+                    </div>
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-3">@Localizer["Records"]</strong>
+                            <div class="col-sm-9">
+                                @if (Model.RecordCount > 0)
+                                {
+                                    <span class="text-danger fw-bold">@Model.RecordCount @Localizer["records will be deleted!"]</span>
+                                }
+                                else
+                                {
+                                    <span>0</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <form asp-action="Delete" class="d-inline-block">
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-danger">
+                            <i class="align-middle me-2" data-lucide="trash-2"></i> @Localizer["Yes, delete this event type"]
+                        </button>
+                    </form>
+                    <a asp-action="Index" class="btn btn-light">@Localizer["Cancel"]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

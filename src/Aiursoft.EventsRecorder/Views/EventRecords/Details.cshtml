@@ -1,0 +1,123 @@
+@using Aiursoft.EventsRecorder.Entities
+@using Aiursoft.WebTools
+@model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.DetailsViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>
+            <a asp-controller="EventTypes" asp-action="Details" asp-route-id="@Model.EventTypeId" class="text-decoration-none">@Model.EventTypeName</a>
+            <span class="text-muted">/ @Localizer["Record"]</span>
+        </h3>
+    </div>
+    <div class="col-auto ms-auto text-end mt-n1">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">@Localizer["Edit"]</a>
+        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">@Localizer["Delete"]</a>
+        <a asp-action="Index" class="btn btn-light">@Localizer["Back"]</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 col-xl-3">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Summary"]</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Type"]</strong>
+                        <div class="col-sm-7">@Model.EventTypeName</div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Time"]</strong>
+                        <div class="col-sm-7">
+                            <label data-utc-time="@Model.RecordedAt.ToHtmlDateTime()"></label>
+                        </div>
+                    </div>
+                </div>
+                @if (!string.IsNullOrWhiteSpace(Model.Notes))
+                {
+                    <div class="list-group-item">
+                        <div class="row">
+                            <strong class="col-sm-5">@Localizer["Notes"]</strong>
+                            <div class="col-sm-7">@Model.Notes</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-8 col-xl-9">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="list"></i> @Localizer["Field Values"]</h5>
+            </div>
+            @if (Model.FieldValues.Any())
+            {
+                <div class="list-group list-group-flush">
+                    @foreach (var fv in Model.FieldValues)
+                    {
+                        <div class="list-group-item">
+                            <div class="row">
+                                <strong class="col-sm-3">@fv.FieldName</strong>
+                                <div class="col-sm-9">
+                                    @switch (fv.FieldType)
+                                    {
+                                        case FieldType.String:
+                                            @(fv.StringValue ?? "-")
+                                            break;
+                                        case FieldType.Number:
+                                            @(fv.NumberValue?.ToString("N2") ?? "-")
+                                            break;
+                                        case FieldType.Boolean:
+                                            if (fv.BoolValue == true)
+                                            {
+                                                <i class="align-middle text-success" data-lucide="check-circle" style="width: 18px; height: 18px;"></i> @Localizer["Yes"]
+                                            }
+                                            else
+                                            {
+                                                <i class="align-middle text-muted" data-lucide="x-circle" style="width: 18px; height: 18px;"></i> @Localizer["No"]
+                                            }
+                                            break;
+                                        case FieldType.Timespan:
+                                            if (fv.TimespanTicks.HasValue)
+                                            {
+                                                var ts = TimeSpan.FromTicks(fv.TimespanTicks.Value);
+                                                <span>@($"{(int)ts.TotalHours}h {ts.Minutes}m")</span>
+                                            }
+                                            else
+                                            {
+                                                <span>-</span>
+                                            }
+                                            break;
+                                        case FieldType.File:
+                                            if (!string.IsNullOrEmpty(fv.FileDownloadUrl))
+                                            {
+                                                <a href="@fv.FileDownloadUrl" target="_blank" class="btn btn-sm btn-outline-primary">
+                                                    <i class="align-middle" data-lucide="download" style="width: 14px; height: 14px;"></i> @Localizer["Download"]
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <span>-</span>
+                                            }
+                                            break;
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="card-body text-center text-muted">
+                    <p>@Localizer["No field values recorded."]</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@model Aiursoft.EventsRecorder.Models.EventTypesViewModels.CreateViewModel
+
+<h1 class="h3 mb-3">@Localizer["Create Event Type"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Event Type Details"]</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label">@Localizer["Name"]</label>
+                        <input asp-for="Name" class="form-control form-control-lg" placeholder="@Localizer["e.g. Exercise, Meal, Weight..."]" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label">@Localizer["Description"]</label>
+                        <textarea asp-for="Description" class="form-control" rows="3" placeholder="@Localizer["Optional description for this event type"]"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-2" data-lucide="plus-circle"></i> @Localizer["Create"]
+                        </button>
+                        <a asp-action="Index" class="btn btn-light">@Localizer["Cancel"]</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
