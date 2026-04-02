@@ -22,7 +22,7 @@
 
                     <div class="mb-3">
                         <label asp-for="FieldType" class="form-label">@Localizer["Field Type"]</label>
-                        <select asp-for="FieldType" class="form-select form-select-lg" asp-items="@(new Microsoft.AspNetCore.Mvc.Rendering.SelectList(Enum.GetValues<FieldType>()))">
+                        <select asp-for="FieldType" class="form-select form-select-lg" asp-items="Html.GetEnumSelectList<FieldType>()">
                         </select>
                         <span asp-validation-for="FieldType" class="text-danger"></span>
                     </div>

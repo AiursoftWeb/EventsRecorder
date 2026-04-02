@@ -117,7 +117,7 @@ public class EventRecordsController(
 
         // Rebuild field info for validation and re-rendering
         model.EventTypeName = eventType.Name;
-        if (model.Fields == null || model.Fields.Count == 0)
+        if (model.Fields.Count == 0)
         {
             model.Fields = eventType.Fields.Select(f => new FieldInputViewModel
             {
@@ -340,17 +340,14 @@ public class EventRecordsController(
         model.EventTypeName = record.EventType!.Name;
 
         // Rebuild field info
-        if (model.Fields != null)
+        for (var i = 0; i < model.Fields.Count; i++)
         {
-            for (var i = 0; i < model.Fields.Count; i++)
+            var dbField = record.EventType.Fields.FirstOrDefault(f => f.Id == model.Fields[i].FieldId);
+            if (dbField != null)
             {
-                var dbField = record.EventType.Fields.FirstOrDefault(f => f.Id == model.Fields[i].FieldId);
-                if (dbField != null)
-                {
-                    model.Fields[i].Name = dbField.Name;
-                    model.Fields[i].FieldType = dbField.FieldType;
-                    model.Fields[i].IsRequired = dbField.IsRequired;
-                }
+                model.Fields[i].Name = dbField.Name;
+                model.Fields[i].FieldType = dbField.FieldType;
+                model.Fields[i].IsRequired = dbField.IsRequired;
             }
         }
 
@@ -359,7 +356,7 @@ public class EventRecordsController(
         record.Notes = model.Notes;
 
         // Update field values
-        foreach (var field in model.Fields ?? [])
+        foreach (var field in model.Fields)
         {
             var dbField = record.EventType.Fields.First(f => f.Id == field.FieldId);
             var existingValue = record.FieldValues.FirstOrDefault(fv => fv.EventFieldId == field.FieldId);
