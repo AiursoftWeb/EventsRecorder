@@ -5,7 +5,7 @@
 
 <div class="row justify-content-center">
     <div class="col-lg-10 col-xl-8">
-        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <form asp-action="Edit" method="post">
             <input type="hidden" asp-for="Id" />
             <input type="hidden" asp-for="EventTypeId" />
 
@@ -70,15 +70,23 @@
                                     break;
 
                                 case FieldType.File:
-                                    @if (!string.IsNullOrEmpty(field.ExistingFilePath))
+                                    <vc:file-upload 
+                                        asp-for="Fields[i].FileValue"
+                                        subfolder="events" 
+                                        is-vault="true"
+                                        max-size-in-mb="50">
+                                    </vc:file-upload>
+                                    @if (!string.IsNullOrEmpty(field.FileValue))
                                     {
-                                        <div class="mb-2">
+                                        <div class="mt-2">
                                             <span class="badge bg-success">@Localizer["File uploaded"]</span>
-                                            <small class="text-muted ms-2">@Localizer["Upload a new file to replace it, or leave empty to keep the current file."]</small>
+                                            <small class="text-muted ms-2">@Localizer["Upload a new file to replace it."]</small>
                                         </div>
-                                        <input type="hidden" name="Fields[@i].ExistingFilePath" value="@field.ExistingFilePath" />
                                     }
-                                    <input type="file" name="file_@(field.FieldId)" class="form-control" />
+                                    @if (field.IsRequired)
+                                    {
+                                        <input type="hidden" name="Fields[@i].FileValue" value="@field.FileValue" required />
+                                    }
                                     break;
                             }
                         </div>
@@ -97,3 +105,8 @@
         </form>
     </div>
 </div>
+
+@section styles {
+    <link rel="stylesheet" href="~/node_modules/dropify/dist/css/dropify.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/styles/uploader.css" asp-append-version="true" />
+}

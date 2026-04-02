@@ -156,7 +156,8 @@ public class EventRecordsController(
                         ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name} is required.");
                     break;
                 case FieldType.File:
-                    if (Request.Form.Files[$"file_{field.FieldId}"] == null || Request.Form.Files[$"file_{field.FieldId}"]!.Length == 0)
+                    // ✅ Security Core: Validate logical path exists (no IFormFile processing)
+                    if (string.IsNullOrWhiteSpace(field.FileValue) || !field.FileValue.StartsWith("events/"))
                         ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name} is required.");
                     break;
                 case FieldType.Timespan:
@@ -206,18 +207,40 @@ public class EventRecordsController(
                     fieldValue.TimespanTicks = new TimeSpan(hours, minutes, 0).Ticks;
                     break;
                 case FieldType.File:
-                    var file = Request.Form.Files[$"file_{field.FieldId}"];
-                    if (file is { Length: > 0 })
+                    // ✅ Follow "逻辑路径" architecture: Validate physical file existence
+                    // (Critical) Defensive programming: Never trust frontend strings
+                    if (!string.IsNullOrWhiteSpace(field.FileValue))
                     {
-                        var path = $"events/{userId}/{record.Id}";
-                        var savedPath = await storageService.Save(
-                            Path.Combine(path, file.FileName), file, isVault: true);
-                        fieldValue.FileRelativePath = savedPath;
+                        try
+                        {
+                            // Validate: 1) Path traversal check 2) Physical file exists 3) Vault isolation
+                            var physicalPath = storageService.GetFilePhysicalPath(field.FileValue, isVault: true);
+                            if (!System.IO.File.Exists(physicalPath))
+                            {
+                                ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name}: File upload failed or missing. Please re-upload.");
+                                continue;
+                            }
+                            // Store only the logical path in database
+                            fieldValue.FileRelativePath = field.FileValue;
+                        }
+                        catch (ArgumentException) // Catch path traversal attack attempts
+                        {
+                            ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name}: Invalid file path.");
+                            continue;
+                        }
                     }
                     break;
             }
 
             context.EventFieldValues.Add(fieldValue);
+        }
+
+        // Check for validation errors from file processing
+        if (!ModelState.IsValid)
+        {
+            // Remove the record we created but haven't committed
+            context.EventRecords.Remove(record);
+            return this.StackView(model);
         }
 
         await context.SaveChangesAsync();
@@ -306,7 +329,7 @@ public class EventRecordsController(
                         }
                         break;
                     case FieldType.File:
-                        vm.ExistingFilePath = existingValue.FileRelativePath;
+                        vm.FileValue = existingValue.FileRelativePath;
                         break;
                 }
             }
@@ -388,20 +411,36 @@ public class EventRecordsController(
                     existingValue.TimespanTicks = new TimeSpan(hours, minutes, 0).Ticks;
                     break;
                 case FieldType.File:
-                    var file = Request.Form.Files[$"file_{field.FieldId}"];
-                    if (file is { Length: > 0 })
+                    // ✅ Follow "逻辑路径" architecture: Validate and update file path
+                    if (!string.IsNullOrWhiteSpace(field.FileValue))
                     {
-                        var path = $"events/{userId}/{record.Id}";
-                        var savedPath = await storageService.Save(
-                            Path.Combine(path, file.FileName), file, isVault: true);
-                        existingValue.FileRelativePath = savedPath;
+                        try
+                        {
+                            // Validate: 1) Path traversal check 2) Physical file exists 3) Vault isolation
+                            var physicalPath = storageService.GetFilePhysicalPath(field.FileValue, isVault: true);
+                            if (!System.IO.File.Exists(physicalPath))
+                            {
+                                ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name}: File upload failed or missing. Please re-upload.");
+                                continue;
+                            }
+                            // Update with new logical path
+                            existingValue.FileRelativePath = field.FileValue;
+                        }
+                        catch (ArgumentException) // Catch path traversal attack attempts
+                        {
+                            ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name}: Invalid file path.");
+                            continue;
+                        }
                     }
-                    else if (!string.IsNullOrEmpty(field.ExistingFilePath))
-                    {
-                        existingValue.FileRelativePath = field.ExistingFilePath;
-                    }
+                    // Note: If FileValue is empty, keep existing file (no change)
                     break;
             }
+        }
+
+        // Check for validation errors from file processing
+        if (!ModelState.IsValid)
+        {
+            return this.StackView(model);
         }
 
         await context.SaveChangesAsync();

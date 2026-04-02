@@ -5,7 +5,7 @@
 
 <div class="row justify-content-center">
     <div class="col-lg-10 col-xl-8">
-        <form asp-action="Record" method="post" enctype="multipart/form-data">
+        <form asp-action="Record" method="post">
             <input type="hidden" asp-for="EventTypeId" />
 
             <div class="card mb-4">
@@ -71,8 +71,16 @@
                                     break;
 
                                 case FieldType.File:
-                                    <input type="file" name="file_@(field.FieldId)" class="form-control"
-                                           @(field.IsRequired ? "required" : "") />
+                                    <vc:file-upload 
+                                        asp-for="Fields[i].FileValue"
+                                        subfolder="events" 
+                                        is-vault="true"
+                                        max-size-in-mb="50">
+                                    </vc:file-upload>
+                                    @if (field.IsRequired)
+                                    {
+                                        <input type="hidden" name="Fields[@i].FileValue" value="@field.FileValue" required />
+                                    }
                                     break;
                             }
 
@@ -102,3 +110,8 @@
         </form>
     </div>
 </div>
+
+@section styles {
+    <link rel="stylesheet" href="~/node_modules/dropify/dist/css/dropify.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/styles/uploader.css" asp-append-version="true" />
+}

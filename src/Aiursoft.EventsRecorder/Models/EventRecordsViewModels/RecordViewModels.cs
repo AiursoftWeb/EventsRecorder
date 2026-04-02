@@ -65,7 +65,9 @@ public class FieldInputViewModel
     public bool BoolValue { get; set; }
     public string? TimespanHours { get; set; }
     public string? TimespanMinutes { get; set; }
-    public string? ExistingFilePath { get; set; }
+    // File field: Receives logical path after upload (e.g., "events/userId/recordId/file.pdf")
+    // This follows the "逻辑路径" architecture - frontend/database only handle logical paths
+    public string? FileValue { get; set; }
 }
 
 public class DetailsViewModel : UiStackLayoutViewModel
