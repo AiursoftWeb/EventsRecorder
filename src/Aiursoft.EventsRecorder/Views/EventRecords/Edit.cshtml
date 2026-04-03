@@ -71,7 +71,8 @@
 
                                 case FieldType.File:
                                     <vc:file-upload 
-                                        asp-for="Fields[i].FileValue"
+                                        asp-for="@field.FileValue"
+                                        field-name="Fields[@i].FileValue"
                                         subfolder="events" 
                                         is-vault="true"
                                         max-size-in-mb="50">
@@ -82,10 +83,6 @@
                                             <span class="badge bg-success">@Localizer["File uploaded"]</span>
                                             <small class="text-muted ms-2">@Localizer["Upload a new file to replace it."]</small>
                                         </div>
-                                    }
-                                    @if (field.IsRequired)
-                                    {
-                                        <input type="hidden" name="Fields[@i].FileValue" value="@field.FileValue" required />
                                     }
                                     break;
                             }

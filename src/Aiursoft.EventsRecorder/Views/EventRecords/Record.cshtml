@@ -72,15 +72,12 @@
 
                                 case FieldType.File:
                                     <vc:file-upload 
-                                        asp-for="Fields[i].FileValue"
+                                        asp-for="@field.FileValue"
+                                        field-name="Fields[@i].FileValue"
                                         subfolder="events" 
                                         is-vault="true"
                                         max-size-in-mb="50">
                                     </vc:file-upload>
-                                    @if (field.IsRequired)
-                                    {
-                                        <input type="hidden" name="Fields[@i].FileValue" value="@field.FileValue" required />
-                                    }
                                     break;
                             }
 

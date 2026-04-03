@@ -49,15 +49,15 @@ public class RecordViewModel : UiStackLayoutViewModel
     }
 
     public int EventTypeId { get; set; }
-    public required string EventTypeName { get; set; }
-    public required List<FieldInputViewModel> Fields { get; set; }
+    public string EventTypeName { get; set; } = string.Empty;
+    public List<FieldInputViewModel> Fields { get; set; } = [];
     public string? Notes { get; set; }
 }
 
 public class FieldInputViewModel
 {
     public int FieldId { get; set; }
-    public required string Name { get; set; }
+    public string Name { get; set; } = string.Empty;
     public FieldType FieldType { get; set; }
     public bool IsRequired { get; set; }
     public string? StringValue { get; set; }
@@ -106,8 +106,8 @@ public class EditViewModel : UiStackLayoutViewModel
 
     public int Id { get; set; }
     public int EventTypeId { get; set; }
-    public required string EventTypeName { get; set; }
-    public required List<FieldInputViewModel> Fields { get; set; }
+    public string EventTypeName { get; set; } = string.Empty;
+    public List<FieldInputViewModel> Fields { get; set; } = [];
     public string? Notes { get; set; }
 }
 

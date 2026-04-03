@@ -298,7 +298,7 @@ public class EventRecordsControllerTests : TestBase
             var recordId = recordIdMatch.Groups[1].Value;
             
             var deleteResponse = await PostForm($"/EventRecords/Delete/{recordId}", new Dictionary<string, string>(), tokenUrl: $"/EventRecords/Delete/{recordId}");
-            AssertRedirect(deleteResponse, "/EventRecords/Index");
+            AssertRedirect(deleteResponse, "/EventRecords");
             
             var finalResponse = await Http.GetAsync("/EventRecords/Index");
             var finalHtml = await finalResponse.Content.ReadAsStringAsync();
