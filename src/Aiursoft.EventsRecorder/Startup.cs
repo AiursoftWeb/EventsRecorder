@@ -1,3 +1,6 @@
+using Aiursoft.Canon.TaskQueue;
+using Aiursoft.Canon.BackgroundJobs;
+using Aiursoft.Canon.ScheduledTasks;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.DbTools.Switchable;
 using Aiursoft.Scanner;
@@ -51,9 +54,12 @@ public class Startup : IWebStartup
         services.AddAssemblyDependencies(typeof(Startup).Assembly);
         services.AddSingleton<NavigationState<Startup>>();
 
-        // Background job queue
-        services.AddSingleton<Services.BackgroundJobs.BackgroundJobQueue>();
-        services.AddHostedService<Services.BackgroundJobs.QueueWorkerService>();
+        // Background job queue (Canon)
+        services.AddTaskQueueEngine();
+        services.AddScheduledTaskEngine();
+        services.RegisterBackgroundJob<Services.BackgroundJobs.DummyJob>();
+        var orphanAvatarCleanupJob = services.RegisterBackgroundJob<Services.BackgroundJobs.OrphanAvatarCleanupJob>();
+        services.RegisterScheduledTask(registration: orphanAvatarCleanupJob, period: TimeSpan.FromHours(6), startDelay: TimeSpan.FromMinutes(5));
 
         // Controllers and localization
         services.AddControllersWithViews()
