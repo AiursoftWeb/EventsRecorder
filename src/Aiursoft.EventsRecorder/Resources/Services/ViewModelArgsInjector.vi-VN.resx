@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Nhấp để đăng nhập</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Tạo loại sự kiện</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Tạo Vai Trò</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Bảng điều khiển</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>Xóa loại sự kiện</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Xóa Vai trò</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>Thư mục</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>Sửa loại sự kiện</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Chỉnh sửa Vai trò</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Lỗi</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Chi tiết Loại Sự kiện</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>Loại sự kiện</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Sự kiện</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Tính năng</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Quản lý</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Hồ sơ của tôi</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Không tìm thấy</value>

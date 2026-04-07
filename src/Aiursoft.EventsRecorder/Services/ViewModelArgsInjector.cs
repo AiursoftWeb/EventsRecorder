@@ -79,6 +79,14 @@ public class ViewModelArgsInjector(
         _ = localizer["Not Found"];
         _ = localizer["Permission Details"];
         _ = localizer["Register"];
+    
+        _ = localizer["Create Event Type"];
+        _ = localizer["Delete Event Type"];
+        _ = localizer["Edit Event Type"];
+        _ = localizer["Event Type Details"];
+        _ = localizer["Event Types"];
+        _ = localizer["Events"];
+        _ = localizer["My Records"];
     }
 
     public void InjectSimple(

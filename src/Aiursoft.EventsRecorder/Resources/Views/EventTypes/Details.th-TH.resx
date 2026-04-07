@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>การดำเนินการ</value>
+  </data>
+  <data name="Add Field" xml:space="preserve">
+    <value>เพิ่มฟิลด์</value>
+  </data>
+  <data name="Are you sure you want to delete this field?" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่าคุณต้องการลบฟิลด์นี้?</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>สร้าง</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>ฟิลด์</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>ยังไม่มีฟิลด์ที่กำหนด เพิ่มฟิลด์เพื่อกำหนดข้อมูลที่ต้องการรวบรวม</value>
+  </data>
+  <data name="Number Trends" xml:space="preserve">
+    <value>แนวโน้มตัวเลข</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>ลำดับ</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>บันทึก!</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>ต้องกรอก</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>สรุป</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>เวลา</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>ประเภท</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>ค่า</value>
+  </data>
+  <data name="View All Records" xml:space="preserve">
+    <value>ดูรายการทั้งหมด</value>
+  </data>
+
+</root>

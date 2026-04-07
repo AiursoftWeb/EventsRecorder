@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>點擊登入</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>建立事件類型</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>建立角色</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>儀表板</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>刪除事件類型</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>刪除角色</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>目錄</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>編輯事件類型</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>編輯角色</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>錯誤</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>事件類型詳情</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>事件類型</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>事件</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>功能</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>我的紀錄</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>找不到</value>

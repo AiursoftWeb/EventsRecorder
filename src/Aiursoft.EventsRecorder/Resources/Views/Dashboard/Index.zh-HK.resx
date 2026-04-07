@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>一個現代化、功能豐富且高度可擴展嘅基礎，為您嘅下一個網頁應用程式提供強大支援。</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>人工智能翻譯</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>一致性驗證</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>建立新事件類型以開始追蹤</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>定義及管理事件類型及其欄位。</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>設定您的事件類型，然後輕觸一擊即可記錄生活中的美好時刻。</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>在開發時一律使用 UTC，系統會自動將日期轉換並以用戶的本地時間顯示。</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>輕鬆編寫整合測試，使用記憶體資料庫、暫存檔案系統、內建模擬功能，以及真實世界的 HTTP 請求模擬。</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>活動記錄器</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>具備內建檔案管理系統，支援自動頭像壓縮及私隱保護。</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>多種數據庫支援</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>我的事件類型</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>我的紀錄</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>新增事件類型</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect 整合</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>快速連結</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>基於角色的存取控制授權</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>閱讀文件</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>記錄！</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>自適應設計</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>這是一個模板項目，我們在此展開探索之旅...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>查看您的事件錄製時間軸。</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>歡迎</value>

@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>로그인하려면 클릭</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>이벤트 유형 생성</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>역할 생성</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>대시보드</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>이벤트 유형 삭제</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>역할 삭제</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>디렉터리</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>이벤트 유형 편집</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>역할 편집</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>오류</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>이벤트 유형 세부 정보</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>이벤트 유형</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>이벤트</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>기능</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>관리</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>내 기록</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>찾을 수 없음</value>
