@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Are you sure?" xml:space="preserve">
+    <value>คุณแน่ใจหรือไม่ว่า?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>ลบประเภทเหตุการณ์</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>คำอธิบาย</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>ฟิลด์</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="records will be deleted!" xml:space="preserve">
+    <value>บันทึกจะถูกลบ!</value>
+  </data>
+  <data name="This action is irreversible. All records and field values belonging to this event type will be permanently deleted." xml:space="preserve">
+    <value>การกระทำนี้ไม่สามารถย้อนกลับได้ บันทึกและค่าของฟิลด์ทั้งหมดที่เกี่ยวข้องกับประเภทเหตุการณ์นี้จะถูกยกเลิกอย่างถาวร</value>
+  </data>
+  <data name="Yes, delete this event type" xml:space="preserve">
+    <value>ใช่ ลบประเภทเหตุการณ์นี้</value>
+  </data>
+
+</root>

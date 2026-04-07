@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Κάντε κλικ για σύνδεση</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Δημιουργία τύπου εκδήλωσης</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Δημιουργία Ρόλου</value>
   </data>
@@ -59,6 +62,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Πίνακας ελέγχου</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>Διαγραφή τύπου εκδήλωσης</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Διαγραφή Ρόλου</value>
@@ -69,6 +75,9 @@
   <data name="Directory" xml:space="preserve">
     <value>Κατάλογος</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>Επεξεργασία τύπου γεγονός</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Επεξεργασία Ρόλου</value>
   </data>
@@ -77,6 +86,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Σφάλμα</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Λεπτομέρειες Τύπου Γεγονότος</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>Τύποι Γεγονότων</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Γεγονότα</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Λειτουργίες</value>
@@ -107,6 +125,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Διαχείριση</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Τα Αρχεία Μου</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Δεν βρέθηκε</value>

@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Apasă pentru a te autentifica</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Creare tip eveniment</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Creează Rol</value>
   </data>
@@ -59,6 +62,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Panou de control</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>Ștergeți Tipul de Eveniment</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Șterge Rol</value>
@@ -69,6 +75,9 @@
   <data name="Directory" xml:space="preserve">
     <value>Director</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>Editează tipul de eveniment</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Editează Rol</value>
   </data>
@@ -77,6 +86,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Eroare</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Detalii tip eveniment</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>Tipuri de evenimente</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Evenimente</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Caracteristici</value>
@@ -107,6 +125,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Gestionează</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Înregistrările mele</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Nu a fost găsit</value>

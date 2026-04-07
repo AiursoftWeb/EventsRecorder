@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>モダンで機能豊富、そして高い拡張性を備えた、次世代のWebアプリケーションの基盤。</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>概要</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AIによる翻訳</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>整合性検証</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>新しいイベントタイプを作成して追跡を開始します。</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>イベントタイプとそのフィールドを定義して管理する。</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>イベントタイプを定義し、ワンタップで人生の瞬間を記録しましょう。</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>UTCで専用に開発し、システムが自動的に日付をユーザーのローカルタイムゾーンに変換して表示します。</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>メモリ内データベース、一時ファイルシステム、組み込みモック、そして現実世界のHTTPリクエストシミュレーションを使用して、ストレスフリーで統合テストを記述できます。</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>イベントレコーダー</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>自動アバターの圧縮とプライバシー保護機能を備えた内蔵ファイル管理システムを搭載しています。</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>複数データベースサポート</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>マイイベントタイプ</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>マイレコード</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>新しいイベントタイプ</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect連携</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>クイックリンク</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC認可</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>ドキュメントを読む</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>記録！</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>レスポンシブデザイン</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>これはテンプレートプロジェクトです。ここから航海が始まります...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>イベント記録のタイムラインを表示</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>ようこそ</value>

@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>คลิกเพื่อเข้าสู่ระบบ</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>สร้างประเภทเหตุการณ์</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>สร้างบทบาท</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>แดชบอร์ด</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>ลบประเภทเหตุการณ์</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>ลบบทบาท</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>ไดเรกทอรี</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>แก้ไขประเภทเหตุการณ์</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>แก้ไขบทบาท</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>ข้อผิดพลาด</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>รายละเอียดประเภทเหตุการณ์</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>ประเภทเหตุการณ์</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>เหตุการณ์</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>คุณสมบัติ</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>จัดการ</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>บันทึกของฉัน</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>ไม่พบ</value>
