@@ -1,23 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>1.3</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="Advanced Options" xml:space="preserve">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Advanced Options" xml:space="preserve">
     <value>Advanced Options</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Change Type" xml:space="preserve">
+    <value>Change Type</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>hours</value>
+  </data>
+  <data name="Hours ago" xml:space="preserve">
+    <value>Hours ago</value>
+  </data>
+  <data name="Manual input" xml:space="preserve">
+    <value>Manual input</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Optional notes..." xml:space="preserve">
+    <value>Optional notes...</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Record:</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Record!</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Recording Time</value>
@@ -28,28 +60,5 @@
   <data name="X hours ago" xml:space="preserve">
     <value>X hours ago</value>
   </data>
-  <data name="Manual input" xml:space="preserve">
-    <value>Manual input</value>
-  </data>
-  <data name="Hours ago" xml:space="preserve">
-    <value>Hours ago</value>
-  </data>
-  <data name="Optional notes..." xml:space="preserve">
-    <value>Optional notes...</value>
-  </data>
-  <data name="Notes" xml:space="preserve">
-    <value>Notes</value>
-  </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Record:</value>
-  </data>
-  <data name="Record!" xml:space="preserve">
-    <value>Record!</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="Change Type" xml:space="preserve">
-    <value>Change Type</value>
-  </data>
+
 </root>

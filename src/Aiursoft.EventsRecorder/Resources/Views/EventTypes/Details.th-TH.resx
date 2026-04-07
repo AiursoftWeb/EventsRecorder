@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>แก้ไข</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>วันที่สิ้นสุด</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>ฟิลด์</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>กรอง</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>กรองแนวโน้ม</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>ชื่อ</value>
@@ -60,8 +69,14 @@
   <data name="Records" xml:space="preserve">
     <value>บันทึก</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>ความสม่ำเสมอ</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>ต้องกรอก</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>วันที่เริ่มต้น</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>สรุป</value>

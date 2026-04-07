@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>Edit</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Fields</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>Filter Trends</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>
@@ -65,6 +74,9 @@
   </data>
   <data name="Required" xml:space="preserve">
     <value>Required</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>Start Date</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Summary</value>

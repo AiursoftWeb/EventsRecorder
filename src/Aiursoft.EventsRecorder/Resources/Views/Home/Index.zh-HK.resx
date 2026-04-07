@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>「Fire-and-forget」支援長時間執行的任務（例如電郵或AI），並配備用於佇列管理、平行處理及取消的GUI。</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. 定義事件類型</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. 設定自訂欄位</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. 記錄每次發生</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>內建嘅角色存取控制（RBAC）系統，用於精細嘅權限管理。</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>使用 Aiursoft 模板成就更多</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>為任何事件記錄添加自由格式的註記，以提供無法適當地放入結構化欄位的額外背景資訊。</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>新增此事件所需的数据字段 — 距离、时长、药物名称、剂量 — 并选择字段类型及指定每个字段是否为必填。</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>管理員設定</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>內置管理網站</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>管理員可透過儀表板管理全局設置，並在生產部署中使用環境變量覆蓋。</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI 驅動翻譯</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>所有依賴項都會自動註冊，並可隨時透過構造函數注入使用。</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>事件類型是用於追蹤您想要記錄的事件類別的範本。例如，「晨跑」或「服藥」。每個事件類型均可設定自訂欄位，確保您能精確捕捉所需資料。</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>其他</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>人工智能翻譯</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>為每個事件類型附加各種類型的自訂字段 — 文本、數字、布林值等 — 並可配置順序與必填約束。</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>雙語教程</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>瀏覽、搜尋及篩選您的事件記錄，以識別模式、回顧過往活動，並從長期數據中獲取洞察。</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>一次建構，随处執行。完全容器化架構。</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>內建用戶管理</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>多個用戶可以共用同一實例嗎？</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>根據您的規模，可選擇 SQLite、MySQL 或 SQL Server。只需少量配置即可輕鬆切換數據庫提供者。</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>內建 Docker 支援，可簡化並確保部署的一致性。</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>協調自如</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>核心功能</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>核心路由與依賴注入</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>覆蓋率報告</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>建立一個命名事件類型，例如「晨跑」、「服藥」或「工作時段」。添加描述，讓每個人了解其追蹤內容。</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>跨平台</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>需要自訂開發</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>自訂事件類型</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>後台任務儀表板</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>預設 SQLite 資料庫，無需設定</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>使用自訂欄位定義您自己的事件類型，然後以結構化數據記錄每次發生。一覽無遺地掌握您的習慣、活動與歷史記錄。</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>使用名稱和描述自訂您的事件類型，以符合您的特定追蹤需求。</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>為每個人而設，由初學者至專家皆適用。</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>動態導航欄</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>每次發生此事件，請建立記錄。填入欄位數值，可選地添加備註，時間戳將自動捕捉。</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>每位用戶管理其各自隔離的事件類型和記錄。內建的 RBAC 確保管理員能監察所有活動。</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>輕鬆切換至不同的資料庫提供者，包括 SQLite、MySQL、SQL Server，以及用於測試的記憶體資料庫。</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>內置 Entity Framework Core</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder 採用靈活的資料結構。如果您希望以結構化的方式記錄重複性事件，它將完美契合您的需求。</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder 支援多種欄位類型，包括文字、數字和布林值。每個欄位均可標記為必填，並指定顯示順序，讓您完全掌控資料結構。</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>每條事件記錄均會自動加上 UTC 時間戳，讓您能準確重構隨時間推移的發生記錄歷史。</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>追蹤結構化事件所需的一切</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>常見問題</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>內置檔案管理系統，具備自動頭像壓縮功能。</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>欄位會在客戶端和服務器端進行驗證，確保您的數據在所有記錄中保持清潔和一致。</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>檔案管理與優化</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>彈性 API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>彈性欄位定義</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>如有任何查詢或報告問題。</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>常見問題</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>從個人健康習慣到團隊工作流程檢查點，EventsRecorder 可適應您隨時間推移想要捕捉的任何結構化數據。</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>來自建築師</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>完全離線</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>完全開源。無付費層級，無供應商鎖定。您的數據保留在您自己的基礎設施上。</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>通用配置</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>僅提供通用 Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>免費開始使用</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>基於策略手寫</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>健康與體適能</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>你好世界！</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>高質素</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>瀏覽歷史</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>內置 Horizon</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>我如何獲得支援？</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>如何部署 EventsRecorder？</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>我如何部署我的應用程式？</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>運作方式</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>我開發 Aiursoft Template 是因為厭倦了為每一個新的企業項目重複設置相同的 Auth、Log 和 CI/CD 管道。這不僅僅是一個模板；它是多年高併發生產環境中總結的最佳實踐的結晶。它讓我的團隊可以跳過枯燥的設置，直接進入業務邏輯的開發。</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>互操作性</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>EventsRecorder 是否免費使用？</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>是自由軟件</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm 就緒</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>學習與習慣</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lint Check</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>記錄園藝澆水、鳥類觀察、攝影外出，或任何活動所需的自訂欄位。</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>記錄跑步、鍛鍊、服藥、睡眠時長或血壓讀數，並為每個對您重要的指標自訂欄位。</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>維持高程式碼質素</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>維護日誌</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>管理儀表板</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>多時區處理</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>多用戶支援</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>支援多個資料庫提供者</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>音樂工具</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>自然與嗜好</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>需要 CASL 或類似方案</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>需要 TypeORM 或類似工具</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>無需依賴任何雲端供應商。隨時隨地運行 — 您的數據始終由您掌控。</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>無需依賴任何雲端供應商。隨時隨地運行。</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>備註與上下文</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>離線可用</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>閱讀文件</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>記錄每日閱讀時段、語言練習、學習時數，或任何您想培養的習慣 — 讓進度隨時間清晰可見。</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>記錄一切。</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>需要 Laravel Socialite 配置</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>無縫整合任何 OpenID Connect 供應商，並自動同步角色。</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>自托管</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>在 MIT 授權條款下，自由地自行託管、分叉，並根據您的需求進行調整。</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>放心轉移</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>免費註冊，數分鐘內即可開始定義您的事件類型。</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>簡單而容易</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>開始新項目</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>今日開始記錄您的活動！</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>開始交付價值</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>最穩健、經過實戰考驗的 .NET 企業級基礎架構。從身份認證到人工智能，我們已解決所有難題，讓你無需再煩惱。</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>最簡單的方法是 Docker：只需一個 &apos;docker run&apos; 指令即可。EventsRecorder 完全獨立，預設使用 SQLite 離線運行。您也可透過提供的安裝腳本直接在 Ubuntu 上安裝，或使用 .NET 10 SDK 在本地運行。</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>導覽列會根據用戶角色同權限自動調整。</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>這是一個模板項目，我們由此展開探索之旅...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>三個簡單步驟實現結構化事件追蹤</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>時間戳記記錄</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>時區感知欄位</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>追蹤車輛保養、家居維修、設備維護，或任何帶時間戳記錄的定期維護活動。</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>追蹤重要事項。</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>追蹤工作會話、會議結果、任務完成情況，或任何重複性的工作活動，並使用結構化數據字段。</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>由包括 AnduinOS、StatHub 和 Warp 在內的生產級應用程式信賴。我們不僅分享這段程式碼；我們更將整個業務運作於其上。</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>用法</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>使用案例</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>你可以將佢作為你 SaaS 嘅基礎、流動應用嘅後端、公司網站，或者個人網誌。可能性係無窮無盡嘅。</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>內建驗證</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>在 GitHub 查看</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>檢視原始碼</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>歡迎</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>EventsRecorder 能追蹤哪些項目？</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>我需要準備啲咩先可以開始？</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>支援哪些資料欄位類型？</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>什麼是事件類型？</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>我哋嘅開發者點樣講</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>工作與生產力</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>係嘅，Aiursoft Template 係完全免費同開源嘅，採用 MIT 許可證。你可以用喺個人同商業項目度，唔使畀任何費用。</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>是的，EventsRecorder 完全免費及開源，採用 MIT 授權。您可免費用於個人或商業用途，並可自行在自有基礎設施上託管。</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>是的。EventsRecorder 支援在單一實例上容納多個用戶。每位用戶均擁有專屬的私有事件類型及記錄。管理員可透過內建的 RBAC 系統享有額外的監管功能。</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>你可以透過 GitHub Discussions 獲得社群支援。請瀏覽我們的</value>

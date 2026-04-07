@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>Chỉnh sửa</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Trường</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Lọc</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>Lọc Xu hướng</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Tên</value>
@@ -60,8 +69,14 @@
   <data name="Records" xml:space="preserve">
     <value>Hồ sơ</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>Tính đều đặn</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Bắt buộc</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Tóm tắt</value>

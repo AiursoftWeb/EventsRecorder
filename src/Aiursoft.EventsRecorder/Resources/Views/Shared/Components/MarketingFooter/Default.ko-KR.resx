@@ -30,14 +30,29 @@
   <data name="Contributions" xml:space="preserve">
     <value>기여</value>
   </data>
+  <data name="Docker Image" xml:space="preserve">
+    <value>Docker 이미지</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>문서</value>
+  </data>
+  <data name="EventsRecorder - A self-hosted, open-source event tracking app. Define custom event types, log structured records, and review your history anytime." xml:space="preserve">
+    <value>EventsRecorder - 자체 호스팅 오픈소스 이벤트 추적 앱. 사용자 정의 이벤트 유형을 정의하고 구조화된 기록을 로깅하며 언제든지 이력을 확인하세요.</value>
   </data>
   <data name="Get Started" xml:space="preserve">
     <value>시작하기</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>GitHub</value>
+  </data>
+  <data name="GitLab" xml:space="preserve">
+    <value>GitLab</value>
+  </data>
+  <data name="Install Script" xml:space="preserve">
+    <value>설치 스크립트</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>이슈</value>
   </data>
   <data name="Legal" xml:space="preserve">
     <value>법적</value>
