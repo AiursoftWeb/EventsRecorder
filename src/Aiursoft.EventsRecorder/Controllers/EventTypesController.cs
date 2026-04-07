@@ -67,7 +67,7 @@ public class EventTypesController(TemplateDbContext context) : Controller
         return RedirectToAction(nameof(Details), new { id = eventType.Id });
     }
 
-    public async Task<IActionResult> Details(int id)
+    public async Task<IActionResult> Details(int id, DateTime? start, DateTime? end)
     {
         var userId = GetUserId();
         var eventType = await context.EventTypes
@@ -78,6 +78,9 @@ public class EventTypesController(TemplateDbContext context) : Controller
 
         if (eventType == null) return NotFound();
 
+        var startTime = start ?? DateTime.UtcNow.AddMonths(-1);
+        var endTime = end ?? DateTime.UtcNow.AddDays(1); // Default to tomorrow to include today's records if they don't have time
+
         var numberFields = eventType.Fields
             .Where(f => f.FieldType == FieldType.Number)
             .ToList();
@@ -86,6 +89,7 @@ public class EventTypesController(TemplateDbContext context) : Controller
         {
             FieldName = field.Name,
             Points = eventType.Records
+                .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)
                 .OrderBy(r => r.RecordedAt)
                 .Select(r => new
                 {
@@ -111,7 +115,9 @@ public class EventTypesController(TemplateDbContext context) : Controller
             CreationTime = eventType.CreationTime,
             Fields = eventType.Fields.OrderBy(f => f.Order).ToList(),
             RecordCount = eventType.Records.Count,
-            NumberSeries = numberSeries
+            NumberSeries = numberSeries,
+            Start = startTime,
+            End = endTime
         });
     }
 
