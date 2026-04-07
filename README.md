@@ -5,7 +5,7 @@
 [![Test Coverage](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
 [![Man hours](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/eventsRecorder.svg)](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/eventsRecorder.html)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2FeventsRecorder.aiursoft.com)](https://eventsRecorder.aiursoft.com)
-[![Docker](https://img.shields.io/docker/pulls/aiursoft/eventsRecorder.svg)](https://hub.docker.com/r/aiursoft/eventsRecorder)
+[![Docker](https://img.shields.io/docker/pulls/aiursoft/eventsRecorder.svg)](https://hub.docker.com/r/aiursoft/eventsrecorder)
 
 EventsRecorder is a sample project.
 
