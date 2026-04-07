@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Uma base moderna, rica em funcionalidades e altamente extensível para a sua próxima aplicação web.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traduções com Inteligência Artificial</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Validação de Consistência</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Crie um novo tipo de evento para começar a rastrear.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Defina e gere tipos de eventos e os seus campos.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Defina os seus tipos de eventos e, em seguida, registe momentos da sua vida com um único toque.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Desenvolva exclusivamente em UTC, enquanto o sistema converte e exibe automaticamente as datas na zona horária local do utilizador.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Escreva testes de integração de forma eficaz utilizando bases de dados em memória, sistemas de ficheiros temporários, mocking integrado e simulação de pedidos HTTP do mundo real.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Registo de Eventos</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Caracteriza-se por um sistema de gestão de ficheiros integrado com compressão automática de avatares e proteção da privacidade.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Suporte para Múltiplas Bases de Dados</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Os Meus Tipos de Evento</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Os meus registos</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Novo Tipo de Evento</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integração OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Links Rápidos</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Autorização RBAC</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Ler o documento</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Gravar!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Design Responsivo</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Este é um projeto modelo, onde iniciamos a viagem...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Visualize a linha temporal das gravações dos seus eventos.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bem-vindo</value>

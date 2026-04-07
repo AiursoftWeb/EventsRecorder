@@ -30,6 +30,12 @@
   <data name="GitHub" xml:space="preserve">
     <value>GitHub</value>
   </data>
+  <data name="GitLab" xml:space="preserve">
+    <value>GitLab</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>이슈</value>
+  </data>
   <data name="Source Code" xml:space="preserve">
     <value>소스 코드</value>
   </data>

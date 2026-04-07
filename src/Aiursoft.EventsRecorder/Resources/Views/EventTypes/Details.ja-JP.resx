@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>編集</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>終了日</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>フィールド</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>フィルター</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>トレンドをフィルタ</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>名前</value>
@@ -60,8 +69,14 @@
   <data name="Records" xml:space="preserve">
     <value>記録</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>規則性</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>必須</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>開始日</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>要約</value>

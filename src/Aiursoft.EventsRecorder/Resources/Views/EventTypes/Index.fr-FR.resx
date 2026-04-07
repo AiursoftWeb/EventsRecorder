@@ -39,5 +39,8 @@
   <data name="records" xml:space="preserve">
     <value>enregistrements</value>
   </data>
+  <data name="regularity" xml:space="preserve">
+    <value>régularité</value>
+  </data>
 
 </root>

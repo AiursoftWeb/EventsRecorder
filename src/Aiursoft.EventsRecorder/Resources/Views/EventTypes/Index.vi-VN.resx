@@ -39,5 +39,8 @@
   <data name="records" xml:space="preserve">
     <value>bản ghi</value>
   </data>
+  <data name="regularity" xml:space="preserve">
+    <value>tính đều đặn</value>
+  </data>
 
 </root>

@@ -30,14 +30,29 @@
   <data name="Contributions" xml:space="preserve">
     <value>Contributions</value>
   </data>
+  <data name="Docker Image" xml:space="preserve">
+    <value>Image Docker</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>Documentation</value>
+  </data>
+  <data name="EventsRecorder - A self-hosted, open-source event tracking app. Define custom event types, log structured records, and review your history anytime." xml:space="preserve">
+    <value>EventsRecorder - Une application de suivi d&apos;événements auto-hébergée et open-source. Définissez des types d&apos;événements personnalisés, enregistrez des enregistrements structurés et consultez votre historique à tout moment.</value>
   </data>
   <data name="Get Started" xml:space="preserve">
     <value>Commencer</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>GitHub</value>
+  </data>
+  <data name="GitLab" xml:space="preserve">
+    <value>GitLab</value>
+  </data>
+  <data name="Install Script" xml:space="preserve">
+    <value>Script d&apos;installation</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>Problèmes</value>
   </data>
   <data name="Legal" xml:space="preserve">
     <value>Mentions légales</value>

@@ -39,5 +39,8 @@
   <data name="records" xml:space="preserve">
     <value>บันทึก</value>
   </data>
+  <data name="regularity" xml:space="preserve">
+    <value>ความสม่ำเสมอ</value>
+  </data>
 
 </root>

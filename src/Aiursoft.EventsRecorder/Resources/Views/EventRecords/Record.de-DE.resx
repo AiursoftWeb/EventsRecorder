@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Cancel" xml:space="preserve">
+      <data name="Advanced Options" xml:space="preserve">
+    <value>Erweiterte Optionen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
   <data name="Change Type" xml:space="preserve">
@@ -26,6 +29,12 @@
   </data>
   <data name="hours" xml:space="preserve">
     <value>Stunden</value>
+  </data>
+  <data name="Hours ago" xml:space="preserve">
+    <value>Vor Stunden</value>
+  </data>
+  <data name="Manual input" xml:space="preserve">
+    <value>Manuelle Eingabe</value>
   </data>
   <data name="min" xml:space="preserve">
     <value>min</value>
@@ -41,6 +50,15 @@
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Aufnehmen!</value>
+  </data>
+  <data name="Recording Time" xml:space="preserve">
+    <value>Aufnahmezeit</value>
+  </data>
+  <data name="Right now" xml:space="preserve">
+    <value>Jetzt</value>
+  </data>
+  <data name="X hours ago" xml:space="preserve">
+    <value>X Stunden zuvor</value>
   </data>
 
 </root>

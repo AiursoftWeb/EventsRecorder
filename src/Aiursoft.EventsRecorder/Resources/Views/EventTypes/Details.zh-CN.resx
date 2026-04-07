@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>编辑</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>字段</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>筛选趋势</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>名称</value>
@@ -65,6 +74,9 @@
   </data>
   <data name="Required" xml:space="preserve">
     <value>必填</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>开始日期</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>摘要</value>

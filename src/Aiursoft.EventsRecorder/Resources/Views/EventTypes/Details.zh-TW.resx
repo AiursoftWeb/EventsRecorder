@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>編輯</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>結束日期</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>欄位</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>篩選</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>篩選趨勢</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>名稱</value>
@@ -60,8 +69,14 @@
   <data name="Records" xml:space="preserve">
     <value>記錄</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>規律性</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>必要</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>開始日期</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>摘要</value>

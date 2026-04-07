@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>오래 실행되는 작업(예: 이메일 또는 AI)에 대한 &quot;Fire-and-forget&quot; 지원, 대기열 관리, 병렬 처리 및 취소 기능이 있는 GUI를 특징으로 합니다.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. 이벤트 유형 정의</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. 사용자 정의 필드 구성</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. 모든 발생 기록</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>세분화된 권한 관리를 위한 내장형 역할 기반 접근 제어(RBAC) 시스템.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft 템플릿으로 더 많은 성과를 이루세요</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>필요한 경우 구조화된 필드에 포함하기 어려운 추가 컨텍스트를 제공하기 위해 모든 이벤트 레코드에 자유 형식 노트를 추가하세요.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>이 이벤트에 중요한 데이터 필드를 추가하세요 — 거리, 지속 시간, 약물 이름, 용량 — 필드 유형과 각 필드가 필수인지 여부를 선택합니다.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>관리자 설정</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>관리 사이트 포함됨</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>관리자는 대시보드를 통해 전역 설정을 관리할 수 있으며, 프로덕션 배포 환경에는 환경 변수 오버라이드를 사용할 수 있습니다.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI 기반 번역</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>모든 종속성은 자동으로 등록되며 생성자 주입을 통해 항상 사용할 수 있습니다.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>이벤트 유형은 추적하려는 이벤트 범주의 템플릿입니다. 예를 들어 &apos;아침 달리기&apos;나 &apos;약물 복용&apos;과 같습니다. 각 이벤트 유형에는 사용자 정의 필드가 있어 필요한 데이터를 정확히 모두 기록할 수 있습니다.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>안두인</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>기타</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>인공지능 번역</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>다양한 유형의 사용자 정의 필드를 각 이벤트 유형에 연결하세요 — 텍스트, 숫자, 부울 등 — 구성 가능한 순서와 필수 제약 사항으로.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>이중 언어 튜토리얼</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>이벤트 기록을 브라우징, 검색, 필터링하여 패턴을 발견하고 과거 활동을 검토하며 장기 데이터에서 통찰력을 얻으세요.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>한 번 빌드하면 어디서나 실행 가능. 완전히 컨테이너화된 아키텍처.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>내장된 사용자 관리</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>여러 사용자가 동일한 인스턴스를 공유할 수 있습니까?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>규모에 따라 SQLite, MySQL 또는 SQL Server 중 하나를 선택하세요. 최소한의 구성으로 공급자를 쉽게 전환할 수 있습니다.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Docker 지원을 제공하여 간편하고 일관된 배포가 가능합니다.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>편안하게 조율하세요</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>주요 기능</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>핵심 라우팅 및 DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>커버리지 리포트</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>이름이 지정된 이벤트 유형을 만드세요. 예를 들어 &apos;아침 조깅&apos;, &apos;약 복용&apos;, 또는 &apos;작업 세션&apos;과 같이요. 각 항목이 무엇을 추적하는지 모두 알 수 있도록 설명을 추가하세요.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>크로스 플랫폼</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>맞춤 개발 필요</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>사용자 정의 이벤트 유형</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>배경 작업 대시보드</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>기본 SQLite 데이터베이스, 설정 필요 없음</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>사용자 정의 필드가 있는 고유한 이벤트 유형을 정의한 후, 구조화된 데이터로 모든 발생을 기록하세요. 습관, 활동 및 이력을 한눈에 파악하세요.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>사용자 지정 추적 요구 사항에 맞게 이름과 설명이 포함된 고유한 이벤트 유형을 정의하세요.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>모든 사람, 초보자부터 전문가까지를 위한 설계입니다.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>동적 내비게이션 바</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>이벤트가 발생할 때마다 기록을 생성하세요. 필드 값을 입력하고 선택적으로 메모를 추가하면 타임스탬프가 자동으로 기록됩니다.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>각 사용자는 고유한 격리된 이벤트 유형과 기록을 관리합니다. 내장된 RBAC를 통해 관리자는 모든 활동을 감시할 수 있습니다.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server 및 테스트용 메모리 데이터베이스를 포함하여 데이터베이스 공급자를 쉽게 전환할 수 있습니다.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core 포함됨</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder 는 스키마 유연성을 갖추고 있습니다. 구조화된 방식으로 포착하고 싶은 반복 이벤트가 있다면, 이에 완벽하게 부합합니다.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder는 텍스트, 숫자, 부울을 포함한 여러 필드 유형을 지원합니다. 각 필드는 필수 항목으로 표시되거나 표시 순서가 지정될 수 있어 데이터 구조를 완전히 제어할 수 있습니다.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>모든 이벤트 기록은 UTC 기준으로 자동으로 타임스탬프되어 시간 경과에 따른 발생 이력을 정확하게 재구성할 수 있습니다.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>구조화된 이벤트를 추적하는 데 필요한 모든 것</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>자주 묻는 질문</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>자동 아바타 압축 기능이 포함된 내장 파일 관리 시스템을 갖추고 있습니다.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>필드는 클라이언트 및 서버 양쪽에서 검증되어 모든 기록에서 데이터가 깔끔하고 일관되도록 보장됩니다.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>파일 관리 및 최적화</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>유연한 API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>유연한 필드 정의</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>문의 사항이 있거나 문제를 보고하려면</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>자주 묻는 질문</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>개인 건강 습관부터 팀 워크플로우 체크포인트까지, EventsRecorder는 시간이 지남에 따라 캡처하려는 모든 구조화된 데이터에 맞춰 조정됩니다.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>아키텍처에서</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>완전 오프라인</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>완전한 오픈 소스. 유료 tiers 없음, 벤더 종속성 없음. 귀하의 데이터는 귀하의 인프라에 유지됩니다.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>일반 구성</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>일반 Dockerfile 만 제공</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>무료로 시작하기</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>정책 기반으로 수동 작성</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>건강 및 피트니스</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>안녕하세요 세계!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>높은 품질</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>역사적 탐색</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon 포함됨</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>어떻게 지원을 받을 수 있나요?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>EventsRecorder를 배포하는 방법은 무엇인가요?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>애플리케이션을 어떻게 배포하나요?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>작동 방식</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>저는 매번 새로운 기업용 프로젝트를 시작할 때마다 동일한 인증(Auth), 로그(Log), CI/CD 파이프라인을 설정하는 데 지쳐서 Aiursoft Template을 만들었습니다. 이것은 단순한 템플릿이 아니라, 고성능 동시 처리 환경에서 수년간 쌓아온 최적의 실천 방법을 정제한 것입니다. 이 덕분에 제 팀은 지루한 설정 과정을 건너뛰고 바로 비즈니스 로직 개발에 집중할 수 있습니다.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>상호 운용성</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>EventsRecorder를 무료로 사용할 수 있나요?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>는 무료 소프트웨어입니다</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm 준비 완료</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>학습 및 습관</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>라인트 체크</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>정원 물 주기, 새 관찰, 사진 촬영 등 활동에 필요한 정확한 사용자 정의 필드를 통해 모든 취미를 기록하세요.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>러닝, 운동, 약물 복용, 수면 시간, 혈압 측정값을 기록하고 귀하에게 중요한 모든 지표에 대해 사용자 정의 필드를 사용하세요.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>높은 코드 품질 유지</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>유지 관리 로그</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>관리 대시보드</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>다중 시간대 처리</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>다중 사용자 지원</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>다중 데이터베이스 공급자 지원</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>음악 도구</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>자연 및 취미</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>CASL 또는 유사한 것 필요</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>TypeORM 또는 유사한 것이 필요합니다</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>어떤 클라우드 벤더에도 의존하지 않습니다. 언제 어디서든 실행 가능 — 데이터는 항상 당신과 함께 있습니다.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>클라우드 벤더에 의존하지 않습니다. 어디서나 언제나 실행 가능합니다.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>노트 및 컨텍스트</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>오프라인 사용 가능</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>문서 읽기</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>매일 독서 세션, 언어 연습, 학습 시간, 또는 만들고 싶은 어떤 습관도 기록하세요 — 시간이 지남에 따라 진행 상황을 확인할 수 있습니다.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>모든 것을 기록하세요.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Laravel Socialite 설정 필요</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>어떤 OpenID Connect 공급자와도 원활하게 통합되며, 자동 역할 동기화를 지원합니다.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>셀프 호스팅</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>MIT 라이선스 하에 자유롭게 자체 호스팅하고 포크하여 필요에 맞게 수정하세요.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>자신 있게 전환하세요</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>무료로 가입하여 몇 분 안에 이벤트 유형을 정의하세요.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>간단하고 쉬운</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>새 프로젝트 시작하기</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>오늘부터 이벤트 기록을 시작하세요!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>가치 전달 시작하기</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>결정적인, 검증된 .NET 엔터프라이즈 기반입니다. 인증(Auth)부터 인공지능(AI)까지, 어려운 부분은 이미 해결했으므로 귀하께서는 그 부분을 신경 쓰지 않아도 됩니다.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>가장 쉬운 방법은 Docker입니다. &apos;docker run&apos; 명령어 하나만 있으면 됩니다. EventsRecorder는 완전히 독립적이며 기본적으로 SQLite로 오프라인에서 작동합니다. 제공된 설치 스크립트를 통해 Ubuntu에 직접 설치하거나 .NET 10 SDK로 로컬에서 실행할 수도 있습니다.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>네비게이션 바는 사용자 역할과 권한에 따라 자동으로 조정됩니다.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>이것은 템플릿 프로젝트로, 여기서 우리의 항해를 시작합니다...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>구조화된 이벤트 추적을 위한 세 가지 간단한 단계</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>타임스탬프 기록</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>시간대 인식 필드</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>차량 정비, 주택 수리, 장비 서비스 또는 타임스탬프가 기록된 기록과 함께 수행되는 모든 정기 유지 관리 활동을 추적하세요.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>중요한 것을 추적하세요.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>작업 세션, 회의 결과, 작업 완료 또는 구조화된 데이터 필드를 사용하여 반복되는 직장의 모든 활동을 추적하세요.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>AnduinOS, StatHub, Warp를 포함한 프로덕션 수준의 애플리케이션들에 의해 신뢰받고 있습니다. 우리는 단지 이 코드를 공유하는 것이 아니라, 우리의 전체 비즈니스를 이 코드 위에 운영하고 있습니다.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>사용법</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>사용 사례</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>SaaS의 기반, 모바일 앱의 백엔드, 기업 웹사이트 또는 개인 블로그로 활용하세요. 가능성은 무궁무진합니다.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>내장 유효성 검사</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>GitHub에서 보기</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>소스 코드 보기</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>환영합니다</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>EventsRecorder 로 무엇을 추적할 수 있나요?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>시작하려면 무엇이 필요하나요?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>지원되는 필드 유형은 무엇인가요?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>이벤트 유형이란 무엇인가요?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>개발자들의 평가</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>윈/린/맥</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>업무 및 생산성</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>네, Aiursoft Template은 MIT 라이선스 하에 완전히 무료이며 오픈 소스입니다. 개인 및 상업 프로젝트에 무료로 사용하실 수 있습니다.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>네, EventsRecorder는 MIT 라이선스에 따라 완전히 무료이며 오픈 소스입니다. 개인 또는 상업적 목적으로 비용을 지불하지 않고 사용할 수 있으며, 자체 인프라에서 직접 호스팅할 수 있습니다.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>네. EventsRecorder는 단일 인스턴스에서 여러 사용자를 지원합니다. 각 사용자는 고유한 개인 이벤트 유형 및 기록을 갖습니다. 관리자는 내장된 RBAC 시스템을 통해 추가적인 감독 기능을 보유합니다.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>GitHub Discussions를 통해 커뮤니티 지원을 받을 수 있습니다. 저희</value>

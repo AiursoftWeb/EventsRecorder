@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>أساس حديث، غني بالميزات، وقابل للتوسعة بشكل كبير لتطبيق الويب القادم الخاص بك.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>حول</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>الترجمات المدعومة بالذكاء الاصطناعي</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>التحقق من الاتساق</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>إنشاء نوع حدث جديد لبدء التتبع.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>حدد أنواع الأحداث وحقولها وأدارها.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>حدد أنواع أحداثك، ثم سجّل لحظات حياتك بنقرة واحدة.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>طور بشكل حصري باستخدام التوقيت العالمي الموحد (UTC) بينما يقوم النظام تلقائيًا بتحويل وتظهر التواريخ بالتوقيت المحلي للمستخدم.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>اكتب اختبارات التكامل بسهولة باستخدام قواعد بيانات الذاكرة المؤقتة، وأنظمة ملفات مؤقتة، ومحاكاة مدمجة، ومحاكاة طلبات HTTP الواقعية.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>سجل الأحداث</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>يتميز بنظام إدارة ملفات مدمج مع ضغط تلقائي للصورة الرمزية وحماية الخصوصية.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>دعم قواعد بيانات متعددة</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>أنواع أفعالي</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>سجلاتي</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>نوع حدث جديد</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>دمج OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>روابط سريعة</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>الترخيص القائم على الأدوار (RBAC)</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>اقرأ المستند</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>سجّل!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>تصميم متجاوب</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>هذا مشروع قالب، حيث نبدأ رحلة المستكشف...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>اعرض Timeline تسجيلات أحداثك.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>مرحباً</value>

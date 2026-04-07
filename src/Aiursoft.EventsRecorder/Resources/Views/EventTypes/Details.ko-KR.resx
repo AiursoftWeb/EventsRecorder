@@ -39,8 +39,17 @@
   <data name="Edit" xml:space="preserve">
     <value>수정</value>
   </data>
+  <data name="End Date" xml:space="preserve">
+    <value>종료일</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>필드</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>트렌드 필터링</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>이름</value>
@@ -60,8 +69,14 @@
   <data name="Records" xml:space="preserve">
     <value>레코드</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>정기성</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>필수</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>시작 날짜</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>요약</value>
