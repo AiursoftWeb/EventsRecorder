@@ -1,4 +1,5 @@
 @using Aiursoft.EventsRecorder.Entities
+@using Aiursoft.EventsRecorder.Models.EventRecordsViewModels
 @model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.RecordViewModel
 
 <h1 class="h3 mb-3">@Localizer["Record:"] <span class="text-muted">@Model.EventTypeName</span></h1>
@@ -91,9 +92,45 @@
                         </div>
                     }
 
-                    <div class="mb-3">
-                        <label asp-for="Notes" class="form-label">@Localizer["Notes"]</label>
-                        <textarea asp-for="Notes" class="form-control" rows="2" placeholder="@Localizer["Optional notes..."]"></textarea>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" asp-for="ShowAdvanced" id="showAdvancedToggle">
+                        <label class="form-check-label" for="showAdvancedToggle">
+                            @Localizer["Advanced Options"]
+                        </label>
+                    </div>
+
+                    <div id="advancedSection" style="@(Model.ShowAdvanced ? "" : "display: none;")">
+                        <hr />
+                        <div class="mb-3">
+                            <label asp-for="Notes" class="form-label">@Localizer["Notes"]</label>
+                            <textarea asp-for="Notes" class="form-control" rows="2" placeholder="@Localizer["Optional notes..."]"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">@Localizer["Recording Time"]</label>
+                            <div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" asp-for="TimeType" value="@RecordingTimeType.RightNow" id="timeRightNow">
+                                    <label class="form-check-label" for="timeRightNow">@Localizer["Right now"]</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" asp-for="TimeType" value="@RecordingTimeType.HoursAgo" id="timeHoursAgo">
+                                    <label class="form-check-label" for="timeHoursAgo">@Localizer["X hours ago"]</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" asp-for="TimeType" value="@RecordingTimeType.Manual" id="timeManual">
+                                    <label class="form-check-label" for="timeManual">@Localizer["Manual input"]</label>
+                                </div>
+                            </div>
+
+                            <div id="hoursAgoInput" class="mt-2" style="@(Model.TimeType == RecordingTimeType.HoursAgo ? "" : "display: none;")">
+                                <input type="number" asp-for="HoursAgo" class="form-control" min="0" max="200" step="any" placeholder="@Localizer["Hours ago"]" />
+                            </div>
+
+                            <div id="manualTimeInput" class="mt-2" style="@(Model.TimeType == RecordingTimeType.Manual ? "" : "display: none;")">
+                                <input type="datetime-local" asp-for="ManualTime" class="form-control" value="@Model.ManualTime.ToString("yyyy-MM-ddTHH:mm")" />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-footer">
@@ -107,6 +144,22 @@
         </form>
     </div>
 </div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script>
+        document.getElementById('showAdvancedToggle').addEventListener('change', function() {
+            document.getElementById('advancedSection').style.display = this.checked ? 'block' : 'none';
+        });
+
+        document.querySelectorAll('input[name="TimeType"]').forEach(radio => {
+            radio.addEventListener('change', function() {
+                document.getElementById('hoursAgoInput').style.display = (this.value === 'HoursAgo') ? 'block' : 'none';
+                document.getElementById('manualTimeInput').style.display = (this.value === 'Manual') ? 'block' : 'none';
+            });
+        });
+    </script>
+}
 
 @* ReSharper disable once Razor.SectionNotResolved *@
 @section styles {

@@ -8,6 +8,7 @@ using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Localization;
 
 namespace Aiursoft.EventsRecorder.Controllers;
 
@@ -15,7 +16,8 @@ namespace Aiursoft.EventsRecorder.Controllers;
 [LimitPerMin]
 public class EventRecordsController(
     TemplateDbContext context,
-    StorageService storageService) : Controller
+    StorageService storageService,
+    IStringLocalizer<EventRecordsController> localizer) : Controller
 {
     private string GetUserId() => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
@@ -169,11 +171,34 @@ public class EventRecordsController(
 
         if (!ModelState.IsValid) return this.StackView(model);
 
+        if (model.ShowAdvanced && model.TimeType == RecordingTimeType.HoursAgo)
+        {
+            if (model.HoursAgo < 0 || model.HoursAgo > 200)
+            {
+                ModelState.AddModelError(nameof(model.HoursAgo), localizer["Hours ago must be between 0 and 200."]);
+            }
+        }
+
+        if (!ModelState.IsValid) return this.StackView(model);
+
+        var recordedAt = DateTime.UtcNow;
+        if (model.ShowAdvanced)
+        {
+            recordedAt = model.TimeType switch
+            {
+                RecordingTimeType.RightNow => DateTime.UtcNow,
+                RecordingTimeType.HoursAgo => DateTime.UtcNow.AddHours(-model.HoursAgo),
+                RecordingTimeType.Manual => model.ManualTime.ToUniversalTime(),
+                _ => DateTime.UtcNow
+            };
+        }
+
         var record = new EventRecord
         {
             EventTypeId = model.EventTypeId,
             UserId = userId,
-            Notes = model.Notes
+            Notes = model.ShowAdvanced ? model.Notes : null,
+            RecordedAt = recordedAt
         };
 
         context.EventRecords.Add(record);
