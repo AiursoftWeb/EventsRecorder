@@ -1,7 +1,4 @@
 using Aiursoft.EventsRecorder.Services;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
 
 namespace Aiursoft.EventsRecorder.Tests;
 
