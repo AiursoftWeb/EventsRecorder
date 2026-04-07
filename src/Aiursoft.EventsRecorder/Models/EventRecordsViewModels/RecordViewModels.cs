@@ -41,6 +41,13 @@ public class SelectTypeViewModel : UiStackLayoutViewModel
     public required List<EventTypeFilterViewModel> EventTypes { get; set; }
 }
 
+public enum RecordingTimeType
+{
+    RightNow,
+    HoursAgo,
+    Manual
+}
+
 public class RecordViewModel : UiStackLayoutViewModel
 {
     public RecordViewModel()
@@ -52,6 +59,11 @@ public class RecordViewModel : UiStackLayoutViewModel
     public string EventTypeName { get; set; } = string.Empty;
     public List<FieldInputViewModel> Fields { get; set; } = [];
     public string? Notes { get; set; }
+
+    public bool ShowAdvanced { get; set; }
+    public RecordingTimeType TimeType { get; set; } = RecordingTimeType.RightNow;
+    public double HoursAgo { get; set; }
+    public DateTime ManualTime { get; set; } = DateTime.UtcNow;
 }
 
 public class FieldInputViewModel

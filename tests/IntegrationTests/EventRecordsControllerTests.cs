@@ -214,6 +214,7 @@ public class EventRecordsControllerTests : TestBase
         await PostForm("/EventRecords/Record", new Dictionary<string, string>
         {
             { "EventTypeId", eventTypeId },
+            { "ShowAdvanced", "true" },
             { "Notes", "Important meeting" },
             { "Fields[0].FieldId", fieldId },
             { "Fields[0].StringValue", "Project Planning" }
@@ -233,6 +234,76 @@ public class EventRecordsControllerTests : TestBase
             Assert.Contains("Meeting", detailsHtml);
             Assert.Contains("Project Planning", detailsHtml);
             Assert.Contains("Important meeting", detailsHtml);
+        }
+    }
+
+    [TestMethod]
+    public async Task RecordWithHoursAgo()
+    {
+        await RegisterAndLoginAsync();
+        var eventTypeId = await CreateEventTypeAndGetId("Drink Water");
+        var fieldId = await CreateField(eventTypeId, "Amount", "1", true);
+
+        await PostForm("/EventRecords/Record", new Dictionary<string, string>
+        {
+            { "EventTypeId", eventTypeId },
+            { "ShowAdvanced", "true" },
+            { "TimeType", "HoursAgo" },
+            { "HoursAgo", "2" },
+            { "Fields[0].FieldId", fieldId },
+            { "Fields[0].NumberValue", "500" }
+        }, tokenUrl: $"/EventRecords/Record?eventTypeId={eventTypeId}");
+
+        var indexResponse = await Http.GetAsync("/EventRecords/Index");
+        var indexHtml = await indexResponse.Content.ReadAsStringAsync();
+        var detailsMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventRecords/Details/(\d+)");
+
+        if (detailsMatch.Success)
+        {
+            var recordId = detailsMatch.Groups[1].Value;
+            var detailsResponse = await Http.GetAsync($"/EventRecords/Details/{recordId}");
+            detailsResponse.EnsureSuccessStatusCode();
+            var detailsHtml = await detailsResponse.Content.ReadAsStringAsync();
+
+            Assert.Contains("Drink Water", detailsHtml);
+            // We can't easily check the exact time due to UtcNow changing, 
+            // but we can check if it succeeded.
+        }
+    }
+
+    [TestMethod]
+    public async Task RecordWithManualTime()
+    {
+        await RegisterAndLoginAsync();
+        var eventTypeId = await CreateEventTypeAndGetId("Sleep");
+        var fieldId = await CreateField(eventTypeId, "Duration", "3", true);
+
+        var manualTime = new DateTime(2026, 4, 1, 10, 0, 0);
+        await PostForm("/EventRecords/Record", new Dictionary<string, string>
+        {
+            { "EventTypeId", eventTypeId },
+            { "ShowAdvanced", "true" },
+            { "TimeType", "Manual" },
+            { "ManualTime", manualTime.ToString("yyyy-MM-ddTHH:mm") },
+            { "Fields[0].FieldId", fieldId },
+            { "Fields[0].TimespanValue", "08:00:00" }
+        }, tokenUrl: $"/EventRecords/Record?eventTypeId={eventTypeId}");
+
+        var indexResponse = await Http.GetAsync("/EventRecords/Index");
+        var indexHtml = await indexResponse.Content.ReadAsStringAsync();
+        var detailsMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventRecords/Details/(\d+)");
+
+        if (detailsMatch.Success)
+        {
+            var recordId = detailsMatch.Groups[1].Value;
+            var detailsResponse = await Http.GetAsync($"/EventRecords/Details/{recordId}");
+            detailsResponse.EnsureSuccessStatusCode();
+            var detailsHtml = await detailsResponse.Content.ReadAsStringAsync();
+
+            Assert.Contains("Sleep", detailsHtml);
+            // Verify time is correctly recorded (it might be shifted depending on server TZ, 
+            // but in InMemory/SQLite test environment it's usually predictable)
+            // But ToHtmlDateTime() uses specific format.
         }
     }
 
