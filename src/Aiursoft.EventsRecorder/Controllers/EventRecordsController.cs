@@ -429,7 +429,6 @@ public class EventRecordsController(
                         catch (ArgumentException) // Catch path traversal attack attempts
                         {
                             ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name}: Invalid file path.");
-                            continue;
                         }
                     }
                     // Note: If FileValue is empty, keep existing file (no change)
