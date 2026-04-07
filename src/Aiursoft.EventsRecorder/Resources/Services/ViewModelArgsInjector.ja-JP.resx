@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>ログインするにはクリック</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>イベントタイプの作成</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>ロールの作成</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>ダッシュボード</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>イベントタイプの削除</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>ロールを削除</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>ディレクトリ</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>イベントタイプ編集</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>ロールを編集</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>エラー</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>イベントタイプの詳細</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>イベントタイプ</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>イベント</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>機能</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>マイレコード</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Not Found</value>

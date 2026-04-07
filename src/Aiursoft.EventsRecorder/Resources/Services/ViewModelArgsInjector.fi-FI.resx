@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klikkaa kirjautuaksesi</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Luo tapahtumatyyppi</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Luo rooli</value>
   </data>
@@ -59,6 +62,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Hallintapaneeli</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>Poista tapaustyyppi</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Poista rooli</value>
@@ -69,6 +75,9 @@
   <data name="Directory" xml:space="preserve">
     <value>Hakemisto</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>Muokkaa tapaustyyppiä</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Muokkaa roolia</value>
   </data>
@@ -77,6 +86,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Virhe</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Tapahtumatyyppien tiedot</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>Tapahtumatyypit</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Tapahtumat</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Ominaisuudet</value>
@@ -107,6 +125,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Hallinnoi</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Omat tietoni</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Ei löytynyt</value>

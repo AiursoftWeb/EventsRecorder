@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Cliquez pour vous connecter</value>
   </data>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Créer un type d&apos;événement</value>
+  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Créer un rôle</value>
   </data>
@@ -62,6 +65,9 @@
   </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Tableau de bord</value>
+  </data>
+  <data name="Delete Event Type" xml:space="preserve">
+    <value>Supprimer le type d&apos;événement</value>
   </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Supprimer le rôle</value>
@@ -72,6 +78,9 @@
   <data name="Directory" xml:space="preserve">
     <value>Répertoire</value>
   </data>
+  <data name="Edit Event Type" xml:space="preserve">
+    <value>Modifier le type d&apos;événement</value>
+  </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Modifier le rôle</value>
   </data>
@@ -80,6 +89,15 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
+  </data>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Détails du type d&apos;événement</value>
+  </data>
+  <data name="Event Types" xml:space="preserve">
+    <value>Types d&apos;événements</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Événements</value>
   </data>
   <data name="Features" xml:space="preserve">
     <value>Fonctionnalités</value>
@@ -110,6 +128,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Gérer</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Mes dossiers</value>
   </data>
   <data name="Not Found" xml:space="preserve">
     <value>Non trouvé</value>
