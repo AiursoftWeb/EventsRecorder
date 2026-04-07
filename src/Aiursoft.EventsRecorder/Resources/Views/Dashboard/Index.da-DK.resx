@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Et moderne, funktionsrigt og højgradigt udvideligt fundament til din næste webapplikation.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI-drevne oversættelser</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Konsistensvalidering</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Opret en ny eventtype for at starte sporing.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Definér og håndter begivenhedstyper og deres felter.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Definér dine hændelsestyper, og optag livets øjeblikke med et enkelt tryk.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Udvikl udelukkende i UTC, mens systemet automatisk konverterer og viser datoer i brugeren&apos;s lokale tidszone.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Skriv integreringstests uden problemer ved hjælp af hukommelsesbaserede databaser, midlertidige filsystemer, indbygget mockning og simulering af virkelige HTTP-anmodninger.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Begivenhedsoptager</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Funktioner et indbygget filhåndteringsystem med automatisk avatarkomprimering og privatlivsbeskyttelse.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Understøttelse af flere databaser</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Mine begivenhedstyper</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Mine optegnelser</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Ny begivenhedstype</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect-integration</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Hurtige links</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC-godkendelse</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Læs dokumentationen</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Optegn!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Responsivt Design</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Dette er et skabelonprojekt, hvor vi begynder rejsen...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Se dit tidslinje for dine begivenhedsindspilninger.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Velkommen</value>

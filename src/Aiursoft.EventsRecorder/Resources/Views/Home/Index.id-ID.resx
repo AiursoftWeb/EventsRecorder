@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Dukungan &quot;Fire-and-forget&quot; untuk tugas berjalan panjang (seperti email atau AI), dilengkapi antarmuka GUI untuk manajemen antrian, pemrosesan paralel, dan pembatalan.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Definisikan Jenis Acara</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Konfigurasi Bidang Kustom</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Catat Setiap Kejadian</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Sistem Role-Based Access Control (RBAC) bawaan untuk manajemen izin yang terperinci.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Raih lebih banyak dengan Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Tambahkan catatan bebas ke catatan peristiwa apa pun untuk konteks tambahan yang tidak muat dengan rapi ke dalam bidang terstruktur.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Tambahkan bidang data yang penting untuk acara ini — Distance, Duration, Medication Name, Dosage — dengan memilih tipe bidang dan menentukan apakah setiap bidang wajib diisi.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Pengaturan Admin</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Situs admin disertakan</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administrator dapat mengelola pengaturan global melalui dasbor, dengan penggantian variabel lingkungan untuk implementasi produksi.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Terjemahan Berbasis AI</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Semua dependensi terdaftar secara otomatis dan selalu tersedia melalui constructor injection.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Tipe Event adalah templat untuk kategori peristiwa yang ingin Anda lacak. Misalnya, &apos;Lari Pagi&apos; atau &apos;Konsumsi Obat&apos;. Setiap Tipe Event dapat memiliki bidang khusus sehingga Anda selalu menangkap data yang Anda butuhkan.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Terjemahan Kecerdasan Buatan</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Lampirkan bidang kustom dari berbagai jenis ke setiap jenis peristiwa — teks, angka, boolean, dan lainnya — dengan urutan yang dapat dikonfigurasi dan batasan yang diwajibkan.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Tutorial Berbahasa Ganda</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Telusuri, cari, dan filter riwayat peristiwa Anda untuk mengidentifikasi pola, meninjau aktivitas masa lalu, dan mendapatkan wawasan dari data jangka panjang Anda.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Bangun sekali, jalankan di mana saja. Arsitektur yang sepenuhnya terkontainerisasi.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Manajemen Pengguna Bawaan</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Bisakah beberapa pengguna berbagi instance yang sama?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Pilih SQLite, MySQL, atau SQL Server sesuai skala Anda. Ganti penyedia dengan mudah menggunakan konfigurasi minimal.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Datang dengan dukungan Docker untuk penyebaran yang disederhanakan dan konsisten.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Berkordinasi dengan Nyaman</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Fitur Utama</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Perutean Inti &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Laporan Cakupan</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Buatkan tipe event bernama seperti &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, atau &apos;Work Session&apos;. Tambahkan deskripsi agar semua orang mengetahui apa yang dilacaknya.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Multi-Platform</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Pengembangan khusus diperlukan</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Jenis Acara Kustom</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dasbor untuk tugas latar belakang</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Database SQLite bawaan, tidak perlu konfigurasi</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Tentukan jenis acara Anda sendiri dengan bidang kustom, lalu catat setiap kejadian dengan data terstruktur. Pahami kebiasaan, aktivitas, dan riwayat Anda dalam sekilas pandang.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Definisikan tipe acara Anda sendiri dengan nama dan deskripsi yang disesuaikan dengan kebutuhan pelacakan spesifik Anda.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Dirancang untuk semua orang, dari pemula hingga ahli.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Bilah Navigasi Dinamis</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Setiap kali peristiwa terjadi, buat catatan. Isi nilai bidang, secara opsional tambahkan catatan, dan stempel waktu direkam secara otomatis.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Setiap pengguna mengelola jenis dan catatan peristiwa terisolasi mereka sendiri. RBAC bawaan memastikan administrator dapat mengawasi semua aktivitas.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Dengan mudah beralih antar penyedia basis data, termasuk SQLite, MySQL, SQL Server, dan basis data dalam memori untuk pengujian.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core disertakan</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder bersifat fleksibel terhadap skema. Jika Anda memiliki acara berulang yang ingin Anda tangkap secara terstruktur, alat ini sangat cocok.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder mendukung berbagai jenis bidang, termasuk teks, angka, dan boolean. Setiap bidang dapat ditandai sebagai wajib dan diberi urutan tampilan, memberikan Anda kendali penuh atas struktur data.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Setiap rekam peristiwa secara otomatis diberi stempel waktu dalam UTC sehingga Anda dapat secara akurat merekonstruksi riwayat kejadian dari waktu ke waktu.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Semua yang Anda butuhkan untuk melacak peristiwa terstruktur.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>FAQ</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Fitur sistem manajemen file bawaan dengan kompresi avatar otomatis.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Bidang divalidasi di sisi klien dan server, memastikan data Anda bersih dan konsisten di semua catatan.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Pengelolaan &amp; Optimasi File</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>API Fleksibel</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Definisi Lapangan Fleksibel</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>untuk pertanyaan apa pun atau untuk melaporkan masalah.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Pertanyaan yang Sering Diajukan</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Dari kebiasaan kesehatan pribadi hingga titik pemeriksaan alur kerja tim, EventsRecorder beradaptasi dengan data terstruktur apa pun yang ingin Anda tangkap seiring waktu.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Dari Arsitek</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Sepenuhnya Offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Sepenuhnya open source. Tidak ada tingkat berbayar, tidak ada vendor lock-in. Data Anda tetap berada di infrastruktur Anda.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Konfigurasi umum</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Hanya Dockerfile Generik</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Mulai gratis</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Ditulis manual berdasarkan Kebijakan</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Kesehatan &amp; Kebugaran</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Halo Dunia!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Kualitas Tinggi</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Penelusuran Historis</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon disertakan</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Bagaimana saya bisa mendapatkan dukungan?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Bagaimana cara melakukan deploy EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Bagaimana cara saya menerapkan aplikasi saya?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Cara Kerjanya</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Saya membuat Aiursoft Template karena saya lelah mengatur pipeline Auth, Log, dan CI/CD yang sama untuk setiap proyek perusahaan baru. Ini bukan sekadar template; ini adalah praktik terbaik yang telah terkristalisasi dari bertahun-tahun lingkungan produksi dengan koneksi tinggi. Ini memungkinkan tim saya melewati pengaturan yang membosankan dan langsung fokus pada logika bisnis.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Interoperabilitas</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Apakah EventsRecorder gratis digunakan?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>adalah Perangkat Lunak Bebas</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Siap untuk K8s / Swarm</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Belajar &amp; Kebiasaan</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Cek Lint</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Catat penyiraman taman, pengamatan burung, kunjungan fotografi, atau hobi apa pun dengan bidang kustom yang tepat yang dibutuhkan aktivitas Anda.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Catat lari, latihan, konsumsi obat, jam tidur, atau pembacaan tekanan darah dengan bidang khusus untuk setiap metrik yang penting bagi Anda.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Jaga Kualitas Kode yang Tinggi</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Log Pemeliharaan</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Dasbor Manajemen</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Penanganan Multi-Zona Waktu</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Dukungan Multi-Pengguna</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Dukungan Beberapa Penyedia Basis Data</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Alat Musik</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Alam &amp; Hobi</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Memerlukan CASL atau sejenisnya</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Memerlukan TypeORM atau sejenisnya</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Tidak bergantung pada vendor cloud manapun. Jalankan di mana saja, kapan saja — data Anda tetap bersama Anda.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Tidak ada ketergantungan pada penyedia cloud apa pun. Jalankan di mana saja, kapan saja.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Catatan &amp; Konteks</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Dapat Berjalan Secara Offline</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Baca dokumen</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Catat sesi membaca harian, praktik bahasa, jam belajar, atau kebiasaan apa pun yang ingin Anda bangun — dengan kemajuan yang terlihat seiring waktu.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Rekam Segala Sesuatu</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Memerlukan konfigurasi Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Terintegrasi dengan mulus bersama penyedia OpenID Connect apa pun, dengan sinkronisasi peran otomatis.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Dikelola Sendiri</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Host sendiri, fork, dan sesuaikan sesuai kebutuhan Anda secara bebas di bawah Lisensi MIT.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Berpindah dengan percaya diri</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Daftar gratis dan mulai mendefinisikan tipe acara Anda dalam hitungan menit.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Sederhana &amp; Mudah</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Mulai proyek baru</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Mulai rekam acara Anda hari ini!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Mulai Kirim Nilai</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Dasar perusahaan .NET yang pasti dan telah teruji dalam pertempuran. Dari Otentikasi hingga Kecerdasan Buatan, kami telah menyelesaikan bagian-bagian sulit sehingga Anda tidak perlu melakukannya.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Cara termudah adalah Docker: satu perintah &apos;docker run&apos; saja yang Anda butuhkan. EventsRecorder sepenuhnya mandiri dan bekerja secara offline dengan SQLite secara default. Anda juga dapat menginstalnya langsung di Ubuntu melalui skrip instalasi yang disediakan, atau menjalankannya secara lokal dengan .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bilah navigasi secara otomatis menyesuaikan berdasarkan peran dan izin pengguna.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Ini adalah proyek templat, tempat kami memulai perjalanan...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Tiga langkah sederhana untuk pelacakan peristiwa terstruktur.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Rekaman Berstempel Waktu</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Bidang yang menyadari zona waktu</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Lacak pemeliharaan kendaraan, perbaikan rumah, servis peralatan, atau aktivitas pemeliharaan berkala lainnya dengan catatan yang memiliki cap waktu.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Lacak Yang Penting.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Lacak sesi kerja, hasil pertemuan, penyelesaian tugas, atau aktivitas tempat kerja yang berulang dengan bidang data terstruktur.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Dipercaya oleh aplikasi produksi berkualitas tinggi termasuk AnduinOS, StatHub, dan Warp. Kami tidak hanya berbagi kode ini; kami menjalankan seluruh bisnis kami berdasarkan kode ini.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Penggunaan</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Kasus Penggunaan</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Gunakan sebagai fondasi untuk SaaS Anda, backend untuk aplikasi seluler Anda, situs web perusahaan, atau blog pribadi. Kemungkinannya tidak terbatas.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Validasi Terpasang</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Lihat di GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Lihat Kode Sumber</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Selamat datang</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Apa yang dapat Anda lacak dengan EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Apa yang saya perlukan untuk memulai?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Jenis bidang apa yang didukung?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Apa itu Jenis Acara?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Apa Kata Developer Kami</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Pekerjaan &amp; Produktivitas</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ya, Aiursoft Template sepenuhnya gratis dan open-source di bawah Lisensi MIT. Anda dapat menggunakannya untuk proyek pribadi dan komersial tanpa biaya apa pun.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Ya, EventsRecorder sepenuhnya gratis dan open-source di bawah MIT License. Anda dapat menggunakannya untuk keperluan pribadi atau komersial tanpa biaya dan melakukan self-hosting di infrastruktur Anda sendiri.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Ya. EventsRecorder mendukung banyak pengguna pada satu instance. Setiap pengguna memiliki tipe dan catatan acara pribadi mereka sendiri. Administrator memiliki kemampuan pengawasan tambahan melalui sistem RBAC yang terintegrasi.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Anda bisa mendapatkan dukungan komunitas melalui GitHub Discussions. Silakan kunjungi</value>

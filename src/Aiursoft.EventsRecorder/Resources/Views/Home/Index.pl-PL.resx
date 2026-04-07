@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Obsługa „Fire-and-forget” dla długotrwałych zadań (np. e-maile lub AI), z funkcjonalnością interfejsu graficznego do zarządzania kolejką, przetwarzania równoległego i anulowania.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Zdefiniuj typ zdarzenia</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Konfiguruj pola niestandardowe</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Zaloguj każde wystąpienie</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Wbudowany system kontroli dostępu opartej na rolach (RBAC) do szczegółowego zarządzania uprawnieniami.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Osiągaj więcej z Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Dodawaj dowolne notatki do dowolnego rekordu zdarzenia, aby uzyskać dodatkowe informacje, które nie pasują do strukturyzowanych pól.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Dodaj pola danych istotne dla tego zdarzenia — Dystans, Czas trwania, Nazwa leku, Dawka — wybierając typ pola i to, czy każde z nich jest wymagane.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Ustawienia administratora</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Zawarta strona administracyjna</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administratorzy mogą zarządzać ustawieniami globalnymi za pomocą panelu, z możliwością nadpisywania zmiennych środowiskowych w przypadku wdrożeń produkcyjnych.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Tłumaczenie napędzane AI</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Wszystkie zależności są automatycznie rejestrowane i zawsze dostępne poprzez wstrzykiwanie konstruktora.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Typ zdarzenia to szablon dla kategorii zdarzeń, które chcesz śledzić. Na przykład &quot;Poranny bieg&quot; lub &quot;Zażywanie leków&quot;. Każdy typ zdarzenia może mieć niestandardowe pola, dzięki czemu zawsze zbierasz dokładnie potrzebne dane.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Cokolwiek innego</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Tłumaczenie za pomocą sztucznej inteligencji</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Dołącz pola niestandardowe różnych typów do każdego typu zdarzenia — tekst, liczby, wartości logiczne i inne — z konfigurowalną kolejnością i wymaganymi ograniczeniami.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Podwójny język - samouczki</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Przeglądaj, szukaj i filtruj historię swoich zdarzeń, aby wykrywać wzorce, przeglądać wcześniejszą aktywność i czerpać wnioski z długoterminowych danych.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Zbuduj raz, uruchom gdziekolwiek. Pełna architektura kontenerowa.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Wbudowane zarządzanie użytkownikami</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Czy wielu użytkowników może współdzielić tę samą instancję?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Wybierz spośród SQLite, MySQL lub SQL Server w zależności od skali. Łatwo wymieniaj dostawców przy minimalnej konfiguracji.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Zawiera obsługę Dockera dla uproszczonych i spójnych wdrożeń.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Koordynuj wygodnie</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Podstawowe funkcje</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Podstawowe rozliczanie tras &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Raport pokrycia</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Utwórz nazwaną typ zdarzenia, taką jak &apos;Poranny bieg&apos;, &apos;Zażywanie leków&apos; lub &apos;Sesja pracy&apos;. Dodaj opis, aby wszyscy wiedzieli, co to śledzi.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Wieloplatformowy</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Wymagane dostosowanie</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Własne typy zdarzeń</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Pulpit dla zadań w tle</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Domyślna baza danych SQLite, konfiguracja nie jest wymagana.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Określ własne typy zdarzeń z niestandardowymi polami, a następnie loguj każde wystąpienie ze strukturą danych. Zrozum swoje nawyki, aktywności i historię jednym rzutem oka.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Określ własne typy zdarzeń, nadając im nazwy i opisy dopasowane do Twoich konkretnych potrzeb śledzenia.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Stworzony dla wszystkich, od początkujących do ekspertów.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamiczny Pasek Nawigacyjny</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Za każdym razem, gdy wydarzy się zdarzenie, utwórz rekord. Wypełnij wartości pól, w razie potrzeby dodaj notatki, a znacznik czasu zostanie przechwycony automatycznie.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Każdy użytkownik zarządza swoimi własnymi izolowanymi typami zdarzeń i rekordami. Wbudowany system RBAC zapewnia administratorom nadzór nad całą aktywnością.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Łatwo przełączaj się między dostawcami baz danych, w tym SQLite, MySQL, SQL Server oraz bazą danych w pamięci do testów.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core dołączony</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder jest elastyczny pod względem schematu. Jeśli masz powracające wydarzenie, które chcesz rejestrować w sposób ustrukturyzowany, to rozwiązanie idealnie do tego pasuje.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder obsługuje wiele typów pól, w tym tekst, liczby i wartości logiczne. Każde pole może być oznaczone jako wymagane i mieć przyporządkowany kolejność wyświetlania, co daje Ci pełną kontrolę nad strukturą danych.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Każdy zapis zdarzenia jest automatycznie oznaczany znacznikiem czasu UTC, abyś mógł dokładnie odtworzyć historię zdarzeń w czasie.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Wszystko, czego potrzebujesz, aby śledzić zdarzenia strukturalne.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>Najczęściej zadawane pytania</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Zawiera wbudowany system zarządzania plikami z automatyczną kompresją awatarów.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Pola są walidowane zarówno po stronie klienta, jak i serwera, co zapewnia czystość i spójność Twoich danych we wszystkich rekordach.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Zarządzanie plikami i optymalizacja</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Elastyczne API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Elastyczne definicje pól</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>w przypadku jakichkolwiek pytań lub zgłaszania problemów.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Często zadawane pytania</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Od osobistych nawyków zdrowotnych po punkty kontrolne w procesach zespołowych, EventsRecorder dostosowuje się do dowolnych danych strukturalnych, które chcesz przechowywać w czasie.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Od Architekta</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Pełna offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>W pełni otwarte oprogramowanie. Brak płatnych wersji, brak uzależnienia od dostawcy. Twoje dane pozostają na Twojej infrastrukturze.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Konfiguracja ogólna</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Tylko ogólny plik Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Rozpocznij za darmo</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Ręcznie napisane na podstawie zasad (Policies)</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Zdrowie i fitness</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Witaj Świecie!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Wysoka jakość</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Przeglądanie historii</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon dołączony</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Jak mogę uzyskać wsparcie?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Jak wdrożyć EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Jak wdrożyć moją aplikację?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Jak to działa</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Stworzyłem szablon Aiursoft, ponieważ zmęczył mnie proces konfiguracji tych samych mechanizmów uwierzytelniania, logowania i pipeline&apos;ów CI/CD dla każdego nowego projektu w firmie. To nie jest po prostu szablon; to skondensowane najlepsze praktyki pochodzące z lat pracy w środowiskach produkcyjnych o wysokiej wydajności. Pozwala mojemu zespołowi ominąć nudne ustawienia i od razu przejść do logiki biznesowej.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Zgodność</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Czy EventsRecorder jest darmowy w użyciu?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>to Oprogramowanie Wolne</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Gotowy do K8s / Swarm</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Nauka i nawyki</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Sprawdzenie kodu</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Zapisuj podlewanie ogrodu, obserwacje ptaków, wyprawy fotograficzne lub dowolne hobby z dokładnymi polami niestandardowymi, jakie wymaga twoja aktywność.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Rejestruj biegi, treningi, przyjmowanie leków, godziny snu lub pomiary ciśnienia krwi z niestandardowymi polami dla każdej metryki, która jest dla Ciebie ważna.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Utrzymuj wysoką jakość kodu</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Dzienniki konserwacji</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Panel Zarządzania</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Obsługa wielu stref czasowych</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Wsparcie dla wielu użytkowników</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Wsparcie wielu dostawców baz danych</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Narzędzia Muzyczne</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Przyroda i Hobby</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Wymaga CASL lub podobnego</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Wymaga TypeORM lub podobnego narzędzia</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Brak zależności od dostawcy chmury. Uruchamiaj w dowolnym miejscu, o dowolnej porze — Twoje dane pozostają u Ciebie.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Brak zależności od żadnego dostawcy chmury. Uruchamiaj wszędzie, kiedy chcesz.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Notatki i kontekst</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Działa offline</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Przeczytaj dokumentację</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Rejestruj dzienne sesje czytania, praktykę języka, godziny nauki lub każdą nawyk, który chcesz wypracować — z postępem widocznym w czasie.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Rejestruj wszystko.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Wymaga konfiguracji Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Bezproblemowo integruj się z dowolnym dostawcą OpenID Connect, z automatyczną synchronizacją ról.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Własny hosting</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Samodzielnie go hostuj, forkuj go i dostosuj go do swoich potrzeb na licencji MIT.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Przenieś się z pewnością</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Zarejestruj się za darmo i zacznij definiować typy wydarzeń w kilka minut.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Proste i łatwe</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Rozpocznij nowy projekt</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Rozpocznij rejestrację swoich wydarzeń już dziś!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Rozpocznij wysyłanie wartości.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Definitywny, sprawdzony w praktyce fundament dla firmowego środowiska .NET. Od uwierzytelniania po sztuczną inteligencję — rozwiązaliśmy trudne problemy, dzięki czemu nie musisz tego robić sam.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Najprostszym sposobem jest Docker: wystarczy jedno polecenie &apos;docker run&apos;. EventsRecorder jest w pełni samowystarczalny i domyślnie działa w trybie offline z bazą SQLite. Możesz go również zainstalować bezpośrednio na Ubuntu, używając dostarczonego skryptu instalacyjnego, lub uruchomić lokalnie przy użyciu .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Pasek nawigacyjny automatycznie dostosowuje się w oparciu o role i uprawnienia użytkownika.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>To jest projekt szablonowy, od którego rozpoczynamy naszą podróż...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Trzy proste kroki do strukturyzowanego śledzenia zdarzeń.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Zatwierdzone w czasie rejestracje</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Pola uwzględniające strefy czasowe</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Śledź konserwację pojazdów, naprawy w domu, serwisowanie sprzętu lub dowolną okresową czynność serwisową z rejestracją z adnotacją czasu.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Śledź to, co ważne.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Śledź sesje pracy, wyniki spotkań, ukończone zadania lub dowolną powracającą czynność w miejscu pracy za pomocą strukturyzowanych pól danych.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Uwierzytelnione przez aplikacje produkcyjne, w tym AnduinOS, StatHub i Warp. Nie tylko udostępniamy ten kod; działamy na nim całą swoją firmę.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Wykorzystanie</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Przypadki użycia</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Użyj go jako fundamentu dla swojego SaaS, zaplecza dla aplikacji mobilnej, strony korporacyjnej lub osobistego bloga. Możliwości są nieograniczone.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Walidacja wbudowana</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Zobacz na GitHubie</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Zobacz kod źródłowy</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Witaj</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Co możesz śledzić za pomocą EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Czego potrzebuję, aby rozpocząć?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Jakie typy pól są obsługiwane?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Jaki jest typ zdarzenia?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Co mówią nasi programiści</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Praca i produktywność</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Tak, Aiursoft Template jest całkowicie darmowy i otwartoźródłowy na licencji MIT. Możesz go używać do projektów osobistych i komercyjnych bez żadnych kosztów.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Tak, EventsRecorder jest całkowicie darmowy i open-source na licencji MIT. Możesz go używać do celów prywatnych lub komercyjnych bez kosztów i hostować go samodzielnie na własnej infrastrukturze.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Tak. EventsRecorder obsługuje wielu użytkowników na jednej instancji. Każdy użytkownik ma swoje prywatne typy zdarzeń i rekordy. Administratorzy mają dodatkowe możliwości nadzoru dzięki wbudowanemu systemowi RBAC.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Wsparcie społeczności możesz uzyskać za pośrednictwem GitHub Discussions. Odwiedź naszą</value>

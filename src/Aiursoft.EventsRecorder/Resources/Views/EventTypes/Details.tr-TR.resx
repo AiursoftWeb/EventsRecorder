@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="Add Field" xml:space="preserve">
+    <value>Alan Ekle</value>
+  </data>
+  <data name="Are you sure you want to delete this field?" xml:space="preserve">
+    <value>Bu alanı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Oluşturma</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="End Date" xml:space="preserve">
+    <value>Bitiş Tarihi</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Alanlar</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="Filter Trends" xml:space="preserve">
+    <value>Eğilimleri Filtrele</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Henüz alan tanımlanmadı. Toplanacak verileri tanımlamak için alan ekleyin.</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Sıra</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Kaydet!</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Kayıtlar</value>
+  </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>Düzenlilik</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Gerekli</value>
+  </data>
+  <data name="Start Date" xml:space="preserve">
+    <value>Başlangıç Tarihi</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Özet</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="View All Records" xml:space="preserve">
+    <value>Tüm Kayıtları Görüntüle</value>
+  </data>
+
+</root>

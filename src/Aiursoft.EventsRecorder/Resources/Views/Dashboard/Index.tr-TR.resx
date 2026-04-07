@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Modern, zengin özelliklere sahip ve bir sonraki web uygulamanız için oldukça genişletilebilir bir temel.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Yapay Zeka Destekli Çeviriler</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Tutarlılık Doğrulaması</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Takip etmeye başlamak için yeni bir olay türü oluşturun.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Olay türlerini ve alanlarını tanımlayın ve yönetin.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Etkinlik türlerinizi tanımlayın, ardından tek bir dokunuşla hayat anlarını kaydedin.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>UTC&apos;de yalnızca geliştirin, sistem tarihleri otomatik olarak kullanıcının yerel saat dilimine dönüştürür ve görüntüler.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Hafifçe entegrasyon testleri yazın, bellekte çalışan veritabanları, geçici dosya sistemleri, yerleşik mocklama ve gerçek dünya HTTP isteği simülasyonu kullanarak.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Etkinlik Kaydedici</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Gömülü dosya yönetim sistemi, otomatik avatar sıkıştırma ve gizlilik koruması ile birlikte gelir.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Çoklu Veritabanı Desteği</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Olay Türlerim</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Kayıtlarım</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Yeni Etkinlik Türü</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect Entegrasyonu</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Hızlı Bağlantılar</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC Yetkilendirmesi</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Belgeyi okuyun</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Kaydet!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Duyarlı Tasarım</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Bu bir şablon projedir, yolculuğa buradan başlıyoruz...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Etkinlik kaydı zaman çizelgenizi görüntüleyin.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Hoş Geldiniz</value>

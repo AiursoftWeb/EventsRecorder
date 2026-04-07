@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Сучасна, багатофункціональна та високо розширювана основа для вашої наступної веб-програми.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Про нас</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Переклади на основі ШІ</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Перевірка сумісності</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Створіть новий тип події, щоб почати відстеження.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Визначайте та керуйте типами подій та їхніми полями.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Визначте типи подій, а потім фіксуйте важливі моменти життя одним натисканням.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Розробляйте виключно в UTC, тоді як система автоматично перетворює та відображає дати у часовому поясі користувача.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Легко створюйте інтеграційні тести за допомогою ін-меморі баз даних, тимчасових файлових систем, вбудованого мокування та симуляції реальних HTTP-запитів.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Реєстратор подій</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Містить вбудовану систему управління файлами з автоматичною компресією аватарів та захистом приватності.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Підтримка кількох баз даних</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Мої типи подій</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Мої записи</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Новий тип події</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Інтеграція OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Швидкі посилання</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Авторизація на основі ролей (RBAC)</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Прочитати документацію</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Записати!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Адаптивний дизайн</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Це шаблонний проект, з якого ми розпочинаємо нашу подорож...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Перегляньте хронологію записів ваших подій.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Ласкаво просимо</value>

@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Een moderne, functierijke en zeer uitbreidbare basis voor uw volgende webapplicatie.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Over</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI-gestuurde vertalingen</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Consistentievalidatie</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Maak een nieuw evenementtype aan om met de tracking te beginnen.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Definieer en beheer evenementtypen en hun velden.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Definieer uw gebeurtenistypen en leg levensmomenten vast met één tik.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Ontwikkel uitsluitend in UTC terwijl het systeem data automatisch converteert en weergeeft in de lokale tijdzone van de gebruiker.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Schrijf eenvoudig integratietests met behulp van in-memory databases, tijdelijke bestandssystemen, ingebouwde mocking en realistische HTTP-aanvraag-simulatie.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Evenementenrecorder</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Heeft een ingebouwd bestandsbeheersysteem met automatische avatarcompressie en privacybescherming.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Ondersteuning voor meerdere databases</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Mijn gebeurtenistypen</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Mijn records</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Nieuw evenementtype</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>OpenID Connect-integratie</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Snelle links</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>RBAC-autorisatie</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Lees het document</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Opnemen!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Responsief Ontwerp</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Dit is een sjabloonproject, waar we de verkenner starten...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Bekijk de tijdlijn van uw evenementopnames.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welkom</value>

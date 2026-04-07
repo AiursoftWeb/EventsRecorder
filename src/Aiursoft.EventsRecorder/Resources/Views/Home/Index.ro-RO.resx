@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Sprijin pentru sarcini de lungă durată (cum ar fi e-mailurile sau AI), în stil &quot;Fire-and-forget&quot;, cu interfață grafică pentru gestionarea cozilor, prelucrare paralelă și anulare.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Definează un tip de eveniment</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Configurați câmpuri personalizate</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Înregistrează fiecare apariție</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Un sistem integrat de control al accesului bazat pe roluri (RBAC) pentru gestionarea granulară a permisiunilor.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Realizați mai multe cu Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Adăugați note libere la orice înregistrare de eveniment pentru context suplimentar care nu se încadrează cu ușurință în câmpuri structurate.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Adăugați câmpurile de date care contează pentru acest eveniment — Distanță, Durată, Nume medicament, Doză — alegând tipul de câmp și dacă fiecare este obligatoriu.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Setări Administrator</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Site de administrare inclus</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administratorii pot gestiona setările globale prin panoul de control, cu suprascrieri ale variabilelor de mediu pentru implementările în producție.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Traducere condusă de IA</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Toate dependențele sunt înregistrate automat și sunt întotdeauna disponibile prin injectare în constructor.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Un tip de eveniment este un șablon pentru o categorie de evenimente pe care doriți să le urmăriți. De exemplu, &apos;Rulare matinală&apos; sau &apos;Administrare medicamente&apos;. Fiecare tip de eveniment poate avea câmpuri personalizate, astfel încât să capturați întotdeauna exact datele de care aveți nevoie.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Orice altceva</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Traducere prin Inteligență Artificială</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Atașați câmpuri personalizate de diverse tipuri fiecărui tip de eveniment — text, numere, valori booleene și altele — cu ordine configurabilă și constrângeri obligatorii.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Tutoriale bilingve</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Navigați, căutați și filtrați istoricul evenimentelor pentru a identifica tipare, a revizui activitatea anterioară și a extrage informații valoroase din datele dumneavoastră pe termen lung.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Construiți o dată, rulați oriunde. Arhitectură complet containerizată.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Gestionare Utilizatori Integrată</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Pot mai mulți utilizatori să partajeze aceeași instanță?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Alegeți dintre SQLite, MySQL sau SQL Server în funcție de scala dumneavoastră. Schimbați ușor furnizorii cu o configurație minimă.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Include suport pentru Docker pentru implementări simplificate și consistente.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Coordonează ușor</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Caracteristici principale</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Rutare și DI de bază</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Raport acoperire</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Creați un tip de eveniment cu nume, cum ar fi &apos;Alergare de dimineață&apos;, &apos;Administrare medicamente&apos; sau &apos;Sesiune de lucru&apos;. Adăugați o descriere astfel încât toată lumea să știe ce urmărește.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Platform Cruce</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Este necesară dezvoltarea personalizată</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Tipuri de evenimente personalizate</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Panou de control pentru sarcini în fundal</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Bază de date SQLite implicită, fără necesitate de configurare.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Define your own event types with names and descriptions tailored to your specific tracking needs.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Creat pentru toți, de la începători până la experți.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Bara de Navigare Dinamică</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>De fiecare dată când are loc evenimentul, creați o înregistrare. Completați valorile câmpurilor, adăugați opțional note, iar data și ora sunt capturate automat.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Fiecare utilizator își gestionează propriile tipuri de evenimente și înregistrări izolate. RBAC-ul integrat asigură că administratorii pot supraveghea toate activitățile.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Schimba ușor între furnizorii de baze de date, inclusiv SQLite, MySQL, SQL Server și o bază de date în memorie pentru testare.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core inclus</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder este flexibil la nivel de schemă. Dacă aveți un eveniment recurent pe care doriți să îl capturați într-un mod structurat, acesta se potrivește perfect.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder suportă mai multe tipuri de câmpuri, inclusiv text, numere și booleene. Fiecare câmp poate fi marcat ca obligatoriu și i se poate atribui un ordin de afișare, oferindu-vă control complet asupra structurii de date.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Fiecare înregistrare de eveniment este automatizată cu un timestamp UTC, astfel încât să puteți reconstrui cu precizie istoricul evenimentelor de-a lungul timpului.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Tot ce aveți nevoie pentru a urmări evenimente structurate.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>Întrebări frecvente</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Include un sistem integrat de gestionare a fișierelor cu compresie automată a avatarurilor.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Câmpurile sunt validate atât pe partea clientului, cât și pe partea serverului, asigurând că datele dumneavoastră sunt curate și consistente în toate înregistrările.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Gestiune și optimizare fișiere</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>API flexibilă</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Definiții flexibile de câmpuri</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>pentru orice întrebări sau pentru a raporta probleme.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Întrebări frecvente</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>De la obiceiuri personale de sănătate la punctele de control ale fluxului de lucru al echipei, EventsRecorder se adaptează la orice date structurate doriți să capturați în timp.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>De la Arhitect</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Complet Offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Complet open source. Fără niveluri plătite, fără blocare de furnizor. Datele tale rămân pe infrastructura ta.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Configurație generică</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Doar un Dockerfile generic</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Începe gratuit</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Scriere manuală bazată pe politici</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Sănătate și Fitness</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Salut Lume!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Calitate ridicată</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Navigare istoric</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon inclus</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Cum pot obține asistență?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Cum deployez EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Cum îmi implementez aplicația?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Cum funcționează</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Am construit Aiursoft Template pentru că eram obosit să setez aceleași pipeline de Auth, Log și CI/CD pentru fiecare proiect enterprise nou. Acesta nu este doar un template; este practica optimă cristalizată din ani de medii de producție cu concurență ridicată. Îmi permite echipei să sară peste configurarea plictisitoare și să treacă direct la logică de afaceri.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Interoperabilitate</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Este EventsRecorder gratuit de utilizat?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>este Software Liber</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Gata pentru K8s / Swarm</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Învățare și Obiceiuri</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Verificare Lint</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Înregistrează udarea grădinii, observarea păsărilor, excursiile de fotografie sau orice hobby, cu câmpurile personalizate exacte pe care activitatea ta le necesită.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Înregistrează alergări, antrenamente, administrarea medicamentelor, orele de somn sau citirile tensiunii arteriale cu câmpuri personalizate pentru fiecare metrică care contează pentru tine.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Menține o Calitate Ridicată a Codului</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Jurnale de mentenanță</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Panou de administrare</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Gestionarea multiplelor fuse orare</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Suport pentru mai mulți utilizatori</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Suport pentru mai multe furnizori de baze de date</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Instrumente Muzicale</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Natură și Hobby-uri</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Necesită CASL sau similar</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Necesită TypeORM sau similar</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Fără dependență de niciun furnizor cloud. Rulează oriunde, oricând — datele tale rămân cu tine.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Fără dependență de niciun furnizor de cloud. Rulează oriunde, oricând.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Note și Context</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Capabil offline</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Citește documentația</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Înregistrează sesiuni zilnice de citire, practică de limbă, ore de studiu sau orice obișnuință pe care dorești să o construiești — cu progresul vizibil în timp.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Înregistrează totul.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Necesită configurarea Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Integrați fără probleme cu orice furnizor OpenID Connect, cu sincronizare automată a rolurilor.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Auto-gazduit</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Găzduiește-l singur, fork-l și adaptează-l nevoilor tale liber sub Licența MIT.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Mutați cu încredere</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Înregistrează-te gratuit și începe să definești tipurile de evenimente în câteva minute.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Simplu &amp; Ușor</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Începe un proiect nou</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Începe să înregistrezi evenimentele tale astăzi!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Începeți livrarea valorii.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Fundamentul definitiv, testat în practică pentru întreprinderi în .NET. De la Autentificare până la Inteligență Artificială, am rezolvat părțile dificile, astfel încât să nu aibă nevoie să le rezolvi tu.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Cea mai simplă metodă este Docker: un singur comandă &quot;docker run&quot; este tot ce aveți nevoie. EventsRecorder este complet autonom și funcționează offline cu SQLite implicit. De asemenea, îl puteți instala direct pe Ubuntu prin scriptul de instalare furnizat sau îl puteți rula local cu .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Acesta este un proiect tipic, de unde începem călătoria...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Trei pași simpli pentru urmărirea evenimentelor structurate.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Înregistrări cu amprentă temporală</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Câmpuri conștiente de fusul orar</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Urmăriți întreținerea vehiculelor, reparațiile la domiciliu, service-ul echipamentelor sau orice activitate de întreținere periodică cu înregistrări cu marcaje de timp.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Urmărește ce contează.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Urmărește sesiunile de lucru, rezultatele ședințelor, finalizarea sarcinilor sau orice activitate recurentă de la locul de muncă folosind câmpuri de date structurate.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Încrederea aplicațiilor de tip producție, inclusiv AnduinOS, StatHub și Warp. Nu doar împărtășim acest cod; îi folosim pentru întreaga noastră afacere.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Utilizare</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Cazuri de utilizare</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Folosește-l ca fundație pentru SaaS-ul tău, ca backend pentru aplicația ta mobilă, ca site corporativ sau ca blog personal. Posibilitățile sunt nelimitate.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Validare încorporată</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Vizualizează pe GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Vezi codul sursă</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bun venit</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Ce puteți urmări cu EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>De ce am nevoie pentru a începe?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Ce tipuri de câmpuri sunt acceptate?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Ce este un Tip de eveniment?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Ce spun dezvoltatorii noștri</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Muncă &amp; Productivitate</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Da, Aiursoft Template este complet gratuit și open-source sub Licența MIT. Îl puteți utiliza pentru proiecte personale și comerciale fără niciun cost.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Da, EventsRecorder este complet gratuit și open-source sub licența MIT. îl puteți utiliza în scopuri personale sau comerciale fără cost și îl puteți găzdui singur pe propria infrastructură.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Da. EventsRecorder suportă mai mulți utilizatori pe o singură instanță. Fiecare utilizator are propriile sale tipuri de evenimente și înregistrări private. Administratorii au capacități suplimentare de supraveghere prin sistemul RBAC integrat.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Puteți obține suport din partea comunității prin GitHub Discussions. Vă rugăm să vizitați pagina noastră de</value>

@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Tuki pitkäkestoisille tehtäville (esimerkiksi sähköposteille tai AI:lle), jossa on käyttöliittymä jonon hallintaan, rinnakkaisprosessointiin ja peruutukseen.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Määritä tapahtumatyyppi</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Määritä mukautetut kentät</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Kirjaa jokainen esiintymä</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Sisäänrakennettu roolipohjainen käyttöoikeusjärjestelmä (RBAC) hienojakoista käyttöoikeudenhallintaa varten.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Saavuta enemmän Aiursoft Templatella</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Lisää vapaamuotoisia muistiinpanoja mihin tahansa tapahtumarekisteriin lisäkontekstiksi, joka ei mahdu sujuvasti rakenteellisiin kenttiin.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Lisää tämän tapahtuman kannalta tärkeät tietokentät — etäisyys, kesto, lääkkeen nimi, annos — valitsemalla kunkin kentän tyyppi ja onko se pakollinen.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Hallintapalvelut</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Hallintaportaali sisältyy</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Ylläpitäjät voivat hallita yleisiä asetuksia hallintapaneelin kautta, tuotantokäytöissä ympäristömuuttujien ohitukset mahdollistavat.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Tekoälyllä ohjattu kääntäminen</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Kaikki riippuvuudet rekisteröidään automaattisesti ja ne ovat aina saatavilla konstruktorin kautta tapahtuvan injektoinnin välityksellä.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Tapahtumatyyppi on pohja sellaisille tapahtumien kategorioille, joita haluat seurata. Esimerkiksi &apos;aamujuoksu&apos; tai &apos;lääkkeen otto&apos;. Jokaisella tapahtumatyypillä voi olla mukautettuja kenttiä, jotta saat aina nimenomaan tarvitsemasi tiedot.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Muuta</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Tekoälykäännös</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Liitä eri tyyppejä olevia mukautettuja kenttiä jokaiseen tapahtumatyyppiin — tekstiä, numeroita, totuusarvoja ja enemmän — muokattavassa järjestyksessä ja pakollisin rajoituksin.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Kaksikieliset oppaat</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Selaa, etsi ja suodata tapahtumahistoriaasi havaitaksesi kuviot, tarkista menneitä toimintoja ja hanki oivalluksia pitkän aikavälin tiedoistasi.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Rakenna kerran, suorita missä tahansa. Täysin säiliöön paketoidu arkkitehtuuri.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Sisäänrakennettu käyttäjienhallinta</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Voivatko useat käyttäjät jakaa saman instancen?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Valitse SQLite, MySQL tai SQL Server skaalasi mukaan. Vaihda alustaa helposti vähäisillä määrityksillä.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Sisältää Docker-tukea yksinkertaistettuja ja yhdenmukaisia käyttöönottoja varten.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Koordinoi mukavasti</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Perusominaisuudet</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Pääreititys &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Kattavuusraportti</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Luo nimetty tapahtumatyyppi, kuten &quot;Aamujuoksu&quot;, &quot;Lääkkeen ottaminen&quot; tai &quot;Työistunto&quot;. Lisää kuvaus, jotta kaikki tietävät, mitä se seuraa.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Useita alustoja</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Mukautettu kehitys vaaditaan</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Mukautetut tapahtumatyypit</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Taustatehtävien ohjauspaneeli</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Oletus SQLite-tietokanta, ei konfigurointia tarvita</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Määritä omat tapahtumatyyppisi mukautettujen kenttien avulla, ja kirjaa jokainen esiintyminen rakenteisella datalla. Ymmärrä tottumuksiasi, toimintojasi ja historiaa yhdellä silmäyksellä.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Määritä omat tapahtumatyypit nimillä ja kuvauksilla, jotka on räätälöity tarkoituksesi mukaisiin seurannan tarpeisiin.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Suunniteltu kaikille, aloittelijoista asiantuntijoihin.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynaaminen navigointipalkki</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Joka kerta kun tapahtuma tapahtuu, luo merkintä. Täytä kenttien arvot, lisää tarvittaessa huomautuksia ja aikaleima tallennetaan automaattisesti.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Jokainen käyttäjä hallinnoi omia eristettyjä tapahtumatyyppinsä ja -tietueitaan. Sisäinen RBAC-varmistaa, että järjestelmänvalvojat voivat valvoa kaikkea toimintaa.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Vaihda helposti tietokantapalvelimia, mukaan lukien SQLite, MySQL, SQL Server ja muistitietokanta testaamista varten.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core mukana</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder on skaalajoustava. Jos sinulla on toistuva tapahtuma, jonka haluat tallentaa rakenteellisesti, se sopii täydellisesti tähän.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder tukee useita kenttatyyppejä, kuten tekstiä, numeroita ja totuusarvoja. Jokainen kenttä voidaan merkitä pakolliseksi ja sille voidaan määrittää näyttöjärjestys, mikä antaa sinulle täyden kontrollin tietorakenteeseen.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Jokainen tapahtuman merkintä varustetaan automaattisesti UTC-ajastuksella, jotta voit tarkasti jäljittää tapahtumien historiikkoa ajan kuluessa.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Kaikki tarvitsemasi strukturoitujen tapahtumien seurantaan.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>UKK</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Kentät validoidaan sekä asiakas- että palvelimen puolella, mikä varmistaa, että tietosi ovat puhtaita ja johdonmukaisia kaikissa merkinnöissä.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Tiedostonhallinta ja optimointi</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Joustava API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Joustavat kenttämäärittelyt</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Usein kysytyt kysymykset</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Henkilökohtaisista terveyskuvioista tiimin työvuorojen tarkistuspisteisiin EventsRecorder mukautuu mihin tahansa rakenteiseen dataan, jota haluat seurata ajan myötä.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Arkkitehdin puolelta</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Täysin offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Täysin avoin lähdekoodi. Ei maksullisia tasoja, ei toimittajalukitusta. Tietosi pysyvät omalla infrastruktuurillasi.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Yleinen konfiguraatio</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Vain yleinen Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Aloita ilmaiseksi</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Käsin kirjoitettu perustuen Policies-käytäntöihin</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Terveys ja kunto</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Hei maailma!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Korkea laatu</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Historialinen selailu</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon mukana</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Miten saan tukea?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Miten asennan EventsRecorderin?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Kuinka otan sovellukseni käyttöön?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Näin se toimii</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Loin Aiursoft Template, koska olin väsynyt asentamaan samoja Auth-, Log- ja CI/CD-pipelineja jokaiseen uuteen yritysprojektiin. Tämä ei ole vain malli; se on tiivistettyä parasta käytäntöä vuosien ajan korkean suorituskyvyn tuotantoympäristöissä. Se mahdollistaa tiimini sivuuttamaan tylsän asennuksen ja siirtyä suoraan liiketoimintalogiikkaan.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Yhteensopivuus</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Onko EventsRecorder ilmainen käyttää?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>on vapaata ohjelmistoa</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm -valmis</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Oppiminen ja tottumukset</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lint-tarkistus</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Kirjaa puutarhan kastelu, lintujen havainnot, valokuvausretket tai mikä tahansa harrastus juuri niillä mukautettujen kenttien kanssa, joita aktiviteettisi vaatii.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Seuraa juoksua, treenejä, lääkkeiden käyttöä, uniaikaa tai verenpaineen mittauksia mukautettavilla kentillä jokaiselle sinulle merkitykselliselle mittarille.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Ylläpidä korkeaa koodin laatua</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Ylläpitologit</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Hallintataulu</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Monen aikavyöhykkeen käsittely</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Useajäsenetuki</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Useita tietokantapalvelintukea</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Musiikkityökalut</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Luonto &amp; Harrastukset</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Vaatii CASL:n tai vastaavan</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Vaatii TypeORM:n tai vastaavan</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Ei riippuvuutta mistään pilvipalveluntarjoajasta. Suorita missä tahansa, milloin tahansa — tietosi pysyvät sinun kanssasi.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Ei riippuvuutta mihinkään pilviliittymään. Suorita missä tahansa, milloin tahansa.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Muistiinpanot ja konteksti</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Offline-kelpoisuus</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Lue dokumentti</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Tee merkintä päivittäisistä lukukerroista, kieliharjoittelusta, opiskelutunneista tai mistä tahansa tottumuksesta, jota haluat kehittää — edistymisesi on ajan myötä nähtävissä.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Tallenna kaikki.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Vaatii Laravel Socialite -konfiguraation</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Saatumattomasti integroi minkä tahansa OpenID Connect -palveluntarjoajan kanssa, automaattisen roolisynkronoinnin avulla.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Itseisäntä</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Isäntä se itse, haara se, ja mukauta se tarpeisiisi vapaasti MIT-lisenssin puitteissa.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Siirry luottavasti</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Rekisteröidy ilmaiseksi ja aloita tapahtumatyyppien määrittely muutamassa minuutissa.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Yksinkertainen &amp; helppo</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Aloita uusi projekti</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Aloita tapahtumien tallentaminen tänään!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Aloita arvon toimittaminen.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Määritelmällinen, kovasti testattu .NET-yritysperusta. Autentikoinnista tekoälyyn, olemme ratkaisseet vaikeat osiot, jotta sinun ei tarvitse.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Helpoin tapa on Docker: tarvitset vain yhden &quot;docker run&quot; -komentoa. EventsRecorder on täysin itsenäinen ja toimii oletuksena offline-tilassa SQLite-tietokannalla. Voit asentaa sen myös suoraan Ubuntusta toimitetun asennusskriptin kautta tai ajaa sen paikallisesti .NET 10 -kehitysympäristön avulla.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Tämä on malliprojekti, josta aloitamme matkan...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Kolme yksinkertaista vaihetta rakenteelliseen tapahtumaseurantaan.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Ajastetut tallenteet</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Aikavyöhyketietoiset kentät</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Seuraa ajoneuvojen huoltoa, kotitalon korjauksia, laitteiden huoltoa tai mitä tahansa säännöllistä huoltotoimintaa ajantietoineen.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Seuraa merkityksellistä.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Seuraa työskentelyjaksoja, kokousten tuloksia, tehtävien suorituksia tai mitä tahansa toistuvaa työpaikkatoimintaa rakenteisten tietokenttien avulla.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Luotettu tuotantotasoisissa sovelluksissa, kuten AnduinOS, StatHub ja Warp. Emme vain jakaneet tätä koodia; käytämme sitä koko liiketoimintamme käynnistämiseen.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Käyttö</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Käyttötarkoitukset</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Käytä sitä perustana SaaS-palvelullesi, mobiilisovelluksesi taustajärjestelmänä, yrityssivustona tai henkilökohtaisena blogina. Mahdollisuudet ovat rajattomat.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Tarkistus sisäänrakennettuna</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Näytä GitHubissa</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Katso lähdekoodi</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Tervetuloa</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Mitä voit seurata EventsRecorderilla?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Mitä tarvitsen aloittamiseen?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Mitkä kenttätyypit ovat tuettuja?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Mikä on tapahtumatyyppi?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Mitä kehittäjämme sanovat</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Työ &amp; Tuottavuus</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Kyllä, Aiursoft Template on täysin ilmainen ja avoin lähdekoodi MIT-lisenssin alla. Voit käyttää sitä henkilökohtaisiin ja kaupallisiin projekteihin ilman mitään kustannuksia.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Kyllä, EventsRecorder on täysin ilmainen ja avoimen lähdekoodin MIT-lisenssin alainen. Voit käyttää sitä henkilökohtaisiin tai kaupallisiin tarkoituksiin ilman kustannuksia ja isännöidä sitä omalla infrastruktuurillasi.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Kyllä. EventsRecorder tukee useita käyttäjiä yhdellä instanssilla. Jokaisella käyttäjällä on omat yksityiset tapahtumatyypit ja tallenteet. Järjestelmänvalvojilla on lisävalvontamahdollisuuksia sisäänrakennetun RBAC-järjestelmän kautta.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Saat yhteisötukea GitHub Discussionsin kautta. Käy meidän</value>
