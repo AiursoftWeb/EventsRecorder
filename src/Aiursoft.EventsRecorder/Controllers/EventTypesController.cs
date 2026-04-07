@@ -12,7 +12,9 @@ namespace Aiursoft.EventsRecorder.Controllers;
 
 [Authorize]
 [LimitPerMin]
-public class EventTypesController(TemplateDbContext context) : Controller
+public class EventTypesController(
+    TemplateDbContext context,
+    RegularityService regularityService) : Controller
 {
     private string GetUserId() => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
@@ -39,6 +41,18 @@ public class EventTypesController(TemplateDbContext context) : Controller
                 CreationTime = t.CreationTime
             })
             .ToListAsync();
+
+        foreach (var eventType in eventTypes)
+        {
+            var last8Records = await context.EventRecords
+                .Where(r => r.EventTypeId == eventType.Id)
+                .OrderByDescending(r => r.RecordedAt)
+                .Take(8)
+                .Select(r => r.RecordedAt)
+                .ToListAsync();
+            
+            eventType.RegularityScore = regularityService.CalculateScore(last8Records);
+        }
 
         return this.StackView(new IndexViewModel { EventTypes = eventTypes });
     }
@@ -107,6 +121,13 @@ public class EventTypesController(TemplateDbContext context) : Controller
         .Where(s => s.Points.Count > 0)
         .ToList();
 
+        var last8Records = await context.EventRecords
+            .Where(r => r.EventTypeId == id)
+            .OrderByDescending(r => r.RecordedAt)
+            .Take(8)
+            .Select(r => r.RecordedAt)
+            .ToListAsync();
+
         return this.StackView(new DetailsViewModel
         {
             Id = eventType.Id,
@@ -115,6 +136,7 @@ public class EventTypesController(TemplateDbContext context) : Controller
             CreationTime = eventType.CreationTime,
             Fields = eventType.Fields.OrderBy(f => f.Order).ToList(),
             RecordCount = eventType.Records.Count,
+            RegularityScore = regularityService.CalculateScore(last8Records),
             NumberSeries = numberSeries,
             Start = startTime,
             End = endTime

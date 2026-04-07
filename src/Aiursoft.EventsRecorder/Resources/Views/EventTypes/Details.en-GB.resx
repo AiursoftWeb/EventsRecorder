@@ -60,6 +60,9 @@
   <data name="Records" xml:space="preserve">
     <value>Records</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>Regularity</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>Required</value>
   </data>

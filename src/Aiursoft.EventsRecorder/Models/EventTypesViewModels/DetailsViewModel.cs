@@ -16,6 +16,7 @@ public class DetailsViewModel : UiStackLayoutViewModel
     public DateTime CreationTime { get; set; }
     public required List<EventField> Fields { get; set; }
     public int RecordCount { get; set; }
+    public double RegularityScore { get; set; }
     public List<NumberSeriesDto> NumberSeries { get; set; } = [];
     public DateTime Start { get; set; }
     public DateTime End { get; set; }

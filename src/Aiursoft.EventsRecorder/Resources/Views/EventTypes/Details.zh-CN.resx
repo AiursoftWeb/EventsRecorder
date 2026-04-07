@@ -60,6 +60,9 @@
   <data name="Records" xml:space="preserve">
     <value>记录数</value>
   </data>
+  <data name="Regularity" xml:space="preserve">
+    <value>规律度</value>
+  </data>
   <data name="Required" xml:space="preserve">
     <value>必填</value>
   </data>
