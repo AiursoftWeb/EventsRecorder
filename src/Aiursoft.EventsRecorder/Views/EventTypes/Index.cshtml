@@ -49,6 +49,10 @@ else
                                 <i class="align-middle" data-lucide="file-text" style="width: 14px; height: 14px;"></i>
                                 @item.RecordCount @Localizer["records"]
                             </span>
+                            <span>
+                                <i class="align-middle" data-lucide="activity" style="width: 14px; height: 14px;"></i>
+                                @item.RegularityScore.ToString("F1")% @Localizer["regularity"]
+                            </span>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between">

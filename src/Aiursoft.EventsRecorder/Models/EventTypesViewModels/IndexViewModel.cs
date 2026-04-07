@@ -19,5 +19,6 @@ public class EventTypeSummaryViewModel
     public string? Description { get; set; }
     public int RecordCount { get; set; }
     public int FieldCount { get; set; }
+    public double RegularityScore { get; set; }
     public DateTime CreationTime { get; set; }
 }

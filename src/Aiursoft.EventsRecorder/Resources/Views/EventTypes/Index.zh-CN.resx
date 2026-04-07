@@ -39,5 +39,8 @@
   <data name="records" xml:space="preserve">
     <value>记录</value>
   </data>
+  <data name="regularity" xml:space="preserve">
+    <value>规律度</value>
+  </data>
 
 </root>

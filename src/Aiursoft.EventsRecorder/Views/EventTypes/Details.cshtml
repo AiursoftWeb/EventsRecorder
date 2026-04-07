@@ -37,6 +37,19 @@
                 </div>
                 <div class="list-group-item">
                     <div class="row">
+                        <strong class="col-sm-5">@Localizer["Regularity"]</strong>
+                        <div class="col-sm-7">
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar @(Model.RegularityScore > 80 ? "bg-success" : Model.RegularityScore > 50 ? "bg-warning" : "bg-danger")" 
+                                     role="progressbar" style="width: @(Model.RegularityScore)%;" 
+                                     aria-valuenow="@Model.RegularityScore" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <small class="text-muted">@Model.RegularityScore.ToString("F1")%</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
                         <strong class="col-sm-5">@Localizer["Fields"]</strong>
                         <div class="col-sm-7">@Model.Fields.Count</div>
                     </div>
