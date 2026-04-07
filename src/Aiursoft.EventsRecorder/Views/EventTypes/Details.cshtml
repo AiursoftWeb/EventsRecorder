@@ -138,21 +138,47 @@
             }
         </div>
 
-        @if (Model.NumberSeries.Count > 0)
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
         {
             <div class="card mb-4">
                 <div class="card-header">
-                    <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="trending-up"></i> @Localizer["Number Trends"]</h5>
+                    <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="filter"></i> @Localizer["Filter Trends"]</h5>
                 </div>
                 <div class="card-body">
-                    <canvas id="numbersChart" height="300"></canvas>
+                    <form method="get" asp-action="Details" class="row g-3">
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <div class="col-md-5">
+                            <label class="form-label">@Localizer["Start Date"]</label>
+                            <input type="datetime-local" class="form-control" name="start" value="@Model.Start.ToString("yyyy-MM-ddTHH:mm")" />
+                        </div>
+                        <div class="col-md-5">
+                            <label class="form-label">@Localizer["End Date"]</label>
+                            <input type="datetime-local" class="form-control" name="end" value="@Model.End.ToString("yyyy-MM-ddTHH:mm")" />
+                        </div>
+                        <div class="col-md-2 d-flex align-items-end">
+                            <button type="submit" class="btn btn-primary w-100">@Localizer["Filter"]</button>
+                        </div>
+                    </form>
                 </div>
             </div>
+
+            @foreach (var series in Model.NumberSeries)
+            {
+                var canvasId = $"chart_{System.Text.RegularExpressions.Regex.Replace(series.FieldName, "[^a-zA-Z0-9]", "_")}";
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="trending-up"></i> @series.FieldName</h5>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="@canvasId" height="300"></canvas>
+                    </div>
+                </div>
+            }
         }
     </div>
 </div>
 
-@if (Model.NumberSeries.Count > 0)
+@if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
 {
     @* ReSharper disable once Razor.SectionNotResolved *@
     @section scripts {
@@ -166,8 +192,13 @@
                     'rgb(255, 206, 86)', 'rgb(153, 102, 255)', 'rgb(255, 159, 64)',
                     'rgb(46, 204, 113)', 'rgb(231, 76, 60)', 'rgb(52, 152, 219)'
                 ];
-                var datasets = seriesData.map(function (series, idx) {
-                    return {
+                
+                seriesData.forEach(function (series, idx) {
+                    var canvasId = 'chart_' + series.FieldName.replace(/[^a-zA-Z0-9]/g, '_');
+                    var canvas = document.getElementById(canvasId);
+                    if (!canvas) return;
+                    
+                    var dataset = {
                         label: series.FieldName,
                         data: series.Points.map(function (p) {
                             return { x: new Date(p.X), y: p.Y };
@@ -177,28 +208,28 @@
                         fill: false,
                         tension: 0.3
                     };
-                });
 
-                new Chart(document.getElementById('numbersChart'), {
-                    type: 'line',
-                    data: { datasets: datasets },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        scales: {
-                            x: {
-                                type: 'time',
-                                time: { tooltipFormat: 'yyyy-MM-dd HH:mm' },
-                                title: { display: true, text: '@Localizer["Time"]' }
+                    new Chart(canvas, {
+                        type: 'line',
+                        data: { datasets: [dataset] },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                x: {
+                                    type: 'time',
+                                    time: { tooltipFormat: 'yyyy-MM-dd HH:mm' },
+                                    title: { display: true, text: '@Localizer["Time"]' }
+                                },
+                                y: {
+                                    title: { display: true, text: '@Localizer["Value"]' }
+                                }
                             },
-                            y: {
-                                title: { display: true, text: '@Localizer["Value"]' }
+                            plugins: {
+                                legend: { display: true, position: 'top' }
                             }
-                        },
-                        plugins: {
-                            legend: { display: true, position: 'top' }
                         }
-                    }
+                    });
                 });
             });
         </script>
