@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Feld hinzufügen</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Alle falsch</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie dieses Feld löschen möchten?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Zurück</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Enthält True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Erstellt</value>
@@ -51,17 +57,32 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Trends filtern</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Fr</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>Mo.</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nächste</value>
+  </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Es wurden noch keine Felder definiert. Fügen Sie Felder hinzu, um festzulegen, welche Daten erfasst werden sollen.</value>
+  </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Keine Datensätze</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>Zahlenentwicklungen</value>
   </data>
   <data name="Order" xml:space="preserve">
     <value>Reihenfolge</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Vorherig</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Aufnehmen!</value>
@@ -75,14 +96,26 @@
   <data name="Required" xml:space="preserve">
     <value>Erforderlich</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Sa</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Startdatum</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Zusammenfassung</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>So</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Do</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Zeit</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Di</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Typ</value>
@@ -92,6 +125,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Alle Datensätze anzeigen</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Mi</value>
   </data>
 
 </root>

@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Προσθήκη Πεδίου</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Όλες Ψευδείς</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το πεδίο;</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Πίσω</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Περιέχει True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Δημιουργία</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Φιλτράρισμα τάσεων</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Παρ</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>Δευ</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Όνομα</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Επόμενο</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Δεν έχουν οριστεί ακόμα πεδία. Προσθέστε πεδία για να ορίσετε ποια δεδομένα θα συλλεχθούν.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Δεν υπάρχουν εγγραφές</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Σειρά</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Προηγούμενο</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Καταγραφή!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>Απαιτούμενο</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Σάβ</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Ημερομηνία Έναρξης</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Σύνοψη</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Κυρ</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Πέμ</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Ώρα</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Τρί</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Τύπος</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Προβολή όλων των εγγραφών</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Τετ</value>
   </data>
 
 </root>

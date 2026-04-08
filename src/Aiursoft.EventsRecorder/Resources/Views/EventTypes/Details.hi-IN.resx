@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>फ़ील्ड जोड़ें</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>सभी असत्य</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>क्या आप वाकई इस फ़ील्ड को हटाना चाहते हैं?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>वापस</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>सत्य होता है</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>सृजित</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>ट्रेंड फ़िल्टर करें</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>शुक्र</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>सोम</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>नाम</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>अगला</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>कोई फ़ील्ड अभी परिभाषित नहीं है। कृपया डेटा संकलित करने के लिए फ़ील्ड जोड़ें।</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>कोई रिकॉर्ड नहीं</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>क्रम</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>पिछला</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>रिकॉर्ड करें!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>आवश्यक</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>शनि</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>प्रारंभिक तिथि</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>सारांश</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>रविवार</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>गुरु</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>समय</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>मंगल</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>प्रकार</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>सभी रिकॉर्ड देखें</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>बुध</value>
   </data>
 
 </root>
