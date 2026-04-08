@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>O fundație modernă, bogată în funcționalități și extrem de extensibilă pentru următoarea ta aplicație web.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traduceri alimentate de Inteligență Artificială</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Validare de consistență</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Creați un nou tip de eveniment pentru a începe urmărirea.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Definiți și gestionați tipurile de evenimente și câmpurile lor.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Definiți tipurile de evenimente, apoi înregistrați momentele de viață cu o singură atingere.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Dezvoltați exclusiv în UTC, în timp ce sistemul convertește și afișează automat datele în fusul orar local al utilizatorului.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Scrieți ușor teste de integrare folosind baze de date în memorie, sisteme de fișiere temporare, mocking integrat și simulare a cererilor HTTP din lumea reală.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Înregistrator de evenimente</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Oferește un sistem integrat de gestionare a fișierelor cu comprimare automată a avatarelor și protecție a confidențialității.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Suport pentru Multiple Baze de Date</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Tipurile mele de evenimente</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Înregistrările mele</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Tip eveniment nou</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integrare OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Link-uri rapide</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Autorizare RBAC</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Citește documentația</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Înregistrează!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Design Responsiv</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Acesta este un proiect tip, de unde începem călătoria...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Vizualizați cronologia înregistrărilor evenimentelor dumneavoastră.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bun venit</value>

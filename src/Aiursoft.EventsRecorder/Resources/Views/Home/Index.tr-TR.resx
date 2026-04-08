@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Uzun süreli görevler (örneğin e-postalar veya AI) için &quot;Fire-and-forget&quot; desteği, kuyruk yönetimi, paralel işlem ve iptal için bir GUI ile birlikte.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Bir Olay Türünü Tanımlayın</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Özel Alanları Yapılandır</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Her Olayı Kaydet</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>İnce taneli izin yönetimi için yerleşik bir Rol Tabanlı Erişim Kontrolü (RBAC) sistemi.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Aiursoft Template ile daha fazlasını başarın</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Herhangi bir olay kaydına, yapılandırılmış alanlara tam olarak sığmayan ek bağlam için serbest biçimli notlar ekleyin.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Bu olay için önemli olan veri alanlarını ekleyin — Mesafe, Süre, İlaç Adı, Doz — alan türünü ve her birinin gerekli olup olmadığını seçin.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Yönetici Ayarları</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Yönetim sitesi dahil</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Yöneticiler, üretim dağıtımları için ortam değişkeni geçersiz kılmalarla birlikte, küresel ayarları kontrol paneli aracılığıyla yönetebilir.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Yapay Zeka Destekli Çeviri</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Tüm bağımlılıklar otomatik olere kaydedilir ve constructor injection yoluyla her zaman kullanılabilir.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Bir Etkinlik Türü, takip etmek istediğiniz bir etkinlik kategorisi için bir şablondur. Örneğin, &apos;Sabah Koşusu&apos; veya &apos;İlaç Alımı&apos;. Her Etkinlik Türü, ihtiyacınız olan veriyi tam olarak kaydetmeniz için özel alanlara sahip olabilir.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Başka Her Şey</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Yapay Zeka Çevirisi</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Her olay türüne çeşitli türlerde özel alanlar ekleyin — metin, sayılar, mantıksal değerler ve daha fazlası — yapılandırılabilir sıralama ve gerekli kısıtlamalarla.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Çift Dilli Eğitimler</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Etkinlik geçmişinizi gözden geçirin, arayın ve filtreleyerek kalıpları belirleyin, geçmiş aktiviteleri inceleyin ve uzun vadeli verilerinizden içgörüler elde edin.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Bir kez derle, her yerde çalıştır. Tamamen konteynerli mimari.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Dahili Kullanıcı Yönetimi</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Birden fazla kullanıcı aynı örneği paylaşabilir mi?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Ölçeğinize göre SQLite, MySQL veya SQL Server&apos;dan seçim yapın. Sağlayıcıları minimal yapılandırma ile kolayca değiştirin.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Kolay ve tutarlı dağıtımlar için Docker desteğiyle birlikte gelir.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Konforlu Koordinasyon</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Temel Özellikler</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Temel Yönlendirme &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Kapsam Raporu</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>İsimli bir olay türü oluşturun, örneğin &apos;Sabah Koşusu&apos;, &apos;İlaç Alımı&apos; veya &apos;Çalışma Oturumu&apos;. Herkesin neyi takip ettiğini bilmesi için bir açıklama ekleyin.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Çapraz Platform</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Özel geliştirme gerekli</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Özel Olay Türleri</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Arka plan görevleri için kontrol paneli</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Varsayılan SQLite veritabanı, yapılandırma gerekmez.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Kendi olay türlerinizi özel alanlarla tanımlayın, ardından her birimi yapılandırılmış verilerle kaydedin. Alışkanlıklarınızı, aktivitelerinizi ve geçmişinizi bir bakışta anlayın.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Kendi izleme ihtiyaçlarınıza özel isimler ve açıklamalarla kendi olay türlerinizi tanımlayın.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Herkes için tasarlandı, başlangıç seviyesinden uzmanlara kadar.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dinamik Gezinti Çubuğu</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Her olay gerçekleştiğinde bir kayıt oluşturun. Alan değerlerini doldurun, istenirse not ekleyin ve zaman damgası otomatik olarak kaydedilir.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Her kullanıcı kendi izole edilmiş olay türlerini ve kayıtlarını yönetir. Yerleşik RBAC, yöneticilerin tüm aktiviteleri denetlemesini sağlar.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>SQLite, MySQL, SQL Server ve test için bellek içi veritabanı dahil olmak üzere veritabanı sağlayıcıları arasında kolayca geçiş yapın.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core dahil</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder şema esnektir. Yakalanmasını istediğiniz tekrarlayan bir olayınız varsa, yapılandırılmış bir şekilde tam olarak uyar.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder birden fazla alan türünü destekler; bunlar metin, sayısal değerler ve boolean değerlerdir. Her alan gerekli olarak işaretlenebilir ve bir görünüm sırası atanabilir; bu sayı veri yapısı üzerinde tam kontrol sağlayabilirsiniz.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Her olay kaydı otomatik olarak UTC&apos;de zaman damgası alır, böylece zaman içinde gerçekleşen olayların geçmişini doğru bir şekilde yeniden oluşturabilirsiniz.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Yapmanız gereken her şeyi yapılandırılmış etkinlikleri izlemek için.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>SSS</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Otomatik avatar sıkıştırmalı, dahili bir dosya yönetim sistemi özelliği sunar.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Alanlar hem istemci hem de sunucu tarafında doğrulanır, böylece verilerinizin kayıtların tamamında temiz ve tutarlı olmasını sağlarsınız.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Dosya Yönetimi ve Optimizasyon</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Esnek API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Esnek Alan Tanımları</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>her türlü soru veya sorun bildirimi için.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Sıkça Sorulan Sorular</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Kişisel sağlık alışkanlıklarından ekip iş akışı kontrollerine kadar, EventsRecorder zaman içinde yakalamak istediğiniz herhangi bir yapılandırılmış veriye uyum sağlar.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Mimarın Söyledikleri</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Tamamen Çevrimdışı</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Tamamen açık kaynak. Ücretli seviye yok, satıcı kilidi yok. Verileriniz altyapınızda kalır.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Genel yapılandırma</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Sadece Genel Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Ücretsiz başla</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Politikalar temelinde elle yazılmış</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Sağlık ve Spor</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Merhaba Dünya!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Yüksek Kalite</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Geçmiş Tarama</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon dahil</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Nasıl destek alabilirim?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>EventsRecorder&apos;ı nasıl dağıtırım?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Uygulamamı nasıl dağıtırım?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Nasıl Çalışır</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Aiursoft Template&apos;ı her yeni girişim projesi için aynı Auth, Log ve CI/CD borularını ayarlamaktan bıktığımdan oluşturdum. Bu sadece bir şablon değil; yüksek yoğunluklu üretim ortamlarında yıllar boyu birikmiş en iyi uygulamaların kristalleşmiş hâli. Takımımın sıkıcı kurulum aşamasını atlayıp doğrudan iş mantığına geçmesini sağlıyor.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Uyumluluk</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>EventsRecorder ücretsiz mi?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>Ücretsiz Yazılımdır</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm Hazır</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Öğrenme &amp; Alışkanlıklar</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lint Kontrolü</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Bahçe sulama, kuş gözlemleri, fotoğrafçılık gezileri veya her türlü hobiyi, faaliyetinizin gerektirdiği özel alanlarla kaydedin.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Koşu, egzersiz, ilaç kullanımı, uyku saatleri veya tansiyon ölçümlerini, sizin için önemli olan her metrik için özel alanlarla kaydedin.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Yüksek Kod Kalitesini Koruyun</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Bakım Kayıtları</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Yönetim Paneli</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Çoklu Saat Dilimi Yönetimi</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Çok Kullanıcı Desteği</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Çoklu Veritabanı Sağlayıcı Desteği</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Müzik Araçları</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Doğa &amp; Hobiler</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>CASL veya benzeri gerektirir</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>TypeORM veya benzeri gereklidir</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Herhangi bir bulut sağlayıcısına bağımlı değil. İstediğiniz zaman, istediğiniz yerde çalıştırın — verileriniz sizinle kalır.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Herhangi bir bulut sağlayıcısına bağımlılık yok. Her yerde, her zaman çalıştırılabilir.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Notlar ve Bağlam</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Çevrimdışı Kullanım Destekli</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Belgeyi okuyun</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Günlük okuma oturumlarını, dil pratiğini, çalışma saatlerini veya oluşturmak istediğiniz herhangi bir alışkanlığı kaydedin — ilerleme zaman içinde görülebilir.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Her şeyi kaydet.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Laravel Socialite yapılandırması gerektirir</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Herhangi bir OpenID Connect sağlayıcısıyla sorunsuz bir şekilde entegre olun, otomatik rol senkronizasyonu ile.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Kendi Kendine Barındırılan</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>MIT Lisansı altında, kendi sunucunuzda barındırın, çatallayın ve ihtiyaçlarınıza göre özgürce özelleştirin.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Güvenle geçiş yapın</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Ücretsiz kayıt olun ve dakikalar içinde etkinlik türlerinizi tanımlamaya başlayın.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Basit &amp; Kolay</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Yeni bir proje başlat</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Olaylarınızı bugün kaydetmeye başlayın!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Değer Göndermeye Başla.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Kesin, savaştan sıyrılmış .NET enterprise temeli. Kimlik doğrulamadan yapay zekâya kadar, zor kısımları çözdük, sizin için yapmanıza gerek kalmadı.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>En kolay yol Docker&apos;dır: tek bir &apos;docker run&apos; komutu işinizi görür. EventsRecorder tamamen kendi içinde kapsamlıdır ve varsayılan olarak SQLite ile çevrimdışı çalışır. Ayrıca sağlanan kurulum betiği aracılığıyla Ubuntu&apos;ya doğrudan yükleyebilir veya .NET 10 SDK ile yerel olarak çalıştırabilirsiniz.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Gezinme çubuğu, kullanıcı rollerine ve izinlerine göre otomatik olarak ayarlanır.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Bu, yolculuğa başladığımız bir şablon projedir...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Yapılandırılmış olay izlemesi için üç basit adım.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Zaman Damgalı Kayıtlar</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Zaman dilimi farkındalığına sahip alanlar</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Araç bakımlarını, ev tamiratlarını, ekipman servislerini veya zaman damgalı kayıtlarla herhangi bir periyodik bakım faaliyetini takip edin.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Önemli Olanı Takip Edin.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>İş oturumlarını, toplantı sonuçlarını, görev tamamlamalarını veya her türlü tekrarlanan işyeri etkinliğini yapılandırılmış veri alanlarıyla takip edin.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>AnduinOS, StatHub ve Warp gibi üretim düzeyindeki uygulamalar tarafından güvenilir. Sadece bu kodu paylaşmakla kalmıyoruz; tamamen bu kodla işimizi yürütüyoruz.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Kullanım</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Kullanım Alanları</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Onu SaaS&apos;ınız için bir temel, mobil uygulamanız için bir arka uç, bir kurumsal web sitesi veya kişisel bir blog olarak kullanın. Olanaklar sonsuzdur.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Yerleşik Doğrulama</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>GitHub&apos;da Görüntüle</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Kaynak Kodu Görüntüle</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Hoş Geldiniz</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>EventsRecorder ile neyi takip edebilirsiniz?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Başlamak için neye ihtiyacım var?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Desteklenen alan türleri nelerdir?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Event Türü Nedir?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Geliştiricilerimizin Görüşleri</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Çalışma &amp; Üretkenlik</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Evet, Aiursoft Template MIT Lisansı altında tamamen ücretsiz ve açık kaynaklıdır. Kişisel ve ticari projelerinizde hiçbir ücret ödemeden kullanabilirsiniz.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Evet, EventsRecorder MIT Lisansı altında tamamen ücretsiz ve açık kaynaklıdır. Kişisel veya ticari amaçlarla ücretsiz olarak kullanabilir ve kendi altyapınızda kendi kendine barındırabilirsiniz.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Evet. EventsRecorder, tek bir örnekte birden fazla kullanıcıyı destekler. Her kullanıcının kendi özel olay türleri ve kayıtları bulunur. Yöneticiler, yerleşik RBAC sistemi aracılığıyla ek denetim yetkilerine sahiptir.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>GitHub Tartışmaları aracılığıyla topluluk desteği alabilirsiniz. Lütfen bizim</value>

@@ -30,14 +30,29 @@
   <data name="Contributions" xml:space="preserve">
     <value>Bidrag</value>
   </data>
+  <data name="Docker Image" xml:space="preserve">
+    <value>Docker-billede</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>Dokumentation</value>
+  </data>
+  <data name="EventsRecorder - A self-hosted, open-source event tracking app. Define custom event types, log structured records, and review your history anytime." xml:space="preserve">
+    <value>EventsRecorder - En selvhostet, open-source app til sporing af begivenheder. Definer tilpassede begivenhedstyper, log strukturerede optegnelser, og gennemse dit historik når som helst.</value>
   </data>
   <data name="Get Started" xml:space="preserve">
     <value>Kom i gang</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>GitHub</value>
+  </data>
+  <data name="GitLab" xml:space="preserve">
+    <value>GitLab</value>
+  </data>
+  <data name="Install Script" xml:space="preserve">
+    <value>Installations-script</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>Problemer</value>
   </data>
   <data name="Legal" xml:space="preserve">
     <value>Juridisk</value>

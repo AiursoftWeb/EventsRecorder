@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>&quot;Fire-and-forget&quot;-støtte til langvarige opgaver (som emails eller AI), med en brugergrænseflade til køstyring, parallell behandling og annullering.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Definér en eventtype</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Konfigurer tilpassede felter</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Log hver forekomst</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Et indbygget Role-Based Access Control (RBAC)-system til finjusteret rettighedshåndtering.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Opnå mere med Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Tilføj frie notater til enhver hændelsespost for ekstra kontekst, der ikke passer ind i strukturerede felter.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Tilføj de datafelter, der er vigtige for denne begivenhed — Distance, Duration, Medication Name, Dosage — og vælg felttypen og om hvert felt er påkrævet.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Adminindstillinger</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Administrationssted inkluderet</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administrators kan administrere globale indstillinger via dashboardet med omgåelse af miljøvariabler til produktionsudrullinger.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI-drevet oversættelse</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Alle afhængigheder registreres automatisk og er altid tilgængelige via konstruktor-injektion.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>En Event Type er en skabelon til en kategori af begivenheder, du ønsker at spore. For eksempel &apos;Morning Run&apos; eller &apos;Medicine Intake&apos;. Hver Event Type kan have tilpassede felter, så du altid optager præcis de data, du har brug for.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Noget andet</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Kunstig intelligens-oversættelse</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Vedhæft tilpassede felter af forskellige typer til hver eventtype — tekst, tal, booleans og mere — med konfigurerbar rækkefølge og obligatoriske begrænsninger.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>To-sprogede vejledninger</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Gennemse, søg og filtrér din hændelseshistorik for at opdage mønstre, gennemgå tidligere aktivitet og opnå indsigt fra din langsigtede data.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Byg én gang, kørs overalt. Fuld containeriseret arkitektur.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Indbygget brugeradministration</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Kan flere brugere dele den samme instans?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Vælg mellem SQLite, MySQL eller SQL Server afhængigt af din skala. Skift let mellem leverandører med minimal konfiguration.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Kommer med Docker-understøttelse for forenklet og konsistent implementering.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Sammenlign bekvemt</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Kernfunktioner</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Kerne-routing &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Dækningsoversigt</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Opret en navngivet begivenhedstype, f.eks. &apos;Morgenløbet&apos;, &apos;Indtagelse af medicin&apos; eller &apos;Arbejdssession&apos;. Tilføj en beskrivelse, så alle ved, hvad den sporer.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Krydssystem</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Kræver skræddersyet udvikling</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Tilpassede hændelsestyper</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dashboard for baggrundopgaver</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Standard SQLite-database, ingen konfiguration nødvendig.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Definér dine egne begivenhedstyper med tilpassede felter, og log derefter hver forekomst med strukturerede data. Forstå dine vaner, aktiviteter og historik på et øjeblik.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Definér dine egne begivenhedstyper med navne og beskrivelser skræddersyet til dine specifikke sporingsbehov.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Udviklet til alle, fra begyndere til eksperter.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamisk Navigationslinje</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Hver gang eventet indtræffer, oprettes en post. Udfyld feltværdierne, tilføj efter behov noter, og tidspunktet registreres automatisk.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Hver bruger styrer sine egne isolerede eventtyper og poster. Indbygget RBAC sikrer, at administratorer kan overvåge al aktivitet.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Skift nemt mellem databasenleverandører, herunder SQLite, MySQL, SQL Server og en i-hukommelsesdatabas til test.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core inkluderet</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder er skemafleksibel. Hvis du har et tilbagevendende arrangement, du ønsker at registrere på en struktureret måde, passer det perfekt ind.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder understøtter flere felttyper herunder tekst, tal og booleans. Hvert felt kan markeres som påkrævet og få tildelt en visningsrækkefølge, hvilket giver dig fuld kontrol over datastrukturen.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Hver hændelsespost automatisk tidsstemplet i UTC, så du nøjagtigt kan rekonstruere en historik over forekomster over tid.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Alt, hvad du skal bruge til at spore strukturerede begivenheder.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>OFTE STILLEDE SPØRGSMÅL</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Har et indbygget filhåndteringssystem med automatisk avatar-komprimering.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Felter valideres både på klient- og serversiden, hvilket sikrer, at dine data er rene og konsistente på tværs af alle poster.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Filstyring &amp; optimering</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Fleksibel API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Flexibelt feltdefinerings</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>for eventuelle henvendelser eller for at rapportere problemer.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Ofte stillede spørgsmål</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Fra personlige sundhedsvaner til team-workflow-kontrolpunkter tilpasser EventsRecorder sig enhver struktureret data, du ønsker at indsamle over tid.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Fra Arkitekten</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Fuld Offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Fuld open source. Ingen betalte niveauer, ingen vendor lock-in. Dine data forbliver på dit eget infrastruktur.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Generisk konfiguration</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Kun generisk Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Kom i gang gratis</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Manuelt skrevet baseret på Policies</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Sundhed og fitness</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Hej Verden!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Høj kvalitet</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Historisk gennemgang</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon inkluderet</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Hvordan kan jeg få support?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Hvordan udleverer jeg EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Hvordan deployer jeg min applikation?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Sådan virker det</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Jeg har bygget Aiursoft Template, fordi jeg var træt af at indstille de samme Auth, Log og CI/CD-pipelines for hvert nye enterprise-projekt. Dette er ikke blot en skabelon; det er de kristalliserede bedste praksisser fra år med højkonkurrenceproduktionsmiljøer. Det giver mit team mulighed for at springe over den kedelige opsætning og direkte begynde med business logik.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Interoperabilitet</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Er EventsRecorder gratis at bruge?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>er fri software</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm Klar</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Læring &amp; Vaner</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lint-check</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Log gartenvanding, fugleobservationer, fototur eller enhver hobby med de præcise custom felter, din aktivitet kræver.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Log løb, træning, medicinindtagelse, søvntimer eller blodtryksmålinger med tilpassede felter for hver måling, der betyder noget for dig.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Vedligehold høj kodekvalitet</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Vedligeholdelseslogbøger</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Administrationsdashboard</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Håndtering af flere tidszoner</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Multi-brugersupport</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Understøttelse af flere databaseudbydere</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Musikværktøjer</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Natur &amp; Hobbyer</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Kræver CASL eller lignende</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Kræver TypeORM eller lignende</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Ingen afhængighed af nogen cloud-udbyder. Kør hvor som helst, når som helst — dine data forbliver hos dig.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Ingen afhængighed af nogen cloud-leverandør. Kør overalt, når som helst.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Noter &amp; Kontekst</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Offline-funktion</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Læs dokumentationen</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Registrer daglige læsesessioner, sprogøvelser, studietimer eller enhver vane, du ønsker at opbygge — med fremskridt synligt over tid.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Record alt</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Kræver Laravel Socialite-konfiguration</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Integrer problemfrit med enhver OpenID Connect-udbyder med automatisk rolle-synkronisering.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Selvhostet</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Selvhost den, fork den, og tilpas den efter dine behov frit under MIT-licensen.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Skift med tillid</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Tilmeld dig gratis og begynd at definere dine begivenhedstyper på få minutter.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Enkel &amp; Nem</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Start et nyt projekt</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Start optagelse af dine begivenheder i dag!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Start levering værdi.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Den definitive, prøvet og testet .NET enterprise-grundlag. Fra Auth til AI, har vi løst de svære dele, så du ikke behøver at gøre det.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Den nemmeste måde er Docker: en enkelt &apos;docker run&apos;-kommando er alt, hvad du skal bruge. EventsRecorder er fuldt selvbærende og fungerer offline med SQLite som standard. Du kan også installere det direkte på Ubuntu via det medfølgende installations-script eller køre det lokalt med .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigationslinjen tilpasser sig automatisk baseret på brugerroller og tilladelser.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Dette er et skabelonprojekt, hvor vi starter rejsen...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Tre enkle trin til struktureret begivenhedssporing</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Tidsstemplede poster</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Felter med tidssonebevidsthed</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Spor biler vedligeholdelse, hjemmearbejder, udstyrsservice eller enhver periodisk vedligeholdelsesaktivitet med tidsstemplerede poster.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Spur, hvad der betyder noget.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Sporarbejdsessioner, mødeudfald, opgaveafslutninger eller enhver tilbagevendende aktivitet på arbejdspladsen med strukturerede datafelter.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Anvendt af produktionsskalerede applikationer, herunder AnduinOS, StatHub og Warp. Vi deler ikke kun denne kode; vi driver vores hele business med den.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Brug</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Brugsområder</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Brug den som fundament for din SaaS, som backend til din mobilapp, en virksomhedshjemmeside eller en personlig blog. Mulighederne er uendelige.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Validering indbygget</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Se på GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Se kildekoden</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Velkommen</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Hvad kan du spore med EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Hvad har jeg brug for for at komme i gang?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Hvilke felttyper understøttes?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Hvad er en eventtype?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Hvad vores udviklere siger</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Arbejde &amp; Produktivitet</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ja, Aiursoft Template er helt gratis og open-source under MIT-licensen. Du kan bruge det til både personlige og kommercielle projekter uden nogen omkostninger.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Ja, EventsRecorder er helt gratis og open-source under MIT-licensen. Du kan bruge det til personlige eller kommercielle formål uden omkostninger og selvhoste det på din egen infrastruktur.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Ja. EventsRecorder understøtter flere brugere på en enkelt instans. Hver bruger har deres egne private begivenhedstyper og optegnelser. Administrators har yderligere overvågningsmuligheder gennem det indbyggede RBAC-system.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Du kan få fællesskabsstøtte via GitHub Discussions. Besøg venligst vores</value>

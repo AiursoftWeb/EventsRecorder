@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Підтримка &quot;Fire-and-forget&quot; для довготривалих завдань (наприклад, електронні листи або штучний інтелект), із графічним інтерфейсом для управління чергою, паралельною обробкою та відміною.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Визначте тип події</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Налаштувати власні поля</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Фіксувати кожне випадання</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Вбудована система контролю доступу на основі ролей (RBAC) для деталізованого управління дозволами.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Досягайте більшого з Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Додавайте вільні нотатки до будь-якого запису події для отримання додаткового контексту, який не вписується в структуровані поля.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Додайте поля даних, які мають значення для цього заходу — Відстань, Тривалість, Назва ліків, Дозування — обираючи тип поля та чи є кожне з них обов&apos;язковим.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Налаштування адміністратора</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Адмін-панель у складі</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Адміністратори можуть керувати глобальними налаштуваннями через панель керування, використовуючи перевизначення змінних середовища для розгортань у виробничому режимі.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Переклад, що керується ШІ</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Усі залежності автоматично реєструються та завжди доступні через ін&apos;єкцію конструктора.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Тип події — це шаблон для категорії подій, які ви хочете відстежувати. Наприклад, «Ранкова пробіжка» або «Прийом ліків». Кожен тип події може мати власні поля, щоб ви завжди фіксували саме ті дані, які вам потрібні.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Ще щось</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Штучний інтелект переклад</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Додавайте до кожного типу подій кастомні поля різних типів — текст, числа, логічні значення тощо — з налаштовуваним порядком та обов&apos;язковими обмеженнями.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Білінгвальні навчальні матеріали</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Переглядайте, шукайте та фільтруйте історію подій, щоб виявляти закономірності, переглядати минулу активність та отримувати інсайти з ваших довгострокових даних.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Зібрати один раз, запустити де завгодно. Повністю контейнеризована архітектура.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Вбудоване керування користувачами</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Чи можуть кілька користувачів діяти в одній екземплярі?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Оберіть SQLite, MySQL або SQL Server залежно від ваших масштабів. Легко змінюйте провайдери за допомогою мінімальної конфігурації.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Містить підтримку Docker для спрощення та узгодження розгортання.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Координуйте зручно</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Основні функції</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Основна маршрутизація та DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Звіт про покриття</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Створіть іменований тип події, наприклад «Ранкова бігова», «Прийом ліків» або «Робоча сесія». Додайте опис, щоб усі знали, що саме вона відстежує.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Мультиплатформеність</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Потрібна індивідуальна розробка</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Власні типи подій</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Панель керування фоновими завданнями</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>База даних SQLite за замовчуванням, налаштування не потрібні.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Визначте власні типи подій із користувацькими полями, а потім фіксуйте кожний випадок із структурованими даними. Розумійте свої звички, діяльність та історію за один погляд.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Визначте власні типи подій із назвами та описами, адаптованими до ваших конкретних потреб у відстеженні.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Розроблено для всіх — від початківців до професіоналів.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Динамічна навігаційна панель</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Щоразу, коли відбувається подія, створюйте запис. Заповніть значення полів, за бажанням додайте нотатки, а час запису буде автоматично зафіксовано.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Кожен користувач керує власними ізольованими типами подій та записами. Вбудована RBAC забезпечує можливість адміністраторам контролювати всю діяльність.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Легко переключатися між постачальниками баз даних, включаючи SQLite, MySQL, SQL Server та ін-меморі базу даних для тестування.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core включено</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder є гнучким щодо схеми. Якщо у вас є повторювана подія, яку ви хочете зафіксувати структуровано, вона ідеально підходить.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder підтримує кілька типів полів, включаючи текст, числа та логічні значення. Кожне поле можна позначити як обов&apos;язкове та призначити йому порядок відображення, що надає вам повний контроль над структурою даних.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Кожний запис події автоматично позначається часовою міткою в UTC, що дозволяє точно відновити історію подій з часом.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Все, що вам потрібно для відстеження структурованих подій.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>Часті питання</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Містить вбудовану систему керування файлами з автоматичним стисненням аватарів.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Поля перевіряються як на стороні клієнта, так і на стороні сервера, що гарантує чистоту та узгодженість ваших даних у всіх записах.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Керування файлами та оптимізація</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Гнучкий API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Гнучкі визначення полів</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>для будь-яких запитів або повідомлення про проблеми.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Часті запитання</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Від особистих звичок у сфері здоров&apos;я до контрольних точок робочих процесів команди EventsRecorder адаптується до будь-яких структурованих даних, які ви хочете фіксувати з часом.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Від архітектора</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Повністю автономно</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Повністю відкритий вихідний код. Немає платних рівнів, немає прив&apos;язки до постачальника. Ваші дані залишаються на вашій інфраструктурі.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Загальна конфігурація</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Тільки загальний Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Почати безкоштовно</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Ручна реалізація на основі політик</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Здоров&apos;я та фітнес</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Привіт, Світе!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Висока якість</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Історичний перегляд</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon включено</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Як я можу отримати підтримку?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Як розгорнути EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Як розгорнути мою програму?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Як це працює</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Я створив шаблон Aiursoft, бо втомився налаштовувати одні й ті самі системи Auth, Log та CI/CD для кожного нового корпоративного проекту. Це не просто шаблон; це концентровані найкращі практики, набуті протягом років роботи в умовах високої конкуренції в продакшн-середовищах. Це дозволяє моїй команді пропустити нудну налагодження та відразу перейти до бізнес-логіки.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Взаємодія</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Чи можна безкоштовно використовувати EventsRecorder?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>є вільним програмним забезпеченням</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Готовність до K8s / Swarm</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Навчання та звички</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Перевірка лінтів</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Ведіть обліковий запис поливу городу, спостережень за птахами, фотосесій або будь-якого хобі з точними налаштованими полями, які вимагає ваша діяльність.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Ведіть облік пробіжок, тренувань, прийому ліків, годин сну або показників тиску за допомогою власних полів для кожного показника, що має для вас значення.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Підтримуйте високу якість коду</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Журнали технічного обслуговування</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Панель управління</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Обробка багатьох часових поясів</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Підтримка кількох користувачів</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Підтримка кількох постачальників баз даних</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Музичні інструменти</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Природа та хобі</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Потребує CASL або аналог</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Потребує TypeORM або аналога</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Немає залежності від жодного хмарного постачальника. Працюйте будь-де, будь-коли — ваші дані залишаються з вами.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Немає залежності від постачальника хмарних послуг. Запускайте в будь-якому місці, в будь-який час.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Примітки та контекст</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Підтримка офлайн-режиму</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Прочитати документацію</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Записуйте щоденні сесії читання, практику мови, години навчання або будь-яку звичку, яку ви хочете виробити — із відстеженням прогресу з часом.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Записуйте все.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Потребує налаштування Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Безперешкодна інтеграція з будь-яким постачальником OpenID Connect із автоматичною синхронізацією ролей.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Власний хостинг</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Застосовуйте його на власному сервері, створюйте його форки та вільно адаптуйте до своїх потреб згідно з ліцензією MIT.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Переміщуйтесь із впевненістю</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Зареєструйтесь безкоштовно та почніть визначати типи своїх подій за лічені хвилини.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Просто та легко</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Розпочати новий проєкт</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Почніть реєстрацію своїх подій сьогодні!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Почніть доставляти цінність.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Визначна, випробувана на практиці основа .NET для бізнес-рішень. Від Auth до AI — ми вирішили складні завдання, щоб ви не мали цього робити.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Найпростіший спосіб — Docker: вам достатньо однієї команди &apos;docker run&apos;. EventsRecorder повністю автономний і за замовчуванням працює офлайн із SQLite. Ви також можете встановити його напряму на Ubuntu за допомогою наданого скрипта інсталяції або запустити локально за допомогою .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Панель навігації автоматично адаптується відповідно до ролей та дозволів користувача.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Це шаблонний проект, з якого ми починаємо нашу подорож...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Три прості кроки для структурованого відстеження подій.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Зафіксовані в часі записи</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Поля з урахуванням часових поясів</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Відстежуйте технічне обслуговування автомобілів, домашній ремонт, обслуговування обладнання або будь-яку періодичну діяльність з технічного обслуговування за допомогою записів із відміткою часу.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Слідкуйте за тим, що важливо.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Відстежуйте робочі сесії, результати зустрічей, завершення завдань або будь-яку регулярну робочу діяльність із використанням структурованих полів даних.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Надійний для продуктивних додатків, зокрема AnduinOS, StatHub та Warp. Ми не просто ділимося цим кодом; ми використовуємо його для всієї своєї діяльності.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Використання</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Використання</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Використовуйте його як основу для вашого SaaS, бекенд для вашого мобільного додатку, корпоративний веб-сайт або особистий блог. Можливості нескінченні.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Вбудована валідація</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Переглянути на GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Переглянути вихідний код</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Ласкаво просимо</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Що ви можете відстежувати за допомогою EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Що мені потрібно, щоб почати?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Які типи полів підтримуються?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Що таке тип події?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Що кажуть наші розробники</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Робота та продуктивність</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Так, Aiursoft Template є повністю безкоштовним та відкритим програмним забезпеченням з ліцензією MIT. Ви можете використовувати його для особистих та комерційних проектів без будь-якої плати.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Так, EventsRecorder повністю безкоштовний та з відкритим вихідним кодом під ліцензією MIT. Ви можете використовувати його для особистих або комерційних цілей безкоштовно та розміщувати на власній інфраструктурі.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Так. EventsRecorder підтримує кількох користувачів на одному екземплі. Кожен користувач має свої власні приватні типи подій та записи. Адміністратори мають додаткові можливості нагляду через вбудовану систему RBAC.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Ви можете отримати підтримку спільноти через GitHub Discussions. Будь ласка, відвідайте наш</value>

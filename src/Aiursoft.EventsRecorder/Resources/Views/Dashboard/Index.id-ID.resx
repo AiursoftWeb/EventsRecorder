@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Sebuah fondasi yang modern, kaya fitur, dan sangat dapat diperluas untuk aplikasi web Anda berikutnya.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Terjemahan Berbasis AI</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Validasi Konsistensi</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Buat tipe acara baru untuk memulai pelacakan.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Tentukan dan kelola jenis acara serta bidang-bidangnya.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Tentukan jenis acara Anda, lalu rekam momen kehidupan dengan satu ketukan.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Kembangkan secara eksklusif dalam UTC sementara sistem secara otomatis mengonversi dan menampilkan tanggal dalam zona waktu lokal pengguna.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Tulis uji integrasi dengan mudah menggunakan basis data dalam memori, sistem file sementara, mocking bawaan, dan simulasi permintaan HTTP dunia nyata.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Perekam Acara</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Memiliki sistem manajemen file bawaan dengan kompresi avatar otomatis dan perlindungan privasi.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Dukungan Banyak Basis Data</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Jenis Acara Saya</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Rekaman Saya</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Jenis Acara Baru</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Integrasi OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Tautan Cepat</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Otorisasi RBAC</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Baca dokumen</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Rekam!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Desain Responsif</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Ini adalah proyek templat, di mana kita memulai perjalanan...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Lihat garis waktu rekaman acara Anda.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Selamat datang</value>

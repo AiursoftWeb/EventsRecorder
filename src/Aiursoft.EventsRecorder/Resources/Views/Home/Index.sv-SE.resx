@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>&quot;Fire-and-forget&quot;-stöd för långvariga uppgifter (t.ex. e-post eller AI), med en GUI för köhantering, parallell bearbetning och avbrott.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Definiera en händelsetyp</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Konfigurera anpassade fält</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Logga varje förekomst</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Ett inbyggt rollbaserat åtkomstkontrollsystem (RBAC) för detaljerad behörighetshantering.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Uppnå mer med Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Lägg till fria anteckningar till vilken händelseregistrering som helst för att få ytterligare kontext som inte passar in ordentligt i strukturerade fält.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Lägg till de datafält som är viktiga för detta evenemang — Distance, Duration, Medication Name, Dosage — genom att välja fälttypen och om varje fält är obligatoriskt.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Administratörinställningar</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Admin-sida inbegripen</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administratörer kan hantera globala inställningar via dashboarden, med omkörning av miljövariabler för produktionsdistributioner.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>AI-driven översättning</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>En eventtyp är en mall för en kategori av händelser du vill spåra. Till exempel &apos;Morgonpromenad&apos; eller &apos;Medicintag&apos;. Varje eventtyp kan ha anpassade fält så att du alltid fångar exakt den data du behöver.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Allt annat</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Artificiell intelligensöversättning</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Bifoga anpassade fält av olika typer till varje händelsetyp — text, tal, booleans och mer — med konfigurerbar ordning och obligatoriska begränsningar.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Tvåspråkiga handledningar</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Bläddra, sök och filtrera din händelsehistorik för att upptäcka mönster, granska tidigare aktivitet och få insikter från din långsiktiga data.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Bygg en gång, kör överallt. Fullt containeriserad arkitektur.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Inbyggd användarhantering</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Kan flera användare dela samma instans?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Välj mellan SQLite, MySQL eller SQL Server beroende på din skala. Byt enkelt leverantörer med minimal konfiguration.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Kommer med Docker-stöd för en förbättrad och konsekvent distribution.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Samordna bekvämt</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Kärnfunktioner</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Kärnrouting &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Övergripande rapport</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Skapa en namngiven händelsetyp som &quot;Morgonlöpning&quot;, &quot;Medicintagning&quot; eller &quot;Arbetspass&quot;. Lägg till en beskrivning så att alla vet vad den spårar.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Korsplattform</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Kräver anpassad utveckling</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Anpassade händelsetyper</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dashboard för bakgrundsprocesser</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Standard SQLite-databas, ingen konfiguration behövs.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Definiera dina egna händelsetyper med anpassade fält, och logga varje förekomst med strukturerad data. Förstå dina vanor, aktiviteter och historik på en ögonblicksblick.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Definiera dina egna händelsetyper med namn och beskrivningar skräddarsydda för dina specifika spårningsbehov.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Skapad för alla, från nybörjare till experter.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Dynamiskt navigeringsfält</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Varje gång händelsen inträffar, skapa en post. Fyll i fältdata, lägg till anteckningar efter behag, och tidstämpeln sparas automatiskt.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Varje användare hanterar sina egna isolerade händelsetyper och poster. Inbyggt RBAC säkerställer att administratörer kan övervaka all aktivitet.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Enkelt växla mellan databasleverantörer, inklusive SQLite, MySQL, SQL Server och en in-minnen-databas för testning.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Entity Framework Core ingår</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder är schemaflexibel. Om du har en återkommande händelse du vill fånga på ett strukturerat sätt, passar den perfekt in.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder stöder flera fälttyper inklusive text, nummer och booleans. Varje fält kan markeras som obligatoriskt och tilldelas en visningsordning, vilket ger dig full kontroll över datastrukturen.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Varje händelseregistrering automatiskt tidsstämplat i UTC så att du kan exakt rekonstruera en händelsehistorik över tid.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Allt du behöver för att spåra strukturerade händelser.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>Vanliga frågor</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Fält valideras både på klient- och serversidan, vilket säkerställer att din data är ren och konsekvent över alla poster.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Filhantering &amp; optimering</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Flexibel API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Flexibla fältdefinitioner</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>för frågor eller för att rapportera problem.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Vanliga frågor</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Från personliga hälsosvanor till teamets arbetsflödeskontrollpunkter anpassar EventsRecorder sig till vilken strukturerad data som helst du vill fånga över tid.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Från arkitekten</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Fullständigt offline</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Fullt öppen källkod. Inga betalda nivåer, ingen leverantörsberoende. Din data stannar på din infrastruktur.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Generisk konfiguration</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Endast generisk Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Kom igång gratis</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Manuellt skrivna baserade på Policies</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Hälsa och träning</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Hej Världen!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Hög kvalitet</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Historisk bläddring</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon ingår</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Hur får jag support?</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Hur deployar jag EventsRecorder?</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Hur distribuerar jag min applikation?</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Så fungerar det</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Jag byggde Aiursoft Template eftersom jag var trött på att ställa in samma Auth, Log och CI/CD-pipelines för varje ny företagsprojekt. Det här är inte bara en mall; det är de kristalliserade bästa metoderna från år av högkonkurrensproduktionsmiljöer. Det låter mitt team hoppa över den tråkiga konfigurationen och direkt börja med affärslogik.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Interoperabilitet</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Är EventsRecorder gratis att använda?</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>är fri programvara</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>K8s / Swarm-klar</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Lärande &amp; Vanor</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Lintkontroll</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Logga trädgårdsbevattning, fågelskådningar, fotouträttningar eller vilken hobby som helst med de exakta anpassade fälten som din aktivitet kräver.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Logga löpturer, träningspass, medicinintag, sömn timmar eller blodtrycksmätningar med anpassade fält för varje mätvärde som är viktigt för dig.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Behåll hög kodkvalitet</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Underhållsloggar</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Administrationspanel</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Hantering av flera tidszoner</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Stöds för flera användare</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Stöd för flera databasleverantörer</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Musikverktyg</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Natur &amp; Hobbys</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Kräver CASL eller liknande</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Kräver TypeORM eller liknande</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Ingen beroende av någon molnleverantör. Kör var som helst, när som helst — dina data stannar hos dig.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Ingen beroende på någon molnleverantör. Kör överallt, när som helst.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Anteckningar &amp; Kontext</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Offline-förmåga</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Läs dokumentet</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Skriv dagliga lässessioner, språkträning, studietimmar eller vilken vana du vill bygga — med framsteg synligt över tid.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Spela in allt.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Kräver konfiguration av Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Självhostad</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Värd den själv, fork den, och anpassa den fritt till dina behov under MIT-licensen.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Förskjut med självförtroende</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Registrera dig gratis och börja definiera dina händelsetyper på några minuter.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Enkel &amp; Enkel</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Starta ett nytt projekt</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Börja spara dina händelser idag!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Börja leverera värde.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Den definitiva, testade .NET-fundamentet för företag. Från Auth till AI har vi löst de svåra delarna så att du inte behöver göra det.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Det enklaste sättet är Docker: du behöver bara en enda &apos;docker run&apos;-kommando. EventsRecorder är helt självständig och fungerar offline med SQLite som standard. Du kan också installera den direkt på Ubuntu via den medföljande installationskriptet, eller köra den lokalt med .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Det här är ett mallprojekt, där vi startar resan...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Tre enkla steg för strukturerad händelsespårning</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Tidsstämplade poster</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Fält med tidszonstöd</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Spåra fordonsservice, hemreparationer, utrustningsunderhåll eller vilken periodisk underhållsaktivitet som helst med tidsstämplade poster.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Spåra det som är viktigt.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Spåra arbetssessioner, mötesresultat, uppgiftsslutföranden eller vilken återkommande arbetsrelaterad aktivitet som helst med strukturerade datafält.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Tillit av produktionsklara applikationer inklusive AnduinOS, StatHub och Warp. Vi delar inte bara koden; vi kör hela vårt företag på den.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Användning</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Användningsområden</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Validering inbyggd</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Visa på GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Visa källkod</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Välkommen</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Vad kan du spåra med EventsRecorder?</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Vad behöver jag för att komma igång?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Vilka fälttyper stöds?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Vad är en händelsetyp?</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Vad våra utvecklare säger</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Arbete &amp; Produktivitet</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Ja, EventsRecorder är helt gratis och öppen källkod enligt MIT-licensen. Du kan använda det för privata eller kommersiella ändamål utan kostnad och självvärdhosta det på din egen infrastruktur.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Ja. EventsRecorder stöder flera användare på en enda instans. Varje användare har sina egna privata händelsetyper och poster. Administratörer har ytterligare övervakningsmöjligheter via det inbyggda RBAC-systemet.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
