@@ -122,6 +122,32 @@ public class EventTypesController(
         .Where(s => s.Points.Count > 0)
         .ToList();
 
+        var booleanFields = eventType.Fields
+            .Where(f => f.FieldType == FieldType.Boolean)
+            .ToList();
+
+        var booleanSeries = booleanFields.Select(field => new BooleanSeriesDto
+        {
+            FieldId = field.Id,
+            FieldName = field.Name,
+            Points = eventType.Records
+                .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)
+                .OrderBy(r => r.RecordedAt)
+                .Select(r => new
+                {
+                    r.RecordedAt,
+                    Value = r.FieldValues.FirstOrDefault(fv => fv.EventFieldId == field.Id)?.BoolValue
+                })
+                .Where(p => p.Value.HasValue)
+                .Select(p => new BooleanPointDto
+                {
+                    X = p.RecordedAt,
+                    Y = p.Value!.Value
+                })
+                .ToList()
+        })
+        .ToList();
+
         var last8Records = await context.EventRecords
             .Where(r => r.EventTypeId == id)
             .OrderByDescending(r => r.RecordedAt)
@@ -139,6 +165,7 @@ public class EventTypesController(
             RecordCount = eventType.Records.Count,
             RegularityScore = regularityService.CalculateScore(last8Records),
             NumberSeries = numberSeries,
+            BooleanSeries = booleanSeries,
             Start = startTime,
             End = endTime
         });

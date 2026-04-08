@@ -18,8 +18,22 @@ public class DetailsViewModel : UiStackLayoutViewModel
     public int RecordCount { get; set; }
     public double RegularityScore { get; set; }
     public List<NumberSeriesDto> NumberSeries { get; set; } = [];
+    public List<BooleanSeriesDto> BooleanSeries { get; set; } = [];
     public DateTime Start { get; set; }
     public DateTime End { get; set; }
+}
+
+public class BooleanSeriesDto
+{
+    public int FieldId { get; set; }
+    public required string FieldName { get; set; }
+    public List<BooleanPointDto> Points { get; set; } = [];
+}
+
+public class BooleanPointDto
+{
+    public DateTime X { get; set; }
+    public bool Y { get; set; }
 }
 
 public class NumberSeriesDto
