@@ -13,6 +13,7 @@ public class IndexViewModel : UiStackLayoutViewModel
     public required List<RecordSummaryViewModel> Records { get; set; }
     public List<EventTypeFilterViewModel> EventTypes { get; set; } = [];
     public int? SelectedEventTypeId { get; set; }
+    public List<EventField> SelectedEventTypeFields { get; set; } = [];
 }
 
 public class RecordSummaryViewModel
@@ -23,6 +24,7 @@ public class RecordSummaryViewModel
     public DateTime RecordedAt { get; set; }
     public string? Notes { get; set; }
     public int FieldValueCount { get; set; }
+    public Dictionary<int, FieldValueDisplayViewModel> DynamicFieldValues { get; set; } = [];
 }
 
 public class EventTypeFilterViewModel
