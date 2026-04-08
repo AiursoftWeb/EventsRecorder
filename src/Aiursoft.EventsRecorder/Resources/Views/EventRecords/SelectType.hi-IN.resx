@@ -18,29 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft टेम्पलेट</value>
+      <data name="Create an event type first, then come back to record." xml:space="preserve">
+    <value>सबसे पहले एक इवेंट प्रकार बनाएं, फिर रिकॉर्ड करने के लिए वापस आएं।</value>
   </data>
-  <data name="Community" xml:space="preserve">
-    <value>समुदाय</value>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>इवेंट प्रकार बनाएं</value>
   </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>प्रलेखन</value>
+  <data name="No event types defined" xml:space="preserve">
+    <value>कोई इवेंट प्रकार परिभाषित नहीं किया गया</value>
   </data>
-  <data name="GitHub" xml:space="preserve">
-    <value>GitHub</value>
+  <data name="Record!" xml:space="preserve">
+    <value>रिकॉर्ड करें!</value>
   </data>
-  <data name="GitLab" xml:space="preserve">
-    <value>GitLab</value>
-  </data>
-  <data name="Issues" xml:space="preserve">
-    <value>समस्याएं</value>
-  </data>
-  <data name="Source Code" xml:space="preserve">
-    <value>सोर्स कोड</value>
-  </data>
-  <data name="Try the dashboard" xml:space="preserve">
-    <value>डैशबोर्ड आज़माएं</value>
+  <data name="Select an event type to record" xml:space="preserve">
+    <value>रिकॉर्ड करने के लिए एक घटना प्रकार चुनें</value>
   </data>
 
 </root>

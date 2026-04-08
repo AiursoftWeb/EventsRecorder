@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Back" xml:space="preserve">
+    <value>Επιστροφή</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="Field Values" xml:space="preserve">
+    <value>Τιμές Πεδίων</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="No field values recorded." xml:space="preserve">
+    <value>Δεν έχουν καταγραφεί τιμές πεδίου.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Σημειώσεις</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Καταγραφή</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Σύνοψη</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Ώρα</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Τύπος</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+
+</root>

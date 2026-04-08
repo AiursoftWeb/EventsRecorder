@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft टेम्पलेट</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
   </data>
-  <data name="Community" xml:space="preserve">
-    <value>समुदाय</value>
+  <data name="Create" xml:space="preserve">
+    <value>Δημιουργία</value>
   </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>प्रलेखन</value>
+  <data name="Create Event Type" xml:space="preserve">
+    <value>Δημιουργία Τύπου Γεγονότος</value>
   </data>
-  <data name="GitHub" xml:space="preserve">
-    <value>GitHub</value>
+  <data name="Description" xml:space="preserve">
+    <value>Περιγραφή</value>
   </data>
-  <data name="GitLab" xml:space="preserve">
-    <value>GitLab</value>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>π.χ. Άσκηση, Γεύμα, Βάρος...</value>
   </data>
-  <data name="Issues" xml:space="preserve">
-    <value>समस्याएं</value>
+  <data name="Event Type Details" xml:space="preserve">
+    <value>Λεπτομέρειες Τύπου Γεγονότος</value>
   </data>
-  <data name="Source Code" xml:space="preserve">
-    <value>सोर्स कोड</value>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
   </data>
-  <data name="Try the dashboard" xml:space="preserve">
-    <value>डैशबोर्ड आज़माएं</value>
+  <data name="Optional description for this event type" xml:space="preserve">
+    <value>Προαιρετική περιγραφή για αυτόν τον τύπο γεγονότος</value>
   </data>
 
 </root>
