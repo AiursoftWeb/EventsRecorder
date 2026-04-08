@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>เพิ่มฟิลด์</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>ทั้งหมดเป็นค่าเท็จ</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>คุณแน่ใจหรือไม่ว่าคุณต้องการลบฟิลด์นี้?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>กลับ</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>มีค่า True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>สร้าง</value>
@@ -51,17 +57,32 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>กรองแนวโน้ม</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>ศุกร์</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>จ</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>ชื่อ</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>ยังไม่มีฟิลด์ที่กำหนด เพิ่มฟิลด์เพื่อกำหนดข้อมูลที่ต้องการรวบรวม</value>
+  </data>
+  <data name="No Records" xml:space="preserve">
+    <value>ไม่มีข้อมูล</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>แนวโน้มตัวเลข</value>
   </data>
   <data name="Order" xml:space="preserve">
     <value>ลำดับ</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>ก่อนหน้า</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>บันทึก!</value>
@@ -75,14 +96,26 @@
   <data name="Required" xml:space="preserve">
     <value>ต้องกรอก</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>เสาร์</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>วันที่เริ่มต้น</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>สรุป</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>อาทิตย</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>พฤหัส</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>เวลา</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>อ.</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>ประเภท</value>
@@ -92,6 +125,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>ดูรายการทั้งหมด</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>พ</value>
   </data>
 
 </root>

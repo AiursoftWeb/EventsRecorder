@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Adaugă câmp</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Toate False</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Ești sigur că dorești să ștergi acest câmp?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Înapoi</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Conține True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Creat</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Filtrează tendințele</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Vin</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>Lun</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Nume</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Următor</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Nu există câmpuri definite încă. Adăugați câmpuri pentru a defini ce date trebuie colectate.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Fără înregistrări</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Ordin</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterioară</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Înregistrează!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>Obligatoriu</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Sâmb</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Data de începere</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Rezumat</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Dum</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Joi</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Timp</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Mar</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Tip</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Vezi toate înregistrările</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Mie</value>
   </data>
 
 </root>

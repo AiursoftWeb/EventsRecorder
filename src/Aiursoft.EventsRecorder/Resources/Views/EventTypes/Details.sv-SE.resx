@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Lägg till fält</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Alla falska</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Är du säker på att du vill ta bort detta fält?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Tillbaka</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Innehåller True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Skapad</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Filtera trender</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Fre</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>mån</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Namn</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nästa</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Inga fält definierade ännu. Lägg till fält för att definiera vilken data som ska samlas in.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Inga poster</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Ordning</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Föregående</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Skriv!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>Krävs</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Sön</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Startdatum</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Sammanfattning</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Sön</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>tor</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Tid</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>tis</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Typ</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Visa alla poster</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Ons</value>
   </data>
 
 </root>

@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Dodaj pole</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Wszystkie fałszywe</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Czy na pewno chcesz usunąć to pole?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Wstecz</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Zawiera wartość True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Utworzono</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Filtruj trendy</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Pt</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>Pon</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Nazwa</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Następny</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Brak zdefiniowanych pól. Dodaj pola, aby określić, jakie dane należy zbierać.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Brak rekordów</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Kolejność</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Poprzedni</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Zapisz!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>Wymagane</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>Sob</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Data początkowa</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Podsumowanie</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Czw</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Czas</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Wt</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Typ</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Wyświetl wszystkie rekordy</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>Śr</value>
   </data>
 
 </root>

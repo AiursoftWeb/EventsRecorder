@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>Veld toevoegen</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>Alle onwaar</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>Weet u zeker dat u dit veld wilt verwijderen?</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Terug</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>Bevat waar</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Gemaakt</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>Trends filteren</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>vrij</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>maandag</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Naam</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Volgende</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>Er zijn nog geen velden gedefinieerd. Voeg velden toe om te definiëren welke gegevens moeten worden verzameld.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>Geen records</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Volgorde</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Vorige</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>Recorderen!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>Verplicht</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>za</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>Startdatum</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>Samenvatting</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>Zo</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Do</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Tijd</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>di</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>Type</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>Alle records bekijken</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>woe</value>
   </data>
 
 </root>

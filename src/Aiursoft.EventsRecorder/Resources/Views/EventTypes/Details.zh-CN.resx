@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>添加字段</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>全部为假</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>您确定要删除此字段吗？</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>返回</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>包含真值</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>创建时间</value>
@@ -51,17 +57,32 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>筛选趋势</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>周一</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>名称</value>
   </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一步</value>
+  </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>尚未定义任何字段。添加字段以定义要收集的数据。</value>
+  </data>
+  <data name="No Records" xml:space="preserve">
+    <value>无记录</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>数值趋势</value>
   </data>
   <data name="Order" xml:space="preserve">
     <value>排序</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>上一条</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>记录!</value>
@@ -75,14 +96,26 @@
   <data name="Required" xml:space="preserve">
     <value>必填</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>周六</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>开始日期</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>摘要</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>周日</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>Thu</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>时间</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>Tue</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>类型</value>
@@ -92,6 +125,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>查看所有记录</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>周三</value>
   </data>
 
 </root>

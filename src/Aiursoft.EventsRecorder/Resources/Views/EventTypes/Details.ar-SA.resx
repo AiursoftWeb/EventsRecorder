@@ -24,11 +24,17 @@
   <data name="Add Field" xml:space="preserve">
     <value>إضافة حقل</value>
   </data>
+  <data name="All False" xml:space="preserve">
+    <value>جميعها خطأ</value>
+  </data>
   <data name="Are you sure you want to delete this field?" xml:space="preserve">
     <value>هل أنت متأكد من رغبتك في حذف هذا الحقل؟</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>رجوع</value>
+  </data>
+  <data name="Contains True" xml:space="preserve">
+    <value>تحتوي على True</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>تم الإنشاء</value>
@@ -51,14 +57,29 @@
   <data name="Filter Trends" xml:space="preserve">
     <value>تصفية الاتجاهات</value>
   </data>
+  <data name="Fri" xml:space="preserve">
+    <value>الجمعة</value>
+  </data>
+  <data name="Mon" xml:space="preserve">
+    <value>الاثنين</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>الاسم</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>التالي</value>
   </data>
   <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
     <value>لم يتم تعريف أي حقول بعد. أضف حقولاً لتحديد البيانات التي تريد جمعها.</value>
   </data>
+  <data name="No Records" xml:space="preserve">
+    <value>لا توجد سجلات</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>الترتيب</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>السابق</value>
   </data>
   <data name="Record!" xml:space="preserve">
     <value>تسجيل!</value>
@@ -72,14 +93,26 @@
   <data name="Required" xml:space="preserve">
     <value>إلزامي</value>
   </data>
+  <data name="Sat" xml:space="preserve">
+    <value>السبت</value>
+  </data>
   <data name="Start Date" xml:space="preserve">
     <value>تاريخ البدء</value>
   </data>
   <data name="Summary" xml:space="preserve">
     <value>ملخص</value>
   </data>
+  <data name="Sun" xml:space="preserve">
+    <value>الأحد</value>
+  </data>
+  <data name="Thu" xml:space="preserve">
+    <value>الخميس</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>وقت</value>
+  </data>
+  <data name="Tue" xml:space="preserve">
+    <value>الثلاثاء</value>
   </data>
   <data name="Type" xml:space="preserve">
     <value>نوع</value>
@@ -89,6 +122,9 @@
   </data>
   <data name="View All Records" xml:space="preserve">
     <value>عرض جميع السجلات</value>
+  </data>
+  <data name="Wed" xml:space="preserve">
+    <value>أربعاء</value>
   </data>
 
 </root>
