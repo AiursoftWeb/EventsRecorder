@@ -177,7 +177,7 @@
 
             @foreach (var series in Model.NumberSeries)
             {
-                var canvasId = $"chart_{System.Text.RegularExpressions.Regex.Replace(series.FieldName, "[^a-zA-Z0-9]", "_")}";
+                var canvasId = $"chart_{series.FieldId}";
                 <div class="card mb-4">
                     <div class="card-header">
                         <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="trending-up"></i> @series.FieldName</h5>
@@ -207,7 +207,7 @@
                 ];
                 
                 seriesData.forEach(function (series, idx) {
-                    var canvasId = 'chart_' + series.FieldName.replace(/[^a-zA-Z0-9]/g, '_');
+                    var canvasId = 'chart_' + series.FieldId;
                     var canvas = document.getElementById(canvasId);
                     if (!canvas) return;
                     

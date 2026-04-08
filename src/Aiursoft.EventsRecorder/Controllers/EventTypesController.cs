@@ -101,6 +101,7 @@ public class EventTypesController(
 
         var numberSeries = numberFields.Select(field => new NumberSeriesDto
         {
+            FieldId = field.Id,
             FieldName = field.Name,
             Points = eventType.Records
                 .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)

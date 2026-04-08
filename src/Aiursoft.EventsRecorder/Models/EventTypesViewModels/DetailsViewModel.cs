@@ -24,6 +24,7 @@ public class DetailsViewModel : UiStackLayoutViewModel
 
 public class NumberSeriesDto
 {
+    public int FieldId { get; set; }
     public required string FieldName { get; set; }
     public List<NumberPointDto> Points { get; set; } = [];
 }
