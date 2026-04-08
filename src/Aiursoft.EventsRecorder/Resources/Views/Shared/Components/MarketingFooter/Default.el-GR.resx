@@ -30,14 +30,29 @@
   <data name="Contributions" xml:space="preserve">
     <value>Συνεισφορές</value>
   </data>
+  <data name="Docker Image" xml:space="preserve">
+    <value>Εικόνα Docker</value>
+  </data>
   <data name="Documentation" xml:space="preserve">
     <value>Τεκμηρίωση</value>
+  </data>
+  <data name="EventsRecorder - A self-hosted, open-source event tracking app. Define custom event types, log structured records, and review your history anytime." xml:space="preserve">
+    <value>EventsRecorder - Μια εφαρμογή καταγραφής γεγονότων ανοιχτού κώδικα που φιλοξενείται από τον χρήστη. Ορίστε τύπους γεγονότων, καταγράψτε δομημένα αρχεία και ελέγξτε το ιστορικό σας ανά πάσα στιγμή.</value>
   </data>
   <data name="Get Started" xml:space="preserve">
     <value>Ξεκινήστε</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>Github</value>
+  </data>
+  <data name="GitLab" xml:space="preserve">
+    <value>GitLab</value>
+  </data>
+  <data name="Install Script" xml:space="preserve">
+    <value>Εγκατάσταση σεναρίου</value>
+  </data>
+  <data name="Issues" xml:space="preserve">
+    <value>Προβλήματα</value>
   </data>
   <data name="Legal" xml:space="preserve">
     <value>Νομικά</value>

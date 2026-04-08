@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft टेम्पलेट</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
   </data>
-  <data name="Community" xml:space="preserve">
-    <value>समुदाय</value>
+  <data name="Display Order" xml:space="preserve">
+    <value>Διάταξη εμφάνισης</value>
   </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>प्रलेखन</value>
+  <data name="Edit Field:" xml:space="preserve">
+    <value>Επεξεργασία Πεδίου:</value>
   </data>
-  <data name="GitHub" xml:space="preserve">
-    <value>GitHub</value>
+  <data name="Field Details" xml:space="preserve">
+    <value>Λεπτομέρειες Πεδίου</value>
   </data>
-  <data name="GitLab" xml:space="preserve">
-    <value>GitLab</value>
+  <data name="Field Name" xml:space="preserve">
+    <value>Όνομα Πεδίου</value>
   </data>
-  <data name="Issues" xml:space="preserve">
-    <value>समस्याएं</value>
+  <data name="Field Type" xml:space="preserve">
+    <value>Τύπος Πεδίου</value>
   </data>
-  <data name="Source Code" xml:space="preserve">
-    <value>सोर्स कोड</value>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Αποθήκευση αλλαγών</value>
   </data>
-  <data name="Try the dashboard" xml:space="preserve">
-    <value>डैशबोर्ड आज़माएं</value>
+  <data name="This field is required" xml:space="preserve">
+    <value>Αυτό το πεδίο είναι υποχρεωτικό</value>
   </data>
 
 </root>

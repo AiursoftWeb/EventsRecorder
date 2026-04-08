@@ -21,6 +21,15 @@
       <data name="&quot;Fire-and-forget&quot; support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation." xml:space="preserve">
     <value>Υποστήριξη &quot;Fire-and-forget&quot; για μακροχρόνιες εργασίες (όπως email ή AI), με GUI για διαχείριση ουράς, παράλληλη επεξεργασία και ακύρωση.</value>
   </data>
+  <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Ορισμός τύπου γεγονός</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Διαμόρφωση Προσαρμοσμένων Πεδίων</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Καταγράψτε κάθε συμβάν</value>
+  </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Ένα ενσωματωμένο σύστημα Ελέγχου Πρόσβασης Βάσει Ρόλων (RBAC) για λεπτομερή διαχείριση δικαιωμάτων.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
   </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Προσθέστε ελεύθερης μορφής σημειώσεις σε οποιαδήποτε καταγραφή γεγονότος για επιπλέον πλαίσιο που δεν χωράει άψογα σε δομημένα πεδία.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Προσθέστε τα πεδία δεδομένων που έχουν σημασία για αυτό το γεγονός — Απόσταση, Διάρκεια, Όνομα Φαρμάκου, Δοσολογία — επιλέγοντας τον τύπο του πεδίου και αν κάθε ένα είναι υποχρεωτικό.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Ρυθμίσεις Διοικητή</value>
+  </data>
   <data name="Admin site included" xml:space="preserve">
     <value>Περιλαμβάνεται το διαχειριστικό site</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Οι διαχειριστές μπορούν να διαχειρίζονται τις παγκόσμιες ρυθμίσεις μέσω του πίνακα ελέγχου, με δυνατότητα υπεράνθεσης μεταβλητών περιβάλλοντος για τις εγκαταστάσεις παραγωγής.</value>
   </data>
   <data name="AI Driven Translation" xml:space="preserve">
     <value>Μετάφραση με Βάση την Τεχνητή Νοημοσύνη</value>
@@ -60,14 +81,23 @@
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Όλες οι εξαρτήσεις εγγράφονται αυτόματα και είναι πάντα διαθέσιμες μέσω της εισαγωγής από κατασκευαστή.</value>
   </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Ένα είδος γεγονότος είναι ένα πρότυπο για μια κατηγορία γεγονότων που θέλετε να παρακολουθείτε. Για παράδειγμα, &apos;Πρωινή τρέξιμο&apos; ή &apos;Λήψη φαρμάκου&apos;. Κάθε είδος γεγονότος μπορεί να έχει προσαρμοσμένα πεδία ώστε να καταγράφετε πάντα ακριβώς τα δεδομένα που χρειάζεστε.</value>
+  </data>
   <data name="Anduin" xml:space="preserve">
     <value>Anduin</value>
   </data>
   <data name="Anduin Xue" xml:space="preserve">
     <value>Anduin Xue</value>
   </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Οτιδήποτε Άλλο</value>
+  </data>
   <data name="Artificial Intelligence Translation" xml:space="preserve">
     <value>Μετάφραση της Τεχνητής Νοημοσύνης</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Συνδέστε προσαρμοσμένα πεδία διαφόρων τύπων σε κάθε τύπο γεγονότος — κείμενο, αριθμούς, λογικά δεδομένα και άλλα — με διαμορφώσιμη σειρά και απαιτούμενους περιορισμούς.</value>
   </data>
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
@@ -117,6 +147,9 @@
   <data name="Bilingual Tutorials" xml:space="preserve">
     <value>Διγλωσσικά Μαθήματα</value>
   </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Περιηγηθείτε, αναζητήστε και φιλτράρετε το ιστορικό των συμβάντων σας για να εντοπίσετε μοτίβα, να αναθεωρήσετε την προηγούμενη δραστηριότητα και να αποκτήσετε insights από τα μακροπρόθεσμα δεδομένα σας.</value>
+  </data>
   <data name="Build once, run anywhere. Fully containerized architecture." xml:space="preserve">
     <value>Κατασκευάστε μία φορά, εκτελέστε παντού. Πλήρως ενσωματωμένη αρχιτεκτονική με δοχεία.</value>
   </data>
@@ -147,6 +180,12 @@
   <data name="Built-in User Management" xml:space="preserve">
     <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
   </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Μπορούν πολλαπλοί χρήστες να μοιραστούν την ίδια instance;</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Επιλέξτε από SQLite, MySQL ή SQL Server ανάλογα με την κλίμακά σας. Εναλλάξτε εύκολα τους παρόχους με ελάχιστη διαμόρφωση.</value>
+  </data>
   <data name="Comes with Docker support for simplified and consistent deployments." xml:space="preserve">
     <value>Διαθέτει υποστήριξη για Docker για απλούς και συνεκτικούς τρόπους μεταφοράς.</value>
   </data>
@@ -171,11 +210,17 @@
   <data name="Coordinate Comfortably" xml:space="preserve">
     <value>Συντονίστε Άνετα</value>
   </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Βασικά Χαρακτηριστικά</value>
+  </data>
   <data name="Core Routing &amp; DI" xml:space="preserve">
     <value>Κεντρική Διαδρομολόγηση &amp; DI</value>
   </data>
   <data name="Coverage Report" xml:space="preserve">
     <value>Αναφορά κάλυψης</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Δημιουργήστε ένα ονομασμένο τύπο συμβάντος, όπως «Πρωινή Τρέξιμο», «Λήψη Φαρμάκου» ή «Εργασιακή Συνεδρία». Προσθέστε μια περιγραφή ώστε όλοι να γνωρίζουν τι καταγράφει.</value>
   </data>
   <data name="Cross Platform" xml:space="preserve">
     <value>Διαπλατφορμικό</value>
@@ -185,6 +230,9 @@
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Απαιτείται προσαρμοσμένη ανάπτυξη</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Είδη Εργασιών</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Πίνακας ελέγχου για εργασίες υποβάθρου</value>
@@ -206,6 +254,12 @@
   </data>
   <data name="Default SQLite database, no configuration needed." xml:space="preserve">
     <value>Προεπιλεγμένη βάση δεδομένων SQLite, χωρίς ανάγκη ρύθμισης.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Ορίστε τους δικούς σας τύπους γεγονότων με προσαρμοσμένα πεδία, στη συνέχεια καταγράψτε κάθε εμφάνιση με δομημένα δεδομένα. Κατανοήστε τις συνήθειες, τις δραστηριότητες και την ιστορία σας με μια ματιά.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Ορίστε τους δικούς σας τύπους γεγονότων με ονόματα και περιγραφές προσαρμοσμένες στις συγκεκριμένες ανάγκες παρακολούθησής σας.</value>
   </data>
   <data name="Designed for everyone, from beginners to experts." xml:space="preserve">
     <value>Φτιαγμένο για όλους, από αρχάριους μέχρι ειδικούς.</value>
@@ -240,6 +294,12 @@
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Δυναμική Γραμμή Πλοήγησης</value>
   </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Κάθε φορά που συμβαίνει το γεγονός, δημιουργήστε ένα αρχείο. Συμπληρώστε τις τιμές των πεδίων, προσθέστε προαιρετικά σημειώσεις και η χρονική σφραγίδα καταγράφεται αυτόματα.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Κάθε χρήστης διαχειρίζεται τους δικούς του απομονωμένους τύπους και αρχεία γεγονότων. Η ενσωματωμένη διαχείριση δικαιωμάτων (RBAC) διασφαλίζει ότι οι διαχειριστές μπορούν να εποπτεύουν όλες τις δραστηριότητες.</value>
+  </data>
   <data name="Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
     <value>Εύκολη αλλαγή μεταξύ προμηθευτών βάσης δεδομένων, συμπεριλαμβανομένου του SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
   </data>
@@ -270,6 +330,21 @@
   <data name="Entity Framework Core included" xml:space="preserve">
     <value>Περιλαμβάνεται το Entity Framework Core</value>
   </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>Το EventsRecorder είναι ευέλικτο ως προς το σχήμα. Αν έχετε ένα επαναλαμβανόμενο γεγονός που θέλετε να καταγράψετε με δομημένο τρόπο, ταιριάζει απόλυτα.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>Το EventsRecorder υποστηρίζει πολλαπλούς τύπους πεδίων, συμπεριλαμβανομένων του κειμένου, των αριθμών και των λογικών τιμών. Κάθε πεδίο μπορεί να οριστεί ως υποχρεωτικό και να ανατεθεί μια σειρά εμφάνισης, δίνοντάς σας πλήρη έλεγχο της δομής των δεδομένων.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Κάθε καταγραφή γεγονότος χρονολογείται αυτόματα σε UTC, ώστε να μπορείτε να ανακατασκευάσετε με ακρίβεια την ιστορία των συμβάντων με την πάροδο του χρόνου.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Όλα όσα χρειάζεστε για να καταγράψετε δομημένα γεγονότα.</value>
+  </data>
   <data name="FAQ" xml:space="preserve">
     <value>Συχνές Ερωτήσεις</value>
   </data>
@@ -285,6 +360,9 @@
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
   </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Τα πεδία ελέγχονται τόσο στον πελάτη όσο και στον διακομιστή, διασφαλίζοντας ότι τα δεδομένα σας είναι καθαρά και συνεπή σε όλα τα αρχεία.</value>
+  </data>
   <data name="File Mgmt &amp; Optimization" xml:space="preserve">
     <value>Διαχείριση Αρχείων &amp; Βελτιστοποίηση</value>
   </data>
@@ -293,6 +371,9 @@
   </data>
   <data name="Flexible API" xml:space="preserve">
     <value>Ευέλικτη API</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Εύκαμπτοι Ορισμοί Πεδίων</value>
   </data>
   <data name="for any inquiries or to report issues." xml:space="preserve">
     <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
@@ -315,6 +396,9 @@
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Συχνές ερωτήσεις</value>
   </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Από προσωπικές συνήθειες υγείας έως σημεία ελέγχου ροής εργασίας ομάδας, το EventsRecorder προσαρμόζεται σε οποιοδήποτε δομημένο δεδομένο θέλετε να καταγράψετε με την πάροδο του χρόνου.</value>
+  </data>
   <data name="From the Architect" xml:space="preserve">
     <value>Από τον Αρχιτέκτονα</value>
   </data>
@@ -330,11 +414,17 @@
   <data name="Fully Offline" xml:space="preserve">
     <value>Πλήρως Αποσυνδεδεμένο</value>
   </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Πλήρως ανοιχτού κώδικα. Δεν υπάρχουν πληρωμένες εκδόσεις, ούτε κλειδώματα από προμηθευτή. Τα δεδομένα σας παραμένουν στην υποδομή σας.</value>
+  </data>
   <data name="Generic configuration" xml:space="preserve">
     <value>Γενική διαμόρφωση</value>
   </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Μόνο γενικό αρχείο Dockerfile</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Ξεκινήστε δωρεάν</value>
   </data>
   <data name="GitLab CI" xml:space="preserve">
     <value>GitLab CI</value>
@@ -360,6 +450,9 @@
   <data name="Handwritten based on Policies" xml:space="preserve">
     <value>Γραμμένο χειροκίνητα με βάση τα Policies</value>
   </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Υγεία &amp; Φιτνές</value>
+  </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Γεια σου Κόσμε!</value>
   </data>
@@ -372,14 +465,23 @@
   <data name="High Quality" xml:space="preserve">
     <value>Υψηλής Ποιότητας</value>
   </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Ιστορική Περιήγηση</value>
+  </data>
   <data name="Horizon included" xml:space="preserve">
     <value>Περιλαμβάνεται το Horizon</value>
   </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Πώς μπορώ να λάβω υποστήριξη;</value>
   </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Πώς μπορώ να εγκαταστήσω το EventsRecorder;</value>
+  </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Πώς λειτουργεί</value>
   </data>
   <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Δημιούργησα το Aiursoft Template επειδή ήμουν κουρασμένος από τη διαδικασία δημιουργίας των ίδιων πύλων Auth, Log και CI/CD για κάθε νέο επιχειρηματικό έργο. Δεν είναι απλώς ένα πρότυπο· είναι η συγκεντρωμένη καλύτερη πρακτική από χρόνια λειτουργίας σε περιβάλλοντα υψηλής συγχρονισμού. Επιτρέπει στην ομάδα μου να παραλείψει την ένοικτη διαδικασία ρύθμισης και να προχωρήσει αμέσως στη λογική της επιχείρησης.</value>
@@ -405,6 +507,9 @@
   <data name="Interoperability" xml:space="preserve">
     <value>Αλληλεπίδραση</value>
   </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Το EventsRecorder είναι δωρεάν προς χρήση;</value>
+  </data>
   <data name="is Free Software" xml:space="preserve">
     <value>είναι Ελεύθερο Λογισμικό</value>
   </data>
@@ -423,11 +528,23 @@
   <data name="K8s / Swarm Ready" xml:space="preserve">
     <value>Έτοιμο για K8s / Swarm</value>
   </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Μάθηση &amp; Συνήθειες</value>
+  </data>
   <data name="Lint Check" xml:space="preserve">
     <value>Ελέγχους Lint</value>
   </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Καταγράψτε το πότισμα του κήπου, τις παρατηρήσεις πουλιών, τις εξόδους φωτογράφισης ή οποιαδήποτε ενασχόληση με τα ακριβή προσαρμοσμένα πεδία που απαιτεί η δραστηριότητά σας.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Καταγράφετε τρέξιμο, προπονήσεις, λήψη φαρμάκων, ώρες ύπνου ή μετρήσεις αρτηριακής πίεσης με προσαρμοσμένα πεδία για κάθε μέτρηση που σας ενδιαφέρει.</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Διατηρήστε Υψηλή Ποιότητα Κώδικα</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Καταγραφές Συντήρησης</value>
   </data>
   <data name="Management Dashboard" xml:space="preserve">
     <value>Πίνακας Ελέγχου Διαχείρισης</value>
@@ -447,6 +564,9 @@
   <data name="Multi-timezone Handling" xml:space="preserve">
     <value>Χειρισμός Πολλαπλών Ζωνών Ώρας</value>
   </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Υποστήριξη Πολλαπλών Χρηστών</value>
+  </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Παροχέων Βάσης Δεδομένων</value>
   </data>
@@ -458,6 +578,9 @@
   </data>
   <data name="Music Tools" xml:space="preserve">
     <value>Εργαλεία Μουσικής</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Φύση &amp; Χόμπι</value>
   </data>
   <data name="Needs CASL or similar" xml:space="preserve">
     <value>Απαιτεί CASL ή παρόμοιο</value>
@@ -501,8 +624,14 @@
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Απαιτεί το TypeORM ή παρόμοιο</value>
   </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Καμία εξάρτηση από πάροχο cloud. Εκτελέστε οπουδήποτε, οποιαδήποτε στιγμή — τα δεδομένα σας παραμένουν μαζί σας.</value>
+  </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time." xml:space="preserve">
     <value>Χωρίς εξάρτηση από κάποιον πάροχο cloud. Εκτελέστε παντού, παντότε.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Σημειώσεις &amp; Πλαίσιο</value>
   </data>
   <data name="Offline Capable" xml:space="preserve">
     <value>Εκτός Σύνδεσης Εφοδιασμένο</value>
@@ -549,6 +678,12 @@
   <data name="Read the document" xml:space="preserve">
     <value>Διαβάστε το έγγραφο</value>
   </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Καταγράψτε καθημερινές συνεδρίες ανάγνωσης, εξάσκηση γλωσσών, ώρες μελέτης ή οποιαδήποτε συνήθεια θέλετε να χτίσετε — με την πρόοδο να είναι ορατή με την πάροδο του χρόνου.</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Καταγράψτε τα πάντα.</value>
+  </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Απαιτεί ρύθμιση Laravel Socialite</value>
   </data>
@@ -573,8 +708,17 @@
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
   </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Αυτοεξυπηρετούμενο</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Ξεναπό-εσάς το, κάντε fork, και προσαρμόστε το στις ανάγκες σας ελεύθερα υπό την Άδεια MIT.</value>
+  </data>
   <data name="Shift with confidence" xml:space="preserve">
     <value>Μετακινηθείτε με αυτοπεποίθηση</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Εγγραφείτε δωρεάν και ξεκινήστε τον ορισμό των τύπων των γεγονότων σας σε λίγα λεπτά.</value>
   </data>
   <data name="Simple &amp; Easy" xml:space="preserve">
     <value>Απλό και εύκολο</value>
@@ -599,6 +743,9 @@
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Ξεκινήστε ένα νέο έργο</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Ξεκινήστε την καταγραφή των γεγονότων σας σήμερα!</value>
   </data>
   <data name="Start Shipping Value." xml:space="preserve">
     <value>Ξεκινήστε την παραγωγή αξίας.</value>
@@ -642,6 +789,9 @@
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Η αποφασιστική, δοκιμασμένη στην πράξη βάση επιχειρηματικών εφαρμογών .NET. Από την Αυθεντικοποίηση μέχρι την Τεχνητή Νοημοσύνη, έχουμε λύσει τα δύσκολα μέρη, ώστε να μην χρειαστεί να τα κάνετε εσείς.</value>
   </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Ο πιο εύκολος τρόπος είναι το Docker: αρκεί μία εντολή &apos;docker run&apos;. Το EventsRecorder είναι πλήρως αυτοπεριεχόμενο και λειτουργεί εκτός σύνδεσης με SQLite ως προεπιλογή. Μπορείτε επίσης να το εγκαταστήσετε απευθείας στο Ubuntu μέσω του παρεχόμενου script εγκατάστασης, ή να το εκτελέσετε τοπικά με το .NET 10 SDK.</value>
+  </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
   </data>
@@ -657,8 +807,23 @@
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
   </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Τρία απλά βήματα για δομημένη παρακολούθηση γεγονότων.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Χρονολογημένες Καταγραφές</value>
+  </data>
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Πεδία με συνειδητότητα ζώνης ώρας</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Ακολουθήστε τη συντήρηση οχημάτων, τις επισκευές σπιτιών, την εξυπηρέτηση εξοπλισμού ή οποιαδήποτε περιοδική δραστηριότητα συντήρησης με αρχεία χρονολογημένα.</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Ακολουθήστε αυτό που μετράει.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Ακολουθήστε συναντήσεις εργασίας, αποτελέσματα συναντήσεων, ολοκληρώσεις εργασιών ή οποιαδήποτε επαναλαμβανόμενη εργασία στον χώρο εργασίας με πεδία δομημένων δεδομένων.</value>
   </data>
   <data name="Trusted by production-grade applications including AnduinOS, StatHub, and Warp. We don&apos;t just share this code; we run our entire business on it." xml:space="preserve">
     <value>Εμπιστεύεται εφαρμογές προσαρμοσμένες για παραγωγή, συμπεριλαμβανομένων AnduinOS, StatHub και Warp. Δεν μοιραζόμαστε απλώς αυτόν τον κώδικα· τρέχουμε την επιχείρησή μας εντελώς με αυτόν.</value>
@@ -672,17 +837,35 @@
   <data name="Usage" xml:space="preserve">
     <value>Χρήση</value>
   </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Χρήσεις</value>
+  </data>
   <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
     <value>Χρησιμοποιήστε το ως θεμέλιο για το SaaS σας, ως backend για την εφαρμογή του κινητού σας, ως εταιρική ιστοσελίδα ή ως προσωπικό ιστολόγιο. Οι δυνατότητες είναι ατελείωτες.</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Έλεγχος εγκυρότητας ενσωματωμένος</value>
   </data>
   <data name="View on GitHub" xml:space="preserve">
     <value>Προβολή στο GitHub</value>
   </data>
+  <data name="View Source Code" xml:space="preserve">
+    <value>Προβολή Κώδικα Πηγής</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Καλώς ήρθατε</value>
   </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Τι μπορείτε να καταγράψετε με το EventsRecorder;</value>
+  </data>
   <data name="What do I need to get started?" xml:space="preserve">
     <value>Τι χρειάζομαι για να ξεκινήσω;</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Τύποι πεδίων που υποστηρίζονται;</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Τι είναι ένας Τύπος Γεγονότος;</value>
   </data>
   <data name="What our developers say" xml:space="preserve">
     <value>Τι λένε οι προγραμματιστές μας</value>
@@ -696,8 +879,17 @@
   <data name="Win/Lin/Mac" xml:space="preserve">
     <value>Win/Lin/Mac</value>
   </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Εργασία &amp; Παραγωγικότητα</value>
+  </data>
   <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
     <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Ναι, το EventsRecorder είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιείτε για προσωπικούς ή εμπορικούς σκοπούς χωρίς καμία χρέωση και να το φιλοξενείτε μόνοι σας στη δική σας υποδομή.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Ναι. Το EventsRecorder υποστηρίζει πολλούς χρήστες σε μία μόνο έκδοση. Κάθε χρήστης έχει τους δικούς του ιδιωτικούς τύπους γεγονότων και αρχεία. Οι διαχειριστές έχουν επιπλέον δυνατότητες εποπτείας μέσω του ενσωματωμένου συστήματος RBAC.</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των Συζητήσεων GitHub. Παρακαλούμε επισκεφτείτε την</value>

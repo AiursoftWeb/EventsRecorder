@@ -36,6 +36,9 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας στον ιστό.</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Σχετικά</value>
+  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
   </data>
@@ -75,6 +78,15 @@
   <data name="Consistency Validation" xml:space="preserve">
     <value>Έλεγχος Συνοχής</value>
   </data>
+  <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Δημιουργήστε έναν νέο τύπο συμβάντος για να ξεκινήσετε την παρακολούθηση.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Ορισμός και διαχείριση τύπων γεγονότων και των πεδίων τους.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Ορίστε τους τύπους των γεγονότων σας και καταγράψτε στιγμές της ζωής σας με μια μόνο κλικ.</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Αναπτύξτε αποκλειστικά στο UTC, ενώ το σύστημα μετατρέπει και εμφανίζει αυτόματα τις ημερομηνίες στην τοπική ώρα του χρήστη.</value>
   </data>
@@ -95,6 +107,9 @@
   </data>
   <data name="Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation." xml:space="preserve">
     <value>Εύκολα γράψτε δοκιμές ενσωμάτωσης χρησιμοποιώντας βάσεις δεδομένων στη μνήμη, προσωρινά συστήματα αρχείων, ενσωματωμένη μοκινγκ και πραγματική προσομοίωση αιτήσεων HTTP.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Εγγραφή Συμβάντων</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Διαθέτει ένα ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση αβατάρ και προστασία της ιδιωτικότητας.</value>
@@ -123,14 +138,29 @@
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
   </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Οι τύποι των γεγονότων μου</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Οι εγγραφές μου</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Νέος Τύπος Δεδομένων</value>
+  </data>
   <data name="OpenID Connect Integration" xml:space="preserve">
     <value>Ενσωμάτωση OpenID Connect</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Γρήγοροι Σύνδεσμοι</value>
   </data>
   <data name="RBAC Authorization" xml:space="preserve">
     <value>Εξουσιοδότηση RBAC</value>
   </data>
   <data name="Read the document" xml:space="preserve">
     <value>Διαβάστε την τεκμηρίωση</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Καταγραφή!</value>
   </data>
   <data name="Responsive Design" xml:space="preserve">
     <value>Αποκρισιμό Σχεδιασμό</value>
@@ -164,6 +194,9 @@
   </data>
   <data name="This is a template project, where we start the voyager..." xml:space="preserve">
     <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Προβολή του χρονοδιαγράμματος των ημερολογίων των γεγονότων σας.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Καλώς ορίσατε</value>
