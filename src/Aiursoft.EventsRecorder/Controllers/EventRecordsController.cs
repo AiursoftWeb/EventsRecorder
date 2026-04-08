@@ -41,32 +41,64 @@ public class EventRecordsController(
         var query = context.EventRecords
             .Where(r => r.UserId == userId)
             .Include(r => r.EventType)
-            .Include(r => r.FieldValues)
             .OrderByDescending(r => r.RecordedAt)
             .AsQueryable();
 
+        List<EventField> selectedFields = [];
         if (eventTypeId.HasValue)
         {
             query = query.Where(r => r.EventTypeId == eventTypeId.Value);
+            selectedFields = await context.EventFields
+                .Where(f => f.EventTypeId == eventTypeId.Value)
+                .OrderBy(f => f.Order)
+                .ToListAsync();
         }
 
         var records = await query
-            .Select(r => new RecordSummaryViewModel
+            .Select(r => new
             {
-                Id = r.Id,
+                r.Id,
                 EventTypeName = r.EventType!.Name,
-                EventTypeId = r.EventTypeId,
-                RecordedAt = r.RecordedAt,
-                Notes = r.Notes,
-                FieldValueCount = r.FieldValues.Count
+                r.EventTypeId,
+                r.RecordedAt,
+                r.Notes,
+                FieldValueCount = r.FieldValues.Count,
+                FieldValues = eventTypeId.HasValue ? r.FieldValues : null
             })
             .ToListAsync();
 
+        var recordViewModels = records.Select(r => new RecordSummaryViewModel
+        {
+            Id = r.Id,
+            EventTypeName = r.EventTypeName,
+            EventTypeId = r.EventTypeId,
+            RecordedAt = r.RecordedAt,
+            Notes = r.Notes,
+            FieldValueCount = r.FieldValueCount,
+            DynamicFieldValues = r.FieldValues?
+                .ToDictionary(
+                    fv => fv.EventFieldId,
+                    fv => new FieldValueDisplayViewModel
+                    {
+                        FieldName = "", // Not needed for the grid if we match by id
+                        FieldType = FieldType.String, // We can determine this from the selectedFields
+                        StringValue = fv.StringValue,
+                        NumberValue = fv.NumberValue,
+                        BoolValue = fv.BoolValue,
+                        TimespanTicks = fv.TimespanTicks,
+                        FileRelativePath = fv.FileRelativePath,
+                        FileDownloadUrl = !string.IsNullOrEmpty(fv.FileRelativePath)
+                            ? storageService.RelativePathToInternetUrl(fv.FileRelativePath, isVault: true)
+                            : null
+                    }) ?? []
+        }).ToList();
+
         return this.StackView(new IndexViewModel
         {
-            Records = records,
+            Records = recordViewModels,
             EventTypes = eventTypes,
-            SelectedEventTypeId = eventTypeId
+            SelectedEventTypeId = eventTypeId,
+            SelectedEventTypeFields = selectedFields
         });
     }
 

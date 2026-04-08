@@ -56,7 +56,17 @@ else
                     <th>@Localizer["Time"]</th>
                     <th>@Localizer["Event Type"]</th>
                     <th>@Localizer["Notes"]</th>
-                    <th>@Localizer["Fields"]</th>
+                    @if (Model.SelectedEventTypeId.HasValue && Model.SelectedEventTypeFields.Any())
+                    {
+                        foreach (var field in Model.SelectedEventTypeFields)
+                        {
+                            <th>@field.Name</th>
+                        }
+                    }
+                    else
+                    {
+                        <th>@Localizer["Fields"]</th>
+                    }
                     <th class="text-end">@Localizer["Actions"]</th>
                 </tr>
                 </thead>
@@ -82,7 +92,71 @@ else
                                 <span class="text-muted">-</span>
                             }
                         </td>
-                        <td>@record.FieldValueCount</td>
+                        @if (Model.SelectedEventTypeId.HasValue && Model.SelectedEventTypeFields.Any())
+                        {
+                            foreach (var field in Model.SelectedEventTypeFields)
+                            {
+                                <td>
+                                    @if (record.DynamicFieldValues.TryGetValue(field.Id, out var fv))
+                                    {
+                                        switch (field.FieldType)
+                                        {
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.String:
+                                                @(fv.StringValue ?? "-")
+                                                break;
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.Number:
+                                                @(fv.NumberValue?.ToString("N2") ?? "-")
+                                                break;
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.Boolean:
+                                                if (fv.BoolValue == true)
+                                                {
+                                                    <i class="align-middle text-success" data-lucide="check-circle" style="width: 18px; height: 18px;"></i>
+                                                }
+                                                else if (fv.BoolValue == false)
+                                                {
+                                                    <i class="align-middle text-muted" data-lucide="x-circle" style="width: 18px; height: 18px;"></i>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">-</span>
+                                                }
+                                                break;
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.Timespan:
+                                                if (fv.TimespanTicks.HasValue)
+                                                {
+                                                    var ts = TimeSpan.FromTicks(fv.TimespanTicks.Value);
+                                                    @($"{(int)ts.TotalHours}h {ts.Minutes}m")
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">-</span>
+                                                }
+                                                break;
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.File:
+                                                if (!string.IsNullOrEmpty(fv.FileDownloadUrl))
+                                                {
+                                                    <a href="@fv.FileDownloadUrl" target="_blank" onclick="event.stopPropagation();">
+                                                        <i class="align-middle text-primary" data-lucide="download" style="width: 16px; height: 16px;"></i>
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">-</span>
+                                                }
+                                                break;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">-</span>
+                                    }
+                                </td>
+                            }
+                        }
+                        else
+                        {
+                            <td>@record.FieldValueCount</td>
+                        }
                         <td class="text-end">
                             <a asp-action="Edit" asp-route-id="@record.Id" class="btn btn-sm btn-outline-primary">
                                 <i class="align-middle" data-lucide="edit-2" style="width: 14px; height: 14px;"></i>
