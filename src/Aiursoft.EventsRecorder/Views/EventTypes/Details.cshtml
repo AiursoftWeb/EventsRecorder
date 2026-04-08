@@ -151,7 +151,7 @@
             }
         </div>
 
-        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean))
         {
             <div class="card mb-4">
                 <div class="card-header">
@@ -187,19 +187,44 @@
                     </div>
                 </div>
             }
+
+            @foreach (var series in Model.BooleanSeries)
+            {
+                var calendarId = $"calendar_{series.FieldId}";
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="calendar"></i> @series.FieldName</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-end mb-3">
+                            <div style="width: 15px; height: 15px; background-color: #198754; border-radius: 3px;" class="me-2"></div>
+                            <span class="me-3 small">@Localizer["Contains True"]</span>
+                            
+                            <div style="width: 15px; height: 15px; background-color: #ffc107; border-radius: 3px;" class="me-2"></div>
+                            <span class="me-3 small">@Localizer["All False"]</span>
+                            
+                            <div style="width: 15px; height: 15px; background-color: white; border: 1px solid #dee2e6; border-radius: 3px;" class="me-2"></div>
+                            <span class="small">@Localizer["No Records"]</span>
+                        </div>
+                        <div id="@calendarId"></div>
+                    </div>
+                </div>
+            }
         }
     </div>
 </div>
 
-@if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
+@if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean))
 {
     @* ReSharper disable once Razor.SectionNotResolved *@
     @section scripts {
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var seriesData = @Html.Raw(JsonConvert.SerializeObject(Model.NumberSeries));
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
+        {
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var seriesData = @Html.Raw(JsonConvert.SerializeObject(Model.NumberSeries));
                 var colors = [
                     'rgb(75, 192, 192)', 'rgb(255, 99, 132)', 'rgb(54, 162, 235)',
                     'rgb(255, 206, 86)', 'rgb(153, 102, 255)', 'rgb(255, 159, 64)',
@@ -245,6 +270,151 @@
                     });
                 });
             });
-        </script>
+            </script>
+        }
+
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Boolean))
+        {
+            <style>
+                .calendar-day { transition: all 0.2s; }
+                .calendar-day:hover { transform: scale(1.05); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var booleanSeriesData = @Html.Raw(JsonConvert.SerializeObject(Model.BooleanSeries));
+                    
+                    booleanSeriesData.forEach(function (series) {
+                        var containerId = 'calendar_' + series.FieldId;
+                        renderCalendar(containerId, series);
+                    });
+
+                    function renderCalendar(containerId, series) {
+                        const container = document.getElementById(containerId);
+                        if (!container) return;
+
+                        let targetDate = new Date();
+                        if (series.Points && series.Points.length > 0) {
+                            targetDate = new Date(series.Points[series.Points.length - 1].X);
+                        }
+                        
+                        let currentMonth = new Date(targetDate.getFullYear(), targetDate.getMonth(), 1);
+
+                        function renderMonth(monthDate) {
+                            container.innerHTML = '';
+                            
+                            const header = document.createElement('div');
+                            header.className = 'd-flex justify-content-between align-items-center mb-3';
+                            
+                            const prevBtn = document.createElement('button');
+                            prevBtn.className = 'btn btn-sm btn-outline-secondary';
+                            prevBtn.innerHTML = '<i class="align-middle" data-lucide="chevron-left"></i> @Localizer["Previous"]';
+                            prevBtn.type = 'button';
+                            prevBtn.onclick = () => {
+                                currentMonth.setMonth(currentMonth.getMonth() - 1);
+                                renderMonth(currentMonth);
+                            };
+                            
+                            const title = document.createElement('h6');
+                            title.className = 'mb-0 fw-bold';
+                            title.textContent = monthDate.toLocaleDateString(undefined, { year: 'numeric', month: 'long' });
+                            
+                            const nextBtn = document.createElement('button');
+                            nextBtn.className = 'btn btn-sm btn-outline-secondary';
+                            nextBtn.innerHTML = '@Localizer["Next"] <i class="align-middle" data-lucide="chevron-right"></i>';
+                            nextBtn.type = 'button';
+                            nextBtn.onclick = () => {
+                                currentMonth.setMonth(currentMonth.getMonth() + 1);
+                                renderMonth(currentMonth);
+                            };
+                            
+                            header.appendChild(prevBtn);
+                            header.appendChild(title);
+                            header.appendChild(nextBtn);
+                            container.appendChild(header);
+
+                            const grid = document.createElement('div');
+                            grid.style.display = 'grid';
+                            grid.style.gridTemplateColumns = 'repeat(7, 1fr)';
+                            grid.style.gap = '5px';
+                            
+                            const dayNames = ['@Localizer["Sun"]', '@Localizer["Mon"]', '@Localizer["Tue"]', '@Localizer["Wed"]', '@Localizer["Thu"]', '@Localizer["Fri"]', '@Localizer["Sat"]'];
+                            dayNames.forEach(day => {
+                                const dayEl = document.createElement('div');
+                                dayEl.className = 'text-center fw-bold small mb-2';
+                                dayEl.textContent = day;
+                                grid.appendChild(dayEl);
+                            });
+                            
+                            const firstDayOfMonth = new Date(monthDate.getFullYear(), monthDate.getMonth(), 1);
+                            const lastDayOfMonth = new Date(monthDate.getFullYear(), monthDate.getMonth() + 1, 0);
+                            const startDayOfWeek = firstDayOfMonth.getDay();
+                            
+                            for (let i = 0; i < startDayOfWeek; i++) {
+                                const emptyCell = document.createElement('div');
+                                emptyCell.className = 'calendar-day';
+                                emptyCell.style.aspectRatio = '1';
+                                emptyCell.style.backgroundColor = '#f8f9fa';
+                                emptyCell.style.borderRadius = '4px';
+                                emptyCell.style.border = '1px solid transparent';
+                                grid.appendChild(emptyCell);
+                            }
+                            
+                            const pointsByDate = {};
+                            if (series.Points) {
+                                series.Points.forEach(p => {
+                                    const date = new Date(p.X);
+                                    const dateStr = date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0');
+                                    if (!pointsByDate[dateStr]) pointsByDate[dateStr] = [];
+                                    pointsByDate[dateStr].push(p.Y);
+                                });
+                            }
+                            
+                            let currentDate = new Date(firstDayOfMonth);
+                            while (currentDate <= lastDayOfMonth) {
+                                const dayCell = document.createElement('div');
+                                dayCell.className = 'calendar-day d-flex flex-column align-items-center justify-content-center';
+                                dayCell.style.aspectRatio = '1';
+                                dayCell.style.borderRadius = '4px';
+                                dayCell.style.border = '1px solid #dee2e6';
+                                dayCell.style.fontWeight = '600';
+                                dayCell.style.fontSize = '0.875rem';
+                                
+                                const dateStr = currentDate.getFullYear() + '-' + String(currentDate.getMonth() + 1).padStart(2, '0') + '-' + String(currentDate.getDate()).padStart(2, '0');
+                                const dayPoints = pointsByDate[dateStr];
+                                
+                                if (dayPoints && dayPoints.length > 0) {
+                                    const hasTrue = dayPoints.some(v => v === true);
+                                    if (hasTrue) {
+                                        dayCell.style.backgroundColor = '#198754';
+                                        dayCell.style.color = 'white';
+                                        dayCell.style.borderColor = '#198754';
+                                    } else {
+                                        dayCell.style.backgroundColor = '#ffc107';
+                                        dayCell.style.color = 'black';
+                                        dayCell.style.borderColor = '#ffc107';
+                                    }
+                                } else {
+                                    dayCell.style.backgroundColor = 'white';
+                                    dayCell.style.color = '#212529';
+                                }
+                                
+                                dayCell.textContent = currentDate.getDate();
+                                grid.appendChild(dayCell);
+                                
+                                currentDate.setDate(currentDate.getDate() + 1);
+                            }
+                            
+                            container.appendChild(grid);
+                            
+                            if (window.lucide) {
+                                window.lucide.createIcons();
+                            }
+                        }
+                        
+                        renderMonth(currentMonth);
+                    }
+                });
+            </script>
+        }
     }
 }
