@@ -19,8 +19,15 @@ public class DetailsViewModel : UiStackLayoutViewModel
     public double RegularityScore { get; set; }
     public List<NumberSeriesDto> NumberSeries { get; set; } = [];
     public List<BooleanSeriesDto> BooleanSeries { get; set; } = [];
+    public List<EventRecordOccurrenceDto> Occurrences { get; set; } = [];
     public DateTime Start { get; set; }
     public DateTime End { get; set; }
+}
+
+public class EventRecordOccurrenceDto
+{
+    public DateTime Date { get; set; }
+    public int Count { get; set; }
 }
 
 public class BooleanSeriesDto

@@ -155,6 +155,17 @@ public class EventTypesController(
             .Select(r => r.RecordedAt)
             .ToListAsync();
 
+        var occurrences = eventType.Records
+            .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)
+            .GroupBy(r => r.RecordedAt.Date)
+            .Select(g => new EventRecordOccurrenceDto
+            {
+                Date = g.Key,
+                Count = g.Count()
+            })
+            .OrderBy(o => o.Date)
+            .ToList();
+
         return this.StackView(new DetailsViewModel
         {
             Id = eventType.Id,
@@ -166,6 +177,7 @@ public class EventTypesController(
             RegularityScore = regularityService.CalculateScore(last8Records),
             NumberSeries = numberSeries,
             BooleanSeries = booleanSeries,
+            Occurrences = occurrences,
             Start = startTime,
             End = endTime
         });
