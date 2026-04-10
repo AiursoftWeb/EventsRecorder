@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>समाप्ति तिथि</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>घटना की घटनाएं</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>क्षेत्र</value>
   </data>
@@ -108,7 +111,13 @@
   <data name="Thu" xml:space="preserve">
     <value>गुरु</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>समय</value>
+  </data>
   <data name="Time" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="times" xml:space="preserve">
     <value>समय</value>
   </data>
   <data name="Tue" xml:space="preserve">

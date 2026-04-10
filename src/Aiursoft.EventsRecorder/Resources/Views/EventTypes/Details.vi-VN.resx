@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>Ngày kết thúc</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>Sự kiện xảy ra</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Trường</value>
   </data>
@@ -111,8 +114,14 @@
   <data name="Thu" xml:space="preserve">
     <value>Thứ Năm</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>thời gian</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Thời gian</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>lần</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Thứ Ba</value>

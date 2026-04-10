@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>종료일</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>이벤트 발생 건수</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>필드</value>
   </data>
@@ -111,8 +114,14 @@
   <data name="Thu" xml:space="preserve">
     <value>목</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>시간</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>시간</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>번</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>화</value>
