@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>Tanggal Akhir</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>Kejadian Acara</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Bidang</value>
   </data>
@@ -108,8 +111,14 @@
   <data name="Thu" xml:space="preserve">
     <value>Kam</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>waktu</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Waktu</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>kali</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Sel</value>

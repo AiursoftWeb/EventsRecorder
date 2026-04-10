@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>Дата окончания</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>События</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Поля</value>
   </data>
@@ -108,8 +111,14 @@
   <data name="Thu" xml:space="preserve">
     <value>Чт</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>времени</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Время</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>раз</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Вт</value>

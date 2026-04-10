@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>Data di fine</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>Occorrenze degli eventi</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>Campi</value>
   </data>
@@ -108,8 +111,14 @@
   <data name="Thu" xml:space="preserve">
     <value>Gio</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>tempo</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>Tempo</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>volte</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Mar</value>

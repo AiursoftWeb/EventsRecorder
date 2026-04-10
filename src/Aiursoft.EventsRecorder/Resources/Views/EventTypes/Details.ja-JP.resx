@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>終了日</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>イベント発生</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>フィールド</value>
   </data>
@@ -111,8 +114,14 @@
   <data name="Thu" xml:space="preserve">
     <value>木</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>時刻</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>時間</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>回</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>火</value>

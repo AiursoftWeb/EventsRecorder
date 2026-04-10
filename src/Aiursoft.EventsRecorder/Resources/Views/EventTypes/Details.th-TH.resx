@@ -48,6 +48,9 @@
   <data name="End Date" xml:space="preserve">
     <value>วันที่สิ้นสุด</value>
   </data>
+  <data name="Event Occurrences" xml:space="preserve">
+    <value>การเกิดเหตุการณ์</value>
+  </data>
   <data name="Fields" xml:space="preserve">
     <value>ฟิลด์</value>
   </data>
@@ -111,8 +114,14 @@
   <data name="Thu" xml:space="preserve">
     <value>พฤหัส</value>
   </data>
+  <data name="time" xml:space="preserve">
+    <value>เวลา</value>
+  </data>
   <data name="Time" xml:space="preserve">
     <value>เวลา</value>
+  </data>
+  <data name="times" xml:space="preserve">
+    <value>ครั้ง</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>อ.</value>
