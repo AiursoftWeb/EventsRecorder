@@ -1,4 +1,4 @@
-# EventsRecorder - A sample project
+# EventsRecorder - Structured event recording and tracking system
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
@@ -7,30 +7,11 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2FeventsRecorder.aiursoft.com)](https://eventsRecorder.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/eventsRecorder.svg)](https://hub.docker.com/r/aiursoft/eventsrecorder)
 
-EventsRecorder is a sample project.
+EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data.
 
 ![screenshot](./screenshot.png)
 
 Default user name is `admin@default.com` and default password is `admin123`.
-
-## Projects using Aiursoft EventsRecorder
-
-* [Stathub](https://gitlab.aiursoft.com/aiursoft/stathub)
-* [MarkToHtml](https://gitlab.aiursoft.com/aiursoft/marktohtml)
-* [MusicTools](https://gitlab.aiursoft.com/aiursoft/musictools)
-* [AnduinOS Home](https://gitlab.aiursoft.com/anduin/AnduinOS-Home)
-* [Manhours](https://gitlab.aiursoft.com/aiursoft/manhours)
-* [Tracer](https://gitlab.aiursoft.com/aiursoft/tracer)
-* [Warp](https://gitlab.aiursoft.com/aiursoft/warp)
-* [AiurDrive](https://gitlab.aiursoft.com/aiursoft/aiurdrive)
-* [EmployeeCenter](https://gitlab.aiursoft.com/aiursoft/employeecenter)
-* [GitMirrorServer](https://gitlab.aiursoft.com/aiursoft/gitmirrorserver)
-* [CppRunner](https://gitlab.aiursoft.com/aiursoft/cpprunner)
-* [OllamaGateway](https://gitlab.aiursoft.com/aiursoft/ollamagateway)
-* [Polls](https://gitlab.aiursoft.com/aiursoft/polls)
-* [WeChatExam](https://gitlab.aiursoft.com/aiursoft/wechatexam)
-* [MusicExam](https://gitlab.aiursoft.com/aiursoft/musicexam)
-* [CoprHome](https://gitlab.aiursoft.com/aiursoft/corphome)
 
 ## Try
 
