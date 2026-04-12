@@ -333,6 +333,12 @@
   <data name="EventsRecorder" xml:space="preserve">
     <value>EventsRecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>이것은 템플릿 프로젝트로, 여기서 우리의 항해를 시작합니다...</value>
+  </data>
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
+    <value>이것은 템플릿 프로젝트입니다.</value>
+  </data>
   <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
     <value>EventsRecorder 는 스키마 유연성을 갖추고 있습니다. 구조화된 방식으로 포착하고 싶은 반복 이벤트가 있다면, 이에 완벽하게 부합합니다.</value>
   </data>
@@ -800,12 +806,6 @@
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>이 템플릿은 손쉬운 배포를 위해 구축되었습니다. 완전한 Docker 지원을 포함하고 있어 앱을 컨테이너화하여 어디서나 실행할 수 있습니다. 또한 IIS, Azure App Service 또는 ASP.NET Core를 지원하는 모든 서버에 직접 배포할 수도 있습니다.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
-    <value>이것은 템플릿 프로젝트입니다.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>이것은 템플릿 프로젝트로, 여기서 우리의 항해를 시작합니다...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
     <value>구조화된 이벤트 추적을 위한 세 가지 간단한 단계</value>

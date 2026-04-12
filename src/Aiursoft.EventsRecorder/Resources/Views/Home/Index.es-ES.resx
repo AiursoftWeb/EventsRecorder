@@ -333,6 +333,12 @@
   <data name="EventsRecorder" xml:space="preserve">
     <value>EventsRecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Este es un proyecto plantilla, donde comenzamos el viaje...</value>
+  </data>
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
+    <value>Este es un proyecto de plantilla</value>
+  </data>
   <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
     <value>EventsRecorder es flexible en cuanto al esquema. Si tienes un evento recurrente que deseas capturar de manera estructurada, encaja perfectamente.</value>
   </data>
@@ -800,12 +806,6 @@
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>La plantilla está diseñada para una implementación sencilla. Incluye soporte completo para Docker, por lo que puedes containerizar tu aplicación y ejecutarla en cualquier lugar. También puedes implementarla directamente en IIS, Azure App Service o cualquier servidor que admita ASP.NET Core.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
-    <value>Este es un proyecto de plantilla</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Este es un proyecto plantilla, donde comenzamos el viaje...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
     <value>Tres sencillos pasos para el seguimiento estructurado de eventos.</value>

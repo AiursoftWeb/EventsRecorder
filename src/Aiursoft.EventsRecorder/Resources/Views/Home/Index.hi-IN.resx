@@ -333,6 +333,12 @@
   <data name="EventsRecorder" xml:space="preserve">
     <value>EventsRecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>यह एक टेम्पलेट प्रोजेक्ट है, जहाँ से हम वॉयजर की शुरुआत करते हैं...</value>
+  </data>
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
+    <value>यह एक टेम्पलेट प्रोजेक्ट है</value>
+  </data>
   <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
     <value>EventsRecorder स्कीमा-लचीला है। यदि आपके पास एक पुनरावृत्त घटना है जिसे आप संरचित तरीके से कैप्चर करना चाहते हैं, तो यह बिल्कुल फिट बैठती है।</value>
   </data>
@@ -800,12 +806,6 @@
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>यह टेम्पलेट आसान डेप्लॉयमेंट के लिए बनाया गया है। इसमें पूर्ण Docker सपोर्ट शामिल है, जिससे आप अपने ऐप को कंटेनराइज़ करके कहीं भी चला सकते हैं। आप इसे सीधे IIS, Azure App Service, या किसी भी सर्वर पर डेप्लॉय कर सकते हैं जो ASP.NET Core को सपोर्ट करता है।</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
-    <value>यह एक टेम्पलेट प्रोजेक्ट है</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>यह एक टेम्पलेट प्रोजेक्ट है, जहाँ से हम वॉयजर की शुरुआत करते हैं...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
     <value>संरचित इवेंट ट्रैकिंग के लिए तीन सरल कदम।</value>

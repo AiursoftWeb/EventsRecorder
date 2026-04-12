@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Etkinlik Kaydedici</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Bu bir şablon projedir, yolculuğa buradan başlıyoruz...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Gömülü dosya yönetim sistemi, otomatik avatar sıkıştırma ve gizlilik koruması ile birlikte gelir.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Gezinme çubuğu, kullanıcı rollerine ve izinlerine göre otomatik olarak ayarlanır.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Bu bir şablon projedir, yolculuğa buradan başlıyoruz...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Etkinlik kaydı zaman çizelgenizi görüntüleyin.</value>

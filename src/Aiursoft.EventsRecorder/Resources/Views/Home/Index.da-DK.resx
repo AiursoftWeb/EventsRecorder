@@ -333,6 +333,12 @@
   <data name="EventsRecorder" xml:space="preserve">
     <value>EventsRecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Dette er et skabelonprojekt, hvor vi starter rejsen...</value>
+  </data>
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
+    <value>Dette er et skabelonprojekt</value>
+  </data>
   <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
     <value>EventsRecorder er skemafleksibel. Hvis du har et tilbagevendende arrangement, du ønsker at registrere på en struktureret måde, passer det perfekt ind.</value>
   </data>
@@ -800,12 +806,6 @@
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Skabelonen er bygget til nem installation. Den inkluderer fuld Docker-understøttelse, så du kan containerisere din app og køre den hvor som helst. Du kan også installere den direkte på IIS, Azure App Service eller enhver server, der understøtter ASP.NET Core.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
-    <value>Dette er et skabelonprojekt</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Dette er et skabelonprojekt, hvor vi starter rejsen...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
     <value>Tre enkle trin til struktureret begivenhedssporing</value>

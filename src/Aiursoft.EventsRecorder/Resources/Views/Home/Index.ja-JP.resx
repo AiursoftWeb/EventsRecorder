@@ -333,6 +333,12 @@
   <data name="EventsRecorder" xml:space="preserve">
     <value>EventsRecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>これはテンプレートプロジェクトであり、ここからボイジャーの旅が始まります...</value>
+  </data>
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
+    <value>これはテンプレートプロジェクトです</value>
+  </data>
   <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
     <value>EventsRecorder はスキーマフレキシブルです。構造化された方法で捕捉したい繰り返しイベントがある場合、それはまさに適しています。</value>
   </data>
@@ -800,12 +806,6 @@
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>このテンプレートは簡単なデプロイを実現するために構築されています。完全なDockerサポートを含んでいるため、アプリをコンテナ化してどこでも実行できます。また、IIS、Azure App Service、またはASP.NET Coreをサポートする任意のサーバーに直接デプロイすることも可能です。</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
-    <value>これはテンプレートプロジェクトです</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>これはテンプレートプロジェクトであり、ここからボイジャーの旅が始まります...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
     <value>構造化されたイベント追跡のための 3 つの簡単な手順</value>

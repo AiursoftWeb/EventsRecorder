@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>活動記錄器</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>這是一個模板項目，我們在此展開探索之旅...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>具備內建檔案管理系統，支援自動頭像壓縮及私隱保護。</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>導覽列會根據用戶角色和權限自動調整。</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>這是一個模板項目，我們在此展開探索之旅...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>查看您的事件錄製時間軸。</value>
