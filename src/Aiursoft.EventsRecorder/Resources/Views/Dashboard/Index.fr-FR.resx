@@ -192,7 +192,7 @@
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>La barre de navigation s&apos;ajuste automatiquement en fonction des rôles et des autorisations de l&apos;utilisateur.</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
     <value>Ceci est un projet modèle, où nous commençons le voyage...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
@@ -201,7 +201,7 @@
   <data name="Welcome" xml:space="preserve">
     <value>Bienvenue</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+  <data name="Why use the Aiursoft Event Recorder?" xml:space="preserve">
     <value>Pourquoi utiliser le modèle Aiursoft ?</value>
   </data>
 

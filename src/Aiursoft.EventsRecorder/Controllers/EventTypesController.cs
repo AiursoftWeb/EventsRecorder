@@ -13,7 +13,7 @@ namespace Aiursoft.EventsRecorder.Controllers;
 [Authorize]
 [LimitPerMin]
 public class EventTypesController(
-    TemplateDbContext context,
+    EventsRecorderDbContext context,
     RegularityService regularityService) : Controller
 {
     private string GetUserId() => User.FindFirstValue(ClaimTypes.NameIdentifier)!;

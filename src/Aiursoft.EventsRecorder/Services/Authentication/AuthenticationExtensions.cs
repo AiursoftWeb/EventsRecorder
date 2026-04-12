@@ -14,7 +14,7 @@ namespace Aiursoft.EventsRecorder.Services.Authentication;
 [ExcludeFromCodeCoverage]
 public static class AuthenticationExtensions
 {
-    public static IServiceCollection AddTemplateAuth(
+    public static IServiceCollection AddEventsRecorderAuth(
         this IServiceCollection services,
         IConfiguration configuration)
     {
@@ -40,7 +40,7 @@ public static class AuthenticationExtensions
                     options.Password.RequireUppercase = true;
                 }
             })
-            .AddEntityFrameworkStores<TemplateDbContext>()
+            .AddEntityFrameworkStores<EventsRecorderDbContext>()
             .AddDefaultTokenProviders();
 
         services.AddScoped<IUserClaimsPrincipalFactory<User>, UserClaimsPrincipalFactory>();

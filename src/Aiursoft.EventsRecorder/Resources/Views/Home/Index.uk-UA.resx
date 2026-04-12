@@ -45,8 +45,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Сучасна, багатофункціональна та високо розширювана основа для вашої наступної веб-програми.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Досягайте більшого з Aiursoft Template</value>
+  <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
+    <value>Досягайте більшого з Aiursoft Event Recorder</value>
   </data>
   <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
     <value>Додавайте вільні нотатки до будь-якого запису події для отримання додаткового контексту, який не вписується в структуровані поля.</value>
@@ -72,11 +72,11 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Переклади на основі ШІ</value>
   </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template</value>
+  <data name="Aiursoft Event Recorder" xml:space="preserve">
+    <value>Aiursoft Event Recorder</value>
   </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template — це наш остаточний вибір для корпоративних проектів! Він створений для розробників, легкий, але потужний. Ми можемо пропустити всю стандартну роботу з аутентифікації та управління користувачами.</value>
+  <data name="Aiursoft Event Recorder is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Event Recorder — це наш остаточний вибір для корпоративних проектів! Він створений для розробників, легкий, але потужний. Ми можемо пропустити всю стандартну роботу з аутентифікації та управління користувачами.</value>
   </data>
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Усі залежності автоматично реєструються та завжди доступні через ін&apos;єкцію конструктора.</value>
@@ -159,7 +159,7 @@
   <data name="Built for engineers who care about quality." xml:space="preserve">
     <value>Розроблено для інженерів, які турбуються якістю.</value>
   </data>
-  <data name="Built with Aiursoft Template" xml:space="preserve">
+  <data name="Built with Aiursoft Event Recorder" xml:space="preserve">
     <value>Створено з використанням шаблону Aiursoft</value>
   </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
@@ -483,7 +483,7 @@
   <data name="How It Works" xml:space="preserve">
     <value>Як це працює</value>
   </data>
-  <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
+  <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Я створив шаблон Aiursoft, бо втомився налаштовувати одні й ті самі системи Auth, Log та CI/CD для кожного нового корпоративного проекту. Це не просто шаблон; це концентровані найкращі практики, набуті протягом років роботи в умовах високої конкуренції в продакшн-середовищах. Це дозволяє моїй команді пропустити нудну налагодження та відразу перейти до бізнес-логіки.</value>
   </data>
   <data name="IDE Support" xml:space="preserve">
@@ -513,8 +513,8 @@
   <data name="is Free Software" xml:space="preserve">
     <value>є вільним програмним забезпеченням</value>
   </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Чи безкоштовно використовувати Aiursoft Template?</value>
+  <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
+    <value>Чи безкоштовно використовувати Aiursoft Event Recorder?</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>Приєднатися до обговорень</value>
@@ -801,10 +801,10 @@
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Цей шаблон створено для простоти розгортання. Він включає повну підтримку Docker, тому ви можете контейнеризувати ваш додаток і запускати його де завгодно. Ви також можете розгорнути його безпосередньо в IIS, Azure App Service або на будь-якому сервері, що підтримує ASP.NET Core.</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
     <value>Це шаблонний проєкт</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
     <value>Це шаблонний проект, з якого ми починаємо нашу подорож...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
@@ -870,10 +870,10 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Що кажуть наші розробники</value>
   </data>
-  <data name="Why choose Aiursoft Template?" xml:space="preserve">
-    <value>Чому обрати Aiursoft Template?</value>
+  <data name="Why choose Aiursoft Event Recorder?" xml:space="preserve">
+    <value>Чому обрати Aiursoft Event Recorder?</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+  <data name="Why use the Aiursoft Event Recorder?" xml:space="preserve">
     <value>Чому варто використовувати шаблон Aiursoft?</value>
   </data>
   <data name="Win/Lin/Mac" xml:space="preserve">
@@ -882,8 +882,8 @@
   <data name="Work &amp; Productivity" xml:space="preserve">
     <value>Робота та продуктивність</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Так, Aiursoft Template є повністю безкоштовним та відкритим програмним забезпеченням з ліцензією MIT. Ви можете використовувати його для особистих та комерційних проектів без будь-якої плати.</value>
+  <data name="Yes, Aiursoft Event Recorder is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Так, Aiursoft Event Recorder є повністю безкоштовним та відкритим програмним забезпеченням з ліцензією MIT. Ви можете використовувати його для особистих та комерційних проектів без будь-якої плати.</value>
   </data>
   <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
     <value>Так, EventsRecorder повністю безкоштовний та з відкритим вихідним кодом під ліцензією MIT. Ви можете використовувати його для особистих або комерційних цілей безкоштовно та розміщувати на власній інфраструктурі.</value>

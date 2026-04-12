@@ -15,7 +15,7 @@ namespace Aiursoft.EventsRecorder.Controllers;
 [Authorize]
 [LimitPerMin]
 public class EventRecordsController(
-    TemplateDbContext context,
+    EventsRecorderDbContext context,
     StorageService storageService,
     IStringLocalizer<EventRecordsController> localizer) : Controller
 {

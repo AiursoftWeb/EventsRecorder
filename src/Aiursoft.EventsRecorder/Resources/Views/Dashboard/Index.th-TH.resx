@@ -192,7 +192,7 @@
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>แถบนำทางจะปรับเปลี่ยนโดยอัตโนมัติตามบทบาทและสิทธิ์ของผู้ใช้</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
     <value>นี่คือโปรเจกต์เทมเพลต ซึ่งเป็นจุดเริ่มต้นของการเดินทางของเรา...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
@@ -201,8 +201,8 @@
   <data name="Welcome" xml:space="preserve">
     <value>ยินดีต้อนรับ</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>ทำไมต้องใช้ Aiursoft Template?</value>
+  <data name="Why use the Aiursoft Event Recorder?" xml:space="preserve">
+    <value>ทำไมต้องใช้ Aiursoft Event Recorder?</value>
   </data>
 
 </root>

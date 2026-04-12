@@ -11,7 +11,7 @@ namespace Aiursoft.EventsRecorder.Controllers;
 
 [Authorize]
 [LimitPerMin]
-public class EventFieldsController(TemplateDbContext context) : Controller
+public class EventFieldsController(EventsRecorderDbContext context) : Controller
 {
     private string GetUserId() => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
