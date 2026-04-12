@@ -1,4 +1,5 @@
 using System.Net;
+using System.Text.RegularExpressions;
 
 namespace Aiursoft.EventsRecorder.Tests.IntegrationTests;
 
@@ -167,5 +168,85 @@ public class EventTypesControllerTests : TestBase
         Assert.Contains("Test Event Type", html);
         Assert.Contains("For testing details page", html);
         Assert.Contains("Fields", html);
+    }
+
+    [TestMethod]
+    public async Task DetailsPageShowsStringPieChart()
+    {
+        await RegisterAndLoginAsync();
+        
+        // 1. Create Event Type
+        var createResponse = await PostForm("/EventTypes/Create", new Dictionary<string, string>
+        {
+            { "Name", "String Visualization Test" },
+            { "Description", "Testing pie chart for repeating strings" }
+        });
+        AssertRedirect(createResponse, "/EventTypes/Details/", exact: false);
+        
+        var indexResponse = await Http.GetAsync("/EventTypes/Index");
+        var indexHtml = await indexResponse.Content.ReadAsStringAsync();
+        var idMatch = Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
+        var eventTypeId = idMatch.Groups[1].Value;
+
+        // 2. Create a String Field
+        var createFieldResponse = await PostForm("/EventFields/Create", new Dictionary<string, string>
+        {
+            { "EventTypeId", eventTypeId },
+            { "Name", "Status" },
+            { "FieldType", "0" }, // String
+            { "Order", "1" },
+            { "IsRequired", "true" }
+        });
+        AssertRedirect(createFieldResponse, $"/EventTypes/Details/{eventTypeId}");
+
+        var detailsHtmlWithField = await (await Http.GetAsync($"/EventTypes/Details/{eventTypeId}")).Content.ReadAsStringAsync();
+        var fieldIdMatch = Regex.Match(detailsHtmlWithField, @"/EventFields/Edit/(\d+)");
+        var fieldId = fieldIdMatch.Groups[1].Value;
+
+        // 3. Create records with only ONE repeating string ("AA")
+        // Value "AA" appears 2 times, "AB" and "AC" appear 1 time.
+        // This should NOT be visualized.
+        string[] singleRepeatingValues = { "AA", "AB", "AA", "AC" };
+        foreach (var val in singleRepeatingValues)
+        {
+            await PostForm("/EventRecords/Record", new Dictionary<string, string>
+            {
+                { "EventTypeId", eventTypeId },
+                { "Fields[0].FieldId", fieldId },
+                { "Fields[0].StringValue", val }
+            }, tokenUrl: $"/EventRecords/Record?eventTypeId={eventTypeId}");
+        }
+
+        var detailsResponse1 = await Http.GetAsync($"/EventTypes/Details/{eventTypeId}");
+        var html1 = await detailsResponse1.Content.ReadAsStringAsync();
+        Assert.IsFalse(html1.Contains($"chart_string_{fieldId}"), "Should not visualize when only one string repeats");
+
+        // 4. Create more records to have TWO repeating strings ("AA" and "AB")
+        // Now "AA" appears 3 times, "AB" appears 2 times.
+        // This SHOULD be visualized.
+        string[] moreValues = { "AD", "AB", "AA" };
+        foreach (var val in moreValues)
+        {
+            await PostForm("/EventRecords/Record", new Dictionary<string, string>
+            {
+                { "EventTypeId", eventTypeId },
+                { "Fields[0].FieldId", fieldId },
+                { "Fields[0].StringValue", val }
+            }, tokenUrl: $"/EventRecords/Record?eventTypeId={eventTypeId}");
+        }
+
+        // 5. Check details page for pie chart
+        var detailsResponse2 = await Http.GetAsync($"/EventTypes/Details/{eventTypeId}");
+        detailsResponse2.EnsureSuccessStatusCode();
+        var html2 = await detailsResponse2.Content.ReadAsStringAsync();
+        
+        // Should contain the canvas for the pie chart
+        Assert.Contains($"chart_string_{fieldId}", html2);
+        // Should contain the data in the script (labels are lowercased)
+        Assert.Contains("\"Label\":\"aa\",\"Count\":3", html2);
+        Assert.Contains("\"Label\":\"ab\",\"Count\":2", html2);
+        // Should NOT contain "ac" or "ad" in the pie chart data because they only appear once
+        Assert.IsFalse(html2.Contains("\"Label\":\"ac\""));
+        Assert.IsFalse(html2.Contains("\"Label\":\"ad\""));
     }
 }
