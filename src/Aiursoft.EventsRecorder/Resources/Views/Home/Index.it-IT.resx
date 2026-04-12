@@ -45,8 +45,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Una base moderna, ricca di funzionalità e altamente estensibile per la tua prossima applicazione web.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Ottieni di più con Aiursoft Template</value>
+  <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
+    <value>Ottieni di più con Aiursoft Event Recorder</value>
   </data>
   <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
     <value>Aggiungi note libere a qualsiasi record di evento per ulteriori contesti che non si adattano ordinatamente nei campi strutturati.</value>
@@ -72,11 +72,11 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traduzioni Basate sull&apos;Intelligenza Artificiale</value>
   </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template</value>
+  <data name="Aiursoft Event Recorder" xml:space="preserve">
+    <value>Aiursoft Event Recorder</value>
   </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template è la nostra scelta definitiva per i progetti aziendali! È costruito per gli sviluppatori ed è leggero ma potente. Possiamo saltare tutto il codice boilerplate per l&apos;autenticazione e la gestione degli utenti.</value>
+  <data name="Aiursoft Event Recorder is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Event Recorder è la nostra scelta definitiva per i progetti aziendali! È costruito per gli sviluppatori ed è leggero ma potente. Possiamo saltare tutto il codice boilerplate per l&apos;autenticazione e la gestione degli utenti.</value>
   </data>
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>Tutte le dipendenze vengono registrate automaticamente e sono sempre disponibili tramite l&apos;iniezione tramite costruttore.</value>
@@ -159,8 +159,8 @@
   <data name="Built for engineers who care about quality." xml:space="preserve">
     <value>Progettato per ingegneri che si preoccupano della qualità.</value>
   </data>
-  <data name="Built with Aiursoft Template" xml:space="preserve">
-    <value>Creato con Aiursoft Template</value>
+  <data name="Built with Aiursoft Event Recorder" xml:space="preserve">
+    <value>Creato con Aiursoft Event Recorder</value>
   </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
     <value>Costruito con C# nativo di qualità aziendale ma facile da imparare.</value>
@@ -483,8 +483,8 @@
   <data name="How It Works" xml:space="preserve">
     <value>Come funziona</value>
   </data>
-  <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
-    <value>Ho creato Aiursoft Template perché ero stanco di configurare gli stessi pipeline di Auth, Log e CI/CD per ogni nuovo progetto aziendale. Questo non è solo un modello; è l&apos;essenza delle migliori pratiche maturate negli anni in ambienti di produzione ad alta concorrenza. Permette al mio team di saltare la noiosa configurazione e passare direttamente alla logica aziendale.</value>
+  <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
+    <value>Ho creato Aiursoft Event Recorder perché ero stanco di configurare gli stessi pipeline di Auth, Log e CI/CD per ogni nuovo progetto aziendale. Questo non è solo un modello; è l&apos;essenza delle migliori pratiche maturate negli anni in ambienti di produzione ad alta concorrenza. Permette al mio team di saltare la noiosa configurazione e passare direttamente alla logica aziendale.</value>
   </data>
   <data name="IDE Support" xml:space="preserve">
     <value>Supporto IDE</value>
@@ -513,8 +513,8 @@
   <data name="is Free Software" xml:space="preserve">
     <value>è Software Libero</value>
   </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>È gratuito usare Aiursoft Template?</value>
+  <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
+    <value>È gratuito usare Aiursoft Event Recorder?</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>Partecipa alle Discussioni</value>
@@ -801,10 +801,10 @@
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Il template è progettato per una distribuzione semplificata. Include il supporto completo per Docker, così puoi containerizzare la tua app ed eseguirla ovunque. Puoi anche distribuirla direttamente su IIS, Azure App Service o qualsiasi server che supporti ASP.NET Core.</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
     <value>Questo è un progetto template</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
     <value>Questo è un progetto template, da cui iniziamo il viaggio...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
@@ -870,10 +870,10 @@
   <data name="What our developers say" xml:space="preserve">
     <value>Cosa dicono i nostri sviluppatori</value>
   </data>
-  <data name="Why choose Aiursoft Template?" xml:space="preserve">
-    <value>Perché scegliere Aiursoft Template?</value>
+  <data name="Why choose Aiursoft Event Recorder?" xml:space="preserve">
+    <value>Perché scegliere Aiursoft Event Recorder?</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+  <data name="Why use the Aiursoft Event Recorder?" xml:space="preserve">
     <value>Perché usare il Template Aiursoft?</value>
   </data>
   <data name="Win/Lin/Mac" xml:space="preserve">
@@ -882,8 +882,8 @@
   <data name="Work &amp; Productivity" xml:space="preserve">
     <value>Lavoro e produttività</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Sì, Aiursoft Template è completamente gratuito e open-source sotto la licenza MIT. Puoi utilizzarlo per progetti personali e commerciali senza alcun costo.</value>
+  <data name="Yes, Aiursoft Event Recorder is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Sì, Aiursoft Event Recorder è completamente gratuito e open-source sotto la licenza MIT. Puoi utilizzarlo per progetti personali e commerciali senza alcun costo.</value>
   </data>
   <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
     <value>Sì, EventsRecorder è completamente gratuito e open-source sotto la licenza MIT. Puoi utilizzarlo per scopi personali o commerciali senza costi e ospitarlo autonomamente sulla tua infrastruttura.</value>

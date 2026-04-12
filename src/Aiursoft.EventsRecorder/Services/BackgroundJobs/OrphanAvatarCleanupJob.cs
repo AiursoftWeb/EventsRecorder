@@ -12,7 +12,7 @@ namespace Aiursoft.EventsRecorder.Services.BackgroundJobs;
 /// whose avatar was subsequently replaced.
 /// </summary>
 public class OrphanAvatarCleanupJob(
-    TemplateDbContext db,
+    EventsRecorderDbContext db,
     FeatureFoldersProvider folders,
     ILogger<OrphanAvatarCleanupJob> logger) : IBackgroundJob
 {

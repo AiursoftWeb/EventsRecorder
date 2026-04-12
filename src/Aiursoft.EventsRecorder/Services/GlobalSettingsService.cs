@@ -9,7 +9,7 @@ using Microsoft.Extensions.Caching.Memory;
 namespace Aiursoft.EventsRecorder.Services;
 
 public class GlobalSettingsService(
-    TemplateDbContext dbContext, 
+    EventsRecorderDbContext dbContext, 
     IConfiguration configuration,
     StorageService storageService,
     IMemoryCache cache) : IScopedDependency

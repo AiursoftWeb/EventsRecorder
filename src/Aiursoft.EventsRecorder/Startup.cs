@@ -46,7 +46,7 @@ public class Startup : IWebStartup
         });
 
         // Authentication and Authorization
-        services.AddTemplateAuth(configuration);
+        services.AddEventsRecorderAuth(configuration);
 
         // Services
         services.AddMemoryCache();

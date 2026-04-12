@@ -45,8 +45,8 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>一個現代化、功能豐富且高度可擴展的基礎架構，為您的下一個網頁應用程式提供堅實根基。</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>使用 Aiursoft Template 成就更多</value>
+  <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
+    <value>使用 Aiursoft Event Recorder 成就更多</value>
   </data>
   <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
     <value>在任意事件記錄中添加自由格式的備註，以補充無法完美納入結構化欄位的額外背景資訊。</value>
@@ -72,11 +72,11 @@
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>AI 驅動翻譯</value>
   </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template</value>
+  <data name="Aiursoft Event Recorder" xml:space="preserve">
+    <value>Aiursoft Event Recorder</value>
   </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template 是我們企業級專案的不二之選！它專為開發者打造，輕量卻功能強大。我們可以直接跳過所有身份驗證和使用者管理的樣板程式碼。</value>
+  <data name="Aiursoft Event Recorder is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Event Recorder 是我們企業級專案的不二之選！它專為開發者打造，輕量卻功能強大。我們可以直接跳過所有身份驗證和使用者管理的樣板程式碼。</value>
   </data>
   <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
     <value>所有依賴項都會自動註冊，並始終可透過建構函式注入使用。</value>
@@ -159,7 +159,7 @@
   <data name="Built for engineers who care about quality." xml:space="preserve">
     <value>為重視品質的工程師而打造。</value>
   </data>
-  <data name="Built with Aiursoft Template" xml:space="preserve">
+  <data name="Built with Aiursoft Event Recorder" xml:space="preserve">
     <value>使用 Aiursoft 模板建置</value>
   </data>
   <data name="Built with enterprise-grade yet easy-to-learn native C#." xml:space="preserve">
@@ -483,8 +483,8 @@
   <data name="How It Works" xml:space="preserve">
     <value>運作方式</value>
   </data>
-  <data name="I built Aiursoft Template because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
-    <value>我開發 Aiursoft Template 是因為厭倦了為每一個新的企業專案重複設定相同的 Auth、Log 和 CI/CD 管道。這不僅僅是一個範本；它是多年高併發生產環境中淬煉出的最佳實務。它讓我的團隊可以跳過枯燥的設定，直接專注於業務邏輯。</value>
+  <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
+    <value>我開發 Aiursoft Event Recorder 是因為厭倦了為每一個新的企業專案重複設定相同的 Auth、Log 和 CI/CD 管道。這不僅僅是一個範本；它是多年高併發生產環境中淬煉出的最佳實務。它讓我的團隊可以跳過枯燥的設定，直接專注於業務邏輯。</value>
   </data>
   <data name="IDE Support" xml:space="preserve">
     <value>IDE 支援</value>
@@ -513,8 +513,8 @@
   <data name="is Free Software" xml:space="preserve">
     <value>是自由軟體</value>
   </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>使用 Aiursoft Template 是否免費？</value>
+  <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
+    <value>使用 Aiursoft Event Recorder 是否免費？</value>
   </data>
   <data name="Join Discussions" xml:space="preserve">
     <value>參與討論</value>
@@ -801,10 +801,10 @@
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>此模板專為簡化部署流程而設計。它提供完整的 Docker 支援，讓您能將應用程式容器化並隨處執行。您也可以直接部署到 IIS、Azure App Service 或任何支援 ASP.NET Core 的伺服器。</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system." xml:space="preserve">
     <value>這是一個範本專案</value>
   </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
     <value>這是一個模板專案，我們從這裡開啟航程...</value>
   </data>
   <data name="Three simple steps to structured event tracking." xml:space="preserve">
@@ -870,10 +870,10 @@
   <data name="What our developers say" xml:space="preserve">
     <value>我們的開發者怎麼說</value>
   </data>
-  <data name="Why choose Aiursoft Template?" xml:space="preserve">
-    <value>為何選擇 Aiursoft Template？</value>
+  <data name="Why choose Aiursoft Event Recorder?" xml:space="preserve">
+    <value>為何選擇 Aiursoft Event Recorder？</value>
   </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+  <data name="Why use the Aiursoft Event Recorder?" xml:space="preserve">
     <value>為什麼使用 Aiursoft 模板？</value>
   </data>
   <data name="Win/Lin/Mac" xml:space="preserve">
@@ -882,8 +882,8 @@
   <data name="Work &amp; Productivity" xml:space="preserve">
     <value>工作與生產力</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>是的，Aiursoft Template 在 MIT 許可證下完全免費且開放原始碼。您可以在個人和商業專案中免費使用它，無需任何費用。</value>
+  <data name="Yes, Aiursoft Event Recorder is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>是的，Aiursoft Event Recorder 在 MIT 許可證下完全免費且開放原始碼。您可以在個人和商業專案中免費使用它，無需任何費用。</value>
   </data>
   <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
     <value>是的，EventsRecorder 在 MIT 授權條款下完全免費且為開源軟體。您可免費用於個人或商業目的，並可在自有基礎設施上自行託管。</value>

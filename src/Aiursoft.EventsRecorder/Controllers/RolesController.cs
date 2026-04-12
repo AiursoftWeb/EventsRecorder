@@ -19,7 +19,7 @@ namespace Aiursoft.EventsRecorder.Controllers;
 [LimitPerMin]
 public class RolesController(
     UserManager<User> userManager,
-    TemplateDbContext context,
+    EventsRecorderDbContext context,
     RoleManager<IdentityRole> roleManager)
     : Controller
 {

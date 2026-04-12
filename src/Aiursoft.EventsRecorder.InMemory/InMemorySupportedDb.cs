@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Aiursoft.EventsRecorder.InMemory;
 
-public class InMemorySupportedDb : SupportedDatabaseType<TemplateDbContext>
+public class InMemorySupportedDb : SupportedDatabaseType<EventsRecorderDbContext>
 {
     public override string DbType => "InMemory";
 
@@ -14,7 +14,7 @@ public class InMemorySupportedDb : SupportedDatabaseType<TemplateDbContext>
         return services.AddAiurInMemoryDb<InMemoryContext>();
     }
 
-    public override TemplateDbContext ContextResolver(IServiceProvider serviceProvider)
+    public override EventsRecorderDbContext ContextResolver(IServiceProvider serviceProvider)
     {
         return serviceProvider.GetRequiredService<InMemoryContext>();
     }
