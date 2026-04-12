@@ -72,7 +72,7 @@ public class EventTypesControllerTests : TestBase
         var indexResponse = await Http.GetAsync("/EventTypes/Index");
         var indexHtml = await indexResponse.Content.ReadAsStringAsync();
         
-        var idMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
+        var idMatch = Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
         Assert.IsTrue(idMatch.Success, "Could not find event type ID");
         var eventTypeId = idMatch.Groups[1].Value;
         
@@ -106,7 +106,7 @@ public class EventTypesControllerTests : TestBase
         var indexResponse = await Http.GetAsync("/EventTypes/Index");
         var indexHtml = await indexResponse.Content.ReadAsStringAsync();
         
-        var idMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
+        var idMatch = Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
         Assert.IsTrue(idMatch.Success);
         var eventTypeId = idMatch.Groups[1].Value;
         
@@ -132,7 +132,7 @@ public class EventTypesControllerTests : TestBase
         
         var indexResponse = await Http.GetAsync("/EventTypes/Index");
         var indexHtml = await indexResponse.Content.ReadAsStringAsync();
-        var idMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
+        var idMatch = Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
         Assert.IsTrue(idMatch.Success);
         var eventTypeId = idMatch.Groups[1].Value;
         
@@ -158,7 +158,7 @@ public class EventTypesControllerTests : TestBase
         
         var indexResponse = await Http.GetAsync("/EventTypes/Index");
         var indexHtml = await indexResponse.Content.ReadAsStringAsync();
-        var idMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
+        var idMatch = Regex.Match(indexHtml, @"/EventTypes/Details/(\d+)");
         var eventTypeId = idMatch.Groups[1].Value;
         
         var detailsResponse = await Http.GetAsync($"/EventTypes/Details/{eventTypeId}");
