@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>سجل الأحداث</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>هذا مشروع قالب، حيث نبدأ رحلة المستكشف...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>يتميز بنظام إدارة ملفات مدمج مع ضغط تلقائي للصورة الرمزية وحماية الخصوصية.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>يتم تعديل شريط التنقل تلقائيًا بناءً على أدوار المستخدمين والأذونات.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>هذا مشروع قالب، حيث نبدأ رحلة المستكشف...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>اعرض Timeline تسجيلات أحداثك.</value>

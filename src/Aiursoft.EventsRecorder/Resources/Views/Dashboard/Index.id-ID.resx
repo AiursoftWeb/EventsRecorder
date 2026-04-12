@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Perekam Acara</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Ini adalah proyek templat, di mana kita memulai perjalanan...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Memiliki sistem manajemen file bawaan dengan kompresi avatar otomatis dan perlindungan privasi.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bilah navigasi secara otomatis menyesuaikan berdasarkan peran dan izin pengguna.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Ini adalah proyek templat, di mana kita memulai perjalanan...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Lihat garis waktu rekaman acara Anda.</value>

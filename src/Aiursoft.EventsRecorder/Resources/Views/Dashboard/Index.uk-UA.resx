@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Реєстратор подій</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Це шаблонний проект, з якого ми розпочинаємо нашу подорож...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Містить вбудовану систему управління файлами з автоматичною компресією аватарів та захистом приватності.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Панель навігації автоматично адаптується відповідно до ролей та дозволів користувача.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Це шаблонний проект, з якого ми розпочинаємо нашу подорож...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Перегляньте хронологію записів ваших подій.</value>

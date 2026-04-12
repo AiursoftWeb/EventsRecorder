@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Enregistreur d&apos;événements</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Ceci est un projet modèle, où nous commençons le voyage...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Propose un système de gestion de fichiers intégré avec compression automatique des avatars et protection de la vie privée.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>La barre de navigation s&apos;ajuste automatiquement en fonction des rôles et des autorisations de l&apos;utilisateur.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Ceci est un projet modèle, où nous commençons le voyage...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Consultez la chronologie des enregistrements de vos événements.</value>

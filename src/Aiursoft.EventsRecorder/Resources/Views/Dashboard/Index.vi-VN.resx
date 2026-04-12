@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Ghi lại sự kiện</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Đây là một dự án mẫu, nơi chúng ta bắt đầu hành trình khám phá...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Tích hợp hệ thống quản lý tập tin tích hợp sẵn với nén ảnh đại diện tự động và bảo vệ quyền riêng tư.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Thanh điều hướng sẽ tự động điều chỉnh dựa trên vai trò và quyền của người dùng.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Đây là một dự án mẫu, nơi chúng ta bắt đầu hành trình khám phá...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Xem thời gian ghi lại sự kiện của bạn.</value>

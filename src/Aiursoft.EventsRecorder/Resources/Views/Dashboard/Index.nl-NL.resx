@@ -111,6 +111,9 @@
   <data name="Events Recorder" xml:space="preserve">
     <value>Evenementenrecorder</value>
   </data>
+  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
+    <value>Dit is een sjabloonproject, waar we de verkenner starten...</value>
+  </data>
   <data name="Features a built-in file management system with automatic avatar compression and privacy protection." xml:space="preserve">
     <value>Heeft een ingebouwd bestandsbeheersysteem met automatische avatarcompressie en privacybescherming.</value>
   </data>
@@ -191,9 +194,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>De navigatiebalk past zich automatisch aan op basis van gebruikersrollen en machtigingen.</value>
-  </data>
-  <data name="EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data." xml:space="preserve">
-    <value>Dit is een sjabloonproject, waar we de verkenner starten...</value>
   </data>
   <data name="View your event recording timeline." xml:space="preserve">
     <value>Bekijk de tijdlijn van uw evenementopnames.</value>
