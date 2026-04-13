@@ -23,54 +23,8 @@
 }
 
 <div class="row">
-    <div class="col-md-4 col-xl-3">
-        <div class="card mb-3">
-            <div class="card-header">
-                <h5 class="card-title mb-0">@Localizer["Summary"]</h5>
-            </div>
-            <div class="list-group list-group-flush">
-                <div class="list-group-item">
-                    <div class="row">
-                        <strong class="col-sm-5">@Localizer["Records"]</strong>
-                        <div class="col-sm-7">@Model.RecordCount</div>
-                    </div>
-                </div>
-                <div class="list-group-item">
-                    <div class="row">
-                        <strong class="col-sm-5">@Localizer["Regularity"]</strong>
-                        <div class="col-sm-7">
-                            <div class="progress" style="height: 10px;">
-                                <div class="progress-bar @(Model.RegularityScore > 80 ? "bg-success" : Model.RegularityScore > 50 ? "bg-warning" : "bg-danger")" 
-                                     role="progressbar" style="width: @(Model.RegularityScore)%;" 
-                                     aria-valuenow="@Model.RegularityScore" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <small class="text-muted">@Model.RegularityScore.ToString("F1")%</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="list-group-item">
-                    <div class="row">
-                        <strong class="col-sm-5">@Localizer["Fields"]</strong>
-                        <div class="col-sm-7">@Model.Fields.Count</div>
-                    </div>
-                </div>
-                <div class="list-group-item">
-                    <div class="row">
-                        <strong class="col-sm-5">@Localizer["Created"]</strong>
-                        <div class="col-sm-7">
-                            <label data-utc-time="@Model.CreationTime.ToHtmlDateTime()"></label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <a asp-controller="EventRecords" asp-action="Index" asp-route-eventTypeId="@Model.Id" class="btn btn-outline-primary w-100 mb-3">
-            <i class="align-middle" data-lucide="list"></i> @Localizer["View All Records"]
-        </a>
-    </div>
-
-    <div class="col-md-8 col-xl-9">
+    @* Filter Trends (12 columns) *@
+    <div class="col-12">
         <div class="card mb-4">
             <div class="card-header">
                 <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="filter"></i> @Localizer["Filter Trends"]</h5>
@@ -92,32 +46,10 @@
                 </form>
             </div>
         </div>
+    </div>
 
-        <div class="card mb-4">
-            <div class="card-header">
-                <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="calendar-days"></i> @Localizer["Event Occurrences"]</h5>
-            </div>
-            <div class="card-body">
-                <div class="d-flex align-items-center justify-content-end mb-3">
-                    <div style="width: 15px; height: 15px; background-color: #0d6efd; border-radius: 3px;" class="me-2"></div>
-                    <span class="me-3 small">1 @Localizer["Occurrence"]</span>
-                    
-                    <div style="width: 15px; height: 15px; background-color: #ffc107; border-radius: 3px;" class="me-2"></div>
-                    <span class="me-3 small">2 @Localizer["Occurrences"]</span>
-                    
-                    <div style="width: 15px; height: 15px; background-color: #fd7e14; border-radius: 3px;" class="me-2"></div>
-                    <span class="me-3 small">3 @Localizer["Occurrences"]</span>
-                    
-                    <div style="width: 15px; height: 15px; background-color: #dc3545; border-radius: 3px;" class="me-2"></div>
-                    <span class="me-3 small">≥ 4 @Localizer["Occurrences"]</span>
-                    
-                    <div style="width: 15px; height: 15px; background-color: white; border: 1px solid #dee2e6; border-radius: 3px;" class="me-2"></div>
-                    <span class="small">@Localizer["No Records"]</span>
-                </div>
-                <div id="calendar_occurrences"></div>
-            </div>
-        </div>
-
+    @* Fields (6 columns) *@
+    <div class="col-12 col-lg-6">
         <div class="card mb-4">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="columns-3"></i> @Localizer["Fields"]</h5>
@@ -150,7 +82,8 @@
                                         case FieldType.Enum:
                                             <span class="badge bg-secondary">Enum</span>
                                             break;
-                                        case FieldType.String:                                            <span class="badge bg-info">String</span>
+                                        case FieldType.String:
+                                            <span class="badge bg-info">String</span>
                                             break;
                                         case FieldType.Number:
                                             <span class="badge bg-success">Number</span>
@@ -199,12 +132,91 @@
                 </div>
             }
         </div>
+    </div>
 
-        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean || f.FieldType == FieldType.String || f.FieldType == FieldType.Enum))
+    @* Event Occurrences (6 columns) *@
+    <div class="col-12 col-lg-6">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="calendar-days"></i> @Localizer["Event Occurrences"]</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex align-items-center justify-content-end mb-3">
+                    <div style="width: 15px; height: 15px; background-color: #0d6efd; border-radius: 3px;" class="me-2"></div>
+                    <span class="me-3 small">1 @Localizer["Occurrence"]</span>
+                    
+                    <div style="width: 15px; height: 15px; background-color: #ffc107; border-radius: 3px;" class="me-2"></div>
+                    <span class="me-3 small">2 @Localizer["Occurrences"]</span>
+                    
+                    <div style="width: 15px; height: 15px; background-color: #fd7e14; border-radius: 3px;" class="me-2"></div>
+                    <span class="me-3 small">3 @Localizer["Occurrences"]</span>
+                    
+                    <div style="width: 15px; height: 15px; background-color: #dc3545; border-radius: 3px;" class="me-2"></div>
+                    <span class="me-3 small">≥ 4 @Localizer["Occurrences"]</span>
+                    
+                    <div style="width: 15px; height: 15px; background-color: white; border: 1px solid #dee2e6; border-radius: 3px;" class="me-2"></div>
+                    <span class="small">@Localizer["No Records"]</span>
+                </div>
+                <div id="calendar_occurrences"></div>
+            </div>
+        </div>
+    </div>
+
+    @* Summary (6 columns) *@
+    <div class="col-12 col-lg-6">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">@Localizer["Summary"]</h5>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Records"]</strong>
+                        <div class="col-sm-7">@Model.RecordCount</div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Regularity"]</strong>
+                        <div class="col-sm-7">
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar @(Model.RegularityScore > 80 ? "bg-success" : Model.RegularityScore > 50 ? "bg-warning" : "bg-danger")" 
+                                     role="progressbar" style="width: @(Model.RegularityScore)%;" 
+                                     aria-valuenow="@Model.RegularityScore" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <small class="text-muted">@Model.RegularityScore.ToString("F1")%</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Fields"]</strong>
+                        <div class="col-sm-7">@Model.Fields.Count</div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <strong class="col-sm-5">@Localizer["Created"]</strong>
+                        <div class="col-sm-7">
+                            <label data-utc-time="@Model.CreationTime.ToHtmlDateTime()"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a asp-controller="EventRecords" asp-action="Index" asp-route-eventTypeId="@Model.Id" class="btn btn-outline-primary w-100 mb-4">
+            <i class="align-middle" data-lucide="list"></i> @Localizer["View All Records"]
+        </a>
+    </div>
+
+    @* Dynamic Content (all 6 columns) *@
+    @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean || f.FieldType == FieldType.String || f.FieldType == FieldType.Enum))
+    {
+        @foreach (var series in Model.NumberSeries)
         {
-            @foreach (var series in Model.NumberSeries)
-            {
-                var canvasId = $"chart_{series.FieldId}";
+            var canvasId = $"chart_{series.FieldId}";
+            <div class="col-12 col-lg-6">
                 <div class="card mb-4">
                     <div class="card-header">
                         <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="trending-up"></i> @series.FieldName</h5>
@@ -213,11 +225,13 @@
                         <canvas id="@canvasId"></canvas>
                     </div>
                 </div>
-            }
+            </div>
+        }
 
-            @foreach (var series in Model.BooleanSeries)
-            {
-                var calendarId = $"calendar_{series.FieldId}";
+        @foreach (var series in Model.BooleanSeries)
+        {
+            var calendarId = $"calendar_{series.FieldId}";
+            <div class="col-12 col-lg-6">
                 <div class="card mb-4">
                     <div class="card-header">
                         <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="calendar"></i> @series.FieldName</h5>
@@ -236,11 +250,13 @@
                         <div id="@calendarId"></div>
                     </div>
                 </div>
-            }
+            </div>
+        }
 
-            @foreach (var series in Model.StringSeries)
-            {
-                var canvasId = $"chart_string_{series.FieldId}";
+        @foreach (var series in Model.StringSeries)
+        {
+            var canvasId = $"chart_string_{series.FieldId}";
+            <div class="col-12 col-lg-6">
                 <div class="card mb-4">
                     <div class="card-header">
                         <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="pie-chart"></i> @series.FieldName</h5>
@@ -249,9 +265,9 @@
                         <canvas id="@canvasId"></canvas>
                     </div>
                 </div>
-            }
+            </div>
         }
-    </div>
+    }
 </div>
 
 @* ReSharper disable once Razor.SectionNotResolved *@
