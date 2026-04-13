@@ -74,6 +74,7 @@ public class FieldInputViewModel
     public string Name { get; set; } = string.Empty;
     public FieldType FieldType { get; set; }
     public bool IsRequired { get; set; }
+    public string? EnumValues { get; set; }
     public string? StringValue { get; set; }
     public string? NumberValue { get; set; }
     public bool BoolValue { get; set; }

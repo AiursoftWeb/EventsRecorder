@@ -32,6 +32,24 @@
 
                             @switch (field.FieldType)
                             {
+                                case FieldType.Enum:
+                                    var enumOptions = field.EnumValues?.Split(',', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
+                                    <select name="Fields[@i].StringValue" class="form-select" @(field.IsRequired ? "required" : null)>
+                                        <option value="">@Localizer["-- Select an option --"]</option>
+                                        @foreach (var opt in enumOptions)
+                                        {
+                                            var optionValue = opt.Trim();
+                                            if (field.StringValue == optionValue)
+                                            {
+                                                <option value="@optionValue" selected="selected">@optionValue</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@optionValue">@optionValue</option>
+                                            }
+                                        }
+                                    </select>
+                                    break;
                                 case FieldType.String:
                                     <input type="text" name="Fields[@i].StringValue" value="@field.StringValue"
                                            class="form-control" placeholder="@field.Name"

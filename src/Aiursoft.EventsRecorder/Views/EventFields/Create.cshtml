@@ -27,6 +27,13 @@
                         <span asp-validation-for="FieldType" class="text-danger"></span>
                     </div>
 
+                    <div class="mb-3" id="enumValuesGroup" style="display: none;">
+                        <label asp-for="EnumValues" class="form-label">@Localizer["Enum Values"]</label>
+                        <input asp-for="EnumValues" class="form-control form-control-lg" placeholder="@Localizer["e.g. OptionA,OptionB,OptionC"]" />
+                        <span asp-validation-for="EnumValues" class="text-danger"></span>
+                        <div class="form-text">@Localizer["Separate options with commas."]</div>
+                    </div>
+
                     <div class="mb-3 form-check">
                         <input asp-for="IsRequired" class="form-check-input" />
                         <label asp-for="IsRequired" class="form-check-label">@Localizer["This field is required"]</label>
@@ -43,3 +50,23 @@
         </div>
     </div>
 </div>
+
+@section scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var fieldTypeSelect = document.getElementById('FieldType');
+            var enumValuesGroup = document.getElementById('enumValuesGroup');
+
+            function toggleEnumValues() {
+                if (fieldTypeSelect.value === '5') {
+                    enumValuesGroup.style.display = 'block';
+                } else {
+                    enumValuesGroup.style.display = 'none';
+                }
+            }
+
+            fieldTypeSelect.addEventListener('change', toggleEnumValues);
+            toggleEnumValues();
+        });
+    </script>
+}

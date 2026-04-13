@@ -66,10 +66,10 @@
                                 <div class="col-sm-9">
                                     @switch (fv.FieldType)
                                     {
+                                        case FieldType.Enum:
                                         case FieldType.String:
                                             @(fv.StringValue ?? "-")
-                                            break;
-                                        case FieldType.Number:
+                                            break;                                        case FieldType.Number:
                                             @(fv.NumberValue?.ToString("N2") ?? "-")
                                             break;
                                         case FieldType.Boolean:

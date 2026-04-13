@@ -6,5 +6,6 @@ public enum FieldType
     Number = 1,
     Boolean = 2,
     Timespan = 3,
-    File = 4
+    File = 4,
+    Enum = 5
 }

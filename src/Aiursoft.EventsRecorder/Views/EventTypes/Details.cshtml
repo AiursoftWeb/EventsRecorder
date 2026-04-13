@@ -147,8 +147,10 @@
                                 <td>
                                     @switch (field.FieldType)
                                     {
-                                        case FieldType.String:
-                                            <span class="badge bg-info">String</span>
+                                        case FieldType.Enum:
+                                            <span class="badge bg-secondary">Enum</span>
+                                            break;
+                                        case FieldType.String:                                            <span class="badge bg-info">String</span>
                                             break;
                                         case FieldType.Number:
                                             <span class="badge bg-success">Number</span>
@@ -198,7 +200,7 @@
             }
         </div>
 
-        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean || f.FieldType == FieldType.String))
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean || f.FieldType == FieldType.String || f.FieldType == FieldType.Enum))
         {
             @foreach (var series in Model.NumberSeries)
             {
@@ -430,7 +432,7 @@
         });
     </script>
 
-    @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.String))
+    @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.String || f.FieldType == FieldType.Enum))
     {
         <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>

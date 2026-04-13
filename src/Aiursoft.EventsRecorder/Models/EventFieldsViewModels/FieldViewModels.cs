@@ -25,10 +25,14 @@ public class CreateViewModel : UiStackLayoutViewModel
 
     [Display(Name = "Required")]
     public bool IsRequired { get; set; }
-}
 
-public class EditViewModel : UiStackLayoutViewModel
-{
+    [Display(Name = "Enum Values")]
+    [MaxLength(1000, ErrorMessage = "The {0} must be at max {1} characters long.")]
+    public string? EnumValues { get; set; }
+    }
+
+    public class EditViewModel : UiStackLayoutViewModel
+    {
     public EditViewModel()
     {
         PageTitle = "Edit Field";
@@ -47,9 +51,13 @@ public class EditViewModel : UiStackLayoutViewModel
     [Display(Name = "Field Type")]
     public FieldType FieldType { get; set; }
 
+    [Display(Name = "Display Order")]
+    public int Order { get; set; }
+
     [Display(Name = "Required")]
     public bool IsRequired { get; set; }
 
-    [Display(Name = "Order")]
-    public int Order { get; set; }
-}
+    [Display(Name = "Enum Values")]
+    [MaxLength(1000, ErrorMessage = "The {0} must be at max {1} characters long.")]
+    public string? EnumValues { get; set; }
+    }

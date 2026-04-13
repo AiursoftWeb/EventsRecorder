@@ -149,7 +149,7 @@ public class EventTypesController(
         .ToList();
 
         var stringFields = eventType.Fields
-            .Where(f => f.FieldType == FieldType.String)
+            .Where(f => f.FieldType == FieldType.String || f.FieldType == FieldType.Enum)
             .ToList();
 
         var stringSeries = stringFields.Select(field => 
