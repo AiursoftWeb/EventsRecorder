@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>Inga poster</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>tid</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>ggr</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Ordning</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>tor</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>tid</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Tid</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>ggr</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>tis</value>

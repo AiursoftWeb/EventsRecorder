@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>Geen records</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>tijd</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>keer</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Volgorde</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Do</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>tijd</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Tijd</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>keer</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>di</value>

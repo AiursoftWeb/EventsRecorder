@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>لا توجد سجلات</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>وقت</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>أوقات</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>الترتيب</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>الخميس</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>وقت</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>وقت</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>أوقات</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>الثلاثاء</value>

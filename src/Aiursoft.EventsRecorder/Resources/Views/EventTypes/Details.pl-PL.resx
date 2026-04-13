@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>Brak rekordów</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>czas</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>razy</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Kolejność</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Czw</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>czas</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Czas</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>razy</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Wt</value>

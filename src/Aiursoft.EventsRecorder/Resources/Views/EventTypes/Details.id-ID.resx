@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>Tidak Ada Catatan</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>waktu</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>kali</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Urutan</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Kam</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>waktu</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Waktu</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>kali</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Sel</value>

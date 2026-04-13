@@ -81,6 +81,12 @@
   <data name="Number Trends" xml:space="preserve">
     <value>Xu hướng số liệu</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>thời gian</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>lần</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Thứ tự</value>
   </data>
@@ -114,14 +120,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Thứ Năm</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>thời gian</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Thời gian</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>lần</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Thứ Ba</value>
