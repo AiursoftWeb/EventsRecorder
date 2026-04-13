@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>p. ej. OpciónA,OpciónB,OpciónC</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>p. ej. Peso, Duración, Foto...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Valores de enumeración</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Detalles del campo</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>Tipo de campo</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Separe las opciones con comas.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Este campo es obligatorio</value>

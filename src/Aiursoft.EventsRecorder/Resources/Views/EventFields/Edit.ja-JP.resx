@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>表示順</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>例：オプションA，オプションB，オプションC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>フィールドの編集:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>列挙値</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>フィールド詳細</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>変更を保存</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>オプションはカンマで区切ってください。</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>このフィールドは必須です</value>

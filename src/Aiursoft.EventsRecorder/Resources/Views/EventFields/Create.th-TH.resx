@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>เช่น OptionA,OptionB,OptionC</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>เช่น น้ำหนัก ระยะเวลา ภาพถ่าย...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>ค่า Enum</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>รายละเอียดฟิลด์</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>ประเภทฟิลด์</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>แยกตัวเลือกด้วยเครื่องหมายจุลภาค</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>ฟิลด์นี้จำเป็น</value>

@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Urutan Tampilan</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>misalnya OptionA,OptionB,OptionC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Edit Field:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Nilai Enum</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Detail Field</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Simpan Perubahan</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Pisahkan opsi dengan koma.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Kolom ini wajib diisi</value>

@@ -18,7 +18,13 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Field Name" xml:space="preserve">
+      <data name="Display Order" xml:space="preserve">
+    <value>Orden de visualización</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Valores del enumerado</value>
+  </data>
+  <data name="Field Name" xml:space="preserve">
     <value>Nombre del campo</value>
   </data>
   <data name="Field Type" xml:space="preserve">

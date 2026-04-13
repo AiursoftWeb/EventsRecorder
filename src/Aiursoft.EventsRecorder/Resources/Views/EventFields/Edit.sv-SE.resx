@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Visningsordning</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>t.ex. AlternativA,AlternativB,AlternativC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Redigera fält:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Enumeratvärden</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Fältdetaljer</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Spara ändringar</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Separera alternativ med kommatecken.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Detta fält är obligatoriskt</value>

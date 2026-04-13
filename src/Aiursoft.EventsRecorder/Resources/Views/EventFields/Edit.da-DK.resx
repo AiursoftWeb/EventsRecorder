@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Visningsrækkefølge</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>f.eks. OptionA,OptionB,OptionC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Rediger felt:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Enum-værdier</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Feltoplysninger</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Gem ændringer</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Separer muligheder med kommaer.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Dette felt er påkrævet</value>

@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>रद्द करें</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>उदा. विकल्पA,विकल्पB,विकल्पC</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>उदा. वजन, अवधि, फोटो...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>सूची मान्यताएँ</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>फ़ील्ड विवरण</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>फ़ील्ड प्रकार</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>विकल्पों को कॉमा से अलग करें।</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>यह फ़ील्ड अनिवार्य है</value>

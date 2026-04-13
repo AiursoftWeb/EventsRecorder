@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Advanced Options" xml:space="preserve">
+      <data name="-- Select an option --" xml:space="preserve">
+    <value>-- Sélectionnez une option --</value>
+  </data>
+  <data name="Advanced Options" xml:space="preserve">
     <value>Options avancées</value>
   </data>
   <data name="Cancel" xml:space="preserve">

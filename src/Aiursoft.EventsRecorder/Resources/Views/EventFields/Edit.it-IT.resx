@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Ordine di visualizzazione</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>ad es. OpzioneA,OpzioneB,OpzioneC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Modifica campo:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Valori Enumerati</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Dettagli campo</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Salva modifiche</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Separare le opzioni con virgole.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Questo campo è obbligatorio</value>

@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>esim. VaihtoehtoA,VaihtoehtoB,VaihtoehtoC</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>esim. Paino, Kesto, Kuva...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Enum-arvot</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Kentän tiedot</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>Kenttätyyppi</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Erota vaihtoehdot pilkuilla.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Tämä kenttä on pakollinen</value>
