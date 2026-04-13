@@ -127,7 +127,8 @@ public class EventRecordsController(
             FieldId = f.Id,
             Name = f.Name,
             FieldType = f.FieldType,
-            IsRequired = f.IsRequired
+            IsRequired = f.IsRequired,
+            EnumValues = f.EnumValues
         }).ToList();
 
         return this.StackView(new RecordViewModel
@@ -158,7 +159,8 @@ public class EventRecordsController(
                 FieldId = f.Id,
                 Name = f.Name,
                 FieldType = f.FieldType,
-                IsRequired = f.IsRequired
+                IsRequired = f.IsRequired,
+                EnumValues = f.EnumValues
             }).ToList();
         }
         else
@@ -182,6 +184,7 @@ public class EventRecordsController(
             switch (dbField.FieldType)
             {
                 case FieldType.String:
+                case FieldType.Enum:
                     if (string.IsNullOrWhiteSpace(field.StringValue))
                         ModelState.AddModelError($"field_{field.FieldId}", $"{field.Name} is required.");
                     break;
@@ -249,6 +252,7 @@ public class EventRecordsController(
             switch (dbField.FieldType)
             {
                 case FieldType.String:
+                case FieldType.Enum:
                     fieldValue.StringValue = field.StringValue;
                     break;
                 case FieldType.Number:
@@ -361,7 +365,8 @@ public class EventRecordsController(
                 FieldId = f.Id,
                 Name = f.Name,
                 FieldType = f.FieldType,
-                IsRequired = f.IsRequired
+                IsRequired = f.IsRequired,
+                EnumValues = f.EnumValues
             };
 
             if (existingValue != null)
@@ -369,6 +374,7 @@ public class EventRecordsController(
                 switch (f.FieldType)
                 {
                     case FieldType.String:
+                case FieldType.Enum:
                         vm.StringValue = existingValue.StringValue;
                         break;
                     case FieldType.Number:
@@ -454,6 +460,7 @@ public class EventRecordsController(
             switch (dbField.FieldType)
             {
                 case FieldType.String:
+                case FieldType.Enum:
                     existingValue.StringValue = field.StringValue;
                     break;
                 case FieldType.Number:

@@ -49,6 +49,7 @@ public class EventFieldsController(EventsRecorderDbContext context) : Controller
             Name = model.Name!,
             FieldType = model.FieldType,
             IsRequired = model.IsRequired,
+            EnumValues = model.EnumValues,
             Order = maxOrder + 1,
             EventTypeId = model.EventTypeId
         };
@@ -75,6 +76,7 @@ public class EventFieldsController(EventsRecorderDbContext context) : Controller
             Name = field.Name,
             FieldType = field.FieldType,
             IsRequired = field.IsRequired,
+            EnumValues = field.EnumValues,
             Order = field.Order
         });
     }
@@ -95,6 +97,7 @@ public class EventFieldsController(EventsRecorderDbContext context) : Controller
         field.Name = model.Name!;
         field.FieldType = model.FieldType;
         field.IsRequired = model.IsRequired;
+        field.EnumValues = model.EnumValues;
         field.Order = model.Order;
         await context.SaveChangesAsync();
 

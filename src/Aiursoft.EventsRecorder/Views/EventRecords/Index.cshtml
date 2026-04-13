@@ -101,10 +101,10 @@ else
                                     {
                                         switch (field.FieldType)
                                         {
+                                            case Aiursoft.EventsRecorder.Entities.FieldType.Enum:
                                             case Aiursoft.EventsRecorder.Entities.FieldType.String:
                                                 @(fv.StringValue ?? "-")
-                                                break;
-                                            case Aiursoft.EventsRecorder.Entities.FieldType.Number:
+                                                break;                                            case Aiursoft.EventsRecorder.Entities.FieldType.Number:
                                                 @(fv.NumberValue?.ToString("N2") ?? "-")
                                                 break;
                                             case Aiursoft.EventsRecorder.Entities.FieldType.Boolean:

@@ -20,4 +20,6 @@ public class EventField
     public int EventTypeId { get; set; }
 
     public EventType? EventType { get; set; }
+
+    public string? EnumValues { get; set; }
 }

@@ -23,6 +23,9 @@ namespace Aiursoft.EventsRecorder.Sqlite.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("EnumValues")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("EventTypeId")
                         .HasColumnType("INTEGER");
 
