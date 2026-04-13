@@ -114,13 +114,13 @@
   <data name="Thu" xml:space="preserve">
     <value>木</value>
   </data>
-  <data name="time" xml:space="preserve">
+  <data name="Occurrence" xml:space="preserve">
     <value>時刻</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>時間</value>
   </data>
-  <data name="times" xml:space="preserve">
+  <data name="Occurrences" xml:space="preserve">
     <value>回</value>
   </data>
   <data name="Tue" xml:space="preserve">
