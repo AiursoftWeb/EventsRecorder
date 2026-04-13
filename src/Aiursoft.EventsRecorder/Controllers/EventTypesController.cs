@@ -148,6 +148,36 @@ public class EventTypesController(
         })
         .ToList();
 
+        var stringFields = eventType.Fields
+            .Where(f => f.FieldType == FieldType.String)
+            .ToList();
+
+        var stringSeries = stringFields.Select(field => 
+        {
+            var points = eventType.Records
+                .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)
+                .Select(r => r.FieldValues.FirstOrDefault(fv => fv.EventFieldId == field.Id)?.StringValue)
+                .Where(v => !string.IsNullOrWhiteSpace(v))
+                .Select(v => v!.Trim().ToLower())
+                .GroupBy(v => v)
+                .Select(g => new StringPointDto
+                {
+                    Label = g.Key,
+                    Count = g.Count()
+                })
+                .Where(p => p.Count >= 2) // At least two repetitions
+                .ToList();
+
+            return new StringSeriesDto
+            {
+                FieldId = field.Id,
+                FieldName = field.Name,
+                Points = points
+            };
+        })
+        .Where(s => s.Points.Count >= 2) // At least two different repeating strings
+        .ToList();
+
         var last8Records = await context.EventRecords
             .Where(r => r.EventTypeId == id)
             .OrderByDescending(r => r.RecordedAt)
@@ -177,6 +207,7 @@ public class EventTypesController(
             RegularityScore = regularityService.CalculateScore(last8Records),
             NumberSeries = numberSeries,
             BooleanSeries = booleanSeries,
+            StringSeries = stringSeries,
             Occurrences = occurrences,
             Start = startTime,
             End = endTime

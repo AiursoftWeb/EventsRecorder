@@ -198,7 +198,7 @@
             }
         </div>
 
-        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean))
+        @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.Boolean || f.FieldType == FieldType.String))
         {
             @foreach (var series in Model.NumberSeries)
             {
@@ -207,8 +207,8 @@
                     <div class="card-header">
                         <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="trending-up"></i> @series.FieldName</h5>
                     </div>
-                    <div class="card-body">
-                        <canvas id="@canvasId" height="300"></canvas>
+                    <div class="card-body" style="height: 300px;">
+                        <canvas id="@canvasId"></canvas>
                     </div>
                 </div>
             }
@@ -232,6 +232,19 @@
                             <span class="small">@Localizer["No Records"]</span>
                         </div>
                         <div id="@calendarId"></div>
+                    </div>
+                </div>
+            }
+
+            @foreach (var series in Model.StringSeries)
+            {
+                var canvasId = $"chart_string_{series.FieldId}";
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0"><i class="align-middle me-2" data-lucide="pie-chart"></i> @series.FieldName</h5>
+                    </div>
+                    <div class="card-body" style="height: 350px;">
+                        <canvas id="@canvasId"></canvas>
                     </div>
                 </div>
             }
@@ -417,20 +430,21 @@
         });
     </script>
 
-    @if (Model.Fields.Any(f => f.FieldType == FieldType.Number))
+    @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.String))
     {
         <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-                var seriesData = @Html.Raw(JsonConvert.SerializeObject(Model.NumberSeries));
                 var colors = [
                     'rgb(75, 192, 192)', 'rgb(255, 99, 132)', 'rgb(54, 162, 235)',
                     'rgb(255, 206, 86)', 'rgb(153, 102, 255)', 'rgb(255, 159, 64)',
                     'rgb(46, 204, 113)', 'rgb(231, 76, 60)', 'rgb(52, 152, 219)'
                 ];
-                
-                seriesData.forEach(function (series, idx) {
+
+                // Render number series (line charts)
+                var numberSeriesData = @Html.Raw(JsonConvert.SerializeObject(Model.NumberSeries));
+                numberSeriesData.forEach(function (series, idx) {
                     var canvasId = 'chart_' + series.FieldId;
                     var canvas = document.getElementById(canvasId);
                     if (!canvas) return;
@@ -464,6 +478,34 @@
                             },
                             plugins: {
                                 legend: { display: true, position: 'top' }
+                            }
+                        }
+                    });
+                });
+
+                // Render string series (pie charts)
+                var stringSeriesData = @Html.Raw(JsonConvert.SerializeObject(Model.StringSeries));
+                stringSeriesData.forEach(function (series) {
+                    var canvasId = 'chart_string_' + series.FieldId;
+                    var canvas = document.getElementById(canvasId);
+                    if (!canvas) return;
+
+                    new Chart(canvas, {
+                        type: 'pie',
+                        data: {
+                            labels: series.Points.map(p => p.Label),
+                            datasets: [{
+                                data: series.Points.map(p => p.Count),
+                                backgroundColor: colors
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'right',
+                                }
                             }
                         }
                     });
