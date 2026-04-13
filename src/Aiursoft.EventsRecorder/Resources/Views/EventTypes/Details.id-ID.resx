@@ -111,13 +111,13 @@
   <data name="Thu" xml:space="preserve">
     <value>Kam</value>
   </data>
-  <data name="time" xml:space="preserve">
+  <data name="Occurrence" xml:space="preserve">
     <value>waktu</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Waktu</value>
   </data>
-  <data name="times" xml:space="preserve">
+  <data name="Occurrences" xml:space="preserve">
     <value>kali</value>
   </data>
   <data name="Tue" xml:space="preserve">

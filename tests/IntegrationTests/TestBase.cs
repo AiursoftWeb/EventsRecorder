@@ -31,7 +31,10 @@ public abstract class TestBase
     [TestInitialize]
     public virtual async Task CreateServer()
     {
-        Server = await AppAsync<Startup>([], port: Port);
+        var tempPath = Path.Combine(Path.GetTempPath(), "EventsRecorderTests", Guid.NewGuid().ToString());
+        Server = await AppAsync<Startup>([
+            "Storage:Path=" + tempPath
+        ], port: Port);
         await Server.UpdateDbAsync<EventsRecorderDbContext>();
         await Server.SeedAsync();
         await Server.StartAsync();
@@ -42,6 +45,21 @@ public abstract class TestBase
     {
         if (Server == null) return;
         await Server.StopAsync();
+        
+        // Try to clean up the temporary directory
+        var path = Server.Services.GetRequiredService<IConfiguration>()["Storage:Path"];
+        if (!string.IsNullOrEmpty(path) && Directory.Exists(path))
+        {
+            try
+            {
+                Directory.Delete(path, true);
+            }
+            catch
+            {
+                // Ignore cleanup errors
+            }
+        }
+
         Server.Dispose();
     }
 

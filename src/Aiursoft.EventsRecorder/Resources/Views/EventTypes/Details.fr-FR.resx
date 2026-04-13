@@ -114,13 +114,13 @@
   <data name="Thu" xml:space="preserve">
     <value>Jeu</value>
   </data>
-  <data name="time" xml:space="preserve">
+  <data name="Occurrence" xml:space="preserve">
     <value>temps</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Temps</value>
   </data>
-  <data name="times" xml:space="preserve">
+  <data name="Occurrences" xml:space="preserve">
     <value>fois</value>
   </data>
   <data name="Tue" xml:space="preserve">
