@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>표시 순서</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>예: 옵션A, 옵션B, 옵션C</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>필드 편집:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>열거형 값</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>필드 세부 정보</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>변경 사항 저장</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>옵션은 쉼표로 구분하세요.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>필수 항목입니다</value>

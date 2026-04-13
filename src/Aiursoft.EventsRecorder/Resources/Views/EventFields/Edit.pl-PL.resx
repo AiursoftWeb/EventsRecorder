@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Kolejność wyświetlania</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>np. OptionA,OptionB,OptionC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Edytuj pole:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Wartości wyliczeniowe</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Szczegóły pola</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Zapisz zmiany</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Separate options with commas.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>To pole jest wymagane</value>

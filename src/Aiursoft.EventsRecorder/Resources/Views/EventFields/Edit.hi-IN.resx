@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>प्रदर्शन क्रम</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>उदाहरण के लिए: OptionA,OptionB,OptionC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>फ़ील्ड संपादित करें:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>सूचक मान</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>फ़ील्ड विवरण</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>परिवर्तन सहेजें</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>विकल्पों को कॉमा से अलग करें।</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>यह फ़ील्ड अनिवार्य है</value>

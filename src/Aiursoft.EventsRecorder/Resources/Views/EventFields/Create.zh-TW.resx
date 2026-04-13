@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>例如：選項 A、選項 B、選項 C</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>例如：體重、時長、照片...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>列舉值</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>欄位詳細資訊</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>欄位類型</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>選項之間請用逗號分隔。</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>此欄位為必填</value>

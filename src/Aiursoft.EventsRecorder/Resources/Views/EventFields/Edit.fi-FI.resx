@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>Näkymisjärjestys</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>esim. VaihtoehtoA,VaihtoehtoB,VaihtoehtoC</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Muokkaa kenttää:</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Enum-arvot</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Kentän tiedot</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>Tallenna muutokset</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Erota valinnat pilkulla.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Tämä kenttä on pakollinen</value>

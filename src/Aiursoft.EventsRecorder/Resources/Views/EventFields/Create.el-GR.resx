@@ -27,8 +27,14 @@
   <data name="Cancel" xml:space="preserve">
     <value>Ακύρωση</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>π.χ. ΕπιλογήΑ,ΕπιλογήΒ,ΕπιλογήΓ</value>
+  </data>
   <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
     <value>π.χ. Βάρος, Διάρκεια, Φωτογραφία...</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>Τιμές Ένωσης</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>Λεπτομέρειες Πεδίου</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Field Type" xml:space="preserve">
     <value>Τύπος Πεδίου</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>Διαχωρίστε τις επιλογές με κόμματα.</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Αυτό το πεδίο είναι υποχρεωτικό</value>

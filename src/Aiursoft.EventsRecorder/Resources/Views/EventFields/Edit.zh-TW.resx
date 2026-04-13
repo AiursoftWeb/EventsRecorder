@@ -24,8 +24,14 @@
   <data name="Display Order" xml:space="preserve">
     <value>顯示順序</value>
   </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>例如：選項 A、選項 B、選項 C</value>
+  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>編輯欄位：</value>
+  </data>
+  <data name="Enum Values" xml:space="preserve">
+    <value>列舉值</value>
   </data>
   <data name="Field Details" xml:space="preserve">
     <value>欄位詳細資訊</value>
@@ -38,6 +44,9 @@
   </data>
   <data name="Save Changes" xml:space="preserve">
     <value>儲存變更</value>
+  </data>
+  <data name="Separate options with commas." xml:space="preserve">
+    <value>請使用逗號分隔選項。</value>
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>此欄位為必填</value>
