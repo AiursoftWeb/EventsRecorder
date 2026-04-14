@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>कोई रिकॉर्ड नहीं</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>समय</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>क्रम</value>
   </data>
@@ -111,13 +117,7 @@
   <data name="Thu" xml:space="preserve">
     <value>गुरु</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>समय</value>
-  </data>
   <data name="Time" xml:space="preserve">
-    <value>समय</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
     <value>समय</value>
   </data>
   <data name="Tue" xml:space="preserve">

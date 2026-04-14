@@ -78,6 +78,12 @@
   <data name="No Records" xml:space="preserve">
     <value>Δεν υπάρχουν εγγραφές</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>ώρα</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>φορές</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Σειρά</value>
   </data>
@@ -111,14 +117,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Πέμ</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>ώρα</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Ώρα</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>φορές</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Τρί</value>

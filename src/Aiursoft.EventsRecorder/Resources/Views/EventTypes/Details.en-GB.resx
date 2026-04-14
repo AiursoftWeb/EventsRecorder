@@ -81,6 +81,12 @@
   <data name="Number Trends" xml:space="preserve">
     <value>Number Trends</value>
   </data>
+  <data name="Occurrence" xml:space="preserve">
+    <value>time</value>
+  </data>
+  <data name="Occurrences" xml:space="preserve">
+    <value>times</value>
+  </data>
   <data name="Order" xml:space="preserve">
     <value>Order</value>
   </data>
@@ -114,14 +120,8 @@
   <data name="Thu" xml:space="preserve">
     <value>Thu</value>
   </data>
-  <data name="Occurrence" xml:space="preserve">
-    <value>time</value>
-  </data>
   <data name="Time" xml:space="preserve">
     <value>Time</value>
-  </data>
-  <data name="Occurrences" xml:space="preserve">
-    <value>times</value>
   </data>
   <data name="Tue" xml:space="preserve">
     <value>Tue</value>
