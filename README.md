@@ -1,9 +1,9 @@
 # EventsRecorder - Structured event recording and tracking system
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/blob/master/LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/aiursoftweb/eventsRecorder/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
 [![Test Coverage](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
-[![Man hours](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/eventsRecorder.svg)](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/eventsRecorder.html)
+[![Man hours](https://manhours.aiursoft.com/r/github.com/aiursoftweb/eventsRecorder.svg)](https://manhours.aiursoft.com/r/github.com/aiursoftweb/eventsRecorder.html)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2FeventsRecorder.aiursoft.com)](https://eventsRecorder.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/eventsrecorder.svg)](https://hub.docker.com/r/aiursoft/eventsrecorder)
 
@@ -24,13 +24,13 @@ The following script will install\update this app on your Ubuntu server. Support
 On your Ubuntu server, run the following command:
 
 ```bash
-curl -sL https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/raw/master/install.sh | sudo bash
+curl -sL https://github.com/aiursoftweb/eventsRecorder/raw/master/install.sh | sudo bash
 ```
 
 Of course it is suggested that append a custom port number to the command:
 
 ```bash
-curl -sL https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/raw/master/install.sh | sudo bash -s 8080
+curl -sL https://github.com/aiursoftweb/eventsRecorder/raw/master/install.sh | sudo bash -s 8080
 ```
 
 It will install the app as a systemd service, and start it automatically. Binary files will be located at `/opt/apps`. Service files will be located at `/etc/systemd/system`.
