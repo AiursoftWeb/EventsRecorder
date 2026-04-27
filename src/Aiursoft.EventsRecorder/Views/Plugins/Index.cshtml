@@ -1,0 +1,76 @@
+@model Aiursoft.EventsRecorder.Models.PluginsViewModels.IndexViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["My Plugins"]</h3>
+    </div>
+</div>
+
+<p class="text-muted">@Localizer["Plugins compute derived metrics from your event records. Configure a plugin to activate it."]</p>
+
+<div class="row">
+    @foreach (var result in Model.PluginResults)
+    {
+        <div class="col-12 col-lg-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="card-title mb-0">
+                            <i class="align-middle me-2" data-lucide="plug"></i>
+                            @result.Plugin.Name
+                        </h5>
+                    </div>
+                    @if (result.IsConfigured)
+                    {
+                        <span class="badge bg-success">@Localizer["Active"]</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">@Localizer["Not configured"]</span>
+                    }
+                </div>
+
+                <div class="card-body">
+                    <p class="text-muted small mb-3">@result.Plugin.Description</p>
+
+                    @if (result.IsConfigured && result.Metrics.Any())
+                    {
+                        <div class="row g-2">
+                            @foreach (var metric in result.Metrics)
+                            {
+                                <div class="col-6">
+                                    <div class="border rounded p-2 text-center h-100">
+                                        <div class="fw-bold fs-5">
+                                            @metric.Value.ToString("G4")
+                                            <small class="text-muted fs-6">@metric.Unit</small>
+                                        </div>
+                                        <div class="text-muted small">@metric.MetricName</div>
+                                        @if (!string.IsNullOrWhiteSpace(metric.Explanation))
+                                        {
+                                            <div class="text-muted" style="font-size:0.7rem;">@metric.Explanation</div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else if (!result.IsConfigured)
+                    {
+                        <div class="text-center py-3 text-muted">
+                            <i class="align-middle mb-2" data-lucide="settings" style="width:32px;height:32px;"></i>
+                            <p class="mb-0 small">@Localizer["Configure this plugin to start seeing metrics."]</p>
+                        </div>
+                    }
+                </div>
+
+                <div class="card-footer text-end">
+                    <a asp-action="Configure" asp-route-id="@result.Plugin.PluginId"
+                       class="btn btn-sm btn-outline-primary">
+                        <i class="align-middle" data-lucide="settings" style="width:14px;height:14px;"></i>
+                        @Localizer["Configure"]
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

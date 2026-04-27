@@ -9,6 +9,7 @@ using Aiursoft.WebTools.Abstractions.Models;
 using Aiursoft.EventsRecorder.InMemory;
 using Aiursoft.EventsRecorder.MySql;
 using Aiursoft.EventsRecorder.Services.Authentication;
+using Aiursoft.EventsRecorder.Services.Plugins;
 using Aiursoft.EventsRecorder.Sqlite;
 using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
@@ -52,6 +53,7 @@ public class Startup : IWebStartup
         services.AddMemoryCache();
         services.AddHttpClient();
         services.AddAssemblyDependencies(typeof(Startup).Assembly);
+        services.AddAssemblyPlugins(typeof(Startup).Assembly);
         services.AddSingleton<NavigationState<Startup>>();
 
         // Background job queue (Canon)
