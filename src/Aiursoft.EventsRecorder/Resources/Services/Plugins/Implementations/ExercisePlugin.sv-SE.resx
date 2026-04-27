@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 42 dagarna.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 7 dagarna.</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>Kaloriefält per eventtyp</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Beräknar Fitness (42-dagars belastning), Trötthet (7-dagars belastning) och Form med hjälp av CTL/ATL-träningsbelastningsmodellen. Stöder flera källor.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Övningsanalys</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>Övningshändelsetyper</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Trötthet (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Träningsbelastning (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus fatigue. Positiv = fräsch; negativ = trött.</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>För varje vald eventtyp, vilket numeriskt fält registrerar förbrända kalorier?</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>Vilka händelsetyper representerar träningspass?</value>
+  </data>
+
+</root>

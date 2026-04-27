@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>การสำเร็จใน 30 วัน</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>สถิติความต่อเนื่องของวันที่ยาวนานที่สุดตลอดกาล</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>จำนวนวันที่ติดต่อกันที่มีข้อมูลอย่างน้อยหนึ่งรายการจนถึงวันนี้</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>ความต่อเนื่องปัจจุบัน</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>ประเภทเหตุการณ์นิสัย</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>ความต่อเนื่องของนิสัย</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>ความต่อเนื่องที่ยาวนานที่สุด</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>สัดส่วนของวันที่มีบันทึกอย่างน้อยหนึ่งรายการในช่วง 30 วันที่ผ่านมา</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>ติดตามสถิติการติดต่อกันของนิสัยประจำวัน สถิติการติดต่อกันที่ยาวนานที่สุดตลอดกาล และอัตราการสำเร็จใน 30 วัน โดยนับวันที่มีบันทึกอย่างน้อยหนึ่งรายการว่าเป็นวันที่สำเร็จ</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>ประเภทกิจกรรมใดบ้างที่นับเป็นการสำเร็จนิสัยประจำวัน?</value>
+  </data>
+
+</root>

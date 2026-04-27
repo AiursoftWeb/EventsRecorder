@@ -17,7 +17,7 @@
                     <div>
                         <h5 class="card-title mb-0">
                             <i class="align-middle me-2" data-lucide="plug"></i>
-                            @result.Plugin.Name
+                            @Localizer[result.Plugin.Name]
                         </h5>
                     </div>
                     @if (result.IsConfigured)
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="card-body">
-                    <p class="text-muted small mb-3">@result.Plugin.Description</p>
+                    <p class="text-muted small mb-3">@Localizer[result.Plugin.Description]</p>
 
                     @if (result.IsConfigured && result.Metrics.Any())
                     {
@@ -44,10 +44,10 @@
                                             @metric.Value.ToString("G4")
                                             <small class="text-muted fs-6">@metric.Unit</small>
                                         </div>
-                                        <div class="text-muted small">@metric.MetricName</div>
+                                        <div class="text-muted small">@Localizer[metric.MetricName]</div>
                                         @if (!string.IsNullOrWhiteSpace(metric.Explanation))
                                         {
-                                            <div class="text-muted" style="font-size:0.7rem;">@metric.Explanation</div>
+                                            <div class="text-muted" style="font-size:0.7rem;">@Localizer[metric.Explanation]</div>
                                         }
                                     </div>
                                 </div>

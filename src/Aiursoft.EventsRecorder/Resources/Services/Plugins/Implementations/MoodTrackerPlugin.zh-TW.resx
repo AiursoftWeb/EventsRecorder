@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>30天平均</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7天平均</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>指數移動平均 (α=0.2)。近期數據權重較高。</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>情緒指數移動平均</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>情緒事件類型</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>情緒分數欄位</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>情緒追蹤器</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>情緒波動</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>過去 30 天情緒分數的簡單平均值。</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>過去 7 天的心情分數簡單平均值。</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>過去 30 天的標準差。數值越低 = 越穩定。</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>使用指數移動平均（α=0.2）、7/30天平均值以及30天波動率（標準差）來追蹤情緒趨勢。</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>哪個事件類型會記錄您的情緒？</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>哪個數值欄位用於儲存情緒分數（例如 1–10）？</value>
+  </data>
+
+</root>

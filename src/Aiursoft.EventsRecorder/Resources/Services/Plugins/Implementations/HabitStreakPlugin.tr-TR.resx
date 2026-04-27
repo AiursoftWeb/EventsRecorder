@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>30 Günlük Tamamlanma</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Tüm zamanların en uzun ardışık günlük serisi.</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Bugüne kadar en az bir kayıt içeren ardışık günler.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Mevcut Seri</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>Alışkanlık Etkinlik Türleri</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Alışkanlık Serisi</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>En Uzun Seri</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Son 30 gün içinde en az bir kayıt bulunan günlerin yüzdesi.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Günlük alışkanlık serinizi, tüm zamanların en uzun serinizi ve 30 günlük tamamlanma oranınızı takip eder. En az bir kayıt içeren her gün tamamlanmış bir gün olarak sayılır.</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>Günlük alışkanlığı tamamlamak için hangi etkinlik türleri geçerli sayılır?</value>
+  </data>
+
+</root>

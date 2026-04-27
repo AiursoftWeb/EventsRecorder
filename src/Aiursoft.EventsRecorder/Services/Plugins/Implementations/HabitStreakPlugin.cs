@@ -98,3 +98,15 @@ public class HabitStreakPlugin : IPlugin
         ]);
     }
 }
+
+// Localization markers for dotlang:
+// Localizer["Habit Streak"]
+// Localizer["Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day."]
+// Localizer["Habit Event Types"]
+// Localizer["Which event types count as completing the habit for the day?"]
+// Localizer["Current Streak"]
+// Localizer["Consecutive days with at least one record, up to today."]
+// Localizer["Longest Streak"]
+// Localizer["All-time longest consecutive daily streak."]
+// Localizer["30-Day Completion"]
+// Localizer["Percentage of days in the past 30 days with at least one record."]

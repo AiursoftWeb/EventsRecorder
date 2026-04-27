@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Clique para fazer login</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Configurar Plugin</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Criar Tipo de Evento</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informações</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Insights</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Erro Interno do Servidor</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Gerenciar</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Meus Plugins</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Meus Registros</value>

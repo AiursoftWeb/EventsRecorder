@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klicka för att logga in</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Konfigurera insticksprogram</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Skapa händelsetyp</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Information</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Insikter</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Intern serverfel</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Hantera</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Mina plugins</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Mina poster</value>

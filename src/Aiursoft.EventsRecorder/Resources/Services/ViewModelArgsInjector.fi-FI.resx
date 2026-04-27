@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klikkaa kirjautuaksesi</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Määritä liitännäinen</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Luo tapahtumatyyppi</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Tiedot</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Näkymät</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Sisäinen palvelinvirhe</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Hallinnoi</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Omat liitännäiset</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Omat tietoni</value>

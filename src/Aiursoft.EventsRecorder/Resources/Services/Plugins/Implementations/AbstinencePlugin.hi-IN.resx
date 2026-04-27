@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Abstinence Score" xml:space="preserve">
+    <value>विरत स्कोर</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>सबसे हालिया रिकॉर्ड किए गए घटना के बाद बीते दिन।</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>पिछली घटना के बाद से बीते दिन</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>प्रतिदिन +10 से पुनर्स्थापित होता है (अधिकतम 100)। प्रत्येक घटना: ÷2।</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>वह व्यवहार जो आप कम करना चाहते हैं, उसके लिए आत्म-नियंत्रण को ट्रैक करें। स्कोर +10/दिन (अधिकतम 100) तक बहाल होता है और प्रत्येक घटना पर आधा हो जाता है।</value>
+  </data>
+  <data name="Trigger Event Types" xml:space="preserve">
+    <value>ट्रिगर इवेंट प्रकार</value>
+  </data>
+  <data name="Which event types count as relapse events? (e.g. smoking, drinking, …)" xml:space="preserve">
+    <value>कौन से ईवेंट प्रकार रिलैपस ईवेंट के रूप में गिने जाते हैं? (जैसे धूम्रपान, शराब पीना, ...)</value>
+  </data>
+
+</root>

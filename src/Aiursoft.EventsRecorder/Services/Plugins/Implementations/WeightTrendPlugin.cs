@@ -124,3 +124,19 @@ public class WeightTrendPlugin : IPlugin
         return Math.Abs(denom) < 1e-9 ? 0 : (n * sumXy - sumX * sumY) / denom;
     }
 }
+
+// Localization markers for dotlang:
+// Localizer["Weight Trend"]
+// Localizer["Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days."]
+// Localizer["Weigh-In Event Type"]
+// Localizer["Which event type records your weight?"]
+// Localizer["Weight Field"]
+// Localizer["Which numeric field stores the weight value?"]
+// Localizer["Latest Weight"]
+// Localizer["Most recent recorded weight."]
+// Localizer["7-Day Average"]
+// Localizer["Average weight over the past 7 days."]
+// Localizer["30-Day Average"]
+// Localizer["Average weight over the past 30 days."]
+// Localizer["Weekly Trend"]
+// Localizer["Rate of change over 30 days. Positive = gaining, negative = losing."]

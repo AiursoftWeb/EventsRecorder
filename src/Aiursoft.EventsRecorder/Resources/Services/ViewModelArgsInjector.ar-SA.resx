@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>انقر لتسجيل الدخول</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>تكوين الإضافة</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>إنشاء نوع الحدث</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>المعلومات</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>الرؤى</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>خطأ الخادم الداخلي</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>إدارة</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>إضافاتي</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>سجلاتي</value>

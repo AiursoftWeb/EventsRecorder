@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>수면 시간과 일관성을 분석합니다. 지난 30일 동안 평균 수면 시간과 취침 시간의 안정성을 추적합니다.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>평균 수면 시간</value>
+  </data>
+  <data name="Duration Field" xml:space="preserve">
+    <value>지속 시간 필드</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>취침 시간의 일관성입니다. 수치가 높을수록 더 안정적입니다.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>수면 분석</value>
+  </data>
+  <data name="Sleep Event Type" xml:space="preserve">
+    <value>수면 이벤트 유형</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>수면 안정성</value>
+  </data>
+  <data name="Which event type records your sleep? (e.g. &apos;Sleep&apos;)" xml:space="preserve">
+    <value>수면을 기록하는 이벤트 유형은 무엇입니까? (예: &apos;수면&apos;)</value>
+  </data>
+  <data name="Which field records the sleep duration? (Timespan type recommended)" xml:space="preserve">
+    <value>수면 지속 시간을 기록하는 필드는 무엇입니까? (타임스팬 타입 권장)</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>지난 30일 동안의 평균 일일 수면 시간</value>
+  </data>
+
+</root>

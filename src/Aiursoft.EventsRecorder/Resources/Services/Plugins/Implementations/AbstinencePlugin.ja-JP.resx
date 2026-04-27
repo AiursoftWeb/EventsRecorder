@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Abstinence Score" xml:space="preserve">
+    <value>禁欲スコア</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>最も最近の記録されたイベントから経過した日数。</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>最後のイベントからの日数</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>毎日+10回復（最大100）。各イベントで÷2。</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>減らしたい行動の自制心を追跡します。スコアは1日あたり+10回復（最大100）、各イベントごとに半分になります。</value>
+  </data>
+  <data name="Trigger Event Types" xml:space="preserve">
+    <value>トリガーイベントタイプ</value>
+  </data>
+  <data name="Which event types count as relapse events? (e.g. smoking, drinking, …)" xml:space="preserve">
+    <value>どのイベントタイプが再発イベントとしてカウントされますか？（例：喫煙、飲酒、…）</value>
+  </data>
+
+</root>

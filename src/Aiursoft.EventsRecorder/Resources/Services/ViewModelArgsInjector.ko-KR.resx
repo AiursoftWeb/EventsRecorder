@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>로그인하려면 클릭</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>플러그인 구성</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>이벤트 유형 생성</value>
   </data>
@@ -114,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>정보</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>인사이트</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>내부 서버 오류</value>
   </data>
@@ -128,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>관리</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>내 플러그인</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>내 기록</value>

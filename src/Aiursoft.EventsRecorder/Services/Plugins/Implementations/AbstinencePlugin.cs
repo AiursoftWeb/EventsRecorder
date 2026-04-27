@@ -89,3 +89,12 @@ public class AbstinencePlugin : IPlugin
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(results);
     }
 }
+
+// Localization markers for dotlang:
+// Localizer["Abstinence Score"]
+// Localizer["Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event."]
+// Localizer["Trigger Event Types"]
+// Localizer["Which event types count as relapse events? (e.g. smoking, drinking, …)"]
+// Localizer["Recovers +10/day (max 100). Each event: ÷2."]
+// Localizer["Days Since Last Event"]
+// Localizer["Days elapsed since the most recent recorded event."]

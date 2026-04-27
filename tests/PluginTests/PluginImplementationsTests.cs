@@ -246,4 +246,39 @@ public class PluginImplementationsTests
         Assert.AreEqual(750.0, fitness);
         Assert.AreEqual(750.0, fatigue);
     }
+
+    [TestMethod]
+    public async Task SleepTrackerPlugin_BasicTest()
+    {
+        var plugin = new SleepTrackerPlugin();
+        var config = new Dictionary<string, string>
+        {
+            ["event_type_id"] = "1",
+            ["duration_field_id"] = "10"
+        };
+
+        var eventTypes = new List<EventType>
+        {
+            new()
+            {
+                Id = 1,
+                Name = "Sleep",
+                UserId = "user-1",
+                Records =
+                [
+                    new EventRecord
+                    {
+                        RecordedAt = _now.AddDays(-1).AddHours(8), // Woke up at 8 AM
+                        UserId = "user-1",
+                        FieldValues = [new EventFieldValue { EventFieldId = 10, TimespanTicks = TimeSpan.FromHours(8).Ticks }]
+                    }
+                ]
+            }
+        };
+
+        var results = await plugin.ComputeAsync(config, eventTypes, _now);
+
+        var avg = results.First(r => r.MetricId == "avg_duration").Value;
+        Assert.AreEqual(8.0, avg);
+    }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Abstinence Score" xml:space="preserve">
+    <value>Điểm Kiêng Kỵ</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Số ngày đã trôi qua kể từ sự kiện được ghi nhận gần nhất.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Số ngày kể từ lần cuối</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Phục hồi +10/ngày (tối đa 100). Mỗi sự kiện: ÷2.</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Theo dõi khả năng tự kiểm soát đối với bất kỳ hành vi nào bạn muốn giảm. Điểm hồi phục +10/ngày (tối đa 100) và giảm một nửa sau mỗi sự kiện.</value>
+  </data>
+  <data name="Trigger Event Types" xml:space="preserve">
+    <value>Loại Sự Kiện Kích Hoạt</value>
+  </data>
+  <data name="Which event types count as relapse events? (e.g. smoking, drinking, …)" xml:space="preserve">
+    <value>Loại sự kiện nào được tính là sự kiện tái phát? (ví dụ: hút thuốc, uống rượu, …)</value>
+  </data>
+
+</root>

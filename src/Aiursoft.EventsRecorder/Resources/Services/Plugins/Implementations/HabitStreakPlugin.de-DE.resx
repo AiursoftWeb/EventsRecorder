@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>30-Tage-Abchluss</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Längste durchgehende tägliche Serie aller Zeiten.</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Folgetage mit mindestens einem Eintrag, bis heute.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Aktuelle Serie</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>Gewohnheits-Ereignistypen</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Gewohnheits-Serie</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Längste Serie</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Anteil der Tage in den letzten 30 Tagen mit mindestens einem Eintrag.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Verfolgt deine tägliche Gewohnheits-Serie, die längste Serie aller Zeiten und die 30-Tage-Vervollständigungsrate. Jeder Tag mit mindestens einem Eintrag gilt als abgeschlossener Tag.</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>Welche Ereignistypen zählen als Erfüllung der Gewohnheit für den Tag?</value>
+  </data>
+
+</root>

@@ -100,3 +100,17 @@ public class ExercisePlugin : IPlugin
         ]);
     }
 }
+
+// Localization markers for dotlang:
+// Localizer["Exercise Analytics"]
+// Localizer["Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources."]
+// Localizer["Exercise Event Types"]
+// Localizer["Which event types represent exercise sessions?"]
+// Localizer["Calories Field per Event Type"]
+// Localizer["For each selected event type, which numeric field records calories burned?"]
+// Localizer["Fitness (CTL)"]
+// Localizer["Average calories per session over the past 42 days."]
+// Localizer["Fatigue (ATL)"]
+// Localizer["Average calories per session over the past 7 days."]
+// Localizer["Form (CTL − ATL)"]
+// Localizer["Fitness minus Fatigue. Positive = fresh; negative = fatigued."]

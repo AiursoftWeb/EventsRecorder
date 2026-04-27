@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Натисніть, щоб увійти</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Налаштувати плагін</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Створити тип події</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Інформація</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Аналітика</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Помилка внутрішнього сервера</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Керування</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Мої плагіни</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Мої записи</value>

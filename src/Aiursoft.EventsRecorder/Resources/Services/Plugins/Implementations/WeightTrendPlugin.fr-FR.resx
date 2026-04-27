@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Moyenne sur 30 jours</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Moyenne sur 7 jours</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Poids moyen au cours des 30 derniers jours.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Poids moyen au cours des 7 derniers jours.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Poids le plus récent</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Poids enregistré le plus récent.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Taux de variation sur 30 jours. Positif = prise de poids, négatif = perte de poids.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Suit le poids corporel avec des moyennes mobiles et une tendance hebdomadaire calculée par régression linéaire sur les 30 derniers jours.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Tendance hebdomadaire</value>
+  </data>
+  <data name="Weigh-In Event Type" xml:space="preserve">
+    <value>Type d&apos;événement de pesée</value>
+  </data>
+  <data name="Weight Field" xml:space="preserve">
+    <value>Champ de poids</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Tendance du poids</value>
+  </data>
+  <data name="Which event type records your weight?" xml:space="preserve">
+    <value>Quel type d&apos;événement enregistre votre poids ?</value>
+  </data>
+  <data name="Which numeric field stores the weight value?" xml:space="preserve">
+    <value>Quel champ numérique stocke la valeur du poids ?</value>
+  </data>
+
+</root>

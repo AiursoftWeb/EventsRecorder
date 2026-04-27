@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyse la durée et la régularité du sommeil. Suit votre temps de sommeil moyen et la stabilité de votre heure de coucher au cours des 30 derniers jours.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Sommeil moyen</value>
+  </data>
+  <data name="Duration Field" xml:space="preserve">
+    <value>Champ de durée</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>La régularité de votre heure de coucher. Plus le score est élevé, plus le rythme est stable.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Analyse du sommeil</value>
+  </data>
+  <data name="Sleep Event Type" xml:space="preserve">
+    <value>Type d&apos;événement de sommeil</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Stabilité du sommeil</value>
+  </data>
+  <data name="Which event type records your sleep? (e.g. &apos;Sleep&apos;)" xml:space="preserve">
+    <value>Quel type d&apos;événement enregistre votre sommeil ? (par ex. &apos;Sommeil&apos;)</value>
+  </data>
+  <data name="Which field records the sleep duration? (Timespan type recommended)" xml:space="preserve">
+    <value>Quel champ enregistre la durée du sommeil ? (Type Timespan recommandé)</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Votre durée moyenne de sommeil quotidienne au cours des 30 derniers jours.</value>
+  </data>
+
+</root>

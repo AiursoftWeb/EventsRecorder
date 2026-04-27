@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Son 42 gün boyunca oturum başına ortalama kalori.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Son 7 gün içindeki oturum başına ortalama kalori.</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>Etkinlik Türüne Göre Kalori Alanı</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATL antrenman yükü modelini kullanarak Fitness (42 günlük yük), Fatigue (7 günlük yük) ve Form değerlerini hesaplar. Birden fazla kaynağı destekler.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Egzersiz Analitiği</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>Egzersiz Etkinlik Türleri</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Yorgunluk (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness eksi Yorgunluk. Pozitif = dinç; negatif = yorgun.</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>Her seçilen etkinlik türü için, yakılan kalorileri hangi sayısal alan kaydeder?</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>Egzersiz oturumlarını hangi etkinlik türleri temsil eder?</value>
+  </data>
+
+</root>

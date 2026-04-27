@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>लॉगिन करने के लिए क्लिक करें</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>प्लगइन कॉन्फ़िगर करें</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>इवेंट प्रकार बनाएं</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>जानकारी</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>अंतर्दृष्टि</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>आ interनल सर्वर त्रुटि</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>प्रबंधित करें</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>मेरे प्लगइन</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>मेरे रिकॉर्ड</value>

@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klik untuk masuk</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Konfigurasi Plugin</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Buat Jenis Acara</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Informasi</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Wawasan</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Kesalahan Server Internal</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Kelola</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Plugin Saya</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Rekaman Saya</value>

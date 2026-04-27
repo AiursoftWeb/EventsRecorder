@@ -2,16 +2,16 @@
 @using Newtonsoft.Json
 @model Aiursoft.EventsRecorder.Models.PluginsViewModels.ConfigureViewModel
 
-<h1 class="h3 mb-3">@Localizer["Configure"] — @Model.PluginName</h1>
+<h1 class="h3 mb-3">@Localizer["Configure"] — @Localizer[Model.PluginName]</h1>
 
 <div class="row justify-content-center">
     <div class="col-lg-10 col-xl-8">
         <div class="card">
             <div class="card-header">
-                <h5 class="card-title mb-0">@Model.PluginName</h5>
+                <h5 class="card-title mb-0">@Localizer[Model.PluginName]</h5>
                 @if (!string.IsNullOrWhiteSpace(Model.PluginDescription))
                 {
-                    <p class="card-subtitle text-muted small mt-1 mb-0">@Model.PluginDescription</p>
+                    <p class="card-subtitle text-muted small mt-1 mb-0">@Localizer[Model.PluginDescription]</p>
                 }
             </div>
             <div class="card-body">
@@ -23,8 +23,8 @@
                         var currentVal = Model.CurrentConfig.TryGetValue(schema.Key, out var cv) ? cv : "";
 
                         <div class="mb-4">
-                            <label class="form-label fw-semibold">@schema.Label</label>
-                            <p class="text-muted small mb-2">@schema.Description</p>
+                            <label class="form-label fw-semibold">@Localizer[schema.Label]</label>
+                            <p class="text-muted small mb-2">@Localizer[schema.Description]</p>
 
                             @switch (schema.Type)
                             {

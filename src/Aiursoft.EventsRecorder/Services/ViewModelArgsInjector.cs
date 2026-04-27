@@ -87,6 +87,10 @@ public class ViewModelArgsInjector(
         _ = localizer["Event Types"];
         _ = localizer["Events"];
         _ = localizer["My Records"];
+    
+        _ = localizer["Configure Plugin"];
+        _ = localizer["Insights"];
+        _ = localizer["My Plugins"];
     }
 
     public void InjectSimple(

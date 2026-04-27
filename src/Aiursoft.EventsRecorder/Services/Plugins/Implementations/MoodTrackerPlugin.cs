@@ -115,3 +115,19 @@ public class MoodTrackerPlugin : IPlugin
         ]);
     }
 }
+
+// Localization markers for dotlang:
+// Localizer["Mood Tracker"]
+// Localizer["Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)."]
+// Localizer["Mood Event Type"]
+// Localizer["Which event type records your mood?"]
+// Localizer["Mood Score Field"]
+// Localizer["Which numeric field stores the mood score (e.g. 1–10)?"]
+// Localizer["Mood EMA"]
+// Localizer["Exponential moving average (α=0.2). Recent entries weighted more."]
+// Localizer["7-Day Avg"]
+// Localizer["Simple average mood score over the past 7 days."]
+// Localizer["30-Day Avg"]
+// Localizer["Simple average mood score over the past 30 days."]
+// Localizer["Mood Volatility"]
+// Localizer["Standard deviation over the past 30 days. Lower = more stable."]

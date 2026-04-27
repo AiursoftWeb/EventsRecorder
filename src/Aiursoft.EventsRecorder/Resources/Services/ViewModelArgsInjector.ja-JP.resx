@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>ログインするにはクリック</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>プラグインの設定</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>イベントタイプの作成</value>
   </data>
@@ -114,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>情報</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>インサイト</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>内部サーバーエラー</value>
   </data>
@@ -128,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>マイプラグイン</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>マイレコード</value>

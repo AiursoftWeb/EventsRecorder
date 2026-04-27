@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>過去 42 天內每次運動的平均熱量消耗。</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>過去 7 天每次運動的平均卡路里消耗量。</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>各事件類型的熱量欄位</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>使用 CTL/ATL 訓練負荷模型計算適能（42天負荷）、疲勞（7天負荷）和狀態。支援多個來源。</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>運動分析</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>運動事件類型</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>疲勞 (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>體能 (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>體能減去疲勞。正值表示狀態良好；負值表示疲勞。</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>針對每個選取的事件類型，哪個數值欄位記錄消耗的卡路里？</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>狀態 (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>哪些事件類型代表運動時段？</value>
+  </data>
+
+</root>

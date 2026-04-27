@@ -54,6 +54,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>點擊登入</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>設定外掛程式</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>建立事件類型</value>
   </data>
@@ -114,6 +117,9 @@
   <data name="Info" xml:space="preserve">
     <value>資訊</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>洞察</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>內部伺服器錯誤</value>
   </data>
@@ -128,6 +134,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>我的插件</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>我的紀錄</value>
