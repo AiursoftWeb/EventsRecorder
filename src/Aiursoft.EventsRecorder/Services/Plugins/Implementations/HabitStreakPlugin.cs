@@ -16,7 +16,7 @@ public class HabitStreakPlugin : IPlugin
 
     public IReadOnlyList<PluginConfigSchema> ConfigSchema =>
     [
-        new PluginConfigSchema
+        new()
         {
             Key         = "event_type_ids",
             Label       = "Habit Event Types",
@@ -33,7 +33,9 @@ public class HabitStreakPlugin : IPlugin
         if (!config.TryGetValue("event_type_ids", out var idsStr) || string.IsNullOrWhiteSpace(idsStr))
             return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
-        var ids = ParseIntList(idsStr);
+        var ids = PluginHelper.ParseIntList(idsStr);
+        if (ids.Count == 0)
+            return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
         var doneDates = userEventTypes
             .Where(et => ids.Contains(et.Id))
@@ -69,7 +71,7 @@ public class HabitStreakPlugin : IPlugin
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(
         [
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "current_streak",
                 MetricName  = "Current Streak",
@@ -77,7 +79,7 @@ public class HabitStreakPlugin : IPlugin
                 Unit        = "days",
                 Explanation = "Consecutive days with at least one record, up to today."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "longest_streak",
                 MetricName  = "Longest Streak",
@@ -85,7 +87,7 @@ public class HabitStreakPlugin : IPlugin
                 Unit        = "days",
                 Explanation = "All-time longest consecutive daily streak."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "completion_rate_30d",
                 MetricName  = "30-Day Completion",
@@ -95,10 +97,4 @@ public class HabitStreakPlugin : IPlugin
             }
         ]);
     }
-
-    private static HashSet<int> ParseIntList(string csv) =>
-        csv.Split(',', StringSplitOptions.RemoveEmptyEntries)
-           .Select(s => int.TryParse(s.Trim(), out var id) ? id : -1)
-           .Where(id => id > 0)
-           .ToHashSet();
 }

@@ -16,14 +16,14 @@ public class ExercisePlugin : IPlugin
 
     public IReadOnlyList<PluginConfigSchema> ConfigSchema =>
     [
-        new PluginConfigSchema
+        new()
         {
             Key         = "source_event_types",
             Label       = "Exercise Event Types",
             Description = "Which event types represent exercise sessions?",
             Type        = PluginConfigFieldType.EventTypeSelectorList
         },
-        new PluginConfigSchema
+        new()
         {
             Key                  = "calories_fields",
             Label                = "Calories Field per Event Type",
@@ -43,7 +43,7 @@ public class ExercisePlugin : IPlugin
             return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
         // "42:7,17:23" → Dictionary<eventTypeId, fieldId>
-        var fieldMap = ParsePairMap(mappingStr);
+        var fieldMap = PluginHelper.ParsePairMap(mappingStr);
         if (fieldMap.Count == 0)
             return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
@@ -73,7 +73,7 @@ public class ExercisePlugin : IPlugin
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(
         [
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "fitness",
                 MetricName  = "Fitness (CTL)",
@@ -81,7 +81,7 @@ public class ExercisePlugin : IPlugin
                 Unit        = "kcal/session",
                 Explanation = "Average calories per session over the past 42 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "fatigue",
                 MetricName  = "Fatigue (ATL)",
@@ -89,7 +89,7 @@ public class ExercisePlugin : IPlugin
                 Unit        = "kcal/session",
                 Explanation = "Average calories per session over the past 7 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "form",
                 MetricName  = "Form (CTL − ATL)",
@@ -99,12 +99,4 @@ public class ExercisePlugin : IPlugin
             }
         ]);
     }
-
-    private static Dictionary<int, int> ParsePairMap(string csv) =>
-        csv.Split(',', StringSplitOptions.RemoveEmptyEntries)
-           .Select(p => p.Split(':'))
-           .Where(p => p.Length == 2
-                    && int.TryParse(p[0].Trim(), out _)
-                    && int.TryParse(p[1].Trim(), out _))
-           .ToDictionary(p => int.Parse(p[0].Trim()), p => int.Parse(p[1].Trim()));
 }

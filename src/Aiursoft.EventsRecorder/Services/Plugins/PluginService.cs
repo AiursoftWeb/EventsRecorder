@@ -63,7 +63,16 @@ public class PluginService(
 
             IReadOnlyList<PluginMetricResult> metrics = [];
             if (isConfigured)
-                metrics = await plugin.ComputeAsync(config, eventTypes, now);
+            {
+                try
+                {
+                    metrics = await plugin.ComputeAsync(config, eventTypes, now);
+                }
+                catch (Exception)
+                {
+                    // Ignore failures in individual plugins
+                }
+            }
 
             results.Add(new PluginRunResult
             {

@@ -69,7 +69,7 @@ public class WeightTrendPlugin : IPlugin
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(
         [
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "latest",
                 MetricName  = "Latest Weight",
@@ -77,7 +77,7 @@ public class WeightTrendPlugin : IPlugin
                 Unit        = "kg",
                 Explanation = "Most recent recorded weight."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "avg_7d",
                 MetricName  = "7-Day Average",
@@ -85,7 +85,7 @@ public class WeightTrendPlugin : IPlugin
                 Unit        = "kg",
                 Explanation = "Average weight over the past 7 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "avg_30d",
                 MetricName  = "30-Day Average",
@@ -93,7 +93,7 @@ public class WeightTrendPlugin : IPlugin
                 Unit        = "kg",
                 Explanation = "Average weight over the past 30 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "trend",
                 MetricName  = "Weekly Trend",

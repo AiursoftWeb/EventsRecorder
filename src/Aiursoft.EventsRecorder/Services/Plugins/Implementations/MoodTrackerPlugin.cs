@@ -80,7 +80,7 @@ public class MoodTrackerPlugin : IPlugin
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(
         [
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "ema",
                 MetricName  = "Mood EMA",
@@ -88,7 +88,7 @@ public class MoodTrackerPlugin : IPlugin
                 Unit        = "pts",
                 Explanation = "Exponential moving average (α=0.2). Recent entries weighted more."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "avg_7d",
                 MetricName  = "7-Day Avg",
@@ -96,7 +96,7 @@ public class MoodTrackerPlugin : IPlugin
                 Unit        = "pts",
                 Explanation = "Simple average mood score over the past 7 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "avg_30d",
                 MetricName  = "30-Day Avg",
@@ -104,7 +104,7 @@ public class MoodTrackerPlugin : IPlugin
                 Unit        = "pts",
                 Explanation = "Simple average mood score over the past 30 days."
             },
-            new PluginMetricResult
+            new()
             {
                 MetricId    = "volatility",
                 MetricName  = "Mood Volatility",

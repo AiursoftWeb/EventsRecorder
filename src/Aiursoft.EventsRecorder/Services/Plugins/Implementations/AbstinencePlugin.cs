@@ -17,7 +17,7 @@ public class AbstinencePlugin : IPlugin
 
     public IReadOnlyList<PluginConfigSchema> ConfigSchema =>
     [
-        new PluginConfigSchema
+        new()
         {
             Key = "event_type_ids",
             Label = "Trigger Event Types",
@@ -34,7 +34,9 @@ public class AbstinencePlugin : IPlugin
         if (!config.TryGetValue("event_type_ids", out var idsStr) || string.IsNullOrWhiteSpace(idsStr))
             return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
-        var ids = ParseIntList(idsStr);
+        var ids = PluginHelper.ParseIntList(idsStr);
+        if (ids.Count == 0)
+            return Task.FromResult<IReadOnlyList<PluginMetricResult>>([]);
 
         var allRecords = userEventTypes
             .Where(et => ids.Contains(et.Id))
@@ -75,7 +77,7 @@ public class AbstinencePlugin : IPlugin
         };
 
         if (daysSinceLast >= 0)
-            results.Add(new PluginMetricResult
+            results.Add(new()
             {
                 MetricId    = "days_since_last",
                 MetricName  = "Days Since Last Event",
@@ -86,10 +88,4 @@ public class AbstinencePlugin : IPlugin
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(results);
     }
-
-    private static HashSet<int> ParseIntList(string csv) =>
-        csv.Split(',', StringSplitOptions.RemoveEmptyEntries)
-           .Select(s => int.TryParse(s.Trim(), out var id) ? id : -1)
-           .Where(id => id > 0)
-           .ToHashSet();
 }
