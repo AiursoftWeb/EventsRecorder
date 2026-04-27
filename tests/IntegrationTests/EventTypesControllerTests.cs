@@ -245,8 +245,8 @@ public class EventTypesControllerTests : TestBase
         // Should contain the data in the script (labels are lowercased)
         Assert.Contains("\"Label\":\"aa\",\"Count\":3", html2);
         Assert.Contains("\"Label\":\"ab\",\"Count\":2", html2);
-        // Should NOT contain "ac" or "ad" in the pie chart data because they only appear once
-        Assert.IsFalse(html2.Contains("\"Label\":\"ac\""));
-        Assert.IsFalse(html2.Contains("\"Label\":\"ad\""));
+        // Should contain "ac" and "ad" in the pie chart data because we now show all strings once the chart is drawn
+        Assert.Contains("\"Label\":\"ac\"", html2);
+        Assert.Contains("\"Label\":\"ad\"", html2);
     }
 }
