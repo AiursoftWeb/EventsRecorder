@@ -4,7 +4,7 @@
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
 [![Test Coverage](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/eventsRecorder/-/pipelines)
 [![Man hours](https://manhours.aiursoft.com/r/github.com/aiursoftweb/eventsRecorder.svg)](https://manhours.aiursoft.com/r/github.com/aiursoftweb/eventsRecorder.html)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2FeventsRecorder.aiursoft.com)](https://eventsRecorder.aiursoft.com)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fevents.aiursoft.com)](https://events.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/eventsrecorder.svg)](https://hub.docker.com/r/aiursoft/eventsrecorder)
 
 EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data.
