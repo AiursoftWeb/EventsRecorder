@@ -18,7 +18,31 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access Denied" xml:space="preserve">
+      <data name="-- Select Event Type --" xml:space="preserve">
+    <value>-- Olay Türünü Seçin --</value>
+  </data>
+  <data name="-- Select Numeric Field --" xml:space="preserve">
+    <value>-- Sayısal Alan Seçin --</value>
+  </data>
+  <data name="%" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="30-Day Average" xml:space="preserve">
+    <value>30 Günlük Ortalama</value>
+  </data>
+  <data name="30-Day Completion Rate" xml:space="preserve">
+    <value>30 Günlük Tamamlanma Oranı</value>
+  </data>
+  <data name="30-Day Volatility" xml:space="preserve">
+    <value>30 Günlük Dalgalanma</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7 Günlük Ortalama</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>İntihar Puanı</value>
+  </data>
+  <data name="Access Denied" xml:space="preserve">
     <value>Erişim Reddedildi</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -30,14 +54,56 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Şablon</value>
   </data>
+  <data name="All-time longest consecutive streak." xml:space="preserve">
+    <value>Tüm zamanların en uzun art arda serisi.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Uyku süresi ve tutarlılığını analiz eder. Son 30 gün boyunca ortalama uyku sürenizi ve yatma saatinizdeki istikrarı takip eder.</value>
+  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
+  </data>
+  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
+    <value>Bu eklentiyi devre dışı bırakmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Available Metrics" xml:space="preserve">
+    <value>Kullanılabilir Metrikler</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Son 42 gün boyunca oturum başına ortalama kalori.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Son 7 gün içindeki oturum başına ortalama kalori.</value>
+  </data>
+  <data name="Average mood over the past 30 days." xml:space="preserve">
+    <value>Son 30 gündeki ortalama ruh hali.</value>
+  </data>
+  <data name="Average mood over the past 7 days." xml:space="preserve">
+    <value>Son 7 günün ortalama ruh hali.</value>
+  </data>
+  <data name="Average Sleep Duration" xml:space="preserve">
+    <value>Ortalama Uyku Süresi</value>
+  </data>
+  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
+    <value>Geçen 30 gündeki ortalama uyku süresi.</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Geçen 30 gündeki ortalama ağırlık.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Son 7 gün ortalama ağırlık.</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Arka Plan Görevleri</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>Geçersiz İstek</value>
+  </data>
+  <data name="Bedtime Stability" xml:space="preserve">
+    <value>Yatak Saati Tutarlılığı</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Profil Resmini Değiştir</value>
@@ -51,11 +117,26 @@
   <data name="Click to login" xml:space="preserve">
     <value>Giriş yapmak için tıklayın</value>
   </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATL antrenman yükü modelini kullanarak Fitness (42 günlük yük), Fatigue (7 günlük yük) ve Form değerlerini hesaplar. Birden fazla kaynağı destekler.</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Yapılandır</value>
+  </data>
   <data name="Configure Plugin" xml:space="preserve">
-    <value>Eklentiyi Yapılandır</value>
+    <value>Eklenti Yapılandır</value>
+  </data>
+  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
+    <value>Bu eklentiyi yapılandırarak metrikleri görmeye başlayın.</value>
+  </data>
+  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
+    <value>En az bir kayıtlı olay içeren ardışık günler.</value>
   </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Olay Türü Oluştur</value>
+  </data>
+  <data name="Create one first." xml:space="preserve">
+    <value>Önce bir tane oluşturun.</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>Rol Oluştur</value>
@@ -63,8 +144,20 @@
   <data name="Create User" xml:space="preserve">
     <value>Kullanıcı Oluştur</value>
   </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Mevcut Seri</value>
+  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Gösterge Paneli</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Son kaydedilen olaydan bu yana geçen gün sayısı.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Son Etkinlikten Sonra Geçen Gün</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Etkinlik Türünü Sil</value>
@@ -75,8 +168,14 @@
   <data name="Delete User" xml:space="preserve">
     <value>Kullanıcıyı Sil</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
   <data name="Directory" xml:space="preserve">
     <value>Dizin</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Devre Dışı Bırak</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>Olay Türünü Düzenle</value>
@@ -87,8 +186,17 @@
   <data name="Edit User" xml:space="preserve">
     <value>Kullanıcıyı Düzenle</value>
   </data>
+  <data name="Enable Plugin" xml:space="preserve">
+    <value>Eklentiyi Etkinleştir</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Hata</value>
+  </data>
+  <data name="Event Type" xml:space="preserve">
+    <value>Olay Türü</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Etkinlik Türü Detayları</value>
@@ -99,14 +207,41 @@
   <data name="Events" xml:space="preserve">
     <value>Etkinlikler</value>
   </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Egzersiz Analitiği</value>
+  </data>
+  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
+    <value>Ruh hali için üssel hareketli ortalama (\u03b1=0.2).</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Yorgunluk (ATL)</value>
+  </data>
   <data name="Features" xml:space="preserve">
     <value>Özellikler</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness eksi Yorgunluk. Pozitif = dinç; negatif = yorgun.</value>
+  </data>
+  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
+    <value>Form (CTL \u2212 ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Genel Ayarlar</value>
   </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Alışkanlık Serisi</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Ana Sayfa</value>
+  </data>
+  <data name="hrs" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="hrs \u03c3" xml:space="preserve">
+    <value>saat \u03c3</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>Ana Sayfa</value>
@@ -115,10 +250,22 @@
     <value>Bilgi</value>
   </data>
   <data name="Insights" xml:space="preserve">
-    <value>Görünümler</value>
+    <value>İçgörüler</value>
   </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>İç Sunucu Hatası</value>
+  </data>
+  <data name="kcal/session" xml:space="preserve">
+    <value>kcal/oturum</value>
+  </data>
+  <data name="kg" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="kg/week" xml:space="preserve">
+    <value>kg/hafta</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Son Ağırlık</value>
   </data>
   <data name="Lockout" xml:space="preserve">
     <value>Kilitlendi</value>
@@ -129,8 +276,23 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>Tüm özelliklere erişmek için giriş yapın.</value>
   </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>En Uzun Seri</value>
+  </data>
   <data name="Manage" xml:space="preserve">
     <value>Yönet</value>
+  </data>
+  <data name="Metric" xml:space="preserve">
+    <value>Metrik</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Mood EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Ruh Hali Takipçisi</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>En son kaydedilen ağırlık.</value>
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Eklentilerim</value>
@@ -138,8 +300,26 @@
   <data name="My Records" xml:space="preserve">
     <value>Kayıtlarım</value>
   </data>
+  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
+    <value>Henüz veri yok. Metrikleri görmek için olay kaydetmeye başlayın.</value>
+  </data>
+  <data name="No event types found." xml:space="preserve">
+    <value>Olay türü bulunamadı.</value>
+  </data>
+  <data name="No numeric fields found for the selected event type." xml:space="preserve">
+    <value>Seçilen etkinlik türü için sayısal alan bulunamadı.</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Yapılandırılmamış</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Bulunamadı</value>
+  </data>
+  <data name="Numeric Field" xml:space="preserve">
+    <value>Sayısal Alan</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Son 30 gün içinde en az bir kayıt bulunan günlerin yüzdesi.</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>İzin Detayları</value>
@@ -150,11 +330,23 @@
   <data name="Personal" xml:space="preserve">
     <value>Kişisel</value>
   </data>
+  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
+    <value>Eklentiler, olay kayıtlarınızdan türetilmiş metrikleri hesaplar. Bir eklentiyi etkinleştirmek için yapılandırın.</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>Profil</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>Profil Ayarları</value>
+  </data>
+  <data name="pts" xml:space="preserve">
+    <value>puan</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30 günlük değişim oranı. Pozitif = kazanma, negatif = kaybetme.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
+    <value>Günlük +10 iyileşme (maks. 100). Her olayda: \u00f72.</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Kayıt Ol</value>
@@ -165,11 +357,26 @@
   <data name="Roles" xml:space="preserve">
     <value>Roller</value>
   </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Değişiklikleri Kaydet</value>
+  </data>
+  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
+    <value>Bu eklentinin analiz etmesi gereken sayısal alanı seçin.</value>
+  </data>
   <data name="Settings" xml:space="preserve">
     <value>Ayarlar</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Çıkış Yap</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Uyku Analizi</value>
+  </data>
+  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
+    <value>Son 30 gündeki ruh hali standart sapması.</value>
+  </data>
+  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
+    <value>Son 30 gündeki uyku süresinin standart sapması.</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>Sistem</value>
@@ -180,14 +387,35 @@
   <data name="Template" xml:space="preserve">
     <value>Şablon</value>
   </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>30 gün boyunca lineer regresyon ile hesaplanan hareketli ortalamalar ve haftalık trend yönüyle vücut ağırlığını takip eder.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Mood trendlerini üssel hareketli ortalama (α=0.2), 7/30 günlük ortalamalar ve 30 günlük volatilite (standart sapma) ile takip eder.</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Azaltmak istediğiniz herhangi bir davranış için öz-kontrolü takip eder. Puan günlük +10 (maks 100) artar ve her olayda yarıya iner.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Günlük alışkanlık serinizi, tüm zamanların en uzun serinizi ve 30 günlük tamamlanma oranını takip eder. En az bir kayıt içeren her gün tamamlanmış bir gün olarak sayılır.</value>
+  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>Yetkisiz</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Birim</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>Kullanıcı Detayları</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>Kullanıcılar</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Haftalık Trend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Kilo Eğilimi</value>
   </data>
 
 </root>
