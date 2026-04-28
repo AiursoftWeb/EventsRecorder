@@ -1,0 +1,115 @@
+@model Aiursoft.EventsRecorder.Models.PluginsViewModels.ConfigureViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["Configure Plugin"]</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="align-middle me-2" data-lucide="plug"></i>
+                    @Localizer[Model.Plugin.Name]
+                </h5>
+            </div>
+            <div class="card-body">
+                <p class="text-muted mb-4">@Localizer[Model.Plugin.Description]</p>
+
+                <form asp-action="Configure" asp-route-id="@Model.Plugin.Id" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="mb-3">
+                        <label asp-for="EventTypeId" class="form-label">@Localizer["Event Type"]</label>
+                        @if (Model.EventTypeOptions.Any())
+                        {
+                            <select asp-for="EventTypeId" asp-items="Model.EventTypeOptions"
+                                    class="form-select"
+                                    id="eventTypeSelect">
+                                <option value="">@Localizer["-- Select Event Type --"]</option>
+                            </select>
+                        }
+                        else
+                        {
+                            <p class="text-muted">
+                                @Localizer["No event types found."]
+                                <a asp-controller="EventTypes" asp-action="Create">@Localizer["Create one first."]</a>
+                            </p>
+                        }
+                        <span asp-validation-for="EventTypeId" class="text-danger"></span>
+                    </div>
+
+                    @if (Model.Plugin.RequiresNumericField)
+                    {
+                        <div class="mb-3">
+                            <label asp-for="NumericFieldId" class="form-label">@Localizer["Numeric Field"]</label>
+                            @if (Model.NumericFieldOptions.Any())
+                            {
+                                <select asp-for="NumericFieldId" asp-items="Model.NumericFieldOptions" class="form-select">
+                                    <option value="">@Localizer["-- Select Numeric Field --"]</option>
+                                </select>
+                            }
+                            else
+                            {
+                                <p class="text-muted">@Localizer["No numeric fields found for the selected event type."]</p>
+                            }
+                            <span asp-validation-for="NumericFieldId" class="text-danger"></span>
+                            <div class="form-text">@Localizer["Select the numeric field that this plugin should analyze."]</div>
+                        </div>
+                    }
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="align-middle me-1" data-lucide="save" style="width:16px;height:16px;"></i>
+                            @if (Model.AlreadyConfigured)
+                            {
+                                @Localizer["Save Changes"]
+                            }
+                            else
+                            {
+                                @Localizer["Enable Plugin"]
+                            }
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">
+                            @Localizer["Cancel"]
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        @if (Model.Plugin.Metrics.Any())
+        {
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">@Localizer["Available Metrics"]</h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                            <tr>
+                                <th>@Localizer["Metric"]</th>
+                                <th>@Localizer["Unit"]</th>
+                                <th>@Localizer["Description"]</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (var metric in Model.Plugin.Metrics)
+                            {
+                                <tr>
+                                    <td>@Localizer[metric.Name]</td>
+                                    <td><code>@Localizer[metric.Unit]</code></td>
+                                    <td class="text-muted small">@Localizer[metric.Description]</td>
+                                </tr>
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

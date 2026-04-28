@@ -18,7 +18,31 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access Denied" xml:space="preserve">
+      <data name="-- Select Event Type --" xml:space="preserve">
+    <value>-- Välj eventtyp --</value>
+  </data>
+  <data name="-- Select Numeric Field --" xml:space="preserve">
+    <value>-- Välj numeriskt fält --</value>
+  </data>
+  <data name="%" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="30-Day Average" xml:space="preserve">
+    <value>30-dagars medelvärde</value>
+  </data>
+  <data name="30-Day Completion Rate" xml:space="preserve">
+    <value>30-dagars slutföringsgrad</value>
+  </data>
+  <data name="30-Day Volatility" xml:space="preserve">
+    <value>30-dagars volatilitet</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-dagars genomsnitt</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Avhållsamhetspoäng</value>
+  </data>
+  <data name="Access Denied" xml:space="preserve">
     <value>Åtkomst nekad</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -30,14 +54,56 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Mall</value>
   </data>
+  <data name="All-time longest consecutive streak." xml:space="preserve">
+    <value>Längsta sammanhängande svit någonsin.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyserar sömnens varaktighet och konsekvens. Spårar din genomsnittliga sömntid och stabilitet i läggdags under de senaste 30 dagarna.</value>
+  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
+  </data>
+  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
+    <value>Är du säker på att du vill inaktivera den här insticksmodulen?</value>
+  </data>
+  <data name="Available Metrics" xml:space="preserve">
+    <value>Tillgängliga metrik</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 42 dagarna.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 7 dagarna.</value>
+  </data>
+  <data name="Average mood over the past 30 days." xml:space="preserve">
+    <value>Genomsnittligt humör under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Average mood over the past 7 days." xml:space="preserve">
+    <value>Genomsnittligt humör under de senaste 7 dagarna.</value>
+  </data>
+  <data name="Average Sleep Duration" xml:space="preserve">
+    <value>Genomsnittlig sömntid</value>
+  </data>
+  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
+    <value>Genomsnittlig sömntid under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Genomviktvikt under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Genomsnittlig vikt under de senaste 7 dagarna.</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Bakgrundsjobb</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>Felaktig begäran</value>
+  </data>
+  <data name="Bedtime Stability" xml:space="preserve">
+    <value>Sänggåendes stabilitet</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Byt avatar</value>
@@ -51,8 +117,26 @@
   <data name="Click to login" xml:space="preserve">
     <value>Klicka för att logga in</value>
   </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Beräknar Fitness (42-dagars belastning), Trötthet (7-dagars belastning) och Form med hjälp av CTL/ATL-träningsbelastningsmodellen. Stöder flera källor.</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Konfigurera</value>
+  </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Konfigurera plugin</value>
+  </data>
+  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
+    <value>Konfigurera den här pluginen för att börja se mätvärden.</value>
+  </data>
+  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
+    <value>Antal konsekutiva dagar med minst en registrerad händelse.</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Skapa händelsetyp</value>
+  </data>
+  <data name="Create one first." xml:space="preserve">
+    <value>Skapa en först.</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>Skapa roll</value>
@@ -60,8 +144,20 @@
   <data name="Create User" xml:space="preserve">
     <value>Skapa användare</value>
   </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Aktuell svit</value>
+  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Instrumentbräda</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>dagar</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Antal dagar sedan senaste registrerade händelse.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Dagar sedan senaste händelse</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Ta bort eventtyp</value>
@@ -72,8 +168,14 @@
   <data name="Delete User" xml:space="preserve">
     <value>Ta bort användare</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
   <data name="Directory" xml:space="preserve">
     <value>Katalog</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Inaktivera</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>Redigera händelsetyp</value>
@@ -84,8 +186,17 @@
   <data name="Edit User" xml:space="preserve">
     <value>Redigera användare</value>
   </data>
+  <data name="Enable Plugin" xml:space="preserve">
+    <value>Aktivera plugin</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiverad</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Fel</value>
+  </data>
+  <data name="Event Type" xml:space="preserve">
+    <value>Händelsetyp</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Detaljer om händelsetyp</value>
@@ -96,14 +207,41 @@
   <data name="Events" xml:space="preserve">
     <value>Händelser</value>
   </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Träningsanalys</value>
+  </data>
+  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
+    <value>Exponentiellt glidande medelvärde för humör (α=0,2).</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Trötthet (ATL)</value>
+  </data>
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus fatigue. Positiv = pigg; negativ = trött.</value>
+  </data>
+  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Globala inställningar</value>
   </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Vanestreak</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Hem</value>
+  </data>
+  <data name="hrs" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="hrs \u03c3" xml:space="preserve">
+    <value>hrs σ</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>Index</value>
@@ -111,8 +249,23 @@
   <data name="Info" xml:space="preserve">
     <value>Information</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Insikter</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Intern serverfel</value>
+  </data>
+  <data name="kcal/session" xml:space="preserve">
+    <value>kcal/passning</value>
+  </data>
+  <data name="kg" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="kg/week" xml:space="preserve">
+    <value>kg/vecka</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Senaste vikt</value>
   </data>
   <data name="Lockout" xml:space="preserve">
     <value>Låst ut</value>
@@ -123,14 +276,50 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>Logga in för att få tillgång till alla funktioner.</value>
   </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Längsta svit</value>
+  </data>
   <data name="Manage" xml:space="preserve">
     <value>Hantera</value>
+  </data>
+  <data name="Metric" xml:space="preserve">
+    <value>Mätvärde</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Stämning EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Stämningslogg</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Senast registrerade vikt.</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Mina plugins</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Mina poster</value>
   </data>
+  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
+    <value>Inga data ännu. Börja registrera händelser för att se mätvärden.</value>
+  </data>
+  <data name="No event types found." xml:space="preserve">
+    <value>Inga händelsetyper hittades.</value>
+  </data>
+  <data name="No numeric fields found for the selected event type." xml:space="preserve">
+    <value>Inga numeriska fält hittades för den valda händelsetypen.</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Inte konfigurerad</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Inte hittat</value>
+  </data>
+  <data name="Numeric Field" xml:space="preserve">
+    <value>Numeriskt fält</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Andel dagar under de senaste 30 dagarna med minst en registrering.</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Behörighetsdetaljer</value>
@@ -141,11 +330,23 @@
   <data name="Personal" xml:space="preserve">
     <value>Personligt</value>
   </data>
+  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
+    <value>Plugins beräknar härledda mätvärden från dina händelseposter. Konfigurera ett plugin för att aktivera det.</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>Profil</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>Profilinställningar</value>
+  </data>
+  <data name="pts" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Förändringstakt över 30 dagar. Positiv = ökning, negativ = minskning.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
+    <value>Återhämtar +10/dag (max 100). Vid varje händelse: \u00f72.</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Registrera</value>
@@ -156,11 +357,26 @@
   <data name="Roles" xml:space="preserve">
     <value>Roller</value>
   </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Spara ändringar</value>
+  </data>
+  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
+    <value>Välj det numeriska fält som denna plugin ska analysera.</value>
+  </data>
   <data name="Settings" xml:space="preserve">
     <value>Inställningar</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Logga ut</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Sömnanalys</value>
+  </data>
+  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
+    <value>Standardavvikelse för humör under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
+    <value>Standardavvikelse för sömntid under de senaste 30 dagarna.</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>System</value>
@@ -171,14 +387,35 @@
   <data name="Template" xml:space="preserve">
     <value>Mall</value>
   </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Spårar kroppsvikt med glidande medelvärden och en veckovis trendriktning beräknad via linjär regression över de senaste 30 dagarna.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Spårar humörtrender med ett exponentiellt glidande medelvärde (α=0,2), genomsnitt över 7/30 dagar och 30-dagars volatilitet (standardavvikelse).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Spårar självkontroll för beteenden du vill minska. Poängen återhämtas med +10/dag (max 100) och halveras vid varje händelse.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Spårar ditt dagliga vaneupplöp, ditt längsta upplöp genom tiderna och din 30-dagars slutföringsgrad. Alla dagar med minst en post räknas som en slutförd dag.</value>
+  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>Obehörig</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Enhet</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>Användardetaljer</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>Användare</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Veckotrend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Viktutveckling</value>
   </data>
 
 </root>

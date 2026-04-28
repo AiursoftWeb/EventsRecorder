@@ -1,0 +1,90 @@
+@model Aiursoft.EventsRecorder.Models.PluginsViewModels.IndexViewModel
+
+<div class="row mb-2 mb-xl-3">
+    <div class="col-auto d-none d-sm-block">
+        <h3>@Localizer["My Plugins"]</h3>
+    </div>
+</div>
+
+<p class="text-muted">@Localizer["Plugins calculate derived metrics from your event records. Configure a plugin to activate it."]</p>
+
+<div class="row">
+    @foreach (var card in Model.PluginCards)
+    {
+        <div class="col-12 col-lg-6 mb-4">
+            <div class="card h-100">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="card-title mb-0">
+                            <i class="align-middle me-2" data-lucide="plug"></i>
+                            @Localizer[card.Definition.Name]
+                        </h5>
+                    </div>
+                    @if (card.IsConfigured)
+                    {
+                        <span class="badge bg-success">@Localizer["Enabled"]</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">@Localizer["Not configured"]</span>
+                    }
+                </div>
+
+                <div class="card-body">
+                    <p class="text-muted small mb-3">@Localizer[card.Definition.Description]</p>
+
+                    @if (card.IsConfigured && card.MetricValues.Any())
+                    {
+                        <div class="row g-2">
+                            @foreach (var mv in card.MetricValues)
+                            {
+                                <div class="col-6">
+                                    <div class="border rounded p-2 text-center h-100">
+                                        <div class="fw-bold fs-5">
+                                            @mv.Value.ToString("G4")
+                                            <small class="text-muted fs-6">@Localizer[mv.Metric.Unit]</small>
+                                        </div>
+                                        <div class="text-muted small">@Localizer[mv.Metric.Name]</div>
+                                        <div class="text-muted" style="font-size:0.7rem;">@Localizer[mv.Metric.Description]</div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                    else if (!card.IsConfigured)
+                    {
+                        <div class="text-center py-3 text-muted">
+                            <i class="align-middle mb-2" data-lucide="settings" style="width:32px;height:32px;"></i>
+                            <p class="mb-0 small">@Localizer["Configure this plugin to start seeing metrics."]</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-3 text-muted">
+                            <i class="align-middle mb-2" data-lucide="bar-chart-2" style="width:32px;height:32px;"></i>
+                            <p class="mb-0 small">@Localizer["No data yet. Start recording events to see metrics."]</p>
+                        </div>
+                    }
+                </div>
+
+                <div class="card-footer d-flex justify-content-end gap-2">
+                    @if (card.IsConfigured)
+                    {
+                        <form asp-action="Disable" asp-route-id="@card.Definition.Id" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-outline-danger"
+                                    onclick="return confirm('@Localizer["Are you sure you want to disable this plugin?"]')">
+                                <i class="align-middle" data-lucide="plug-zap-off" style="width:14px;height:14px;"></i>
+                                @Localizer["Disable"]
+                            </button>
+                        </form>
+                    }
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Configure" asp-route-id="@card.Definition.Id">
+                        <i class="align-middle" data-lucide="settings" style="width:14px;height:14px;"></i>
+                        @Localizer["Configure"]
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

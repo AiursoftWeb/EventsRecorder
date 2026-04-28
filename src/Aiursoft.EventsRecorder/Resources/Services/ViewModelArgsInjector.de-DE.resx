@@ -18,7 +18,31 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Access Denied" xml:space="preserve">
+      <data name="-- Select Event Type --" xml:space="preserve">
+    <value>-- Ereignistyp auswählen --</value>
+  </data>
+  <data name="-- Select Numeric Field --" xml:space="preserve">
+    <value>-- Numerisches Feld auswählen --</value>
+  </data>
+  <data name="%" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="30-Day Average" xml:space="preserve">
+    <value>30-Tage-Durchschnitt</value>
+  </data>
+  <data name="30-Day Completion Rate" xml:space="preserve">
+    <value>30-Tage-Vervollständigungsrate</value>
+  </data>
+  <data name="30-Day Volatility" xml:space="preserve">
+    <value>30-Tage-Volatilität</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-Tage-Durchschnitt</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Enthaltsamkeits-Score</value>
+  </data>
+  <data name="Access Denied" xml:space="preserve">
     <value>Zugriff verweigert</value>
   </data>
   <data name="Account Settings" xml:space="preserve">
@@ -33,14 +57,56 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Event Recorder</value>
   </data>
+  <data name="All-time longest consecutive streak." xml:space="preserve">
+    <value>Längste ununterbrochene Serie aller Zeiten.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analysiert die Schlafdauer und -konsistenz. Verfolgt Ihre durchschnittliche Schlafzeit und die Stabilität der Zubettgehzeit über die letzten 30 Tage.</value>
+  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>Anonym</value>
+  </data>
+  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie dieses Plugin deaktivieren möchten?</value>
+  </data>
+  <data name="Available Metrics" xml:space="preserve">
+    <value>Verfügbare Metriken</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Durchschnittliche Kalorien pro Sitzung in den letzten 42 Tagen.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Durchschnittliche Kalorien pro Sitzung in den letzten 7 Tagen.</value>
+  </data>
+  <data name="Average mood over the past 30 days." xml:space="preserve">
+    <value>Durchschnittliche Stimmung in den letzten 30 Tagen.</value>
+  </data>
+  <data name="Average mood over the past 7 days." xml:space="preserve">
+    <value>Durchschnittliche Stimmung in den letzten 7 Tagen.</value>
+  </data>
+  <data name="Average Sleep Duration" xml:space="preserve">
+    <value>Durchschnittliche Schlafdauer</value>
+  </data>
+  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
+    <value>Durchschnittliche Schlafdauer in den letzten 30 Tagen.</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Durchschnittsgewicht der letzten 30 Tage.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Durchschnittsgewicht in den letzten 7 Tagen.</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Hintergrundaufgaben</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>Ungültige Anforderung</value>
+  </data>
+  <data name="Bedtime Stability" xml:space="preserve">
+    <value>Schlafenszeiten-Stabilität</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Avatar ändern</value>
@@ -54,8 +120,26 @@
   <data name="Click to login" xml:space="preserve">
     <value>Zum Anmelden klicken</value>
   </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Berechnet Fitness (42-Tage-Last), Ermüdung (7-Tage-Last) und Form unter Verwendung des CTL/ATL-Trainingslastmodells. Unterstützt mehrere Quellen.</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Konfigurieren</value>
+  </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Plugin konfigurieren</value>
+  </data>
+  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
+    <value>Konfigurieren Sie dieses Plugin, um Metriken anzuzeigen.</value>
+  </data>
+  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
+    <value>Folgetage mit mindestens einem aufgezeichneten Ereignis.</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Eventtyp erstellen</value>
+  </data>
+  <data name="Create one first." xml:space="preserve">
+    <value>Erstellen Sie zuerst eines.</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>Rolle erstellen</value>
@@ -63,8 +147,20 @@
   <data name="Create User" xml:space="preserve">
     <value>Benutzer erstellen</value>
   </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Aktuelle Serie</value>
+  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>Dashboard</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Tage</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Seit dem letzten erfassten Ereignis vergangene Tage.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Tage seit dem letzten Ereignis</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Eventtyp löschen</value>
@@ -75,8 +171,14 @@
   <data name="Delete User" xml:space="preserve">
     <value>Benutzer löschen</value>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
   <data name="Directory" xml:space="preserve">
     <value>Verzeichnis</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>Eventtyp bearbeiten</value>
@@ -87,8 +189,17 @@
   <data name="Edit User" xml:space="preserve">
     <value>Benutzer bearbeiten</value>
   </data>
+  <data name="Enable Plugin" xml:space="preserve">
+    <value>Plugin aktivieren</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Aktiviert</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Fehler</value>
+  </data>
+  <data name="Event Type" xml:space="preserve">
+    <value>Ereignistyp</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Details zum Ereignistyp</value>
@@ -99,14 +210,41 @@
   <data name="Events" xml:space="preserve">
     <value>Events</value>
   </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Übungsanalyse</value>
+  </data>
+  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
+    <value>Exponentieller gleitender Durchschnitt der Stimmung (α=0,2).</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Ermüdung (ATL)</value>
+  </data>
   <data name="Features" xml:space="preserve">
     <value>Funktionen</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus Fatigue. Positive = fresh; negative = fatigued.</value>
+  </data>
+  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
+    <value>Form (CTL \u2212 ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>Globale Einstellungen</value>
   </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Gewohnheits-Streak</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Startseite</value>
+  </data>
+  <data name="hrs" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="hrs \u03c3" xml:space="preserve">
+    <value>Std. σ</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>Index</value>
@@ -114,8 +252,23 @@
   <data name="Info" xml:space="preserve">
     <value>Info</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Einblicke</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Interner Serverfehler</value>
+  </data>
+  <data name="kcal/session" xml:space="preserve">
+    <value>kcal/Sitzung</value>
+  </data>
+  <data name="kg" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="kg/week" xml:space="preserve">
+    <value>kg/Woche</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Aktuelles Gewicht</value>
   </data>
   <data name="Lockout" xml:space="preserve">
     <value>Sperrung</value>
@@ -126,14 +279,50 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>Melden Sie sich an, um Zugriff auf alle Funktionen zu erhalten.</value>
   </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Längste Serie</value>
+  </data>
   <data name="Manage" xml:space="preserve">
     <value>Verwalten</value>
+  </data>
+  <data name="Metric" xml:space="preserve">
+    <value>Metrik</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Stimmungs-EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Stimmungs-Tracker</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Letztes aufgezeichnetes Gewicht.</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Meine Plugins</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Meine Aufzeichnungen</value>
   </data>
+  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
+    <value>Noch keine Daten. Beginnen Sie mit der Aufzeichnung von Ereignissen, um Metriken anzuzeigen.</value>
+  </data>
+  <data name="No event types found." xml:space="preserve">
+    <value>Keine Event-Typen gefunden.</value>
+  </data>
+  <data name="No numeric fields found for the selected event type." xml:space="preserve">
+    <value>Für den ausgewählten Ereignistyp wurden keine numerischen Felder gefunden.</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Nicht konfiguriert</value>
+  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Nicht gefunden</value>
+  </data>
+  <data name="Numeric Field" xml:space="preserve">
+    <value>Numerisches Feld</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Anteil der Tage in den letzten 30 Tagen mit mindestens einem Eintrag.</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>Berechtigungsdetails</value>
@@ -144,11 +333,23 @@
   <data name="Personal" xml:space="preserve">
     <value>Persönlich</value>
   </data>
+  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
+    <value>Plugins berechnen abgeleitete Metriken aus Ihren Ereignisdaten. Konfigurieren Sie ein Plugin, um es zu aktivieren.</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>Profil</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>Profileinstellungen</value>
+  </data>
+  <data name="pts" xml:space="preserve">
+    <value>Punkte</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Veränderungsrate über 30 Tage. Positiv = Zunahme, negativ = Abnahme.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
+    <value>Erholt +10/Tag (max. 100). Pro Ereignis: ÷2.</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>Registrieren</value>
@@ -159,11 +360,26 @@
   <data name="Roles" xml:space="preserve">
     <value>Rollen</value>
   </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Änderungen speichern</value>
+  </data>
+  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
+    <value>Wählen Sie das numerische Feld aus, das dieses Plugin analysieren soll.</value>
+  </data>
   <data name="Settings" xml:space="preserve">
     <value>Einstellungen</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>Abmelden</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Schlafanalyse</value>
+  </data>
+  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
+    <value>Standardabweichung der Stimmung in den letzten 30 Tagen.</value>
+  </data>
+  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
+    <value>Standardabweichung der Schlafdauer in den letzten 30 Tagen.</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>System</value>
@@ -174,14 +390,35 @@
   <data name="Template" xml:space="preserve">
     <value>Vorlage</value>
   </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Verfolgt das Körpergewicht mit gleitenden Durchschnitten und einer wöchentlichen Trendrichtung, die über die letzten 30 Tage mittels linearer Regression berechnet wird.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Verfolgt Stimmungsverläufe mit einem exponentiellen gleitenden Durchschnitt (\u03b1=0,2), 7/30-Tage-Durchschnitten und 30-Tage-Volatilität (Standardabweichung).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Verfolgt die Selbstkontrolle für jedes Verhalten, das Sie reduzieren möchten. Der Punktestand erhöht sich um +10/Tag (max. 100) und halbiert sich bei jedem Ereignis.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Verfolgt deine tägliche Gewohnheits-Serie, die längste Serie aller Zeiten und die 30-Tage-Abschlussrate. Jeder Tag mit mindestens einem Eintrag zählt als abgeschlossener Tag.</value>
+  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>Nicht autorisiert</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Einheit</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>Benutzerdetails</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>Benutzer</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Wochentrend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Gewichtstrend</value>
   </data>
 
 </root>

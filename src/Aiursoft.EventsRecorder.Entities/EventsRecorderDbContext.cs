@@ -19,6 +19,8 @@ public abstract class EventsRecorderDbContext(DbContextOptions options) : Identi
 
     public DbSet<EventFieldValue> EventFieldValues => Set<EventFieldValue>();
 
+    public DbSet<PluginConfiguration> PluginConfigurations => Set<PluginConfiguration>();
+
     public virtual Task MigrateAsync(CancellationToken cancellationToken) =>
         Database.MigrateAsync(cancellationToken);
 
@@ -69,6 +71,24 @@ public abstract class EventsRecorderDbContext(DbContextOptions options) : Identi
                 .WithMany()
                 .HasForeignKey(e => e.EventFieldId)
                 .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<PluginConfiguration>(entity =>
+        {
+            entity.HasOne(e => e.User)
+                .WithMany()
+                .HasForeignKey(e => e.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(e => e.EventType)
+                .WithMany()
+                .HasForeignKey(e => e.EventTypeId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(e => e.NumericField)
+                .WithMany()
+                .HasForeignKey(e => e.NumericFieldId)
+                .OnDelete(DeleteBehavior.SetNull);
         });
     }
 }

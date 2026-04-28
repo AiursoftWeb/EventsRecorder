@@ -15,7 +15,7 @@ namespace Aiursoft.EventsRecorder.Sqlite.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "10.0.5");
+            modelBuilder.HasAnnotation("ProductVersion", "10.0.6");
 
             modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.EventField", b =>
                 {
@@ -157,6 +157,38 @@ namespace Aiursoft.EventsRecorder.Sqlite.Migrations
                     b.HasKey("Key");
 
                     b.ToTable("GlobalSettings");
+                });
+
+            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfiguration", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("EventTypeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("NumericFieldId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("PluginId")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EventTypeId");
+
+                    b.HasIndex("NumericFieldId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("PluginConfigurations");
                 });
 
             modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.User", b =>
@@ -420,6 +452,32 @@ namespace Aiursoft.EventsRecorder.Sqlite.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfiguration", b =>
+                {
+                    b.HasOne("Aiursoft.EventsRecorder.Entities.EventType", "EventType")
+                        .WithMany()
+                        .HasForeignKey("EventTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Aiursoft.EventsRecorder.Entities.EventField", "NumericField")
+                        .WithMany()
+                        .HasForeignKey("NumericFieldId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("Aiursoft.EventsRecorder.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("EventType");
+
+                    b.Navigation("NumericField");
 
                     b.Navigation("User");
                 });
