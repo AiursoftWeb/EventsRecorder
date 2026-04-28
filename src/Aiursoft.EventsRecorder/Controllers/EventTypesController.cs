@@ -165,7 +165,6 @@ public class EventTypesController(
                     Label = g.Key,
                     Count = g.Count()
                 })
-                .Where(p => p.Count >= 2) // At least two repetitions
                 .ToList();
 
             return new StringSeriesDto
@@ -175,7 +174,7 @@ public class EventTypesController(
                 Points = points
             };
         })
-        .Where(s => s.Points.Count >= 2) // At least two different repeating strings
+        .Where(s => s.Points.Count(p => p.Count >= 2) >= 2) // At least two different repeating strings to draw the chart
         .ToList();
 
         var last8Records = await context.EventRecords
