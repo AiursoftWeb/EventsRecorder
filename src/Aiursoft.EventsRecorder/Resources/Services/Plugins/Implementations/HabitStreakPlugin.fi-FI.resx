@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>30 päivän suoritusaste</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Kaikkien aikojen pisin peräkkäinen päivittäinen putki.</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Peräkkäiset päivät, joina on vähintään yksi merkintä, tänään saakka.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Nykyinen putki</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>Tottumuksen tapahtumatyypit</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Tapausputki</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Pisin putosi</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Viikkojen osuus viimeisen 30 päivän aikana, joilla on vähintään yksi merkintä.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Seuraa päivittäistä tottumusputkeasi, kaikkien aikojen pisintä putkea ja 30 päivän suoritettavuutta. Päivä, jolla on vähintään yksi merkintä, lasketaan suoritetuksi päiväksi.</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>Mitkä tapahtumatyypit lasketaan päivän tapakompletoinniksi?</value>
+  </data>
+
+</root>

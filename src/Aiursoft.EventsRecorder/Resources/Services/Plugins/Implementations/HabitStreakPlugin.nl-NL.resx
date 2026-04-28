@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>30-dagen voltooiing</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Langste opeenvolgende dagreeks ooit.</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Opeenvolgende dagen met ten minste één record, tot vandaag.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Huidige reeks</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>Gewoonte-gebeurtenistypen</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Gewoontereeks</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Langste Reeks</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Percentage van dagen in de afgelopen 30 dagen met ten minste één record.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Volgt je dagelijkse gewoontestreak, langste streak ooit en voltooiingspercentage over 30 dagen. Elke dag met ten minste één registratie telt als een voltooide dag.</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>Welke gebeurtenistypes tellen mee als voltooiing van de gewoonte voor de dag?</value>
+  </data>
+
+</root>

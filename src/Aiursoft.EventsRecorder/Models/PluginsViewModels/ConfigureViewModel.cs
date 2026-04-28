@@ -1,7 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-using Aiursoft.UiStack.Layout;
+using Aiursoft.EventsRecorder.Entities;
 using Aiursoft.EventsRecorder.Services.Plugins;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Aiursoft.UiStack.Layout;
 
 namespace Aiursoft.EventsRecorder.Models.PluginsViewModels;
 
@@ -12,16 +11,15 @@ public class ConfigureViewModel : UiStackLayoutViewModel
         PageTitle = "Configure Plugin";
     }
 
-    public required PluginDefinition Plugin { get; set; }
+    public required string PluginId { get; set; }
 
-    [Required]
-    [Display(Name = "Event Type")]
-    public int EventTypeId { get; set; }
+    public required string PluginName { get; set; }
 
-    [Display(Name = "Numeric Field")]
-    public int? NumericFieldId { get; set; }
+    public string? PluginDescription { get; set; }
 
-    public List<SelectListItem> EventTypeOptions { get; set; } = [];
-    public List<SelectListItem> NumericFieldOptions { get; set; } = [];
-    public bool AlreadyConfigured { get; set; }
+    public required List<PluginConfigSchema> ConfigSchema { get; set; }
+
+    public required Dictionary<string, string> CurrentConfig { get; set; }
+
+    public required List<EventType> UserEventTypes { get; set; }
 }

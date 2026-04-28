@@ -18,31 +18,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="-- Select Event Type --" xml:space="preserve">
-    <value>-- 이벤트 유형 선택 --</value>
-  </data>
-  <data name="-- Select Numeric Field --" xml:space="preserve">
-    <value>-- 숫자 필드 선택 --</value>
-  </data>
-  <data name="%" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="30-Day Average" xml:space="preserve">
-    <value>30일 평균</value>
-  </data>
-  <data name="30-Day Completion Rate" xml:space="preserve">
-    <value>30일 완료율</value>
-  </data>
-  <data name="30-Day Volatility" xml:space="preserve">
-    <value>30일 변동성</value>
-  </data>
-  <data name="7-Day Average" xml:space="preserve">
-    <value>7일 평균</value>
-  </data>
-  <data name="Abstinence Score" xml:space="preserve">
-    <value>금단 점수</value>
-  </data>
-  <data name="Access Denied" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
     <value>액세스 거부됨</value>
   </data>
   <data name="Account Settings" xml:space="preserve">
@@ -57,56 +33,14 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft 템플릿</value>
   </data>
-  <data name="All-time longest consecutive streak." xml:space="preserve">
-    <value>최장 연속 기록</value>
-  </data>
-  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
-    <value>수면 시간과 일관성을 분석합니다. 지난 30일 동안 평균 수면 시간과 취침 시간의 안정성을 추적합니다.</value>
-  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>익명</value>
-  </data>
-  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
-    <value>이 플러그인을 비활성화하시겠습니까?</value>
-  </data>
-  <data name="Available Metrics" xml:space="preserve">
-    <value>사용 가능한 지표</value>
-  </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
-    <value>지난 42일 동안 세션당 평균 칼로리</value>
-  </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
-    <value>지난 7일 동안 세션당 평균 칼로리</value>
-  </data>
-  <data name="Average mood over the past 30 days." xml:space="preserve">
-    <value>지난 30일 동안의 평균 기분</value>
-  </data>
-  <data name="Average mood over the past 7 days." xml:space="preserve">
-    <value>지난 7일간의 평균 기분</value>
-  </data>
-  <data name="Average Sleep Duration" xml:space="preserve">
-    <value>평균 수면 시간</value>
-  </data>
-  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
-    <value>지난 30일간의 평균 수면 시간</value>
-  </data>
-  <data name="Average weight over the past 30 days." xml:space="preserve">
-    <value>과거 30일간의 평균 체중</value>
-  </data>
-  <data name="Average weight over the past 7 days." xml:space="preserve">
-    <value>최근 7일간의 평균 체중</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>백그라운드 작업</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>잘못된 요청</value>
-  </data>
-  <data name="Bedtime Stability" xml:space="preserve">
-    <value>취침 시간 안정성</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>취소</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>아바타 변경</value>
@@ -120,26 +54,11 @@
   <data name="Click to login" xml:space="preserve">
     <value>로그인하려면 클릭</value>
   </data>
-  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
-    <value>CTL/ATL 훈련 부하 모델을 사용하여 피트니스(42일 부하), 피로(7일 부하), 폼을 계산합니다. 여러 소스를 지원합니다.</value>
-  </data>
-  <data name="Configure" xml:space="preserve">
-    <value>구성</value>
-  </data>
   <data name="Configure Plugin" xml:space="preserve">
     <value>플러그인 구성</value>
   </data>
-  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
-    <value>이 플러그인을 구성하여 지표를 확인하세요.</value>
-  </data>
-  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
-    <value>최소 하나의 기록된 이벤트가 있는 연속된 일수</value>
-  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>이벤트 유형 생성</value>
-  </data>
-  <data name="Create one first." xml:space="preserve">
-    <value>먼저 하나를 생성하세요.</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>역할 생성</value>
@@ -147,20 +66,8 @@
   <data name="Create User" xml:space="preserve">
     <value>사용자 생성</value>
   </data>
-  <data name="Current Streak" xml:space="preserve">
-    <value>현재 연속 일수</value>
-  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>대시보드</value>
-  </data>
-  <data name="days" xml:space="preserve">
-    <value>일</value>
-  </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>최종 기록된 사건 이후 경과한 일수</value>
-  </data>
-  <data name="Days Since Last Event" xml:space="preserve">
-    <value>마지막 이벤트 이후 경과일</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>이벤트 유형 삭제</value>
@@ -171,14 +78,8 @@
   <data name="Delete User" xml:space="preserve">
     <value>사용자 삭제</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>설명</value>
-  </data>
   <data name="Directory" xml:space="preserve">
     <value>디렉터리</value>
-  </data>
-  <data name="Disable" xml:space="preserve">
-    <value>비활성화</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>이벤트 유형 편집</value>
@@ -189,17 +90,8 @@
   <data name="Edit User" xml:space="preserve">
     <value>사용자 편집</value>
   </data>
-  <data name="Enable Plugin" xml:space="preserve">
-    <value>플러그인 활성화</value>
-  </data>
-  <data name="Enabled" xml:space="preserve">
-    <value>활성화됨</value>
-  </data>
   <data name="Error" xml:space="preserve">
     <value>오류</value>
-  </data>
-  <data name="Event Type" xml:space="preserve">
-    <value>이벤트 유형</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>이벤트 유형 세부 정보</value>
@@ -210,41 +102,14 @@
   <data name="Events" xml:space="preserve">
     <value>이벤트</value>
   </data>
-  <data name="Exercise Analytics" xml:space="preserve">
-    <value>운동 분석</value>
-  </data>
-  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
-    <value>기분의 지수 이동 평균 (\u03b1=0.2).</value>
-  </data>
-  <data name="Fatigue (ATL)" xml:space="preserve">
-    <value>피로도 (ATL)</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>기능</value>
-  </data>
-  <data name="Fitness (CTL)" xml:space="preserve">
-    <value>체력 (CTL)</value>
-  </data>
-  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
-    <value>피트니스에서 피로도를 뺀 값. 양수 = 상쾌함; 음수 = 피로도</value>
-  </data>
-  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
-    <value>포름 (CTL \u2212 ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>전역 설정</value>
   </data>
-  <data name="Habit Streak" xml:space="preserve">
-    <value>습관 연속 기록</value>
-  </data>
   <data name="Home" xml:space="preserve">
     <value>홈</value>
-  </data>
-  <data name="hrs" xml:space="preserve">
-    <value>시간</value>
-  </data>
-  <data name="hrs \u03c3" xml:space="preserve">
-    <value>시간 표준편차</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>인덱스</value>
@@ -258,18 +123,6 @@
   <data name="Internal Server Error" xml:space="preserve">
     <value>내부 서버 오류</value>
   </data>
-  <data name="kcal/session" xml:space="preserve">
-    <value>kcal/세션</value>
-  </data>
-  <data name="kg" xml:space="preserve">
-    <value>kg</value>
-  </data>
-  <data name="kg/week" xml:space="preserve">
-    <value>kg/week</value>
-  </data>
-  <data name="Latest Weight" xml:space="preserve">
-    <value>최신 체중</value>
-  </data>
   <data name="Lockout" xml:space="preserve">
     <value>잠금 해제</value>
   </data>
@@ -279,23 +132,8 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>로그인하여 모든 기능을 이용하세요.</value>
   </data>
-  <data name="Longest Streak" xml:space="preserve">
-    <value>최장 연속 기록</value>
-  </data>
   <data name="Manage" xml:space="preserve">
     <value>관리</value>
-  </data>
-  <data name="Metric" xml:space="preserve">
-    <value>지표</value>
-  </data>
-  <data name="Mood EMA" xml:space="preserve">
-    <value>감정 지수 이동 평균</value>
-  </data>
-  <data name="Mood Tracker" xml:space="preserve">
-    <value>기분 추적기</value>
-  </data>
-  <data name="Most recent recorded weight." xml:space="preserve">
-    <value>최신 기록된 체중</value>
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>내 플러그인</value>
@@ -303,26 +141,8 @@
   <data name="My Records" xml:space="preserve">
     <value>내 기록</value>
   </data>
-  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
-    <value>아직 데이터가 없습니다. 지표를 보려면 이벤트 기록을 시작하세요.</value>
-  </data>
-  <data name="No event types found." xml:space="preserve">
-    <value>이벤트 유형이 없습니다.</value>
-  </data>
-  <data name="No numeric fields found for the selected event type." xml:space="preserve">
-    <value>선택한 이벤트 유형에 대한 숫자 필드가 없습니다.</value>
-  </data>
-  <data name="Not configured" xml:space="preserve">
-    <value>구성되지 않음</value>
-  </data>
   <data name="Not Found" xml:space="preserve">
     <value>찾을 수 없음</value>
-  </data>
-  <data name="Numeric Field" xml:space="preserve">
-    <value>숫자 필드</value>
-  </data>
-  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
-    <value>지난 30일 중 적어도 하나의 기록이 있는 날의 비율</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>권한 세부 정보</value>
@@ -333,23 +153,11 @@
   <data name="Personal" xml:space="preserve">
     <value>개인</value>
   </data>
-  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
-    <value>플러그인은 이벤트 기록에서 파생된 지표를 계산합니다. 플러그인을 활성화하려면 구성하세요.</value>
-  </data>
   <data name="Profile" xml:space="preserve">
     <value>프로필</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>프로필 설정</value>
-  </data>
-  <data name="pts" xml:space="preserve">
-    <value>점</value>
-  </data>
-  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
-    <value>30일 간의 변화율. 양수 = 증가, 음수 = 감소.</value>
-  </data>
-  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
-    <value>일일 +10 회복 (최대 100). 각 이벤트: ÷2.</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>회원가입</value>
@@ -360,26 +168,11 @@
   <data name="Roles" xml:space="preserve">
     <value>역할</value>
   </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>변경 사항 저장</value>
-  </data>
-  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
-    <value>이 플러그인이 분석해야 할 숫자 필드를 선택하세요.</value>
-  </data>
   <data name="Settings" xml:space="preserve">
     <value>설정</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>로그아웃</value>
-  </data>
-  <data name="Sleep Analysis" xml:space="preserve">
-    <value>수면 분석</value>
-  </data>
-  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
-    <value>과거 30일간의 기분 표준편차</value>
-  </data>
-  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
-    <value>과거 30일간의 수면 시간 표준편차</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>시스템</value>
@@ -390,35 +183,14 @@
   <data name="Template" xml:space="preserve">
     <value>템플릿</value>
   </data>
-  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
-    <value>과거 30일간의 이동 평균과 선형 회귀를 통해 계산된 주간 추세 방향을 사용하여 체중을 추적합니다.</value>
-  </data>
-  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
-    <value>지수 이동 평균(\u03b1=0.2), 7/30일 평균, 30일 변동성(표준 편차)으로 기분 추세를 추적합니다.</value>
-  </data>
-  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
-    <value>감당하고 싶은 행동을 줄이는 데 필요한 자제력을 추적합니다. 점수는 하루에 +10씩 회복되며(최대 100), 각 이벤트마다 절반으로 줄어듭니다.</value>
-  </data>
-  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
-    <value>일일 습관 연속 기록, 역대 최장 연속 기록, 30일 달성률을 추적합니다. 적어도 하나의 기록이 있는 모든 날은 완료된 날로 간주됩니다.</value>
-  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>권한 없음</value>
-  </data>
-  <data name="Unit" xml:space="preserve">
-    <value>단위</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>사용자 세부 정보</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>사용자</value>
-  </data>
-  <data name="Weekly Trend" xml:space="preserve">
-    <value>주간 추세</value>
-  </data>
-  <data name="Weight Trend" xml:space="preserve">
-    <value>체중 경향</value>
   </data>
 
 </root>

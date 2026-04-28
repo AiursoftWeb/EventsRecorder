@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>30-дневное среднее</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Среднее за 7 дней</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Экспоненциальная скользящая средняя (α=0.2). Недавние данные имеют больший вес.</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Средняя экспоненциальная по настроению</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>Тип события настроения</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>Поле оценки настроения</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Трекер настроения</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Волатильность настроения</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Среднее значение настроения за последние 30 дней.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Среднее арифметическое настроения за последние 7 дней.</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Стандартное отклонение за последние 30 дней. Чем ниже, тем стабильнее.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Отслеживает тенденции настроения с использованием экспоненциального скользящего среднего (α=0,2), средних значений за 7/30 дней и волатильности за 30 дней (стандартное отклонение).</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>Какой тип события фиксирует ваше настроение?</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>Какое числовое поле хранит оценку настроения (например, 1–10)?</value>
+  </data>
+
+</root>

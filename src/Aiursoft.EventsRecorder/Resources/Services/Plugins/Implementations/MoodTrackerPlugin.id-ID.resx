@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>Rata-rata 30 Hari</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Rata-rata 7 Hari</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Rata-rata bergerak eksponensial (α=0,2). Entri terbaru diberi bobot lebih besar.</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>EMA Mood</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>Jenis Event Mood</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>Kolom Skor Suasana Hati</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Pelacak Suasana Hati</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatilitas Mood</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Rata-rata sederhana skor suasana hati selama 30 hari terakhir.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Rata-rata sederhana skor suasana hati selama 7 hari terakhir.</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Simpangan baku selama 30 hari terakhir. Semakin rendah = semakin stabil.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Melacak tren suasana hati dengan rata-rata bergerak eksponensial (α=0.2), rata-rata 7/30 hari, dan volatilitas 30 hari (simpangan baku).</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>Jenis acara mana yang merekam suasana hati Anda?</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>Bidang numerik mana yang menyimpan skor suasana hati (misalnya 1–10)?</value>
+  </data>
+
+</root>

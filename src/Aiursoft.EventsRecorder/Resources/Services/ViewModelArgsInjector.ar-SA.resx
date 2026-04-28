@@ -18,31 +18,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="-- Select Event Type --" xml:space="preserve">
-    <value>-- اختر نوع الحدث --</value>
-  </data>
-  <data name="-- Select Numeric Field --" xml:space="preserve">
-    <value>-- اختر حقلًا رقميًا --</value>
-  </data>
-  <data name="%" xml:space="preserve">
-    <value>٪</value>
-  </data>
-  <data name="30-Day Average" xml:space="preserve">
-    <value>متوسط 30 يومًا</value>
-  </data>
-  <data name="30-Day Completion Rate" xml:space="preserve">
-    <value>معدل الإكمال على مدى 30 يومًا</value>
-  </data>
-  <data name="30-Day Volatility" xml:space="preserve">
-    <value>تقلب 30 يومًا</value>
-  </data>
-  <data name="7-Day Average" xml:space="preserve">
-    <value>متوسط 7 أيام</value>
-  </data>
-  <data name="Abstinence Score" xml:space="preserve">
-    <value>نقاط الامتناع</value>
-  </data>
-  <data name="Access Denied" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
     <value>الوصول ممنوع</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -54,56 +30,14 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>قالب Aiursoft</value>
   </data>
-  <data name="All-time longest consecutive streak." xml:space="preserve">
-    <value>أطول سلسلة متتالية على الإطلاق.</value>
-  </data>
-  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
-    <value>يحلل مدة النوم واتساقه. يتتبع متوسط وقت نومك واستقرار وقت نومك خلال الـ 30 يومًا الماضية.</value>
-  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>مجهول</value>
-  </data>
-  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
-    <value>هل أنت متأكد من أنك تريد تعطيل هذا البرنامج الإضافي؟</value>
-  </data>
-  <data name="Available Metrics" xml:space="preserve">
-    <value>المقاييس المتاحة</value>
-  </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
-    <value>متوسط السعرات الحرارية لكل جلسة خلال الـ 42 يومًا الماضية.</value>
-  </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
-    <value>متوسط السعرات الحرارية لكل جلسة خلال آخر 7 أيام.</value>
-  </data>
-  <data name="Average mood over the past 30 days." xml:space="preserve">
-    <value>متوسط المزاج خلال الـ 30 يوماً الماضية.</value>
-  </data>
-  <data name="Average mood over the past 7 days." xml:space="preserve">
-    <value>متوسط المزاج خلال الأيام السبعة الماضية.</value>
-  </data>
-  <data name="Average Sleep Duration" xml:space="preserve">
-    <value>متوسط مدة النوم</value>
-  </data>
-  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
-    <value>متوسط مدة النوم خلال الـ 30 يومًا الماضية.</value>
-  </data>
-  <data name="Average weight over the past 30 days." xml:space="preserve">
-    <value>متوسط الوزن خلال الأيام الثلاثين الماضية.</value>
-  </data>
-  <data name="Average weight over the past 7 days." xml:space="preserve">
-    <value>متوسط الوزن خلال الأيام السبعة الماضية.</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>المهام الخلفية</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>طلب خاطئ</value>
-  </data>
-  <data name="Bedtime Stability" xml:space="preserve">
-    <value>ثبات موعد النوم</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>إلغاء</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>تغيير الصورة الشخصية</value>
@@ -117,26 +51,11 @@
   <data name="Click to login" xml:space="preserve">
     <value>انقر لتسجيل الدخول</value>
   </data>
-  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
-    <value>تحسب اللياقة (حمولة 42 يومًا)، والإجهاد (حمولة 7 أيام)، والشكل باستخدام نموذج حمل التدريب CTL/ATL. يدعم مصادر متعددة.</value>
-  </data>
-  <data name="Configure" xml:space="preserve">
-    <value>تكوين</value>
-  </data>
   <data name="Configure Plugin" xml:space="preserve">
     <value>تكوين الإضافة</value>
   </data>
-  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
-    <value>قم بتكوين هذا البرنامج المساعد لبدء عرض المقاييس.</value>
-  </data>
-  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
-    <value>الأيام المتتالية التي تم تسجيل حدث واحد على الأقل فيها.</value>
-  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>إنشاء نوع الحدث</value>
-  </data>
-  <data name="Create one first." xml:space="preserve">
-    <value>قم بإنشاء واحد أولاً.</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>إنشاء دور</value>
@@ -144,20 +63,8 @@
   <data name="Create User" xml:space="preserve">
     <value>إنشاء مستخدم</value>
   </data>
-  <data name="Current Streak" xml:space="preserve">
-    <value>السلسلة الحالية</value>
-  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>لوحة التحكم</value>
-  </data>
-  <data name="days" xml:space="preserve">
-    <value>أيام</value>
-  </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>الأيام المنقضية منذ آخر حدث مسجل.</value>
-  </data>
-  <data name="Days Since Last Event" xml:space="preserve">
-    <value>الأيام منذ آخر حدث</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>حذف نوع الحدث</value>
@@ -168,14 +75,8 @@
   <data name="Delete User" xml:space="preserve">
     <value>حذف المستخدم</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>الوصف</value>
-  </data>
   <data name="Directory" xml:space="preserve">
     <value>دليل</value>
-  </data>
-  <data name="Disable" xml:space="preserve">
-    <value>تعطيل</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>تعديل نوع الحدث</value>
@@ -186,17 +87,8 @@
   <data name="Edit User" xml:space="preserve">
     <value>تعديل المستخدم</value>
   </data>
-  <data name="Enable Plugin" xml:space="preserve">
-    <value>تفعيل المكوّن الإضافي</value>
-  </data>
-  <data name="Enabled" xml:space="preserve">
-    <value>مفعّل</value>
-  </data>
   <data name="Error" xml:space="preserve">
     <value>خطأ</value>
-  </data>
-  <data name="Event Type" xml:space="preserve">
-    <value>نوع الحدث</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>تفاصيل نوع الحدث</value>
@@ -207,41 +99,14 @@
   <data name="Events" xml:space="preserve">
     <value>الأحداث</value>
   </data>
-  <data name="Exercise Analytics" xml:space="preserve">
-    <value>تحليل التمارين</value>
-  </data>
-  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
-    <value>المتوسط المتحرك الأسي للمزاج (\u03b1=0.2).</value>
-  </data>
-  <data name="Fatigue (ATL)" xml:space="preserve">
-    <value>الإرهاق (ATL)</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>الميزات</value>
-  </data>
-  <data name="Fitness (CTL)" xml:space="preserve">
-    <value>اللياقة البدنية (CTL)</value>
-  </data>
-  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
-    <value>اللياقة مطروحاً منها التعب. موجب = نشيط؛ سالب = متعب.</value>
-  </data>
-  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
-    <value>الشكل (CTL \u2212 ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>الإعدادات العامة</value>
   </data>
-  <data name="Habit Streak" xml:space="preserve">
-    <value>سلسلة العادات</value>
-  </data>
   <data name="Home" xml:space="preserve">
     <value>الرئيسية</value>
-  </data>
-  <data name="hrs" xml:space="preserve">
-    <value>ساعات</value>
-  </data>
-  <data name="hrs \u03c3" xml:space="preserve">
-    <value>ساعة \u03c3</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>الفهرس</value>
@@ -255,18 +120,6 @@
   <data name="Internal Server Error" xml:space="preserve">
     <value>خطأ الخادم الداخلي</value>
   </data>
-  <data name="kcal/session" xml:space="preserve">
-    <value>كيلو كالوري/جلسة</value>
-  </data>
-  <data name="kg" xml:space="preserve">
-    <value>كجم</value>
-  </data>
-  <data name="kg/week" xml:space="preserve">
-    <value>كغم/أسبوع</value>
-  </data>
-  <data name="Latest Weight" xml:space="preserve">
-    <value>أحدث وزن</value>
-  </data>
   <data name="Lockout" xml:space="preserve">
     <value>حظر الحساب</value>
   </data>
@@ -276,23 +129,8 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>سجّل الدخول للوصول إلى جميع الميزات.</value>
   </data>
-  <data name="Longest Streak" xml:space="preserve">
-    <value>أطول سلسلة متتالية</value>
-  </data>
   <data name="Manage" xml:space="preserve">
     <value>إدارة</value>
-  </data>
-  <data name="Metric" xml:space="preserve">
-    <value>المقياس</value>
-  </data>
-  <data name="Mood EMA" xml:space="preserve">
-    <value>متوسط المزوى المتحرك الأسي</value>
-  </data>
-  <data name="Mood Tracker" xml:space="preserve">
-    <value>متتبع المزاج</value>
-  </data>
-  <data name="Most recent recorded weight." xml:space="preserve">
-    <value>أحدث وزن مسجل.</value>
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>إضافاتي</value>
@@ -300,26 +138,8 @@
   <data name="My Records" xml:space="preserve">
     <value>سجلاتي</value>
   </data>
-  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
-    <value>لا توجد بيانات بعد. ابدأ تسجيل الأحداث لعرض المقاييس.</value>
-  </data>
-  <data name="No event types found." xml:space="preserve">
-    <value>لم يتم العثور على أنواع أحداث.</value>
-  </data>
-  <data name="No numeric fields found for the selected event type." xml:space="preserve">
-    <value>لم يتم العثور على حقول رقمية لنوع الحدث المحدد.</value>
-  </data>
-  <data name="Not configured" xml:space="preserve">
-    <value>غير مُهيّأ</value>
-  </data>
   <data name="Not Found" xml:space="preserve">
     <value>غير موجود</value>
-  </data>
-  <data name="Numeric Field" xml:space="preserve">
-    <value>الحقل الرقمي</value>
-  </data>
-  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
-    <value>النسبة المئوية للأيام في الـ 30 يوماً الماضية التي تحتوي على سجل واحد على الأقل.</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>تفاصيل الصلاحيات</value>
@@ -330,23 +150,11 @@
   <data name="Personal" xml:space="preserve">
     <value>شخصي</value>
   </data>
-  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
-    <value>تحسب الإضافات مقاييس مشتقة من سجلات الأحداث الخاصة بك. قم بتكوين إضافة لتفعيلها.</value>
-  </data>
   <data name="Profile" xml:space="preserve">
     <value>الملف الشخصي</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>إعدادات الملف الشخصي</value>
-  </data>
-  <data name="pts" xml:space="preserve">
-    <value>نقاط</value>
-  </data>
-  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
-    <value>معدل التغير على مدى 30 يومًا. الإيجابي = اكتساب، السلبي = خسارة.</value>
-  </data>
-  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
-    <value>تستعيد +10/يوم (الحد الأقصى 100). كل حدث: ÷2.</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>تسجيل</value>
@@ -357,26 +165,11 @@
   <data name="Roles" xml:space="preserve">
     <value>الأدوار</value>
   </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>حفظ التغييرات</value>
-  </data>
-  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
-    <value>حدد الحقل الرقمي الذي يجب على هذا البرنامج المساعد تحليله.</value>
-  </data>
   <data name="Settings" xml:space="preserve">
     <value>الإعدادات</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>تسجيل الخروج</value>
-  </data>
-  <data name="Sleep Analysis" xml:space="preserve">
-    <value>تحليل النوم</value>
-  </data>
-  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
-    <value>الانحراف المعياري للمزاج خلال الـ 30 يوماً الماضية.</value>
-  </data>
-  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
-    <value>الانحراف المعياري لمدة النوم خلال الـ 30 يومًا الماضية.</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>النظام</value>
@@ -387,35 +180,14 @@
   <data name="Template" xml:space="preserve">
     <value>قالب</value>
   </data>
-  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
-    <value>يتعقب وزن الجسم باستخدام المتوسطات المتحركة واتجاه الاتجاه الأسبوعي المحسوب عبر الانحدار الخطي خلال الـ 30 يومًا الماضية.</value>
-  </data>
-  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
-    <value>يتعقّب اتجاهات المزاج باستخدام المتوسط المتحرك الأسي (\u03b1=0.2)، ومتوسطات 7/30 يوماً، وتقلباً لمدة 30 يوماً (الانحراف المعياري).</value>
-  </data>
-  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
-    <value>يتعقب ضبط النفس لأي سلوك ترغب في تقليله. يستعيد النتيجة بمقدار +10/يوم (بحد أقصى 100) وتنخفض إلى النصف مع كل حدث.</value>
-  </data>
-  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
-    <value>يتعقّب سلسلة العادات اليومية، أطول سلسلة منذ البداية، ومعدل الإكمال خلال 30 يومًا. يُعتبر أي يوم يحتوي على سجل واحد على الأقل يومًا مكتملًا.</value>
-  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>غير مصرح</value>
-  </data>
-  <data name="Unit" xml:space="preserve">
-    <value>الوحدة</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>تفاصيل المستخدم</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>المستخدمون</value>
-  </data>
-  <data name="Weekly Trend" xml:space="preserve">
-    <value>الاتجاه الأسبوعي</value>
-  </data>
-  <data name="Weight Trend" xml:space="preserve">
-    <value>اتجاه الوزن</value>
   </data>
 
 </root>

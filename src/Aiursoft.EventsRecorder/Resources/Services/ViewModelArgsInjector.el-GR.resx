@@ -51,6 +51,9 @@
   <data name="Click to login" xml:space="preserve">
     <value>Κάντε κλικ για σύνδεση</value>
   </data>
+  <data name="Configure Plugin" xml:space="preserve">
+    <value>Ρύθμιση Πρόσθετου</value>
+  </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>Δημιουργία τύπου εκδήλωσης</value>
   </data>
@@ -111,6 +114,9 @@
   <data name="Info" xml:space="preserve">
     <value>Πληροφορίες</value>
   </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Εφαρμογή</value>
+  </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>Internal Server Error</value>
   </data>
@@ -125,6 +131,9 @@
   </data>
   <data name="Manage" xml:space="preserve">
     <value>Διαχείριση</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Τα Προγράμματά μου</value>
   </data>
   <data name="My Records" xml:space="preserve">
     <value>Τα Αρχεία Μου</value>

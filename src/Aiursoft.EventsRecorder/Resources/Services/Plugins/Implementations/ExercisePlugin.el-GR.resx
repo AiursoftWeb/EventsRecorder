@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Μέσος όρος θερμίδων ανά συνεδρία τα τελευταία 42 ημέρες.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Μέσος όρος θερμίδων ανά συνεδρία κατά τις τελευταίες 7 ημέρες.</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>Πεδίο Θερμίδων ανά Τύπο Γεγονότος</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Υπολογίζει τη Φιtness (φορτίο 42 ημερών), την Κόπωση (φορτίο 7 ημερών) και τη Μορφή χρησιμοποιώντας το μοντέλο φορτίου εκγύμνασης CTL/ATL. Υποστηρίζει πολλαπλές πηγές.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Ανάλυση Άσκησης</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>Τύποι Δραστηριοτήτων Άσκησης</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Κούραση (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Φιτνες (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Ασέβεια μείον Κόπωση. Θετικό = φρέσκος· αρνητικό = κουρασμένος.</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>Για κάθε επιλεγμένο τύπο συμβάντος, ποιο αριθμητικό πεδίο καταγράφει τις καλορίες που καίγονται;</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Μορφή (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>Ποιοι τύποι γεγονότων αντιπροσωπεύουν συνεδρίες άσκησης;</value>
+  </data>
+
+</root>

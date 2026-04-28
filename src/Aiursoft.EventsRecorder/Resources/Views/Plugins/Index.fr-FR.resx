@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Configurer</value>
+  </data>
+  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
+    <value>Configurez ce plugin pour commencer à voir les métriques.</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Mes plugins</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Non configuré</value>
+  </data>
+  <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
+    <value>Les plugins calculent des métriques dérivées à partir de vos enregistrements d&apos;événements. Configurez un plugin pour l&apos;activer.</value>
+  </data>
+
+</root>

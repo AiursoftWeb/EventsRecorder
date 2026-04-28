@@ -87,101 +87,10 @@ public class ViewModelArgsInjector(
         _ = localizer["Event Types"];
         _ = localizer["Events"];
         _ = localizer["My Records"];
-
-        // Plugins nav group
+    
+        _ = localizer["Configure Plugin"];
         _ = localizer["Insights"];
         _ = localizer["My Plugins"];
-
-        // Plugins index page
-        _ = localizer["Plugins calculate derived metrics from your event records. Configure a plugin to activate it."];
-        _ = localizer["Enabled"];
-        _ = localizer["Not configured"];
-        _ = localizer["Configure this plugin to start seeing metrics."];
-        _ = localizer["No data yet. Start recording events to see metrics."];
-        _ = localizer["Configure"];
-        _ = localizer["Disable"];
-        _ = localizer["Are you sure you want to disable this plugin?"];
-
-        // Plugins configure page
-        _ = localizer["Configure Plugin"];
-        _ = localizer["Event Type"];
-        _ = localizer["-- Select Event Type --"];
-        _ = localizer["No event types found."];
-        _ = localizer["Create one first."];
-        _ = localizer["Numeric Field"];
-        _ = localizer["-- Select Numeric Field --"];
-        _ = localizer["No numeric fields found for the selected event type."];
-        _ = localizer["Select the numeric field that this plugin should analyze."];
-        _ = localizer["Save Changes"];
-        _ = localizer["Enable Plugin"];
-        _ = localizer["Cancel"];
-        _ = localizer["Available Metrics"];
-        _ = localizer["Metric"];
-        _ = localizer["Unit"];
-        _ = localizer["Description"];
-
-        // Plugin names
-        _ = localizer["Abstinence Score"];
-        _ = localizer["Exercise Analytics"];
-        _ = localizer["Habit Streak"];
-        _ = localizer["Mood Tracker"];
-        _ = localizer["Sleep Analysis"];
-        _ = localizer["Weight Trend"];
-
-        // Plugin descriptions
-        _ = localizer["Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event."];
-        _ = localizer["Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources."];
-        _ = localizer["Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day."];
-        _ = localizer["Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)."];
-        _ = localizer["Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days."];
-        _ = localizer["Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days."];
-
-        // Metric names
-        _ = localizer["Days Since Last Event"];
-        _ = localizer["Fitness (CTL)"];
-        _ = localizer["Fatigue (ATL)"];
-        _ = localizer["Form (CTL \u2212 ATL)"];
-        _ = localizer["Current Streak"];
-        _ = localizer["Longest Streak"];
-        _ = localizer["30-Day Completion Rate"];
-        _ = localizer["Mood EMA"];
-        _ = localizer["7-Day Average"];
-        _ = localizer["30-Day Average"];
-        _ = localizer["30-Day Volatility"];
-        _ = localizer["Average Sleep Duration"];
-        _ = localizer["Bedtime Stability"];
-        _ = localizer["Latest Weight"];
-        _ = localizer["Weekly Trend"];
-
-        // Metric units
-        _ = localizer["pts"];
-        _ = localizer["days"];
-        _ = localizer["kcal/session"];
-        _ = localizer["%"];
-        _ = localizer["hrs"];
-        _ = localizer["hrs \u03c3"];
-        _ = localizer["kg"];
-        _ = localizer["kg/week"];
-
-        // Metric descriptions
-        _ = localizer["Recovers +10/day (max 100). Each event: \u00f72."];
-        _ = localizer["Days elapsed since the most recent recorded event."];
-        _ = localizer["Average calories per session over the past 42 days."];
-        _ = localizer["Average calories per session over the past 7 days."];
-        _ = localizer["Fitness minus Fatigue. Positive = fresh; negative = fatigued."];
-        _ = localizer["Consecutive days with at least one recorded event."];
-        _ = localizer["All-time longest consecutive streak."];
-        _ = localizer["Percentage of days in the past 30 days with at least one record."];
-        _ = localizer["Exponential moving average of mood (\u03b1=0.2)."];
-        _ = localizer["Average mood over the past 7 days."];
-        _ = localizer["Average mood over the past 30 days."];
-        _ = localizer["Standard deviation of mood over the past 30 days."];
-        _ = localizer["Average sleep duration over the past 30 days."];
-        _ = localizer["Standard deviation of sleep duration over the past 30 days."];
-        _ = localizer["Most recent recorded weight."];
-        _ = localizer["Average weight over the past 7 days."];
-        _ = localizer["Average weight over the past 30 days."];
-        _ = localizer["Rate of change over 30 days. Positive = gaining, negative = losing."];
     }
 
     public void InjectSimple(

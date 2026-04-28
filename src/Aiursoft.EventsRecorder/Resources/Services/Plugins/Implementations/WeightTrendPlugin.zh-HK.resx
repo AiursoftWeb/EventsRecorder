@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30天平均</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7天平均</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>過去30日的平均體重。</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>過去7日的平均體重</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>最新體重</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>最近記錄的重量</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30日內的变化率。正值表示增加，负值表示减少。</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>透過移動平均及過去 30 天以線性回歸計算的每週趨勢方向，追蹤體重變化。</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>每週趨勢</value>
+  </data>
+  <data name="Weigh-In Event Type" xml:space="preserve">
+    <value>體重記錄事件類型</value>
+  </data>
+  <data name="Weight Field" xml:space="preserve">
+    <value>體重欄位</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>體重趨勢</value>
+  </data>
+  <data name="Which event type records your weight?" xml:space="preserve">
+    <value>哪種事件類型會記錄你的體重？</value>
+  </data>
+  <data name="Which numeric field stores the weight value?" xml:space="preserve">
+    <value>哪個數值欄位儲存體重數值？</value>
+  </data>
+
+</root>

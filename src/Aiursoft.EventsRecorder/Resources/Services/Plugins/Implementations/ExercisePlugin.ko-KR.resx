@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>지난 42일 동안 세션당 평균 칼로리</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>지난 7일 동안 세션당 평균 칼로리</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>이벤트 유형별 칼로리 필드</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATL 훈련 부하 모델을 사용하여 피트니스(42일 부하), 피로(7일 부하), 그리고 폼을 계산합니다. 여러 소스를 지원합니다.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>운동 분석</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>운동 이벤트 유형</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>피로 (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>피트니스 (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>피트니스에서 피로도를 뺀 값. 양수 = 상쾌함; 음수 = 피로도</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>선택된 각 이벤트 유형에 대해 칼로리 소모량을 기록하는 숫자 필드는 무엇입니까?</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>폼 (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>어떤 이벤트 유형이 운동 세션을 나타냅니까?</value>
+  </data>
+
+</root>

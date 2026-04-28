@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Середня кількість калорій за одну сесію за останні 42 дні.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Середня кількість калорій за сеанс за останні 7 днів.</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>Поле калорій для кожного типу події</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Обчислює Фізичну форму (42-денне навантаження), Втому (7-денне навантаження) та Форму за допомогою моделі тренувального навантаження CTL/ATL. Підтримує кілька джерел.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Аналітика вправ</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>Типи подій вправ</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Втома (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Фізична підготовка (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Різниця між формою та втомою. Позитивне значення = свіжість; негативне = втома.</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>Для кожного вибраного типу події, яке числове поле фіксує спалені калорії?</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Форма (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>Які типи подій відповідають тренуванням?</value>
+  </data>
+
+</root>

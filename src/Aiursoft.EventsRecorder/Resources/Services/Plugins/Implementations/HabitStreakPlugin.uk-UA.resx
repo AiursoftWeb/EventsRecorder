@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>Завершення за 30 днів</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Найдовша послідовність щоденних днів поспіль за весь час.</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Повні дні поспіль з принаймні одним записом, включаючи сьогодні.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Поточна серія</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>Типи подій звички</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Серія звичок</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Найдовша серія</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Відсоток днів за останні 30 днів, коли було зафіксовано хоча б один запис.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Відстежує вашу щоденну серію звичок, найдовшу серію за все часи та показник виконання за 30 днів. Будь-який день, у якому є хоча б один запис, вважається завершеним.</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>Які типи подій вважаються завершенням звички на день?</value>
+  </data>
+
+</root>

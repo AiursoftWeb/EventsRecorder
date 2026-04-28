@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Calories moyennes par séance au cours des 42 derniers jours.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Calories moyennes par séance au cours des 7 derniers jours.</value>
+  </data>
+  <data name="Calories Field per Event Type" xml:space="preserve">
+    <value>Champ Calories par type d&apos;événement</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Calcule la forme physique (charge sur 42 jours), la fatigue (charge sur 7 jours) et la forme en utilisant le modèle de charge d&apos;entraînement CTL/ATL. Prend en charge plusieurs sources.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Analyse des exercices</value>
+  </data>
+  <data name="Exercise Event Types" xml:space="preserve">
+    <value>Types d&apos;événements d&apos;exercice</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Fatigue (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Conditionnement physique (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Forme moins Fatigue. Positif = frais ; négatif = fatigué.</value>
+  </data>
+  <data name="For each selected event type, which numeric field records calories burned?" xml:space="preserve">
+    <value>Pour chaque type d&apos;événement sélectionné, quel champ numérique enregistre les calories brûlées ?</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Forme (CTL − ATL)</value>
+  </data>
+  <data name="Which event types represent exercise sessions?" xml:space="preserve">
+    <value>Quels types d&apos;événements représentent des séances d&apos;exercice ?</value>
+  </data>
+
+</root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>30-dages gennemsnit</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-dages gennemsnit</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Eksponentielt glidende gennemsnit (α=0,2). Nye indtastninger vægtes højere.</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Humør EMA</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>Stemningstype</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>Felt til humørkarakter</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Humørsporer</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Humørsvingninger</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Gennemsnitlig humørscore over de seneste 30 dage.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Gennemsnitligt humørscor over de seneste 7 dage.</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standardafvigelse over de seneste 30 dage. Lavere = mere stabil.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Spor humørudvikling med en eksponentiel glidende gennemsnit (α=0,2), gennemsnit over 7/30 dage og 30-dages volatilitet (standardafvigelse).</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>Hvilken eventtype registrerer dit humør?</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>Hvilket numerisk felt gemmer humørscoren (f.eks. 1–10)?</value>
+  </data>
+
+</root>

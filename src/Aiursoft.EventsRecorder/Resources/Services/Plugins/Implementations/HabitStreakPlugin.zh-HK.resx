@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Completion" xml:space="preserve">
+    <value>30 日完成率</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>歷來最長的連續每日記錄天數</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>連續多日至少有每日記錄，直至今天。</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>目前連續天數</value>
+  </data>
+  <data name="Habit Event Types" xml:space="preserve">
+    <value>習慣事件類型</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>習慣連勝</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>最長連續紀錄</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>過去30日內，至少有1筆記錄的天數百分比。</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>追蹤您的每日習慣連續記錄、歷史最長連續記錄，以及 30 天完成率。只要任何一天至少有一筆記錄，即視為已完成。</value>
+  </data>
+  <data name="Which event types count as completing the habit for the day?" xml:space="preserve">
+    <value>哪些事件類型可算作當日完成習慣？</value>
+  </data>
+
+</root>

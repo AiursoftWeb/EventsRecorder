@@ -1,115 +1,237 @@
+@using Aiursoft.EventsRecorder.Services.Plugins
+@using Newtonsoft.Json
 @model Aiursoft.EventsRecorder.Models.PluginsViewModels.ConfigureViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>@Localizer["Configure Plugin"]</h3>
-    </div>
-</div>
+<h1 class="h3 mb-3">@Localizer["Configure"] — @Localizer[Model.PluginName]</h1>
 
-<div class="row">
-    <div class="col-12 col-lg-8">
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
         <div class="card">
             <div class="card-header">
-                <h5 class="card-title mb-0">
-                    <i class="align-middle me-2" data-lucide="plug"></i>
-                    @Localizer[Model.Plugin.Name]
-                </h5>
+                <h5 class="card-title mb-0">@Localizer[Model.PluginName]</h5>
+                @if (!string.IsNullOrWhiteSpace(Model.PluginDescription))
+                {
+                    <p class="card-subtitle text-muted small mt-1 mb-0">@Localizer[Model.PluginDescription]</p>
+                }
             </div>
             <div class="card-body">
-                <p class="text-muted mb-4">@Localizer[Model.Plugin.Description]</p>
-
-                <form asp-action="Configure" asp-route-id="@Model.Plugin.Id" method="post">
+                <form asp-action="Configure" asp-route-id="@Model.PluginId" method="post">
                     @Html.AntiForgeryToken()
 
-                    <div class="mb-3">
-                        <label asp-for="EventTypeId" class="form-label">@Localizer["Event Type"]</label>
-                        @if (Model.EventTypeOptions.Any())
-                        {
-                            <select asp-for="EventTypeId" asp-items="Model.EventTypeOptions"
-                                    class="form-select"
-                                    id="eventTypeSelect">
-                                <option value="">@Localizer["-- Select Event Type --"]</option>
-                            </select>
-                        }
-                        else
-                        {
-                            <p class="text-muted">
-                                @Localizer["No event types found."]
-                                <a asp-controller="EventTypes" asp-action="Create">@Localizer["Create one first."]</a>
-                            </p>
-                        }
-                        <span asp-validation-for="EventTypeId" class="text-danger"></span>
-                    </div>
-
-                    @if (Model.Plugin.RequiresNumericField)
+                    @foreach (var schema in Model.ConfigSchema)
                     {
-                        <div class="mb-3">
-                            <label asp-for="NumericFieldId" class="form-label">@Localizer["Numeric Field"]</label>
-                            @if (Model.NumericFieldOptions.Any())
+                        var currentVal = Model.CurrentConfig.TryGetValue(schema.Key, out var cv) ? cv : "";
+
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">@Localizer[schema.Label]</label>
+                            <p class="text-muted small mb-2">@Localizer[schema.Description]</p>
+
+                            @switch (schema.Type)
                             {
-                                <select asp-for="NumericFieldId" asp-items="Model.NumericFieldOptions" class="form-select">
-                                    <option value="">@Localizer["-- Select Numeric Field --"]</option>
-                                </select>
+                                case PluginConfigFieldType.EventTypeSelector:
+                                    <select id="input_@schema.Key" name="@schema.Key" class="form-select plugin-event-type-selector">
+                                        <option value="">— @Localizer["Select event type"] —</option>
+                                        @foreach (var et in Model.UserEventTypes)
+                                        {
+                                            <option value="@et.Id" selected="@(currentVal == et.Id.ToString() ? "selected" : null)">@et.Name</option>
+                                        }
+                                    </select>
+                                    break;
+
+                                case PluginConfigFieldType.EventTypeSelectorList:
+                                    <div class="border rounded p-3">
+                                        @if (!Model.UserEventTypes.Any())
+                                        {
+                                            <span class="text-muted small">@Localizer["No event types yet."]</span>
+                                        }
+                                        @foreach (var et in Model.UserEventTypes)
+                                        {
+                                            var isChecked = currentVal.Split(',').Select(s => s.Trim()).Contains(et.Id.ToString());
+                                            <div class="form-check">
+                                                <input class="form-check-input plugin-list-checkbox"
+                                                       type="checkbox"
+                                                       value="@et.Id"
+                                                       id="cb_@(schema.Key)_@et.Id"
+                                                       data-hidden-id="input_@schema.Key"
+                                                       @(isChecked ? "checked" : "")>
+                                                <label class="form-check-label" for="cb_@(schema.Key)_@et.Id">@et.Name</label>
+                                            </div>
+                                        }
+                                    </div>
+                                    <input type="hidden" id="input_@schema.Key" name="@schema.Key" value="@currentVal">
+                                    break;
+
+                                case PluginConfigFieldType.FieldSelector:
+                                    <select id="input_@schema.Key" name="@schema.Key" class="form-select plugin-field-selector"
+                                            data-event-type-key="@schema.EventTypeSelectorKey"
+                                            data-filter-field-type="@((schema.FilterFieldType.HasValue ? (int)schema.FilterFieldType : -1).ToString())"
+                                            data-current-value="@currentVal">
+                                        <option value="">— @Localizer["Select field"] —</option>
+                                    </select>
+                                    break;
+
+                                case PluginConfigFieldType.FieldSelectorPerSource:
+                                    <div id="container_@schema.Key" class="plugin-per-source-container"
+                                         data-event-type-list-key="@schema.EventTypeSelectorKey"
+                                         data-filter-field-type="@((schema.FilterFieldType.HasValue ? (int)schema.FilterFieldType : -1).ToString())"
+                                         data-current-value="@currentVal">
+                                    </div>
+                                    <input type="hidden" id="input_@schema.Key" name="@schema.Key" value="@currentVal">
+                                    break;
                             }
-                            else
-                            {
-                                <p class="text-muted">@Localizer["No numeric fields found for the selected event type."]</p>
-                            }
-                            <span asp-validation-for="NumericFieldId" class="text-danger"></span>
-                            <div class="form-text">@Localizer["Select the numeric field that this plugin should analyze."]</div>
                         </div>
                     }
 
-                    <div class="d-flex gap-2">
+                    <div class="mt-4">
                         <button type="submit" class="btn btn-primary">
-                            <i class="align-middle me-1" data-lucide="save" style="width:16px;height:16px;"></i>
-                            @if (Model.AlreadyConfigured)
-                            {
-                                @Localizer["Save Changes"]
-                            }
-                            else
-                            {
-                                @Localizer["Enable Plugin"]
-                            }
+                            <i class="align-middle me-2" data-lucide="save"></i>@Localizer["Save"]
                         </button>
-                        <a asp-action="Index" class="btn btn-outline-secondary">
-                            @Localizer["Cancel"]
-                        </a>
+                        <a asp-action="Index" class="btn btn-light">@Localizer["Cancel"]</a>
                     </div>
                 </form>
             </div>
         </div>
-
-        @if (Model.Plugin.Metrics.Any())
-        {
-            <div class="card mt-4">
-                <div class="card-header">
-                    <h5 class="card-title mb-0">@Localizer["Available Metrics"]</h5>
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-sm">
-                            <thead>
-                            <tr>
-                                <th>@Localizer["Metric"]</th>
-                                <th>@Localizer["Unit"]</th>
-                                <th>@Localizer["Description"]</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            @foreach (var metric in Model.Plugin.Metrics)
-                            {
-                                <tr>
-                                    <td>@Localizer[metric.Name]</td>
-                                    <td><code>@Localizer[metric.Unit]</code></td>
-                                    <td class="text-muted small">@Localizer[metric.Description]</td>
-                                </tr>
-                            }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        }
     </div>
 </div>
+
+@section scripts {
+<script>
+(function () {
+    // ── Data embedded from server ──────────────────────────────────────────
+    const allEventTypes = @Html.Raw(JsonConvert.SerializeObject(
+        Model.UserEventTypes.Select(et => new
+        {
+            et.Id,
+            et.Name,
+            Fields = et.Fields.Select(f => new { f.Id, f.Name, FieldType = (int)f.FieldType })
+        })));
+
+    // ── Helpers ────────────────────────────────────────────────────────────
+
+    function getSelectedIds(hiddenInputId) {
+        const v = (document.getElementById(hiddenInputId) || {}).value || '';
+        return v.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n) && n > 0);
+    }
+
+    function parsePerSourceValue(raw) {
+        // "42:7,17:23" → { '42': '7', '17': '23' }
+        const map = {};
+        (raw || '').split(',').forEach(pair => {
+            const parts = pair.split(':');
+            if (parts.length === 2 && parts[0].trim() && parts[1].trim())
+                map[parts[0].trim()] = parts[1].trim();
+        });
+        return map;
+    }
+
+    // ── Update a FieldSelector (single select linked to one EventTypeSelector) ──
+    function updateFieldSelector(selectEl) {
+        const eventTypeKey  = selectEl.dataset.eventTypeKey;
+        const filterType    = parseInt(selectEl.dataset.filterFieldType);
+        const currentVal    = selectEl.dataset.currentValue || selectEl.value;
+
+        const sourceEl      = document.getElementById('input_' + eventTypeKey);
+        const selectedId    = sourceEl ? parseInt(sourceEl.value) : NaN;
+        const eventType     = allEventTypes.find(et => et.Id === selectedId);
+
+        const prevValue = selectEl.value || currentVal;
+        selectEl.innerHTML = '<option value="">— select field —</option>';
+
+        if (eventType) {
+            eventType.Fields
+                .filter(f => filterType < 0 || f.FieldType === filterType)
+                .forEach(f => {
+                    const opt = new Option(f.Name, f.Id, false, String(f.Id) === String(prevValue));
+                    selectEl.add(opt);
+                });
+        }
+    }
+
+    // ── Update a FieldSelectorPerSource (dynamic rows) ─────────────────────
+    function updatePerSourceContainer(containerEl) {
+        const listKey    = containerEl.dataset.eventTypeListKey;
+        const filterType = parseInt(containerEl.dataset.filterFieldType);
+        const hiddenId   = 'input_' + containerEl.id.replace('container_', '');
+        const hiddenEl   = document.getElementById(hiddenId);
+        const existing   = parsePerSourceValue(hiddenEl ? hiddenEl.value : containerEl.dataset.currentValue);
+
+        const selectedIds = getSelectedIds('input_' + listKey);
+        containerEl.innerHTML = '';
+
+        if (selectedIds.length === 0) {
+            containerEl.innerHTML = '<p class="text-muted small mb-0">Select event types above to configure fields.</p>';
+            if (hiddenEl) hiddenEl.value = '';
+            return;
+        }
+
+        selectedIds.forEach(typeId => {
+            const et = allEventTypes.find(e => e.Id === typeId);
+            if (!et) return;
+
+            const fields = et.Fields.filter(f => filterType < 0 || f.FieldType === filterType);
+
+            const row = document.createElement('div');
+            row.className = 'input-group mb-2';
+
+            const label = document.createElement('span');
+            label.className = 'input-group-text';
+            label.style.minWidth = '140px';
+            label.textContent = et.Name;
+
+            const sel = document.createElement('select');
+            sel.className = 'form-select';
+            sel.dataset.typeId = typeId;
+            sel.innerHTML = '<option value="">— select field —</option>';
+
+            const savedFieldId = existing[String(typeId)] || '';
+            fields.forEach(f => {
+                const opt = new Option(f.Name, f.Id, false, String(f.Id) === savedFieldId);
+                sel.add(opt);
+            });
+            sel.addEventListener('change', () => syncPerSourceHidden(containerEl, hiddenEl));
+
+            row.appendChild(label);
+            row.appendChild(sel);
+            containerEl.appendChild(row);
+        });
+
+        syncPerSourceHidden(containerEl, hiddenEl);
+    }
+
+    function syncPerSourceHidden(containerEl, hiddenEl) {
+        if (!hiddenEl) return;
+        const pairs = Array.from(containerEl.querySelectorAll('select'))
+            .filter(s => s.value)
+            .map(s => s.dataset.typeId + ':' + s.value);
+        hiddenEl.value = pairs.join(',');
+    }
+
+    // ── Run all dependent updates ──────────────────────────────────────────
+    function refreshAll() {
+        document.querySelectorAll('.plugin-field-selector').forEach(updateFieldSelector);
+        document.querySelectorAll('.plugin-per-source-container').forEach(updatePerSourceContainer);
+    }
+
+    // ── Wire up EventTypeSelector change ──────────────────────────────────
+    document.querySelectorAll('.plugin-event-type-selector').forEach(sel => {
+        sel.addEventListener('change', refreshAll);
+    });
+
+    // ── Wire up EventTypeSelectorList checkboxes ───────────────────────────
+    document.querySelectorAll('.plugin-list-checkbox').forEach(cb => {
+        cb.addEventListener('change', function () {
+            const hiddenEl = document.getElementById(this.dataset.hiddenId);
+            if (!hiddenEl) return;
+            const checked = Array.from(
+                document.querySelectorAll(`.plugin-list-checkbox[data-hidden-id="${this.dataset.hiddenId}"]:checked`)
+            ).map(c => c.value);
+            hiddenEl.value = checked.join(',');
+            refreshAll();
+        });
+    });
+
+    // ── Initial population on page load ───────────────────────────────────
+    refreshAll();
+}());
+</script>
+}

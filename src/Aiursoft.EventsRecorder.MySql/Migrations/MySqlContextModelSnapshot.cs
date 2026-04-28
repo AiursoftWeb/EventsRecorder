@@ -17,7 +17,7 @@ namespace Aiursoft.EventsRecorder.MySql.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.6")
+                .HasAnnotation("ProductVersion", "10.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
@@ -172,7 +172,7 @@ namespace Aiursoft.EventsRecorder.MySql.Migrations
                     b.ToTable("GlobalSettings");
                 });
 
-            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfiguration", b =>
+            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfig", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -180,16 +180,14 @@ namespace Aiursoft.EventsRecorder.MySql.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("EventTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("NumericFieldId")
-                        .HasColumnType("int");
+                    b.Property<string>("ConfigJson")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("PluginId")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -197,13 +195,10 @@ namespace Aiursoft.EventsRecorder.MySql.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EventTypeId");
+                    b.HasIndex("UserId", "PluginId")
+                        .IsUnique();
 
-                    b.HasIndex("NumericFieldId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("PluginConfigurations");
+                    b.ToTable("PluginConfigs");
                 });
 
             modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.User", b =>
@@ -475,28 +470,13 @@ namespace Aiursoft.EventsRecorder.MySql.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfiguration", b =>
+            modelBuilder.Entity("Aiursoft.EventsRecorder.Entities.PluginConfig", b =>
                 {
-                    b.HasOne("Aiursoft.EventsRecorder.Entities.EventType", "EventType")
-                        .WithMany()
-                        .HasForeignKey("EventTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Aiursoft.EventsRecorder.Entities.EventField", "NumericField")
-                        .WithMany()
-                        .HasForeignKey("NumericFieldId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.HasOne("Aiursoft.EventsRecorder.Entities.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("EventType");
-
-                    b.Navigation("NumericField");
 
                     b.Navigation("User");
                 });

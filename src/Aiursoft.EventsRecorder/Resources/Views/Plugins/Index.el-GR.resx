@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Active" xml:space="preserve">
+    <value>Ενεργό</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Ρύθμιση</value>
+  </data>
+  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
+    <value>Διαμορφώστε αυτό το πρόσθετο για να αρχίσετε να βλέπετε μετρικές.</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Τα Πλαγίν μου</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Δεν έχει ρυθμιστεί</value>
+  </data>
+  <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
+    <value>Τα πρόσθετα υπολογίζουν παραγόμενους δείκτες από τα αρχεία γεγονότων σας. Διαμορφώστε ένα πρόσθετο για να το ενεργοποιήσετε.</value>
+  </data>
+
+</root>

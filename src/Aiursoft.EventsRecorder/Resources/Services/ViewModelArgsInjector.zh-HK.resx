@@ -18,31 +18,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="-- Select Event Type --" xml:space="preserve">
-    <value>-- 選擇事件類型 --</value>
-  </data>
-  <data name="-- Select Numeric Field --" xml:space="preserve">
-    <value>-- 選擇數值欄位 --</value>
-  </data>
-  <data name="%" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="30-Day Average" xml:space="preserve">
-    <value>30日平均</value>
-  </data>
-  <data name="30-Day Completion Rate" xml:space="preserve">
-    <value>30日完成率</value>
-  </data>
-  <data name="30-Day Volatility" xml:space="preserve">
-    <value>30日波動性</value>
-  </data>
-  <data name="7-Day Average" xml:space="preserve">
-    <value>7天平均值</value>
-  </data>
-  <data name="Abstinence Score" xml:space="preserve">
-    <value>戒斷分數</value>
-  </data>
-  <data name="Access Denied" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
     <value>存取被拒</value>
   </data>
   <data name="Account Settings" xml:space="preserve">
@@ -57,56 +33,14 @@
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft 模板</value>
   </data>
-  <data name="All-time longest consecutive streak." xml:space="preserve">
-    <value>史上連續天數最長紀錄</value>
-  </data>
-  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
-    <value>分析睡眠時長和規律性。追蹤過去 30 天內您的平均睡眠時間就寢時間的穩定性。</value>
-  </data>
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
-  </data>
-  <data name="Are you sure you want to disable this plugin?" xml:space="preserve">
-    <value>確定要停用此插件嗎？</value>
-  </data>
-  <data name="Available Metrics" xml:space="preserve">
-    <value>可用指標</value>
-  </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
-    <value>過去 42 日每節平均卡路里</value>
-  </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
-    <value>過去 7 天每次運動的平均卡路里</value>
-  </data>
-  <data name="Average mood over the past 30 days." xml:space="preserve">
-    <value>過去30日的平均情緒</value>
-  </data>
-  <data name="Average mood over the past 7 days." xml:space="preserve">
-    <value>過去7日的平均情緒</value>
-  </data>
-  <data name="Average Sleep Duration" xml:space="preserve">
-    <value>平均睡眠時間</value>
-  </data>
-  <data name="Average sleep duration over the past 30 days." xml:space="preserve">
-    <value>過去30日的平均睡眠時間</value>
-  </data>
-  <data name="Average weight over the past 30 days." xml:space="preserve">
-    <value>過去 30 日的平均體重</value>
-  </data>
-  <data name="Average weight over the past 7 days." xml:space="preserve">
-    <value>過去7日的平均體重</value>
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>背景工作</value>
   </data>
   <data name="Bad Request" xml:space="preserve">
     <value>錯誤的請求</value>
-  </data>
-  <data name="Bedtime Stability" xml:space="preserve">
-    <value>就寢時間穩定度</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>取消</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>更改頭像</value>
@@ -120,26 +54,11 @@
   <data name="Click to login" xml:space="preserve">
     <value>點擊登入</value>
   </data>
-  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
-    <value>使用 CTL/ATL 訓練負荷模型計算體能（42天負荷）、疲勞（7天負荷）和狀態。支援多個數據來源。</value>
-  </data>
-  <data name="Configure" xml:space="preserve">
-    <value>配置</value>
-  </data>
   <data name="Configure Plugin" xml:space="preserve">
-    <value>設定插件</value>
-  </data>
-  <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
-    <value>設定此外掛程式即可開始查看指標。</value>
-  </data>
-  <data name="Consecutive days with at least one recorded event." xml:space="preserve">
-    <value>連續多日至少有一次記錄的事件。</value>
+    <value>設定外掛程式</value>
   </data>
   <data name="Create Event Type" xml:space="preserve">
     <value>建立事件類型</value>
-  </data>
-  <data name="Create one first." xml:space="preserve">
-    <value>先建立一個。</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>建立角色</value>
@@ -147,20 +66,8 @@
   <data name="Create User" xml:space="preserve">
     <value>建立用戶</value>
   </data>
-  <data name="Current Streak" xml:space="preserve">
-    <value>目前連續紀錄</value>
-  </data>
   <data name="Dashboard" xml:space="preserve">
     <value>儀表板</value>
-  </data>
-  <data name="days" xml:space="preserve">
-    <value>日</value>
-  </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>自最近一次記錄事件以來經過的天數</value>
-  </data>
-  <data name="Days Since Last Event" xml:space="preserve">
-    <value>距上次事件的天數</value>
   </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>刪除事件類型</value>
@@ -171,14 +78,8 @@
   <data name="Delete User" xml:space="preserve">
     <value>刪除用戶</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>描述</value>
-  </data>
   <data name="Directory" xml:space="preserve">
     <value>目錄</value>
-  </data>
-  <data name="Disable" xml:space="preserve">
-    <value>停用</value>
   </data>
   <data name="Edit Event Type" xml:space="preserve">
     <value>編輯事件類型</value>
@@ -189,17 +90,8 @@
   <data name="Edit User" xml:space="preserve">
     <value>編輯用戶</value>
   </data>
-  <data name="Enable Plugin" xml:space="preserve">
-    <value>啟用插件</value>
-  </data>
-  <data name="Enabled" xml:space="preserve">
-    <value>已啟用</value>
-  </data>
   <data name="Error" xml:space="preserve">
     <value>錯誤</value>
-  </data>
-  <data name="Event Type" xml:space="preserve">
-    <value>事件類型</value>
   </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>事件類型詳情</value>
@@ -210,41 +102,14 @@
   <data name="Events" xml:space="preserve">
     <value>事件</value>
   </data>
-  <data name="Exercise Analytics" xml:space="preserve">
-    <value>運動分析</value>
-  </data>
-  <data name="Exponential moving average of mood (\u03b1=0.2)." xml:space="preserve">
-    <value>情緒的指數移動平均 (\u03b1=0.2)。</value>
-  </data>
-  <data name="Fatigue (ATL)" xml:space="preserve">
-    <value>疲勞 (ATL)</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>功能</value>
-  </data>
-  <data name="Fitness (CTL)" xml:space="preserve">
-    <value>體能 (CTL)</value>
-  </data>
-  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
-    <value>運動適能減去疲勞。正值=精力充沛；負值=疲勞。</value>
-  </data>
-  <data name="Form (CTL \u2212 ATL)" xml:space="preserve">
-    <value>狀態 (CTL \u2212 ATL)</value>
   </data>
   <data name="Global Settings" xml:space="preserve">
     <value>全球設定</value>
   </data>
-  <data name="Habit Streak" xml:space="preserve">
-    <value>習慣連續記錄</value>
-  </data>
   <data name="Home" xml:space="preserve">
     <value>首頁</value>
-  </data>
-  <data name="hrs" xml:space="preserve">
-    <value>小時</value>
-  </data>
-  <data name="hrs \u03c3" xml:space="preserve">
-    <value>小時 \u03c3</value>
   </data>
   <data name="Index" xml:space="preserve">
     <value>索引</value>
@@ -258,18 +123,6 @@
   <data name="Internal Server Error" xml:space="preserve">
     <value>內部伺服器錯誤</value>
   </data>
-  <data name="kcal/session" xml:space="preserve">
-    <value>千卡/次</value>
-  </data>
-  <data name="kg" xml:space="preserve">
-    <value>公斤</value>
-  </data>
-  <data name="kg/week" xml:space="preserve">
-    <value>公斤/星期</value>
-  </data>
-  <data name="Latest Weight" xml:space="preserve">
-    <value>最新體重</value>
-  </data>
   <data name="Lockout" xml:space="preserve">
     <value>帳戶暫時停用</value>
   </data>
@@ -279,23 +132,8 @@
   <data name="Login to get access to all features." xml:space="preserve">
     <value>登入以使用所有功能。</value>
   </data>
-  <data name="Longest Streak" xml:space="preserve">
-    <value>最長連續紀錄</value>
-  </data>
   <data name="Manage" xml:space="preserve">
     <value>管理</value>
-  </data>
-  <data name="Metric" xml:space="preserve">
-    <value>指標</value>
-  </data>
-  <data name="Mood EMA" xml:space="preserve">
-    <value>情緒 EMA</value>
-  </data>
-  <data name="Mood Tracker" xml:space="preserve">
-    <value>情緒追蹤器</value>
-  </data>
-  <data name="Most recent recorded weight." xml:space="preserve">
-    <value>最近記錄的體重</value>
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>我的插件</value>
@@ -303,26 +141,8 @@
   <data name="My Records" xml:space="preserve">
     <value>我的紀錄</value>
   </data>
-  <data name="No data yet. Start recording events to see metrics." xml:space="preserve">
-    <value>暫無數據。開始記錄事件以查看指標。</value>
-  </data>
-  <data name="No event types found." xml:space="preserve">
-    <value>找不到任何事件類型。</value>
-  </data>
-  <data name="No numeric fields found for the selected event type." xml:space="preserve">
-    <value>找不到所选事件类型的数值字段。</value>
-  </data>
-  <data name="Not configured" xml:space="preserve">
-    <value>未配置</value>
-  </data>
   <data name="Not Found" xml:space="preserve">
     <value>找不到</value>
-  </data>
-  <data name="Numeric Field" xml:space="preserve">
-    <value>數值欄位</value>
-  </data>
-  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
-    <value>過去30日內至少有一筆記錄的日數百分比</value>
   </data>
   <data name="Permission Details" xml:space="preserve">
     <value>權限詳情</value>
@@ -333,23 +153,11 @@
   <data name="Personal" xml:space="preserve">
     <value>個人</value>
   </data>
-  <data name="Plugins calculate derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
-    <value>插件會根據您的事件記錄計算衍生指標。請設定插件以啟用它。</value>
-  </data>
   <data name="Profile" xml:space="preserve">
     <value>個人檔案</value>
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>檔案設定</value>
-  </data>
-  <data name="pts" xml:space="preserve">
-    <value>分</value>
-  </data>
-  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
-    <value>過去30日的變化率。正數表示增加，負數表示減少。</value>
-  </data>
-  <data name="Recovers +10/day (max 100). Each event: \u00f72." xml:space="preserve">
-    <value>每日恢復 +10（上限 100）。每次事件：÷2。</value>
   </data>
   <data name="Register" xml:space="preserve">
     <value>註冊</value>
@@ -360,26 +168,11 @@
   <data name="Roles" xml:space="preserve">
     <value>角色</value>
   </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>儲存變更</value>
-  </data>
-  <data name="Select the numeric field that this plugin should analyze." xml:space="preserve">
-    <value>選擇此插件應分析的數值欄位。</value>
-  </data>
   <data name="Settings" xml:space="preserve">
     <value>設定</value>
   </data>
   <data name="Sign out" xml:space="preserve">
     <value>登出</value>
-  </data>
-  <data name="Sleep Analysis" xml:space="preserve">
-    <value>睡眠分析</value>
-  </data>
-  <data name="Standard deviation of mood over the past 30 days." xml:space="preserve">
-    <value>過去30日情緒的標準差</value>
-  </data>
-  <data name="Standard deviation of sleep duration over the past 30 days." xml:space="preserve">
-    <value>過去30日睡眠時間的標準差</value>
   </data>
   <data name="System" xml:space="preserve">
     <value>系統</value>
@@ -390,35 +183,14 @@
   <data name="Template" xml:space="preserve">
     <value>範本</value>
   </data>
-  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
-    <value>透過過去30天的移動平均線及線性回歸計算出的每週趨勢方向，追蹤體重變化。</value>
-  </data>
-  <data name="Tracks mood trends with an exponential moving average (\u03b1=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
-    <value>使用指數移動平均（\u03b1=0.2）、7/30 天平均值及 30 天波動性（標準差）追蹤情緒趨勢。</value>
-  </data>
-  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
-    <value>追蹤您想減少的任何行為的自控力。分數每日恢復 +10（最高 100），每次事件後減半。</value>
-  </data>
-  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
-    <value>追蹤你的每日習慣連續天數、史上最长連續天數，以及 30 天完成率。任何一天只要有至少一筆記錄，即算為完成的一天。</value>
-  </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>未獲授權</value>
-  </data>
-  <data name="Unit" xml:space="preserve">
-    <value>單位</value>
   </data>
   <data name="User Details" xml:space="preserve">
     <value>用戶詳情</value>
   </data>
   <data name="Users" xml:space="preserve">
     <value>用戶</value>
-  </data>
-  <data name="Weekly Trend" xml:space="preserve">
-    <value>每週趨勢</value>
-  </data>
-  <data name="Weight Trend" xml:space="preserve">
-    <value>體重趨勢</value>
   </data>
 
 </root>

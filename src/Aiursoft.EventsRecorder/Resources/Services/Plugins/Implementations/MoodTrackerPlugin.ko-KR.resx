@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>30일 평균</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7일 평균</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>지수 이동 평균 (α=0.2). 최근 항목에 더 높은 가중치 적용.</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>기분 지수 지수 이동 평균</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>기분 이벤트 유형</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>기분 점수 필드</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>기분 추적기</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>기분 변동성</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>최근 30일 동안의 단순 평균 기분 점수</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>지난 7일간의 평균 기분 점수</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>지난 30일간의 표준 편차. 낮을수록 더 안정적입니다.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>지수 이동 평균(α=0.2), 7일/30일 평균, 30일 변동성(표준 편차)을 사용하여 기분 추세를 추적합니다.</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>어떤 이벤트 유형이 당신의 기분을 기록합니까?</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>감점 점수를 저장하는 숫자 필드는 무엇입니까 (예: 1–10)?</value>
+  </data>
+
+</root>

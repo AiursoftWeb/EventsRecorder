@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Avg" xml:space="preserve">
+    <value>Promedio de 30 días</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Promedio de 7 días</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Promedio móvil exponencial (α=0.2). Las entradas recientes tienen más peso.</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Promedio móvil exponencial del estado de ánimo</value>
+  </data>
+  <data name="Mood Event Type" xml:space="preserve">
+    <value>Tipo de evento de ánimo</value>
+  </data>
+  <data name="Mood Score Field" xml:space="preserve">
+    <value>Campo de puntuación del estado de ánimo</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Registrador de estado de ánimo</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatilidad del estado de ánimo</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Promedio simple de la puntuación del ánimo durante los últimos 30 días.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Promedio simple de la puntuación del estado de ánimo en los últimos 7 días.</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Desviación estándar de los últimos 30 días. Menor = más estable.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Registra las tendencias del estado de ánimo mediante una media móvil exponencial (α=0,2), promedios de 7/30 días y volatilidad de 30 días (desviación estándar).</value>
+  </data>
+  <data name="Which event type records your mood?" xml:space="preserve">
+    <value>¿Qué tipo de evento registra tu estado de ánimo?</value>
+  </data>
+  <data name="Which numeric field stores the mood score (e.g. 1–10)?" xml:space="preserve">
+    <value>¿Qué campo numérico almacena la puntuación del estado de ánimo (por ejemplo, 1–10)?</value>
+  </data>
+
+</root>
