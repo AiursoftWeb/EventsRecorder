@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30日平均</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30日平均</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30日完了率</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7日平均</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7日平均</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>禁断スコア</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>有効</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>過去最長の連続日数ストリーク</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>睡眠時間と一貫性を分析します。過去30日間の平均睡眠時間と就寝時刻の安定性を追跡します。</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>過去42日間のセッションあたりの平均カロリー</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>過去7日間のセッションあたりの平均カロリー</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>平均睡眠時間</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>過去30日間の平均体重</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>過去7日間の平均体重</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATLトレーニング負荷モデルを使用して、フィットネス（42日負荷）、疲労（7日負荷）、フォームを計算します。複数のソースに対応しています。</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>設定</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>メトリクスを確認するには、このプラグインを構成してください。</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>過去1日でも少なくとも1件の記録がある連続日数。</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>現在のストリーク</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>最新の記録されたイベントからの経過日数</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>最後のイベントからの経過日数</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>運動分析</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>指数移動平均（α=0.2）。最近のデータに重みをかけます。</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>疲労 (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>フィットネス（CTL）</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>フィットネスから疲労度を引いた値。正の数＝新鮮；負の数＝疲労</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>フォーム (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>習慣の継続日数</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>就寝時刻の安定性。数値が高いほど安定しています。</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>最新の体重</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>最長記録</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>気分EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>気分トラッカー</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>気分の変動性</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>最新の記録体重</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>マイプラグイン</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>未設定</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>過去30日間に少なくとも1件の記録があった日の割合</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>プラグインはイベント記録から派生メトリクスを計算します。プラグインを有効にするには構成してください。</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30日間の増減率。正＝増加、負＝減少</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>回復量 +10/日（最大100）。各イベントごとに ÷2。</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>過去30日間の単純平均気分スコア。</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>過去7日間の単純平均気分スコア</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>睡眠分析</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>就寝の安定性</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>過去30日間の標準偏差。低いほど安定しています。</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>過去30日間の移動平均と線形回帰による週単位のトレンド方向を体重に適用して追跡します。</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>指数移動平均（α=0.2）、7日および30日の平均、30日のボラティリティ（標準偏差）を使用して、気分の推移を追跡します。</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>減らしたい行動の自制心を追跡します。スコアは1日あたり+10回復（最大100）、各イベントで半分になります。</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>毎日の習慣継続日数、過去最長の継続日数、30日間の達成率を追跡します。少なくとも1件の記録がある日は完了した日としてカウントされます。</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>週次トレンド</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>体重の推移</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>過去30日間の1日あたりの平均睡眠時間</value>
   </data>
 
 </root>

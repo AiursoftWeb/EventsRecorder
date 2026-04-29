@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Trung bình 30 ngày</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Trung bình 30 ngày</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Hoàn thành 30 ngày</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Trung bình 7 ngày</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Trung bình 7 ngày</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Điểm Kiêng Kỵ</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Đang hoạt động</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Chuỗi ngày liên tiếp dài nhất trong lịch sử.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Phân tích thời lượng và tính nhất quán của giấc ngủ. Theo dõi thời gian ngủ trung bình và sự ổn định của giờ đi ngủ trong 30 ngày qua.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Số calo trung bình mỗi phiên trong 42 ngày qua.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Năng lượng trung bình mỗi phiên trong 7 ngày qua.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Giấc ngủ trung bình</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Trọng lượng trung bình trong 30 ngày qua.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Cân nặng trung bình trong 7 ngày qua.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Tính toán Độ bền (tải 42 ngày), Mệt mỏi (tải 7 ngày) và Dạng thông qua mô hình tải tập luyện CTL/ATL. Hỗ trợ nhiều nguồn.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Định cấu hình</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Định cấu hình plugin này để bắt đầu xem các chỉ số.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Số ngày liên tiếp có ít nhất một bản ghi, tính đến hôm nay.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Chuỗi hiện tại</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Số ngày đã trôi qua kể từ sự kiện được ghi nhận gần nhất.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Số ngày kể từ sự kiện gần nhất</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Phân tích Tập luyện</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Trung bình động hàm mũ (α=0.2). Các mục nhập gần đây được trọng số cao hơn.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Mệt mỏi (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Thể lực (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness trừ đi Fatigue. Dương = tươi mới; âm = mệt mỏi.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Chuỗi Thói Quen</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Mức độ ổn định của giờ đi ngủ của bạn. Giá trị càng cao thì càng ổn định.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Cân nặng mới nhất</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Chuỗi dài nhất</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>EMA Cảm xúc</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Theo dõi Tâm trạng</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Biến động Tâm trạng</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Trọng lượng ghi nhận gần nhất.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Plugin của tôi</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Chưa cấu hình</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Tỷ lệ ngày trong 30 ngày qua có ít nhất một bản ghi.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Các plugin tính toán các chỉ số dẫn xuất từ bản ghi sự kiện của bạn. Cấu hình một plugin để kích hoạt nó.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Tốc độ thay đổi trong 30 ngày. Dương = tăng, âm = giảm.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Phục hồi +10/ngày (tối đa 100). Mỗi sự kiện: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Điểm số cảm xúc trung bình đơn giản trong 30 ngày qua.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Điểm số tâm trạng trung bình đơn giản trong 7 ngày qua.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Phân tích Giấc ngủ</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Độ ổn định giấc ngủ</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Độ lệch chuẩn trong 30 ngày qua. Thấp hơn = ổn định hơn.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Theo dõi cân nặng cơ thể bằng các đường trung bình động và xu hướng hàng tuần được tính toán qua hồi quy tuyến tính trong 30 ngày qua.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Theo dõi xu hướng tâm trạng với trung bình động theo cấp số nhân (α=0.2), trung bình 7/30 ngày, và độ biến động 30 ngày (độ lệch chuẩn).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Theo dõi khả năng tự kiểm soát đối với bất kỳ hành vi nào bạn muốn giảm. Điểm phục hồi +10/ngày (tối đa 100) và giảm một nửa sau mỗi sự kiện.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Theo dõi chuỗi thói quen hàng ngày, chuỗi dài nhất mọi thời đại và tỷ lệ hoàn thành trong 30 ngày. Bất kỳ ngày nào có ít nhất một bản ghi đều được tính là một ngày hoàn thành.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Xu hướng hàng tuần</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Xu hướng cân nặng</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Thời gian ngủ trung bình hàng ngày của bạn trong 30 ngày qua.</value>
   </data>
 
 </root>

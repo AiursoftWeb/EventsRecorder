@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>متوسط 30 يومًا</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>المتوسط لـ 30 يومًا</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>الإكمال خلال 30 يومًا</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>متوسط 7 أيام</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>متوسط 7 أيام</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>نتيجة الامتناع</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>نشط</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>أطول سلسلة يومية متتالية على الإطلاق.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>تحلل مدة النوم واتساقه. تتعقب متوسط وقت نومك واستقرار وقت نومك على مدار الـ 30 يومًا الماضية.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>متوسط السعرات الحرارية لكل جلسة خلال الـ 42 يومًا الماضية.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>متوسط السعرات الحرارية لكل جلسة خلال الأيام السبعة الماضية.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>متوسط النوم</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>متوسط الوزن خلال آخر 30 يومًا.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>متوسط الوزن خلال الأيام السبعة الماضية.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>تحسب اللياقة (حمولة 42 يومًا)، والتعب (حمولة 7 أيام)، والشكل باستخدام نموذج حمل التدريب CTL/ATL. يدعم مصادر متعددة.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>تكوين</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>قم بتكوين هذا البرنامج المساعد لبدء عرض المقاييس.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>الأيام المتتالية التي تحتوي على سجل واحد على الأقل، حتى اليوم.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>السلسلة الحالية</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>عدد الأيام المنقضية منذ أحدث حدث مسجل.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>الأيام منذ آخر حدث</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>تحليلات التمارين الرياضية</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>المتوسط المتحرك الأسي (α=0.2). تُعطى الأحدث وزناً أكبر.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>الإرهاق (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>اللياقة البدنية (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>اللياقة ناقص التعب. موجب = نشيط؛ سالب = متعب.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>الشكل (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>سلسلة العادات</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>مدى اتساق وقت نومك. كلما كان أعلى كان أكثر استقراراً.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>أحدث وزن</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>أطول سلسلة متتالية</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>متوسط الحركة الأسري للمزاج</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>متتبع المزاج</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>تقلبات المزاج</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>أحدث وزن مسجل.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>إضافاتي</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>غير مُهيّأ</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>نسبة الأيام في آخر 30 يومًا التي تحتوي على سجل واحد على الأقل.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>تقوم الإضافات بحساب المقاييس المشتقة من سجلات الأحداث الخاصة بك. قم بتكوين إضافة لتفعيلها.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>معدل التغيير على مدار 30 يومًا. موجب = اكتساب، سالب = فقدان.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>يتعافى بـ +10/يوم (الحد الأقصى 100). كل حدث: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>متوسط درجة المزاج البسيط خلال الأيام الـ 30 الماضية.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>متوسط درجة المزاج البسيط خلال الأيام السبعة الماضية.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>تحليل النوم</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>استقرار النوم</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>الانحراف المعياري خلال الـ 30 يوماً الماضية. كلما انخفض، زادت الاستقرار.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>يتبع وزن الجسم باستخدام المتوسطات المتحركة واتجاه الاتجاه الأسبوعي المحسوب عبر الانحدار الخطي خلال الـ 30 يومًا الماضية.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>يتتبع اتجاهات المزاج باستخدام متوسط متحرك أسي (α=0.2)، ومتوسطات لمدة 7/30 يومًا، وتقلب لمدة 30 يومًا (الانحراف المعياري).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>يتعقّب ضبط النفس لأي سلوك ترغب في تقليله. يستعيد النقاط بمقدار +10 يومياً (بحد أقصى 100) وتنخفض إلى النصف مع كل حدث.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>يتعقّب سلسلة العادات اليومية، وأطول سلسلة في التاريخ، ومعدل الإكمال خلال 30 يومًا. يُعتبر أي يوم تم تسجيل سجل واحد على الأقل فيه يومًا مكتملًا.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>الاتجاه الأسبوعي</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>اتجاه الوزن</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>متوسط مدة نومك اليومي خلال الـ 30 يومًا الماضية.</value>
   </data>
 
 </root>

@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30-dagars genomsnitt</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-dagars genomsnitt</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30-dagars slutföring</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-dagars genomsnitt</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-dagars genomsnitt</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Avhållsamhetspoäng</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Aktiv</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Längsta sammanhängande dagliga streak genom tiderna.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyserar sömntid och konsekvens. Spårar din genomsnittliga sömntid och stabilitet i läggdags under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 42 dagarna.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Genomsnittliga kalorier per pass under de senaste 7 dagarna.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Genomsnittlig sömntid</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Genomsnittlig vikt under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Genomsnittsvikt de senaste 7 dagarna.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Beräknar Fitness (42-dagars belastning), Trötthet (7-dagars belastning) och Form med hjälp av CTL/ATL-träningsbelastningsmodellen. Stödjer flera källor.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Konfigurera</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Konfigurera den här insticksmodulen för att börja se mätvärden.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Antal dagar i rad med minst en registrering, fram till idag.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Aktuell svit</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Antal dagar sedan senaste registrerade händelse.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Dagar sedan senaste händelse</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Träningsanalys</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Exponentiellt glidande medelvärde (α=0,2). Nya värden väger tyngre.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Trötthet (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Träningsbelastning (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus Fatigue. Positive = fresh; negative = fatigued.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Vanestreak</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Hur konsekvent din läggdags är. Högre värde innebär mer stabilitet.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Senaste vikten</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Längsta sträckan</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Stämnings-EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Stämningslogg</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Stämningens volatilitet</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Senast registrerade vikt</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Mina plugins</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Inte konfigurerad</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Andel dagar under de senaste 30 dagarna med minst en post.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Pluginer beräknar härledda metrer från dina händelseposter. Konfigurera en plugin för att aktivera den.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Förändringstakt över 30 dagar. Positiv = ökning, negativ = minskning.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Återhämtar +10/dag (max 100). Vid varje händelse: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Enkel genomsnittligt humörscore under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Enkel genomsnittligt humörpoäng under de senaste 7 dagarna.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Sömnanalys</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Sömnstabilitet</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standardavvikelse under de senaste 30 dagarna. Lägre = mer stabil.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Spårar kroppsvikt med glidande medelvärden och en veckovis trendriktning beräknad via linjär regression under de senaste 30 dagarna.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Spårar humörtynder med ett exponentiellt glidande medelvärde (α=0,2), 7/30-dagars medelvärden och 30-dagars volatilitet (standardavvikelse).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Spårar självkontroll för beteenden du vill minska. Poängen återhämtas med +10/dag (max 100) och halveras vid varje händelse.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Spårar din dagliga vanestreak, längsta streak genom tiderna och 30-dagars slutförandegrad. Alla dagar med minst en registrering räknas som en slutförd dag.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Veckotrend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Viktutveckling</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Din genomsnittliga dygnsvisa sömntid under de senaste 30 dagarna.</value>
   </data>
 
 </root>

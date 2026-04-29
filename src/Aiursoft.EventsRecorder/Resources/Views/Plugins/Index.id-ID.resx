@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Rata-rata 30 Hari</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Rata-rata 30 Hari</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Penyelesaian 30 Hari</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Rata-rata 7 Hari</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Rata-rata 7 Hari</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Skor Pantangan</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Aktif</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Riwayat hari berturut-turut terpanjang sepanjang masa.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Menganalisis durasi dan konsistensi tidur. Melacak rata-rata waktu tidur dan stabilitas waktu tidur Anda selama 30 hari terakhir.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Rata-rata kalori per sesi selama 42 hari terakhir.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Rata-rata kalori per sesi dalam 7 hari terakhir.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Rata-rata Tidur</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Berat rata-rata selama 30 hari terakhir.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Berat rata-rata dalam 7 hari terakhir.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Menghitung Kebugaran (beban 42 hari), Kelelahan (beban 7 hari), dan Bentuk menggunakan model beban latihan CTL/ATL. Mendukung berbagai sumber.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Konfigurasi</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Konfigurasikan plugin ini untuk mulai melihat metrik.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Hari-hari berturut-turut dengan setidaknya satu catatan, hingga hari ini.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Streak Saat Ini</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Hari yang telah berlalu sejak peristiwa terakhir yang tercatat.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Hari Sejak Event Terakhir</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Analisis Latihan</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Rata-rata bergerak eksponensial (α=0.2). Entri terbaru diberi bobot lebih besar.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Kelelahan (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Kebugaran (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Kebugaran dikurangi Kelelahan. Positif = segar; negatif = lelah.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Forma (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Runtutan Kebiasaan</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Seberapa konsisten waktu tidur Anda. Semakin tinggi semakin stabil.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Berat Terbaru</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Streak Terpanjang</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>EMA Mood</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Pelacak Mood</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatilitas Mood</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Berat badan terbaru yang tercatat.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Plugin Saya</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Belum dikonfigurasi</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Persentase hari dalam 30 hari terakhir yang memiliki setidaknya satu catatan.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Plugin menghitung metrika turunan dari catatan peristiwa Anda. Konfigurasikan plugin untuk mengaktifkannya.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Tingkat perubahan dalam 30 hari. Positif = bertambah, negatif = berkurang.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Pulih +10/hari (maks 100). Setiap kejadian: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Rata-rata sederhana skor suasana hati selama 30 hari terakhir.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Rata-rata sederhana skor suasana hati dalam 7 hari terakhir.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Analisis Tidur</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Stabilitas Tidur</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Deviasi standar selama 30 hari terakhir. Lebih rendah = lebih stabil.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Melacak berat badan dengan rata-rata bergerak dan arah tren mingguan yang dihitung melalui regresi linier selama 30 hari terakhir.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Melacak tren suasana hati dengan rata-rata bergerak eksponensial (α=0,2), rata-rata 7/30 hari, dan volatilitas 30 hari (simpangan baku).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Melacak pengendalian diri untuk perilaku apa pun yang ingin Anda kurangi. Skor pulih +10/hari (maks 100) dan berkurang setengah pada setiap kejadian.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Melacak kebiasaan streak harian Anda, streak terpanjang sepanjang waktu, dan tingkat penyelesaian 30 hari. Hari apa pun dengan setidaknya satu catatan dihitung sebagai hari yang telah diselesaikan.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Tren Mingguan</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Tren Berat Badan</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Durasi tidur harian rata-rata Anda selama 30 hari terakhir.</value>
   </data>
 
 </root>

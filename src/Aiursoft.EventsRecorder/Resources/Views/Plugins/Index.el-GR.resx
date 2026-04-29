@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Μέσος όρος 30 ημερών</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Μέσος όρος 30 ημερών</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Ολοκλήρωση 30 Ημερών</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Μέσος όρος 7 ημερών</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Μέσος Όρος 7 Ημερών</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Βαθμός Αποχής</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Ενεργό</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Η μακρύτερη συνεχόμενη ημερήσια σειρά στην ιστορία.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Αναλύει τη διάρκεια και τη συνέπεια του ύπνου. Καταγράφει τον μέσο χρόνο ύπνου και τη σταθερότητα του χρόνου ύπνου τις τελευταίες 30 ημέρες.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Μέσος όρος θερμίδων ανά συνεδρία κατά τις τελευταίες 42 ημέρες.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Μέσος όρος θερμίδων ανά συνεδρία τα τελευταία 7 ημέρες.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Μέση Διάρκεια Ύπνου</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Μέσο βάρος κατά τα τελευταία 30 ημέρες.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Μέσο βάρος των τελευταίων 7 ημερών.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Υπολογίζει τη Φιτνές (φορτίο 42 ημερών), την Κόπωση (φορτίο 7 ημερών) και τη Μορφή χρησιμοποιώντας το μοντέλο φορτίου εκπαίδευσης CTL/ATL. Υποστηρίζει πολλαπλές πηγές.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Ρύθμιση</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Διαμορφώστε αυτό το πρόσθετο για να αρχίσετε να βλέπετε μετρικές.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Συνεχόμενες ημέρες με τουλάχιστον ένα αρχείο, έως σήμερα.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Τρέχουσα Σειρά</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Ημέρες που πέρασαν από την πιο πρόσφατη καταγεγραμμένη συμβάν.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Ημέρες από την τελευταία εκδήλωση</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Ανάλυση Άσκησης</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Εκθετικό κινούμενο μέσο όρο (α=0,2). Τα πρόσφατα στοιχεία έχουν μεγαλύτερο βάρος.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Κούραση (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Αθλητική Κατάσταση (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Ασέβεια μείον Κόπωση. Θετικό = φρέσκο; αρνητικό = κοπιασμένο.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Μορφή (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Σειρά Συνηθειών</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Το πόσο σταθερό είναι το ωράριο ύπνου σας. Όσο υψηλότερο, τόσο πιο σταθερό.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Τελευταίο Βάρος</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Μεγαλύτερη Σειρά</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>ΕΜΑ Διάθεσης</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Καταγραφέας Διάθεσης</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Παιχνίδι Διάθεσης</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Τελευταία καταγεγραμμένη τιμή βάρους.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Τα Πλαγίν μου</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Δεν έχει ρυθμιστεί</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Ποσοστό ημερών των τελευταίων 30 ημερών με τουλάχιστον μία εγγραφή.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Τα πρόσθετα υπολογίζουν παραγόμενους δείκτες από τα αρχεία γεγονότων σας. Διαμορφώστε ένα πρόσθετο για να το ενεργοποιήσετε.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Ρυθμός μεταβολής σε 30 ημέρες. Θετικό = αύξηση, αρνητικό = μείωση.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Ανακάμπτει +10/ημέρα (μέγ. 100). Κάθε συμβάν: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Απλός μέσος όρος βαθμολογίας διάθεσης για τις τελευταίες 30 ημέρες.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Απλός μέσος όρος βαθμολογίας διάθεσης κατά τις τελευταίες 7 ημέρες.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Ανάλυση Ύπνου</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Σταθερότητα Ύπνου</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Τυπική απόκλιση κατά τις τελευταίες 30 ημέρες. Χαμηλότερη = πιο σταθερή.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Παρακολουθεί το σωματικό βάρος με κινούμενους μέσους όρους και την κατεύθυνση της εβδομαδιαίας τάσης, η οποία υπολογίζεται μέσω γραμμικής παλινδρόμησης για τα τελευταία 30 ημέρες.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Καταγράφει τάσεις της διάθεσης με εκθετικό κινούμενο μέσο (α=0,2), μέσους όρους 7/30 ημερών και 30ημερο όγκο διακύμανσης (τυπική απόκλιση).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Καταγράφει την αυτοσυγκέντρωση για οποιαδήποτε συμπεριφορά που επιθυμείτε να μειώσετε. Η βαθμολογία ανακτάται +10/ημέρα (μέγ 100) και υποδιπλασιάζεται σε κάθε γεγονός.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Παρακολουθεί τη συνεχόμενη ημέρα συνήθειας, τη μακροβιότερη συνεχόμενη ημέρα και τον ποσοστό ολοκλήρωσης 30 ημερών. Κάθε ημέρα με τουλάχιστον ένα αρχείο μετράει ως ολοκληρωμένη.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Εβδομαδιαία Τάση</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Τάξη Βάρους</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Η μέση ημερήσια διάρκεια ύπνου σας τους τελευταίους 30 ημέρες.</value>
   </data>
 
 </root>

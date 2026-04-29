@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30일 평균</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30일 평균</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30일 완료율</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7일 평균</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7일 평균</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>금욕 점수</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>활성화됨</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>역대 최장 연속 일일 스트릭</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>수면 시간과 일관성을 분석합니다. 지난 30일 동안 평균 수면 시간과 취침 시간의 안정성을 추적합니다.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>지난 42일 동안 세션당 평균 칼로리</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>지난 7일 동안 세션당 평균 칼로리</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>평균 수면 시간</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>지난 30일 동안의 평균 체중</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>지난 7일간의 평균 체중</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATL 트레이닝 부하 모델을 사용하여 피트니스(42일 부하), 피로도(7일 부하), 폼을 계산합니다. 여러 소스를 지원합니다.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>구성</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>메트릭을 확인하려면 이 플러그인을 구성하세요.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>오늘까지 최소 한 건의 기록이 있는 연속 일수</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>현재 연속 기록</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>최종 기록된 이벤트 이후 경과한 일수</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>마지막 이벤트 이후 경과 일수</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>운동 분석</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>지수 이동 평균 (α=0.2). 최근 데이터에 더 높은 가중치 적용.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>피로도 (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>피트니스 (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>피트니스에서 피로도를 뺀 값. 양수 = 상쾌함; 음수 = 피로함</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>포지션 (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>습관 연속 기록</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>취침 시간의 일관성입니다. 수치가 높을수록 더 안정적입니다.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>최신 체중</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>최장 연속 기록</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>감정 지수 이동평균</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>기분 추적기</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>기분 변동성</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>최신 기록된 체중</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>내 플러그인</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>구성되지 않음</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>지난 30일 중 적어도 한 건의 기록이 있는 날의 비율</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>플러그인은 이벤트 기록에서 파생된 메트릭을 계산합니다. 플러그인을 활성화하려면 구성하세요.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30일 간 변화율. 양수 = 증가, 음수 = 감소</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>일일 +10 회복 (최대 100). 각 이벤트 발생 시 ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>최근 30일간의 단순 평균 기분 점수</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>지난 7일 동안의 단순 평균 기분 점수</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>수면 분석</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>수면 안정성</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>지난 30일간의 표준 편차. 낮을수록 더 안정적입니다.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>과거 30일 동안 이동 평균과 선형 회귀를 통해 계산된 주간 추세 방향을 사용하여 체중을 추적합니다.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>지수 이동 평균(α=0.2), 7일/30일 평균, 30일 변동성(표준 편차)을 사용하여 기분 추세를 추적합니다.</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>감당하고 싶은 행동을 위한 자제력을 추적합니다. 점수는 하루에 +10씩 회복되며(최대 100), 각 이벤트마다 절반으로 줄어듭니다.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>일일 습관 연속 기록, 역대 최장 연속 기록, 30일 달성률을 추적합니다. 최소 한 건의 기록이 있는 날은 완료된 날로 간주됩니다.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>주간 트렌드</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>체중 경향</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>지난 30일 동안의 평균 일일 수면 시간</value>
   </data>
 
 </root>

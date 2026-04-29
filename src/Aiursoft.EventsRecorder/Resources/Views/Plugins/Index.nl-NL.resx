@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30-daagse gemiddelde</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-dagen gemiddelde</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30-dagen voltooiing</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-daags gemiddelde</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-daags gemiddelde</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Onthoudingscore</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Actief</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Langste opeenvolgende dagelijkse reeks aller tijden.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyseert slaaptijd en consistentie. Volgt je gemiddelde slaapduur en stabiliteit van je bedtijd gedurende de afgelopen 30 dagen.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Gemiddeld aantal calorieën per sessie in de afgelopen 42 dagen.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Gemiddeld aantal calorieën per sessie in de afgelopen 7 dagen.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Gemiddelde slaap</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Gemiddeld gewicht over de afgelopen 30 dagen.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Gemiddeld gewicht over de afgelopen 7 dagen.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Berekent Fitheid (42-dagen belasting), Vermoeidheid (7-dagen belasting) en Vorm met behulp van het CTL/ATL training-belastingmodel. Ondersteunt meerdere bronnen.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Configureren</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configureer deze plugin om metrics te gaan zien.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Opeenvolgende dagen met ten minste één record, tot vandaag.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Huidige reeks</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Aantal verstreken dagen sinds het meest recente geregistreerde gebeurtenis.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Aantal dagen sinds laatste gebeurtenis</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Fitheid Analytics</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Exponentieel bewegend gemiddelde (α=0,2). Recente invoer krijgt meer gewicht.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Vermoeidheid (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitheid (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus vermoeidheid. Positief = fris; negatief = vermoeid.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Vorm (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Gewoonte-reeks</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Hoe consistent je nachtruwe is. Hoe hoger, hoe stabieler.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Laatste gewicht</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Langste Reeks</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Mood EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Sfeertracker</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Stemmingsvolatiliteit</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Laatst geregistreerde gewicht</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Mijn plugins</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Niet geconfigureerd</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Percentage dagen in de afgelopen 30 dagen met ten minste één record.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Plugins berekenen afgeleide metrieken uit uw gebeurtenisgegevens. Configureer een plugin om deze te activeren.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Veranderingspercentage over 30 dagen. Positief = toename, negatief = afname.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Herstelt +10/dag (max 100). Per gebeurtenis: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Eenvoudig gemiddelde stemmingsscore over de afgelopen 30 dagen.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Eenvoudig gemiddelde stemmingsscore over de afgelopen 7 dagen.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Slaapanalyse</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Slaapstabiliteit</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standaardafwijking over de afgelopen 30 dagen. Lager = stabieler.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Volgt het lichaamsgewicht met bewegend gemiddelde en een wekelijkse trendrichting berekend via lineaire regressie over de afgelopen 30 dagen.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Volgt stemmingstrends met een exponentieel bewegend gemiddelde (α=0,2), gemiddelden over 7/30 dagen en 30-dagen volatiliteit (standaardafwijking).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Houdt de zelfbeheersing bij voor gedrag dat je wilt verminderen. Het score herstelt met +10/dag (max 100) en halveert bij elk incident.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Volgt je dagelijkse gewoontestreak, langste streak ooit en de voltooiingsgraad over 30 dagen. Elke dag met minimaal één registratie telt als een voltooide dag.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Wekelijkse Trend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Gewichttrend</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Je gemiddelde dagelijkse slaaptijd in de afgelopen 30 dagen.</value>
   </data>
 
 </root>

@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Среднее за 30 дней</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Среднее за 30 дней</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Завершение за 30 дней</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Среднее за 7 дней</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Среднее за 7 дней</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Показатель воздержания</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Активен</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Самая длинная непрерывная серия дней за всё время.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Анализирует продолжительность и регулярность сна. Отслеживает среднее время сна и стабильность времени отхода ко сну за последние 30 дней.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Среднее количество калорий за сеанс за последние 42 дня.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Среднее количество калорий за сеанс за последние 7 дней.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Среднее время сна</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Средний вес за последние 30 дней.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Средний вес за последние 7 дней.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Вычисляет форму (нагрузка за 42 дня), усталость (нагрузка за 7 дней) и форму с использованием модели тренировочной нагрузки CTL/ATL. Поддерживает несколько источников.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Настроить</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Настройте этот плагин, чтобы начать отображать метрики.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Последовательные дни, когда был хотя бы один рекорд, по сегодняшний день.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Текущая серия</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Количество дней, прошедших с момента последнего зафиксированного события.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Дней с последнего события</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Аналитика физических упражнений</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Экспоненциальная скользящая средняя (α=0.2). Недавние записи имеют больший вес.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Усталость (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Фитнес (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Фитнес минус усталость. Положительное значение = свежесть; отрицательное = утомление.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Форма (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Привычка (серия)</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Насколько стабильно ваше время отхода ко сну. Чем выше значение, тем стабильнее.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Последний вес</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Самая длинная серия</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Среднее экспоненциальное настроение</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Трекер настроения</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Волатильность настроения</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Последний записанный вес.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Мои плагины</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Не настроен</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Доля дней за последние 30 дней, в которых была хотя бы одна запись.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Плагины вычисляют производные метрики на основе ваших событий. Настройте плагин, чтобы активировать его.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Темп изменений за 30 дней. Положительное значение = набор, отрицательное = потеря.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Восстанавливается +10/день (макс. 100). За каждое событие: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Средняя оценка настроения за последние 30 дней.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Простое среднее значение настроения за последние 7 дней.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Анализ сна</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Стабильность сна</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Среднее отклонение за последние 30 дней. Чем меньше, тем стабильнее.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Отслеживает вес тела с помощью скользящих средних и направления недельного тренда, вычисленного методом линейной регрессии за последние 30 дней.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Отслеживает тенденции настроения с использованием экспоненциального скользящего среднего (α=0.2), средних значений за 7/30 дней и волатильности за 30 дней (стандартное отклонение).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Отслеживает самоконтроль за любым поведением, которое вы хотите сократить. Счёт восстанавливается на +10/день (макс. 100) и уменьшается вдвое при каждом событии.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Отслеживает вашу ежедневную серию привычек, самую длинную серию за всё время и процент выполнения за 30 дней. Любой день, в который есть хотя бы одна запись, считается выполненным.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Еженедельный тренд</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Тренд веса</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Ваша средняя продолжительность сна в день за последние 30 дней.</value>
   </data>
 
 </root>

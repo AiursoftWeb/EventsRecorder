@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Середнє за 30 днів</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-денне середнє</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Завершеність за 30 днів</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Середнє за 7 днів</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-денне середнє</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Показник утримання</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Активний</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Найдовша послідовність днів усього часу.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Аналізує тривалість та стабільність сну. Відстежує ваш середній час сну та стабільність часу відходу до сну за останні 30 днів.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Середня кількість калорій за одну сесію за останні 42 дні.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Середня кількість калорій за одну сесію за останні 7 днів.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Середня тривалість сну</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Середня вага за останні 30 днів.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Середня вага за останні 7 днів.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Обчислює фізичну форму (навантаження за 42 дні), втому (навантаження за 7 днів) та форму стану за допомогою моделі тренувального навантаження CTL/ATL. Підтримує кілька джерел.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Налаштувати</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Налаштуйте цей плагін, щоб почати бачити метрики.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Послідовні дні з щонайменше одним записом, включаючи сьогодні.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Поточна серія</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Днів минуло з моменту останньої записаної події.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Днів з останньої події</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Аналіз вправ</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Експоненційне ковзне середнє (α=0.2). Останні записи мають більшу вагу.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Втома (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Фізична форма (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Різниця між Фітнесом та Втомою. Позитивне = свіжість; негативне = втома.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Форма (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Серія звичок</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Наскільки стабільний є ваш час відходу до сну. Чим вищий показник, тим стабільніше.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Остання вага</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Найдовша серія</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>ЕМА настрою</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Відстежувач настрою</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Волатильність настрою</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Найновіший зафіксований ваговий показник.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Мої плагіни</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Не налаштовано</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Відсоток днів за останні 30 днів, коли було зафіксовано принаймні один запис.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Плагіни обчислюють похідні метрики на основі ваших записів подій. Налаштуйте плагін, щоб активувати його.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Швидкість зміни за 30 днів. Позитивне = набір, негативне = втрата.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Відновлюється +10/день (макс. 100). Кожна подія: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Просте середнє значення показника настрою за останні 30 днів.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Просте середнє значення показника настрою за останні 7 днів.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Аналіз сну</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Стабільність сну</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Стандартне відхилення за останні 30 днів. Нижче = стабільніше.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Відстежує вагу тіла за допомогою ковзних середніх та тижневого напрямку тренду, обчисленого за допомогою лінійної регресії за останні 30 днів.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Відстежує тенденції настрою за допомогою експоненційного ковзного середнього (α=0,2), середніх значень за 7/30 днів та волатильності за 30 днів (стандартне відхилення).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Відстежує самоконтроль за будь-якою поведінкою, яку ви хочете зменшити. Бали відновлюються на +10/день (макс. 100) і зменшуються вдвічі після кожної події.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Відстежує вашу щоденну серію звички, найдовшу серію за все життя та відсоток виконання за 30 днів. Будь-який день, коли є хоча б один запис, вважається завершеним.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Тижневий тренд</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Тренд ваги</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Ваша середня тривалість денного сну за останні 30 днів.</value>
   </data>
 
 </root>

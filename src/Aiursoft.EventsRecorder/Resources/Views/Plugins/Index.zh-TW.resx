@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30天平均</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30日平均</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30天完成率</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7天平均</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7天平均</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>禁欲分數</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>啟用</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>史上連續天數最長紀錄</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>分析睡眠時長與一致性。追蹤過去 30 天內您的平均睡眠時間就寢時間穩定度。</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>過去42天每場次平均卡路里</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>過去 7 天每場次平均熱量</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>平均睡眠時間</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>過去 30 天的平均體重。</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>過去7天的平均體重</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>使用 CTL/ATL 訓練負荷模型計算體能（42 天負荷）、疲勞（7 天負荷）和狀態。支援多種來源。</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>設定</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>設定此外掛程式即可開始查看指標。</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>截至目前，至少有一筆記錄的連續天數。</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>目前連續天數</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>自最近一次記錄的事件以來經過的天數。</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>距離上次事件的天數</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>運動分析</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>指數移動平均 (α=0.2)。近期記錄權重較高。</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>疲勞 (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>體能 (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>體能減去疲勞。正值=精神飽滿；負值=疲勞。</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>狀態 (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>習慣連續紀錄</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>您的就寢時間有多規律。數值越高代表越穩定。</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>最新體重</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>最長連續紀錄</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>情緒 EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>情緒追蹤器</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>情緒波動</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>最近記錄的體重</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>我的插件</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>未設定</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>過去30天內至少有1筆記錄的天數百分比</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>外掛程式會根據您的事件記錄計算衍生指標。設定外掛程式以啟動它。</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30天內的變化率。正值代表增加，負值代表減少。</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>每日恢復 +10（上限 100）。每次事件：÷2。</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>過去30天內情緒分數的簡單平均值。</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>過去 7 天內情緒分數的簡單平均值。</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>睡眠分析</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>睡眠穩定度</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>過去 30 天的標準差。數值越低表示越穩定。</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>追蹤體重趨勢，結合移動平均線與過去 30 天透過線性迴歸計算出的每週趨勢方向。</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>透過指數移動平均 (α=0.2)、7/30 天平均值以及 30 天波動率 (標準差) 追蹤情緒趨勢。</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>追蹤您想減少的任何行為的自制力。每日恢復 +10 分（最高 100 分），每次事件後減半。</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>追蹤您的每日習慣連續天數、史上最长連續天數以及 30 天完成率。只要有任何一筆記錄，即視為完成的一天。</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>每週趨勢</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>體重趨勢</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>過去 30 天內您每日的平均睡眠時長。</value>
   </data>
 
 </root>

@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30-दिवसीय औसत</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-दिन का औसत</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30-दिवसीय पूर्णता</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-दिवस का औसत</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-दिन का औसत</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>अवग्रह स्कोर</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>सक्रिय</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>सभी समय की सबसे लंबी लगातार दैनिक श्रृंखला।</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>नींद की अवधि और स्थिरता का विश्लेषण करता है। पिछले 30 दिनों में आपकी औसत नींद के समय और सोने के समय की स्थिरता को ट्रैक करता है।</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>पिछले 42 दिनों में प्रति सत्र औसत कैलोरी।</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>पिछले 7 दिनों में प्रति सत्र औसत कैलोरी।</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>औसत नींद</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>पिछले 30 दिनों में औसत वजन।</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>पिछले 7 दिनों में औसत वजन।</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>CTL/ATL ट्रेनिंग-लोड मॉडल का उपयोग करके फिटनेस (42-दिवसीय लोड), थकान (7-दिवसीय लोड), और फॉर्म की गणना करता है। कई स्रोतों का समर्थन करता है।</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>कॉन्फ़िगर करें</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>मेट्रिक्स देखना शुरू करने के लिए इस प्लगइन को कॉन्फ़िगर करें।</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>आज तक कम से कम एक रिकॉर्ड के साथ लगातार दिन।</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>वर्तमान सिलसिला</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>अंतिम रिकॉर्ड किए गए घटना के बाद बीते दिन।</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>अंतिम घटना के बाद के दिन</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>व्यायाम विश्लेषण</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>घातांकीय चलित औसत (α=0.2). हाल के प्रविष्टियों को अधिक वजन दिया गया है।</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>थकान (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>फिटनेस (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>फिटनेस माइनस थकान। सकारात्मक = ताज़ा; नकारात्मक = थका हुआ।</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>फॉर्म (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>आदत सिलसिला</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>आपकी सोने की आदति कितनी स्थिर है। जितना अधिक, उतना ही स्थिर।</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>नवीनतम वजन</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>सबसे लंबी धारा</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>मूड ईएमए</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>मूड ट्रैकर</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>मूड उतार-चढ़ाव</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>सबसे हालिया रिकॉर्ड किया गया वजन।</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>मेरे प्लगइन्स</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>कॉन्फ़िगर नहीं किया गया</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>पिछले 30 दिनों में कम से कम एक रिकॉर्ड वाले दिनों का प्रतिशत।</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>प्लगइन आपके इवेंट रिकॉर्ड से व्युत्पन्न मेट्रिक्स की गणना करते हैं। इसे सक्रिय करने के लिए एक प्लगइन को कॉन्फ़िगर करें।</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>30 दिनों में परिवर्तन की दर। धनात्मक = वृद्धि, ऋणात्मक = हानि।</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>+10/दिन बहाल (अधिकतम 100)। प्रत्येक घटना: ÷2।</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>पिछले 30 दिनों के दौरान साधारण औसत मूड स्कोर।</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>पिछले 7 दिनों के दौरान साधारण औसत मूड स्कोर।</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>नींद विश्लेषण</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>नींद की स्थिरता</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>पिछले 30 दिनों में मानक विचलन। कम = अधिक स्थिर।</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>बीते 30 दिनों के दौरान रैखिक प्रतिगमन के माध्यम से गणना किए गए मासिक प्रवृत्ति दिशा और चलते औसत के साथ शरीर के वजन को ट्रैक करता है।</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>α=0.2 के साथ एक्सपोनेंशियल मोविंग एवरेज, 7/30-दिन के औसत, और 30-दिन की वोलैटिलिटी (मानक विचलन) के साथ मूड प्रवृत्तियों को ट्रैक करता है।</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>वह व्यवहार जो आप कम करना चाहते हैं, उसके लिए आत्म-नियंत्रण को ट्रैक करता है। अंक प्रतिदिन +10 बढ़ता है (अधिकतम 100) और प्रत्येक घटना पर आधा हो जाता है।</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>आपकी दैनिक आदतों की सतत श्रृंखला, इतिहास की सबसे लंबी श्रृंखला, और 30-दिवसीय पूर्णता दर का ट्रैक रखता है। कम से कम एक रिकॉर्ड वाले किसी भी दिन को पूर्ण दिन माना जाएगा।</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>साप्ताहिक प्रवृत्ति</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>वजन प्रवृत्ति</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>पिछले 30 दिनों में आपकी औसत दैनिक नींद की अवधि।</value>
   </data>
 
 </root>

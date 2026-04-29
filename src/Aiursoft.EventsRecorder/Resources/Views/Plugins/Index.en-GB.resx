@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30-Day Average</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-Day Avg</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30-Day Completion Rate</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-Day Average</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-Day Avg</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Abstinence Score</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Active</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>All-time longest consecutive daily streak.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyses sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Average calories per session over the past 42 days.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Average calories per session over the past 7 days.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Average Sleep</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Average weight over the past 30 days.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Average weight over the past 7 days.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Calculates Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Configure</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configure this plugin to start seeing metrics.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Consecutive days with at least one record, up to today.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Current Streak</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Days elapsed since the most recent recorded event.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Days Since Last Event</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Exercise Analytics</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Exponential moving average (α=0.2). Recent entries weighted more.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Fatigue (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus Fatigue. Positive = fresh; negative = fatigued.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Habit Streak</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>How consistent your bedtime is. Higher is more stable.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Latest Weight</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Longest Streak</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Mood EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Mood Tracker</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Mood Volatility</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Latest recorded weight.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>My Plugins</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Not configured</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Percentage of days in the past 30 days with at least one record.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Plugins calculate derived metrics from your event records. Configure a plugin to activate it.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Rate of change over 30 days. Positive = gaining, negative = losing.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Recovers +10/day (max 100). Each event: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Simple average mood score over the past 30 days.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Simple average mood score over the past 7 days.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Sleep Analysis</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Bedtime Stability</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standard deviation over the past 30 days. Lower = more stable.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Tracks self-control for any behaviour you wish to reduce. Score recovers +10/day (max 100) and halves on each event.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Weekly Trend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Weight Trend</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Your average daily sleep duration over the past 30 days.</value>
   </data>
 
 </root>

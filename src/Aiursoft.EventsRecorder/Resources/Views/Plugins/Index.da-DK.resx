@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>30-dages gennemsnit</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>30-dages gennemsnit</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>30-dages fuldførelse</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-dages gennemsnit</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-dages gennemsnit</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Afholdelsesscore</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Aktiv</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Længste samlede sammenhængende daglige streak.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analyserer søvnvarighed og konsistens. Sporer din gennemsnitlige søvntid og stabilitet i sengetid over de sidste 30 dage.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Gennemsnitlige kalorier pr. session i de seneste 42 dage.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Gennemsnitlige kalorier pr. session i de sidste 7 dage.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Gennemsnitlig søvn</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Gennemsnitlig vægt over de seneste 30 dage.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Gennemsnitlig vægt over de seneste 7 dage.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Beregner Fitness (42-dages belastning), Træthed (7-dages belastning) og Form ved hjælp af CTL/ATL træningsbelastningsmodellen. Understøtter flere kilder.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Konfigurer</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Konfigurer denne plugin for at begynde at se metrikker.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Dage i træk med mindst én registrering, op til i dag.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Aktuel række</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Dage siden den seneste registrerede begivenhed.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Dage siden sidste begivenhed</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Træningsanalyse</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Eksponentielt glidende gennemsnit (α=0,2). Nye indtastninger vejer tungere.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Træthed (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus fatigue. Positiv = frisk; negativ = træt.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Form (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Vane-Streak</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Hvor konsekvent din sengetid er. Jo højere, jo mere stabil.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Seneste vægt</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Længste streak</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Humør EMA</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Humørsporer</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Humørsvingninger</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Seneste registrerede vægt</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Mine plugins</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Ikke konfigureret</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Procentdel af dage i de sidste 30 dage med mindst én registrering.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Plugins beregner afledte målinger fra dine hændelsesposter. Konfigurer en plugin for at aktivere den.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Ændringsrate over 30 dage. Positiv = øget, negativ = faldet.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Genopretter +10/dag (maks. 100). Hbegivenhed: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Enkel gennemsnitlig humørkarakter over de seneste 30 dage.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Enkel gennemsnitlig humørkarakter over de sidste 7 dage.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Søvnanalyse</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Søvnstabilitet</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standardafvigelse over de seneste 30 dage. Lavere = mere stabil.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Trackerer kropsvægt med moving averages og en ugentlig trendretning beregnet via lineær regression over de seneste 30 dage.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Sporer humørudvikling med et eksponentielt glidende gennemsnit (α=0,2), 7/30-dages gennemsnit og 30-dages volatilitet (standardafvigelse).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Trackerer selvkontrol for enhver adfærd, du ønsker at reducere. Scoren gendannes med +10/dag (maks. 100) og halveres ved hver hændelse.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Sporer din daglige vanestreak, længste streak nogensinde og gennemførelsesraten over de sidste 30 dage. Enhver dag med mindst én registrering tæller som en gennemført dag.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Ugentlig trend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Vægttrend</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Din gennemsnitlige daglige søvnlængde over de sidste 30 dage.</value>
   </data>
 
 </root>

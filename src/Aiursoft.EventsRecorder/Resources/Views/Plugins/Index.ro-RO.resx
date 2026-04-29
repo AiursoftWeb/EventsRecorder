@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Media pe 30 de zile</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Media pe 30 de zile</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Completare în 30 de zile</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Media pe 7 zile</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Media pe 7 zile</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Scor de Abținere</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Activ</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Cel mai lung șir consecutiv de zile din toate timpurile.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analizează durata și consistența somnului. Îți urmărește timpul mediu de somn și stabilitatea orei de culcare în ultimele 30 de zile.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Calorii medii pe sesiune în ultimele 42 de zile.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Calorii medii pe sesiune în ultimele 7 zile.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Somn mediu</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Greutatea medie în ultimele 30 de zile.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Greutatea medie în ultimele 7 zile.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Calculează Forma (încărcare pe 42 de zile), Oboseala (încărcare pe 7 zile) și Forma de performanță folosind modelul de încărcare a antrenamentului CTL/ATL. Suportă multiple surse.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Configurează</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configurați acest plugin pentru a începe să vizualizați metrici.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Zile consecutive cu cel puțin un înregistrat, până astăzi.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Seria curentă</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Zile scurse de la cel mai recent eveniment înregistrat.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Zile de la ultima eveniment</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Analiza exercițiilor</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Medie mobilă exponențială (α=0.2). Intrările recente sunt ponderate mai mult.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Oboseală (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitness (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus Fatigue. Positive = fresh; negative = fatigued.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Formă (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Șir de obiceiuri</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Cât de constant este programul tău de culcare. Cu cât este mai mare, cu atât este mai stabil.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Greutatea recentă</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Cel mai lung șir</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>Medie mobilă exponențială pentru dispoziție</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Tracker de dispoziție</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatileitatea dispoziției</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Cea mai recentă greutate înregistrată.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Plugin-urile mele</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Nu este configurat</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Procentul de zile din ultimele 30 de zile cu cel puțin un înregistrare.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>Modulele calculează metrici derivate din înregistrările evenimentelor. Configurați un modul pentru a-l activa.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Rata de schimbare în ultimele 30 de zile. Pozitiv = câștig, negativ = pierdere.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Se recuperează +10/zi (maxim 100). La fiecare eveniment: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Media simplă a scorului stării de spirit din ultimele 30 de zile.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Media simplă a scorului stării de spirit din ultimele 7 zile.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Analiza somnului</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Stabilitatea somnului</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Deviația standard în ultimele 30 de zile. Valori mai mici = mai stabil.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Urmărește greutatea corporală cu medii mobile și o direcție a tendinței săptămânale calculată prin regresie liniară pe ultimele 30 de zile.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Urmărește tendințele dispoziției cu o medie mobilă exponențială (α=0.2), medii pe 7/30 de zile și volatilitate pe 30 de zile (deviație standard).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Urmărește autocontrolul pentru orice comportament pe care dorești să îl reduci. Scorul se recuperează cu +10/zi (maxim 100) și se înjumătățește la fiecare eveniment.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Îți urmărește șirul zilnic de obiceiuri, cel mai lung șir din toate timpurile și rata de finalizare pe 30 de zile. Orice zi cu cel puțin o înregistrare se numește zi finalizată.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Tendință săptămânală</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Tendința greutății</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Durata medie zilnică a somnului în ultimele 30 de zile.</value>
   </data>
 
 </root>

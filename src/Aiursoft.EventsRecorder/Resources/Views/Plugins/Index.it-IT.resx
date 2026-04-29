@@ -18,8 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Active" xml:space="preserve">
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Media di 30 giorni</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Media su 30 giorni</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Completamento in 30 giorni</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>Media di 7 giorni</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>Media di 7 giorni</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Punteggio di Astinenza</value>
+  </data>
+  <data name="Active" xml:space="preserve">
     <value>Attivo</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Streak giornaliero consecutivo più lungo di sempre.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analizza la durata e la coerenza del sonno. Tiene traccia della tua durata media del sonno e della stabilità dell&apos;ora di andare a letto negli ultimi 30 giorni.</value>
+  </data>
+  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+    <value>Calorie medie per sessione negli ultimi 42 giorni.</value>
+  </data>
+  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+    <value>Calorie medie per sessione negli ultimi 7 giorni.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Sonno medio</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Peso medio negli ultimi 30 giorni.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Peso medio negli ultimi 7 giorni.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Calcola la Forma fisica (carico a 42 giorni), l&apos;affaticamento (carico a 7 giorni) e la Forma utilizzando il modello del carico di allenamento CTL/ATL. Supporta più origini.</value>
   </data>
   <data name="Configure" xml:space="preserve">
     <value>Configura</value>
@@ -27,14 +69,113 @@
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configura questo plugin per iniziare a visualizzare le metriche.</value>
   </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Giorni consecutivi con almeno un record, fino ad oggi.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Streak attuale</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Giorni trascorsi dall&apos;ultimo evento registrato.</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Giorni dall&apos;ultimo evento</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Analisi dell&apos;attività fisica</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Media mobile esponenziale (α=0,2). Le voci più recenti hanno un peso maggiore.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Affaticamento (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Forma fisica (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness meno Fatigue. Positivo = fresco; negativo = affaticato.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Forma (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Abitudine Costante</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Quanto è coerente il tuo orario di addormentamento. Valori più alti indicano una maggiore stabilità.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Peso più recente</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Streak più lungo</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>EMA dell&apos;umore</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Tracciatore dell&apos;umore</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatilità dell&apos;umore</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Peso registrato più recente.</value>
+  </data>
   <data name="My Plugins" xml:space="preserve">
     <value>I miei plugin</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Non configurato</value>
   </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Percentuale di giorni negli ultimi 30 giorni con almeno un record.</value>
+  </data>
   <data name="Plugins compute derived metrics from your event records. Configure a plugin to activate it." xml:space="preserve">
     <value>I plugin calcolano metriche derivate dai tuoi record di eventi. Configura un plugin per attivarlo.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Tasso di variazione negli ultimi 30 giorni. Valore positivo = in aumento, valore negativo = in diminuzione.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Si recupera +10/giorno (max 100). Ogni evento: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Media semplice del punteggio dell&apos;umore negli ultimi 30 giorni.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Media semplice del punteggio dell&apos;umore negli ultimi 7 giorni.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Analisi del sonno</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Stabilità del sonno</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Deviazione standard negli ultimi 30 giorni. Minore = più stabile.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Monitora il peso corporeo utilizzando medie mobili e una direzione della tendenza settimanale calcolata tramite regressione lineare negli ultimi 30 giorni.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Traccia le tendenze dell&apos;umore con una media mobile esponenziale (α=0,2), medie a 7/30 giorni e volatilità a 30 giorni (deviazione standard).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Traccia il autocontrollo per qualsiasi comportamento che desideri ridurre. Il punteggio si recupera di +10/giorno (max 100) e si dimezza ad ogni evento.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Monitora la tua serie quotidiana di abitudini, la serie più lunga di sempre e il tasso di completamento a 30 giorni. Qualsiasi giorno con almeno un record conta come un giorno completato.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Tendenza settimanale</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Trend del peso</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>La tua durata media del sonno giornaliero negli ultimi 30 giorni.</value>
   </data>
 
 </root>
