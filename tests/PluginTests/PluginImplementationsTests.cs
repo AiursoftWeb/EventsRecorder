@@ -242,9 +242,11 @@ public class PluginImplementationsTests
         var fitness = results.First(r => r.MetricId == "fitness").Value;
         var fatigue = results.First(r => r.MetricId == "fatigue").Value;
 
-        // Simple average: (500 + 1000) / 2 = 750
-        Assert.AreEqual(750.0, fitness);
-        Assert.AreEqual(750.0, fatigue);
+        // Total 1500 kcal
+        // Fitness = 1500 / 42 = 35.7
+        // Fatigue = 1500 / 7 = 214.3
+        Assert.AreEqual(35.7, fitness);
+        Assert.AreEqual(214.3, fatigue);
     }
 
     [TestMethod]
