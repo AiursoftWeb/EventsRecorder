@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Average calories per session over the past 42 days." xml:space="preserve">
-    <value>过去 42 天内每次训练的平均卡路里消耗。</value>
+      <data name="Average calories per day over the past 42 days." xml:space="preserve">
+    <value>过去 42 天内每天的平均卡路里消耗。</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
-    <value>过去 7 天每会话的平均卡路里数。</value>
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
+    <value>过去 7 天每天的平均卡路里数。</value>
   </data>
   <data name="Calories Field per Event Type" xml:space="preserve">
     <value>各事件类型的卡路里字段</value>

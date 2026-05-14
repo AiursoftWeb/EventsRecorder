@@ -45,10 +45,10 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analysiert Schlafdauer und Konsistenz. Verfolgt Ihre durchschnittliche Schlafzeit und die Stabilität der Zubettgehzeit über die letzten 30 Tage.</value>
   </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Durchschnittliche Kalorien pro Sitzung in den letzten 42 Tagen.</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Durchschnittliche Kalorien pro Sitzung in den letzten 7 Tagen.</value>
   </data>
   <data name="Average Sleep" xml:space="preserve">

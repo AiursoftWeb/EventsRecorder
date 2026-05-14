@@ -45,10 +45,10 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>睡眠時間と一貫性を分析します。過去30日間の平均睡眠時間と就寝時刻の安定性を追跡します。</value>
   </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>過去42日間のセッションあたりの平均カロリー</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>過去7日間のセッションあたりの平均カロリー</value>
   </data>
   <data name="Average Sleep" xml:space="preserve">

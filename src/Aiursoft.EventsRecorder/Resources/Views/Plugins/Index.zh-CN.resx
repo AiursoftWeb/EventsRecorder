@@ -45,11 +45,11 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>分析睡眠时长和一致性。追踪过去 30 天内您的平均睡眠时间和就寝时间的稳定性。</value>
   </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
-    <value>过去42天每次训练的平均卡路里消耗</value>
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
+    <value>过去42天每天的平均卡路里消耗</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
-    <value>过去7天每次会话的平均卡路里消耗</value>
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
+    <value>过去7天每天的平均卡路里消耗</value>
   </data>
   <data name="Average Sleep" xml:space="preserve">
     <value>平均睡眠</value>

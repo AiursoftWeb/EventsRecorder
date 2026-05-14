@@ -61,15 +61,13 @@ public class ExercisePlugin : IPlugin
 
         var fitness = allPoints
             .Where(p => p.RecordedAt.Date >= now.Date.AddDays(-42))
-            .Select(p => p.Value)
-            .DefaultIfEmpty(0)
-            .Average();
+            .Sum(p => p.Value)
+            / 42;
 
         var fatigue = allPoints
             .Where(p => p.RecordedAt.Date >= now.Date.AddDays(-7))
-            .Select(p => p.Value)
-            .DefaultIfEmpty(0)
-            .Average();
+            .Sum(p => p.Value)
+            / 7;
 
         return Task.FromResult<IReadOnlyList<PluginMetricResult>>(
         [
@@ -78,23 +76,23 @@ public class ExercisePlugin : IPlugin
                 MetricId    = "fitness",
                 MetricName  = "Fitness (CTL)",
                 Value       = Math.Round(fitness, 1),
-                Unit        = "kcal/session",
-                Explanation = "Average calories per session over the past 42 days."
+                Unit        = "kcal/day",
+                Explanation = "Average calories per day over the past 42 days."
             },
             new()
             {
                 MetricId    = "fatigue",
                 MetricName  = "Fatigue (ATL)",
                 Value       = Math.Round(fatigue, 1),
-                Unit        = "kcal/session",
-                Explanation = "Average calories per session over the past 7 days."
+                Unit        = "kcal/day",
+                Explanation = "Average calories per day over the past 7 days."
             },
             new()
             {
                 MetricId    = "form",
                 MetricName  = "Form (CTL − ATL)",
                 Value       = Math.Round(fitness - fatigue, 1),
-                Unit        = "kcal/session",
+                Unit        = "kcal/day",
                 Explanation = "Fitness minus Fatigue. Positive = fresh; negative = fatigued."
             }
         ]);
@@ -109,8 +107,8 @@ public class ExercisePlugin : IPlugin
 // Localizer["Calories Field per Event Type"]
 // Localizer["For each selected event type, which numeric field records calories burned?"]
 // Localizer["Fitness (CTL)"]
-// Localizer["Average calories per session over the past 42 days."]
+// Localizer["Average calories per day over the past 42 days."]
 // Localizer["Fatigue (ATL)"]
-// Localizer["Average calories per session over the past 7 days."]
+// Localizer["Average calories per day over the past 7 days."]
 // Localizer["Form (CTL − ATL)"]
 // Localizer["Fitness minus Fatigue. Positive = fresh; negative = fatigued."]

@@ -69,10 +69,10 @@
   <data name="Available Metrics" xml:space="preserve">
     <value>Kullanılabilir Metrikler</value>
   </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Son 42 gün boyunca oturum başına ortalama kalori.</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Son 7 gün içindeki oturum başına ortalama kalori.</value>
   </data>
   <data name="Average mood over the past 30 days." xml:space="preserve">
@@ -255,8 +255,8 @@
   <data name="Internal Server Error" xml:space="preserve">
     <value>İç Sunucu Hatası</value>
   </data>
-  <data name="kcal/session" xml:space="preserve">
-    <value>kcal/oturum</value>
+  <data name="kcal/day" xml:space="preserve">
+    <value>kcal/gün</value>
   </data>
   <data name="kg" xml:space="preserve">
     <value>kg</value>

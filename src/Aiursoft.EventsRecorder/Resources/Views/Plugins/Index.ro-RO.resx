@@ -45,10 +45,10 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analizează durata și consistența somnului. Îți urmărește timpul mediu de somn și stabilitatea orei de culcare în ultimele 30 de zile.</value>
   </data>
-  <data name="Average calories per session over the past 42 days." xml:space="preserve">
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Calorii medii pe sesiune în ultimele 42 de zile.</value>
   </data>
-  <data name="Average calories per session over the past 7 days." xml:space="preserve">
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Calorii medii pe sesiune în ultimele 7 zile.</value>
   </data>
   <data name="Average Sleep" xml:space="preserve">
