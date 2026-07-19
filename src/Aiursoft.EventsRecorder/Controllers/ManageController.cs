@@ -3,6 +3,7 @@ using Aiursoft.EventsRecorder.Entities;
 using Aiursoft.EventsRecorder.Models.ManageViewModels;
 using Aiursoft.EventsRecorder.Services;
 using Aiursoft.EventsRecorder.Services.FileStorage;
+using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
 using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Authorization;
@@ -196,7 +197,7 @@ public class ManageController(
     [HttpGet]
     public IActionResult DeleteAccount()
     {
-        return this.StackView(new Aiursoft.UiStack.Layout.UiStackLayoutViewModel());
+        return this.StackView(new UiStackLayoutViewModel());
     }
 
     //
