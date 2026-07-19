@@ -4,7 +4,7 @@ using Aiursoft.EventsRecorder.Services.FileStorage;
 
 using Aiursoft.EventsRecorder.Entities;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
+
 namespace Aiursoft.EventsRecorder.Tests.IntegrationTests;
 
 [TestClass]
