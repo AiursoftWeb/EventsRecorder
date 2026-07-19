@@ -66,6 +66,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>डैशबोर्ड</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>खाता हटाएं</value>
+  </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>इवेंट प्रकार हटाएं</value>
   </data>

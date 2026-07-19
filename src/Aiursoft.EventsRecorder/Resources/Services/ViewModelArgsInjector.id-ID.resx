@@ -66,6 +66,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Dasbor</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Hapus Akun</value>
+  </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Hapus Jenis Acara</value>
   </data>

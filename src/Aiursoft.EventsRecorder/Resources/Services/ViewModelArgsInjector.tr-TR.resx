@@ -159,6 +159,9 @@
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Son Etkinlikten Sonra Geçen Gün</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Hesabı Sil</value>
+  </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Etkinlik Türünü Sil</value>
   </data>
