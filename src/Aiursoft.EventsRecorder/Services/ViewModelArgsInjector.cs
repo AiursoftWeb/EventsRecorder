@@ -91,6 +91,8 @@ public class ViewModelArgsInjector(
         _ = localizer["Configure Plugin"];
         _ = localizer["Insights"];
         _ = localizer["My Plugins"];
+    
+        _ = localizer["Delete Account"];
     }
 
     public void InjectSimple(

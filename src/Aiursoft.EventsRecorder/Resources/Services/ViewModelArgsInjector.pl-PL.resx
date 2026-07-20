@@ -66,6 +66,9 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Panel</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Usuń konto</value>
+  </data>
   <data name="Delete Event Type" xml:space="preserve">
     <value>Usuń typ zdarzenia</value>
   </data>
