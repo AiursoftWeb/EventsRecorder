@@ -450,8 +450,8 @@
 
     @if (Model.Fields.Any(f => f.FieldType == FieldType.Number || f.FieldType == FieldType.String || f.FieldType == FieldType.Enum))
     {
-        <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+        <script src="~/node_modules/chart.js/dist/chart.umd.min.js" asp-append-version="true"></script>
+        <script src="~/node_modules/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js" asp-append-version="true"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var colors = [
