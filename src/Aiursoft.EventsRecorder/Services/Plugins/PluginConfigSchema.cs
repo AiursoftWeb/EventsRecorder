@@ -24,4 +24,9 @@ public class PluginConfigSchema
     /// only display fields whose FieldType matches this value.
     /// </summary>
     public FieldType? FilterFieldType { get; init; }
+
+    /// <summary>Optional bounds for a NumberInput configuration field.</summary>
+    public int? MinValue { get; init; }
+
+    public int? MaxValue { get; init; }
 }
