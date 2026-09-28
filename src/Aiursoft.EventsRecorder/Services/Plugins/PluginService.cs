@@ -49,6 +49,7 @@ public class PluginService(
     {
         var eventTypes = await context.EventTypes
             .Where(t => t.UserId == userId)
+            .AsSplitQuery()
             .Include(t => t.Fields.OrderBy(f => f.Order))
             .Include(t => t.Records)
                 .ThenInclude(r => r.FieldValues)
