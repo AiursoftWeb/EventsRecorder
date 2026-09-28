@@ -9,6 +9,21 @@
 
 EventsRecorder is a structured event recording and tracking system that allows users to define custom event types and log every occurrence with structured data.
 
+## Insights plugins
+
+Open **My Plugins** after creating event types and records. Choose the event types and fields used by each plugin; the results are calculated when the page loads.
+
+| Plugin | Result |
+| --- | --- |
+| Weekly Review | This and last week's record counts, change, and active days. |
+| Time Investment | Hours recorded in a duration field this week, last week, and over 30 days. |
+| Personal Best | Maximum and latest values of a numeric field, their gap, and days since the best. |
+| Weekly Goal | Active days against a target of 1–7 days per week. |
+| Recording Rhythm | Typical and latest gaps, variation between gaps, and time since the last record. |
+| Event Association | Compares a numeric outcome when a selected event occurred in the preceding 24 hours with other outcomes. The comparison does not show cause and effect. |
+
+Weekly counts use UTC weeks starting Monday. The association plugin shows group averages only when each group has at least three outcomes.
+
 ![screenshot](./screenshot.png)
 
 Default user name is `admin@default.com` and default password is `Admin@123456!`.
