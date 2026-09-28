@@ -16,4 +16,7 @@ public enum PluginConfigFieldType
     /// Stored as "42:7,17:23".
     /// </summary>
     FieldSelectorPerSource,
+
+    /// <summary>A positive whole-number target supplied by the user.</summary>
+    NumberInput,
 }

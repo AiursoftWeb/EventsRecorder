@@ -17,6 +17,7 @@
             <div class="card-body">
                 <form asp-action="Configure" asp-route-id="@Model.PluginId" method="post">
                     @Html.AntiForgeryToken()
+                    <div asp-validation-summary="All" class="text-danger"></div>
 
                     @foreach (var schema in Model.ConfigSchema)
                     {
@@ -28,6 +29,11 @@
 
                             @switch (schema.Type)
                             {
+                                case PluginConfigFieldType.NumberInput:
+                                    <input id="input_@schema.Key" name="@schema.Key" type="number" step="1"
+                                           min="@schema.MinValue" max="@schema.MaxValue" value="@currentVal"
+                                           class="form-control" required />
+                                    break;
                                 case PluginConfigFieldType.EventTypeSelector:
                                     <select id="input_@schema.Key" name="@schema.Key" class="form-select plugin-event-type-selector">
                                         <option value="">— @Localizer["Select event type"] —</option>
