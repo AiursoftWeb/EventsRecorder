@@ -114,7 +114,7 @@ public class EventTypesController(
                 .Where(p => p.Value.HasValue)
                 .Select(p => new NumberPointDto
                 {
-                    X = p.RecordedAt,
+                    X = DateTime.SpecifyKind(p.RecordedAt, DateTimeKind.Utc),
                     Y = p.Value!.Value
                 })
                 .ToList()
@@ -141,7 +141,7 @@ public class EventTypesController(
                 .Where(p => p.Value.HasValue)
                 .Select(p => new BooleanPointDto
                 {
-                    X = p.RecordedAt,
+                    X = DateTime.SpecifyKind(p.RecordedAt, DateTimeKind.Utc),
                     Y = p.Value!.Value
                 })
                 .ToList()
