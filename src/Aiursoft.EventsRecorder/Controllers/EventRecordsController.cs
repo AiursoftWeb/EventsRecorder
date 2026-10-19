@@ -223,7 +223,7 @@ public class EventRecordsController(
             {
                 RecordingTimeType.RightNow => DateTime.UtcNow,
                 RecordingTimeType.HoursAgo => DateTime.UtcNow.AddHours(-model.HoursAgo),
-                RecordingTimeType.Manual => model.ManualTime.ToUniversalTime(),
+                RecordingTimeType.Manual => DateTime.SpecifyKind(model.ManualTime, DateTimeKind.Utc),
                 _ => DateTime.UtcNow
             };
         }

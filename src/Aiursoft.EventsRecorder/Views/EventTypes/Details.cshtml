@@ -33,12 +33,13 @@
                 <form method="get" asp-action="Details" class="row g-3">
                     <input type="hidden" name="id" value="@Model.Id" />
                     <div class="col-md-5">
+                        <partial name="_UtcInput" />
                         <label class="form-label">@Localizer["Start Date"]</label>
-                        <input type="datetime-local" class="form-control" name="start" value="@Model.Start.ToString("yyyy-MM-ddTHH:mm")" />
+                        <input type="datetime-local" data-utc-input class="form-control" name="start" value="@Model.Start.ToString("yyyy-MM-ddTHH:mm")" />
                     </div>
                     <div class="col-md-5">
                         <label class="form-label">@Localizer["End Date"]</label>
-                        <input type="datetime-local" class="form-control" name="end" value="@Model.End.ToString("yyyy-MM-ddTHH:mm")" />
+                        <input type="datetime-local" data-utc-input class="form-control" name="end" value="@Model.End.ToString("yyyy-MM-ddTHH:mm")" />
                     </div>
                     <div class="col-md-2 d-flex align-items-end">
                         <button type="submit" class="btn btn-primary w-100">@Localizer["Filter"]</button>
