@@ -1,3 +1,6 @@
+using Aiursoft.EventsRecorder.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 using System.Net;
 using System.Text.RegularExpressions;
 
@@ -168,6 +171,53 @@ public class EventTypesControllerTests : TestBase
         Assert.Contains("Test Event Type", html);
         Assert.Contains("For testing details page", html);
         Assert.Contains("Fields", html);
+    }
+
+    [TestMethod]
+    public async Task DetailsChartsPreserveUtcInstantsAndCalendarDates()
+    {
+        await LoginAsAdmin();
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<EventsRecorderDbContext>();
+        var user = await db.Users.SingleAsync(u => u.Email == "admin@default.com");
+        var number = new EventField { Name = "Weight", FieldType = FieldType.Number };
+        var boolean = new EventField { Name = "Completed", FieldType = FieldType.Boolean };
+        var eventType = new EventType
+        {
+            Name = "Chart time zones",
+            UserId = user.Id,
+            Fields = [number, boolean]
+        };
+        db.EventRecords.Add(new EventRecord
+        {
+            EventType = eventType,
+            UserId = user.Id,
+            RecordedAt = new DateTime(2026, 4, 1, 0, 30, 0, DateTimeKind.Unspecified),
+            FieldValues =
+            [
+                new EventFieldValue { EventField = number, NumberValue = 70 },
+                new EventFieldValue { EventField = boolean, BoolValue = true }
+            ]
+        });
+        await db.SaveChangesAsync();
+
+        var response = await Http.GetAsync($"/EventTypes/Details/{eventType.Id}?start=2026-04-01T00:00Z&end=2026-04-02T00:00Z");
+        response.EnsureSuccessStatusCode();
+        var html = await response.Content.ReadAsStringAsync();
+        foreach (var series in new[] { "numberSeriesData", "booleanSeriesData" })
+        {
+            var match = Regex.Match(html, $"var {series} = (.*?);");
+            Assert.IsTrue(match.Success);
+            using var data = JsonDocument.Parse(match.Groups[1].Value);
+            Assert.AreEqual("2026-04-01T00:30:00Z", data.RootElement[0].GetProperty("Points")[0].GetProperty("X").GetString());
+        }
+
+        // Occurrences are already grouped by UTC calendar date, not individual instants.
+        var occurrences = Regex.Match(html, "var occurrencesData = (.*?);");
+        Assert.IsTrue(occurrences.Success);
+        using var days = JsonDocument.Parse(occurrences.Groups[1].Value);
+        Assert.AreEqual("2026-04-01T00:00:00", days.RootElement[0].GetProperty("Date").GetString());
+        Assert.AreEqual(1, days.RootElement[0].GetProperty("Count").GetInt32());
     }
 
     [TestMethod]
