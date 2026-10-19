@@ -1,4 +1,6 @@
 using System.Net;
+using Aiursoft.EventsRecorder.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Aiursoft.EventsRecorder.Tests.IntegrationTests;
 
@@ -272,39 +274,40 @@ public class EventRecordsControllerTests : TestBase
     }
 
     [TestMethod]
-    public async Task RecordWithManualTime()
+    [DataRow("2026-04-01T10:00:00Z")]
+    [DataRow("2026-04-01T18:00:00+08:00")]
+    [DataRow("2026-04-01T10:00")]
+    public async Task RecordWithManualTime(string manualTime)
     {
         await RegisterAndLoginAsync();
         var eventTypeId = await CreateEventTypeAndGetId("Sleep");
         var fieldId = await CreateField(eventTypeId, "Duration", "3", true);
 
-        var manualTime = new DateTime(2026, 4, 1, 10, 0, 0);
-        await PostForm("/EventRecords/Record", new Dictionary<string, string>
+        var response = await PostForm("/EventRecords/Record", new Dictionary<string, string>
         {
             { "EventTypeId", eventTypeId },
             { "ShowAdvanced", "true" },
             { "TimeType", "Manual" },
-            { "ManualTime", manualTime.ToString("yyyy-MM-ddTHH:mm") },
+            { "ManualTime", manualTime },
             { "Fields[0].FieldId", fieldId },
-            { "Fields[0].TimespanValue", "08:00:00" }
+            { "Fields[0].TimespanHours", "8" }
         }, tokenUrl: $"/EventRecords/Record?eventTypeId={eventTypeId}");
+        AssertRedirect(response, "/EventRecords/Details/", exact: false);
 
-        var indexResponse = await Http.GetAsync("/EventRecords/Index");
-        var indexHtml = await indexResponse.Content.ReadAsStringAsync();
-        var detailsMatch = System.Text.RegularExpressions.Regex.Match(indexHtml, @"/EventRecords/Details/(\d+)");
+        using var scope = Server!.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<EventsRecorderDbContext>();
+        var record = await db.EventRecords.SingleAsync(r => r.EventTypeId == int.Parse(eventTypeId));
+        Assert.AreEqual(new DateTime(2026, 4, 1, 10, 0, 0, DateTimeKind.Utc), record.RecordedAt);
 
-        if (detailsMatch.Success)
-        {
-            var recordId = detailsMatch.Groups[1].Value;
-            var detailsResponse = await Http.GetAsync($"/EventRecords/Details/{recordId}");
-            detailsResponse.EnsureSuccessStatusCode();
-            var detailsHtml = await detailsResponse.Content.ReadAsStringAsync();
-
-            Assert.Contains("Sleep", detailsHtml);
-            // Verify time is correctly recorded (it might be shifted depending on server TZ, 
-            // but in InMemory/SQLite test environment it's usually predictable)
-            // But ToHtmlDateTime() uses specific format.
-        }
+        // A local range sent with an offset must include the same UTC event.
+        var start = Uri.EscapeDataString("2026-04-01T17:59:00+08:00");
+        var end = Uri.EscapeDataString("2026-04-01T18:01:00+08:00");
+        var included = await Http.GetAsync($"/EventTypes/Details/{eventTypeId}?start={start}&end={end}");
+        included.EnsureSuccessStatusCode();
+        StringAssert.Contains(await included.Content.ReadAsStringAsync(), "\"Count\":1");
+        var excluded = await Http.GetAsync($"/EventTypes/Details/{eventTypeId}?start=2026-04-01T11:00Z&end=2026-04-01T12:00Z");
+        excluded.EnsureSuccessStatusCode();
+        StringAssert.Contains(await excluded.Content.ReadAsStringAsync(), "var occurrencesData = [];");
     }
 
     [TestMethod]

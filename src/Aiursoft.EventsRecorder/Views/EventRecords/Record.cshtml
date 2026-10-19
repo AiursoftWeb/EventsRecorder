@@ -146,7 +146,8 @@
                             </div>
 
                             <div id="manualTimeInput" class="mt-2" style="@(Model.TimeType == RecordingTimeType.Manual ? "" : "display: none;")">
-                                <input type="datetime-local" asp-for="ManualTime" class="form-control" value="@Model.ManualTime.ToString("yyyy-MM-ddTHH:mm")" />
+                                <input type="datetime-local" data-utc-input asp-for="ManualTime" class="form-control" value="@Model.ManualTime.ToString("yyyy-MM-ddTHH:mm")" />
+                                <partial name="_UtcInput" />
                             </div>
                         </div>
                     </div>
