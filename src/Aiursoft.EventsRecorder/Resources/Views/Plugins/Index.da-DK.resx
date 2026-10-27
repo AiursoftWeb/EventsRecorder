@@ -33,6 +33,9 @@
   <data name="7-Day Avg" xml:space="preserve">
     <value>7-dages gennemsnit</value>
   </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>Om {0}</value>
+  </data>
   <data name="Abstinence Score" xml:space="preserve">
     <value>Afholdelsesscore</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Konfigurer denne plugin for at begynde at se metrikker.</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>Konfigureret</value>
   </data>
   <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
     <value>Dage i træk med mindst én registrering, op til i dag.</value>
@@ -125,6 +131,9 @@
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Mine plugins</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>Ingen målinger tilgængelige.</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Ikke konfigureret</value>

@@ -33,6 +33,9 @@
   <data name="7-Day Avg" xml:space="preserve">
     <value>Media pe 7 zile</value>
   </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>Despre {0}</value>
+  </data>
   <data name="Abstinence Score" xml:space="preserve">
     <value>Scor de Abținere</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configurați acest plugin pentru a începe să vizualizați metrici.</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>Configurat</value>
   </data>
   <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
     <value>Zile consecutive cu cel puțin un înregistrat, până astăzi.</value>
@@ -125,6 +131,9 @@
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Plugin-urile mele</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>Nu sunt disponibile valori metrice.</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Nu este configurat</value>
