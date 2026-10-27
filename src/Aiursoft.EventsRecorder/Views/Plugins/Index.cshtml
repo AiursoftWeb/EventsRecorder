@@ -51,12 +51,10 @@ Localization markers for dotlang:
 *@
 
 <div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
+    <div class="col-auto">
         <h3>@Localizer["My Plugins"]</h3>
     </div>
 </div>
-
-<p class="text-muted">@Localizer["Plugins compute derived metrics from your event records. Configure a plugin to activate it."]</p>
 
 <div class="row">
     @foreach (var result in Model.PluginResults)
@@ -68,11 +66,18 @@ Localization markers for dotlang:
                         <h5 class="card-title mb-0">
                             <i class="align-middle me-2" data-lucide="plug"></i>
                             @Localizer[result.Plugin.Name]
+                            @if (result.IsConfigured)
+                            {
+                                <button type="button" class="btn btn-sm btn-link text-muted" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="auto" data-bs-container="body"
+                                        aria-label="@string.Format(@Localizer["About {0}"].Value, Localizer[result.Plugin.Name])" data-bs-content="@Localizer[result.Plugin.Description]">
+                                    <i class="align-middle" data-lucide="circle-help" aria-hidden="true" style="width:16px;height:16px;"></i>
+                                </button>
+                            }
                         </h5>
                     </div>
                     @if (result.IsConfigured)
                     {
-                        <span class="badge bg-success">@Localizer["Active"]</span>
+                        <span class="badge bg-success">@Localizer["Configured"]</span>
                     }
                     else
                     {
@@ -81,8 +86,6 @@ Localization markers for dotlang:
                 </div>
 
                 <div class="card-body">
-                    <p class="text-muted small mb-3">@Localizer[result.Plugin.Description]</p>
-
                     @if (result.IsConfigured && result.Metrics.Any())
                     {
                         <div class="row g-2">
@@ -94,11 +97,16 @@ Localization markers for dotlang:
                                             @metric.Value.ToString("G4")
                                             <small class="text-muted fs-6">@metric.Unit</small>
                                         </div>
-                                        <div class="text-muted small">@Localizer[metric.MetricName]</div>
-                                        @if (!string.IsNullOrWhiteSpace(metric.Explanation))
-                                        {
-                                            <div class="text-muted" style="font-size:0.7rem;">@Localizer[metric.Explanation]</div>
-                                        }
+                                        <div class="text-muted small">
+                                            @Localizer[metric.MetricName]
+                                            @if (!string.IsNullOrWhiteSpace(metric.Explanation))
+                                            {
+                                                <button type="button" class="btn btn-sm btn-link text-muted" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="auto" data-bs-container="body"
+                                                        aria-label="@string.Format(@Localizer["About {0}"].Value, Localizer[metric.MetricName])" data-bs-content="@Localizer[metric.Explanation]">
+                                                    <i class="align-middle" data-lucide="circle-help" aria-hidden="true" style="width:16px;height:16px;"></i>
+                                                </button>
+                                            }
+                                        </div>
                                     </div>
                                 </div>
                             }
@@ -106,10 +114,11 @@ Localization markers for dotlang:
                     }
                     else if (!result.IsConfigured)
                     {
-                        <div class="text-center py-3 text-muted">
-                            <i class="align-middle mb-2" data-lucide="settings" style="width:32px;height:32px;"></i>
-                            <p class="mb-0 small">@Localizer["Configure this plugin to start seeing metrics."]</p>
-                        </div>
+                        <p class="text-muted small mb-0">@Localizer[result.Plugin.Description]</p>
+                    }
+                    else
+                    {
+                        <p class="text-muted small mb-0">@Localizer["No metrics available."]</p>
                     }
                 </div>
 
