@@ -33,6 +33,9 @@
   <data name="7-Day Avg" xml:space="preserve">
     <value>Moyenne sur 7 jours</value>
   </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>À propos de {0}</value>
+  </data>
   <data name="Abstinence Score" xml:space="preserve">
     <value>Score d&apos;abstinence</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Configurez ce plugin pour commencer à voir les métriques.</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>Configuré</value>
   </data>
   <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
     <value>Jours consécutifs avec au moins un enregistrement, jusqu&apos;à aujourd&apos;hui.</value>
@@ -125,6 +131,9 @@
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Mes plugins</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>Aucune métrique disponible.</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Non configuré</value>

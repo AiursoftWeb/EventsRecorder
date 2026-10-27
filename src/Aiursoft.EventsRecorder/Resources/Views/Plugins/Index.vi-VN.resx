@@ -33,6 +33,9 @@
   <data name="7-Day Avg" xml:space="preserve">
     <value>Trung bình 7 ngày</value>
   </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>Giới thiệu về {0}</value>
+  </data>
   <data name="Abstinence Score" xml:space="preserve">
     <value>Điểm Kiêng Kỵ</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>Định cấu hình plugin này để bắt đầu xem các chỉ số.</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>Đã cấu hình</value>
   </data>
   <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
     <value>Số ngày liên tiếp có ít nhất một bản ghi, tính đến hôm nay.</value>
@@ -125,6 +131,9 @@
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>Plugin của tôi</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>Không có số liệu nào.</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>Chưa cấu hình</value>

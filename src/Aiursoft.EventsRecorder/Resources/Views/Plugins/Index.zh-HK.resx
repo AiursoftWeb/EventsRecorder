@@ -33,6 +33,9 @@
   <data name="7-Day Avg" xml:space="preserve">
     <value>7日平均</value>
   </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>關於 {0}</value>
+  </data>
   <data name="Abstinence Score" xml:space="preserve">
     <value>禁欲分數</value>
   </data>
@@ -68,6 +71,9 @@
   </data>
   <data name="Configure this plugin to start seeing metrics." xml:space="preserve">
     <value>設定此外掛程式以開始查看指標。</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>已設定</value>
   </data>
   <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
     <value>截至今天，至少有一筆記錄的連續天數。</value>
@@ -125,6 +131,9 @@
   </data>
   <data name="My Plugins" xml:space="preserve">
     <value>我的插件</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>暫無可用指標。</value>
   </data>
   <data name="Not configured" xml:space="preserve">
     <value>未設定</value>
