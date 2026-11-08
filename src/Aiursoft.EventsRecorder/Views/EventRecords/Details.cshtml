@@ -2,14 +2,12 @@
 @using Aiursoft.WebTools
 @model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.DetailsViewModel
 
-<div class="row mb-2 mb-xl-3">
-    <div class="col-auto d-none d-sm-block">
-        <h3>
-            <a asp-controller="EventTypes" asp-action="Details" asp-route-id="@Model.EventTypeId" class="text-decoration-none">@Model.EventTypeName</a>
-            <span class="text-muted">/ @Localizer["Record"]</span>
-        </h3>
-    </div>
-    <div class="col-auto ms-auto text-end mt-n1">
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+    <h1 class="h3 mb-0 mw-100 text-break">
+        <a asp-controller="EventTypes" asp-action="Details" asp-route-id="@Model.EventTypeId" class="text-decoration-none">@Model.EventTypeName</a>
+        <span class="text-muted">/ @Localizer["Record"]</span>
+    </h1>
+    <div class="d-flex flex-wrap gap-2">
         <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">@Localizer["Edit"]</a>
         <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">@Localizer["Delete"]</a>
         <a asp-action="Index" class="btn btn-light">@Localizer["Back"]</a>
