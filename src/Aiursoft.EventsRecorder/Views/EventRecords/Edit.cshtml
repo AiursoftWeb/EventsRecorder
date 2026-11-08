@@ -22,13 +22,16 @@
                         <input type="hidden" name="Fields[@i].FieldId" value="@field.FieldId" />
 
                         <div class="mb-3">
-                            <label class="form-label">
-                                @field.Name
-                                @if (field.IsRequired)
-                                {
-                                    <span class="text-danger">*</span>
-                                }
-                            </label>
+                            @if (field.FieldType != FieldType.Boolean)
+                            {
+                                <label class="form-label">
+                                    @field.Name
+                                    @if (field.IsRequired)
+                                    {
+                                        <span class="text-danger">*</span>
+                                    }
+                                </label>
+                            }
 
                             @switch (field.FieldType)
                             {
@@ -62,9 +65,15 @@
 
                                 case FieldType.Boolean:
                                     <div class="form-check">
-                                        <input type="checkbox" name="Fields[@i].BoolValue" value="true"
+                                        <input type="checkbox" id="field-@i-bool" name="Fields[@i].BoolValue" value="true"
                                                class="form-check-input" @(field.BoolValue ? "checked" : "") />
-                                        <label class="form-check-label">@field.Name</label>
+                                        <label class="form-check-label" for="field-@i-bool">
+                                            @field.Name
+                                            @if (field.IsRequired)
+                                            {
+                                                <span class="text-danger">*</span>
+                                            }
+                                        </label>
                                     </div>
                                     break;
 
