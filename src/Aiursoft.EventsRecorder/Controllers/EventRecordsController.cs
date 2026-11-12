@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Security.Claims;
 using Aiursoft.EventsRecorder.Entities;
 using Aiursoft.EventsRecorder.Models.EventRecordsViewModels;
@@ -256,7 +257,7 @@ public class EventRecordsController(
                     fieldValue.StringValue = field.StringValue;
                     break;
                 case FieldType.Number:
-                    if (decimal.TryParse(field.NumberValue, out var num))
+                    if (decimal.TryParse(field.NumberValue, NumberStyles.Float, CultureInfo.InvariantCulture, out var num))
                         fieldValue.NumberValue = num;
                     break;
                 case FieldType.Boolean:
@@ -378,7 +379,7 @@ public class EventRecordsController(
                         vm.StringValue = existingValue.StringValue;
                         break;
                     case FieldType.Number:
-                        vm.NumberValue = existingValue.NumberValue?.ToString();
+                        vm.NumberValue = existingValue.NumberValue?.ToString(CultureInfo.InvariantCulture);
                         break;
                     case FieldType.Boolean:
                         vm.BoolValue = existingValue.BoolValue ?? false;
@@ -464,7 +465,7 @@ public class EventRecordsController(
                     existingValue.StringValue = field.StringValue;
                     break;
                 case FieldType.Number:
-                    existingValue.NumberValue = decimal.TryParse(field.NumberValue, out var num) ? num : null;
+                    existingValue.NumberValue = decimal.TryParse(field.NumberValue, NumberStyles.Float, CultureInfo.InvariantCulture, out var num) ? num : null;
                     break;
                 case FieldType.Boolean:
                     existingValue.BoolValue = field.BoolValue;

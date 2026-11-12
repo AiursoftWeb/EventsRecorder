@@ -1,3 +1,4 @@
+@using System.Globalization
 @using Aiursoft.EventsRecorder.Entities
 @using Aiursoft.WebTools
 @using Newtonsoft.Json
@@ -33,11 +34,11 @@
                     <div class="col-md-5">
                         <partial name="_UtcInput" />
                         <label class="form-label">@Localizer["Start Date"]</label>
-                        <input type="datetime-local" data-utc-input class="form-control" name="start" value="@Model.Start.ToString("yyyy-MM-ddTHH:mm")" />
+                        <input type="datetime-local" data-utc-input class="form-control" name="start" value="@Model.Start.ToString("yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture)" />
                     </div>
                     <div class="col-md-5">
                         <label class="form-label">@Localizer["End Date"]</label>
-                        <input type="datetime-local" data-utc-input class="form-control" name="end" value="@Model.End.ToString("yyyy-MM-ddTHH:mm")" />
+                        <input type="datetime-local" data-utc-input class="form-control" name="end" value="@Model.End.ToString("yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture)" />
                     </div>
                     <div class="col-md-2 d-flex align-items-end">
                         <button type="submit" class="btn btn-primary w-100">@Localizer["Filter"]</button>
@@ -183,7 +184,7 @@
                                      role="progressbar" style="width: @(Model.RegularityScore)%;" 
                                      aria-valuenow="@Model.RegularityScore" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <small class="text-muted">@Model.RegularityScore.ToString("F1")%</small>
+                            <small class="text-muted">@Model.RegularityScore.ToString("F1", CultureInfo.CurrentCulture)%</small>
                         </div>
                     </div>
                 </div>

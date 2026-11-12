@@ -1,3 +1,4 @@
+@using System.Globalization
 @using Aiursoft.EventsRecorder.Entities
 @using Aiursoft.WebTools
 @model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.DetailsViewModel
@@ -68,7 +69,7 @@
                                         case FieldType.String:
                                             @(fv.StringValue ?? "-")
                                             break;                                        case FieldType.Number:
-                                            @(fv.NumberValue?.ToString("N2") ?? "-")
+                                            @(fv.NumberValue?.ToString("N2", CultureInfo.CurrentCulture) ?? "-")
                                             break;
                                         case FieldType.Boolean:
                                             if (fv.BoolValue == true)

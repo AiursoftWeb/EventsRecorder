@@ -1,3 +1,4 @@
+@using System.Globalization
 @using Aiursoft.EventsRecorder.Entities
 @using Aiursoft.EventsRecorder.Models.EventRecordsViewModels
 @model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.RecordViewModel
@@ -155,7 +156,7 @@
                             </div>
 
                             <div id="manualTimeInput" class="mt-2" style="@(Model.TimeType == RecordingTimeType.Manual ? "" : "display: none;")">
-                                <input type="datetime-local" data-utc-input asp-for="ManualTime" class="form-control" value="@Model.ManualTime.ToString("yyyy-MM-ddTHH:mm")" />
+                                <input type="datetime-local" data-utc-input asp-for="ManualTime" class="form-control" value="@Model.ManualTime.ToString("yyyy-MM-ddTHH:mm", CultureInfo.InvariantCulture)" />
                                 <partial name="_UtcInput" />
                             </div>
                         </div>

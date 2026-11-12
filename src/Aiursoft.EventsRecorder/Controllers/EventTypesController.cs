@@ -158,7 +158,7 @@ public class EventTypesController(
                 .Where(r => r.RecordedAt >= startTime && r.RecordedAt <= endTime)
                 .Select(r => r.FieldValues.FirstOrDefault(fv => fv.EventFieldId == field.Id)?.StringValue)
                 .Where(v => !string.IsNullOrWhiteSpace(v))
-                .Select(v => v!.Trim().ToLower())
+                .Select(v => v!.Trim().ToLowerInvariant())
                 .GroupBy(v => v)
                 .Select(g => new StringPointDto
                 {
