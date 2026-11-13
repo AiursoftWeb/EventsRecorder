@@ -1,3 +1,4 @@
+@using System.Globalization
 @using Aiursoft.WebTools
 @model Aiursoft.EventsRecorder.Models.EventRecordsViewModels.IndexViewModel
 
@@ -105,7 +106,7 @@ else
                                             case Aiursoft.EventsRecorder.Entities.FieldType.String:
                                                 @(fv.StringValue ?? "-")
                                                 break;                                            case Aiursoft.EventsRecorder.Entities.FieldType.Number:
-                                                @(fv.NumberValue?.ToString("N2") ?? "-")
+                                                @(fv.NumberValue?.ToString("N2", CultureInfo.CurrentCulture) ?? "-")
                                                 break;
                                             case Aiursoft.EventsRecorder.Entities.FieldType.Boolean:
                                                 if (fv.BoolValue == true)

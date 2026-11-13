@@ -1,3 +1,4 @@
+@using System.Globalization
 @using Aiursoft.WebTools
 @model Aiursoft.EventsRecorder.Models.EventTypesViewModels.IndexViewModel
 
@@ -51,7 +52,7 @@ else
                             </span>
                             <span>
                                 <i class="align-middle" data-lucide="activity" style="width: 14px; height: 14px;"></i>
-                                @item.RegularityScore.ToString("F1")% @Localizer["regularity"]
+                                @item.RegularityScore.ToString("F1", CultureInfo.CurrentCulture)% @Localizer["regularity"]
                             </span>
                         </div>
                     </div>

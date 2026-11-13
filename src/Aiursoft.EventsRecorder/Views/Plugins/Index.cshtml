@@ -1,3 +1,4 @@
+@using System.Globalization
 @model Aiursoft.EventsRecorder.Models.PluginsViewModels.IndexViewModel
 @*
 Localization markers for dotlang:
@@ -94,7 +95,7 @@ Localization markers for dotlang:
                                 <div class="col-6">
                                     <div class="border rounded p-2 text-center h-100">
                                         <div class="fw-bold fs-5">
-                                            @metric.Value.ToString("G4")
+                                            @metric.Value.ToString("G4", CultureInfo.CurrentCulture)
                                             <small class="text-muted fs-6">@metric.Unit</small>
                                         </div>
                                         <div class="text-muted small">

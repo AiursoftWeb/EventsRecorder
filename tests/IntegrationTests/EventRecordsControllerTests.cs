@@ -29,7 +29,7 @@ public class EventRecordsControllerTests : TestBase
             { "EventTypeId", eventTypeId },
             { "Name", name },
             { "FieldType", fieldType },
-            { "IsRequired", isRequired.ToString().ToLower() }
+            { "IsRequired", isRequired.ToString().ToLowerInvariant() }
         });
         AssertRedirect(createResponse, $"/EventTypes/Details/{eventTypeId}");
         
