@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>Tệp đã tải lên</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>giờ</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>phút</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Ghi chú</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Tải lên một tệp mới để thay thế nó.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>phút</value>
   </data>
 
 </root>

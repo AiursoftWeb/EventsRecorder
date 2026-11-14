@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>Cambia tipo</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ore</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>Ore fa</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>Inserimento manuale</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Note</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>Note opzionali...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Registrazione:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>Registra!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Registrazione:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Tempo di registrazione</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X ore fa</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

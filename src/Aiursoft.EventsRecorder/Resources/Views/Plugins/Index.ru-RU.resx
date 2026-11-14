@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Анализирует продолжительность и регулярность сна. Отслеживает среднее время сна и стабильность времени отхода ко сну за последние 30 дней.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Среднее время сна</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Среднее количество калорий за сеанс за последние 42 дня.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Среднее количество калорий за сеанс за последние 7 дней.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Среднее время сна</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Средний вес за последние 30 дней.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Текущая серия</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Количество дней, прошедших с момента последнего зафиксированного события.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Дней с последнего события</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Количество дней, прошедших с момента последнего зафиксированного события.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Аналитика физических упражнений</value>

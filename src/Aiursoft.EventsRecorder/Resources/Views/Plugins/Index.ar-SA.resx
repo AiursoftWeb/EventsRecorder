@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>تحلل مدة النوم واتساقه. تتعقب متوسط وقت نومك واستقرار وقت نومك على مدار الـ 30 يومًا الماضية.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>متوسط النوم</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>متوسط السعرات الحرارية لكل جلسة خلال الـ 42 يومًا الماضية.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>متوسط السعرات الحرارية لكل جلسة خلال الأيام السبعة الماضية.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>متوسط النوم</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>متوسط الوزن خلال آخر 30 يومًا.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>السلسلة الحالية</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>عدد الأيام المنقضية منذ أحدث حدث مسجل.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>الأيام منذ آخر حدث</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>عدد الأيام المنقضية منذ أحدث حدث مسجل.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>تحليلات التمارين الرياضية</value>

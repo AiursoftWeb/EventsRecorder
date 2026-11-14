@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create an event type first, then come back to record." xml:space="preserve">
-    <value>먼저 이벤트 유형을 만든 후 다시 돌아와 기록하세요.</value>
-  </data>
-  <data name="Create Event Type" xml:space="preserve">
+      <data name="Create Event Type" xml:space="preserve">
     <value>이벤트 유형 만들기</value>
+  </data>
+  <data name="Create an event type first, then come back to record." xml:space="preserve">
+    <value>먼저 이벤트 유형을 만든 후 다시 돌아와 기록하세요.</value>
   </data>
   <data name="No event types defined" xml:space="preserve">
     <value>이벤트 유형이 정의되지 않았습니다</value>

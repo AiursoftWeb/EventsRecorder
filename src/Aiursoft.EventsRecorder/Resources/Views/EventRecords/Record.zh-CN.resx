@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>更改类型</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>小时</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>小时前</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>手工输入</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>备注</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>可选备注...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>记录：</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>记录！</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>记录：</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>记录时间</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X 小时前</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

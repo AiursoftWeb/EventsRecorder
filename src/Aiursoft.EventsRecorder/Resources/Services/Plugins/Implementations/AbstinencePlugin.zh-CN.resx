@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>禁欲得分</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>距离最近一次记录的事件已过去的天数。</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>距上次事件的天数</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>距离最近一次记录的事件已过去的天数。</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>每日恢复+10（最高100）。每次事件：÷2。</value>

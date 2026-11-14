@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Điểm Kiêng Kỵ</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Số ngày đã trôi qua kể từ sự kiện được ghi nhận gần nhất.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Số ngày kể từ lần cuối</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Số ngày đã trôi qua kể từ sự kiện được ghi nhận gần nhất.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Phục hồi +10/ngày (tối đa 100). Mỗi sự kiện: ÷2.</value>

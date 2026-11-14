@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Wskaźnik Wstrzemięźliwości</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Dni minęły od ostatniego zarejestrowanego zdarzenia.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Dni od ostatniego zdarzenia</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Dni minęły od ostatniego zarejestrowanego zdarzenia.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Odnawia się +10/dzień (maks. 100). Każde zdarzenie: ÷2.</value>

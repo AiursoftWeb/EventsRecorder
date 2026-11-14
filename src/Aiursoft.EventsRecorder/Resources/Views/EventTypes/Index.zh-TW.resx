@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>建立您的第一個事件類型以開始記錄事件。</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>欄位</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>我的事件類型</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>記錄</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>欄位</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>筆錄</value>

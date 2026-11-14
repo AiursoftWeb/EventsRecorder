@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>分析睡眠時長與一致性。追蹤過去 30 天內您的平均睡眠時間就寢時間穩定度。</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>平均睡眠時間</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>過去42天每天的平均卡路里</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>過去 7 天每天的平均熱量</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>平均睡眠時間</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>過去 30 天的平均體重。</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>目前連續天數</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>自最近一次記錄的事件以來經過的天數。</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>距離上次事件的天數</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>自最近一次記錄的事件以來經過的天數。</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>運動分析</value>

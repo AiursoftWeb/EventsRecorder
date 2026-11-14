@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Nästa</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Inga fält definierade ännu. Lägg till fält för att definiera vilken data som ska samlas in.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Inga poster</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Inga fält definierade ännu. Lägg till fält för att definiera vilken data som ska samlas in.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>tid</value>

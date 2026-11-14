@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>Descripción</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>p. ej. Ejercicio, Comida, Peso...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Detalles del tipo de evento</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>Descripción opcional para este tipo de evento</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>p. ej. Ejercicio, Comida, Peso...</value>
   </data>
 
 </root>

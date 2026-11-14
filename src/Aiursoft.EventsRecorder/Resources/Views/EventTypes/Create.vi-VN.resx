@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>Mô tả</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>ví dụ: Tập thể dục, Bữa ăn, Cân nặng...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Chi tiết Loại sự kiện</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>Mô tả tùy chọn cho loại sự kiện này</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>ví dụ: Tập thể dục, Bữa ăn, Cân nặng...</value>
   </data>
 
 </root>

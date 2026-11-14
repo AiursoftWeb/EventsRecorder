@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Επόμενο</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Δεν έχουν οριστεί ακόμα πεδία. Προσθέστε πεδία για να ορίσετε ποια δεδομένα θα συλλεχθούν.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Δεν υπάρχουν εγγραφές</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Δεν έχουν οριστεί ακόμα πεδία. Προσθέστε πεδία για να ορίσετε ποια δεδομένα θα συλλεχθούν.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>ώρα</value>

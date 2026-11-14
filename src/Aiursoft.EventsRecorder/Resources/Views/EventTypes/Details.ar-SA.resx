@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>التالي</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>لم يتم تعريف أي حقول بعد. أضف حقولاً لتحديد البيانات التي تريد جمعها.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>لا توجد سجلات</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>لم يتم تعريف أي حقول بعد. أضف حقولاً لتحديد البيانات التي تريد جمعها.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>وقت</value>

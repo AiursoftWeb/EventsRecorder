@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>タイプ変更</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>時間</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>時間前</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>手動入力</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>分</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>注釈</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>任意のメモ...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>記録:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>記録!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>記録:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>録画時間</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X 時間前</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分</value>
   </data>
 
 </root>

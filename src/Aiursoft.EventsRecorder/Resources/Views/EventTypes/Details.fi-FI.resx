@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Seuraava</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Kenttiä ei ole määritelty vielä. Lisää kenttiä määrittääksesi, mitä tietoja kerätään.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Ei merkintöjä</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Kenttiä ei ole määritelty vielä. Lisää kenttiä määrittääksesi, mitä tietoja kerätään.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>aika</value>

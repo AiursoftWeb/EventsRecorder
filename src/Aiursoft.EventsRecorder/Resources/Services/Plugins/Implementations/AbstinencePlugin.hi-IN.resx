@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>विरत स्कोर</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>सबसे हालिया रिकॉर्ड किए गए घटना के बाद बीते दिन।</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>पिछली घटना के बाद से बीते दिन</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>सबसे हालिया रिकॉर्ड किए गए घटना के बाद बीते दिन।</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>प्रतिदिन +10 से पुनर्स्थापित होता है (अधिकतम 100)। प्रत्येक घटना: ÷2।</value>

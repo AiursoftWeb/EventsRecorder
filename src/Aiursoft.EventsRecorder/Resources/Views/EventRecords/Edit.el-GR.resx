@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>Αρχείο ανεβασμένο</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ώρες</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>λεπτά</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Σημειώσεις</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Ανεβάστε ένα νέο αρχείο για να το αντικαταστήσετε.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ώρες</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>λεπτά</value>
   </data>
 
 </root>

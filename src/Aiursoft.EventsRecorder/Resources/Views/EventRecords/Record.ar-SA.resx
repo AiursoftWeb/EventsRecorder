@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>تغيير النوع</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ساعات</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>ساعات مضت</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>إدخال يدوي</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>دقائق</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>ملاحظات</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>ملاحظات اختيارية...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>سجل:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>سجّل!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>سجل:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>وقت التسجيل</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>قبل ساعات</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ساعات</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>دقائق</value>
   </data>
 
 </root>

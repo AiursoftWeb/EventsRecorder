@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>파일 업로드됨</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>시간</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>분</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>노트</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>새 파일을 업로드하여 기존 파일을 교체하세요.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>분</value>
   </data>
 
 </root>

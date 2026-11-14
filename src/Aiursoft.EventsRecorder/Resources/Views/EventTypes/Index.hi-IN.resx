@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>अपनी पहली घटना प्रकार बनाएं और रिकॉर्डिंग शुरू करें।</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>क्षेत्र</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>मेरी घटना प्रकार</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>रिकॉर्ड</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>क्षेत्र</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>रिकॉर्ड्स</value>

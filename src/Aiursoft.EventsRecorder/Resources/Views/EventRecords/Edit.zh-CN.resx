@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>文件已上传</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>小时</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>分钟</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>备注</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>上传新文件以替换它。</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>分钟</value>
   </data>
 
 </root>

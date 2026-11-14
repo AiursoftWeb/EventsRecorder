@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create an event type first, then come back to record." xml:space="preserve">
-    <value>Crie um tipo de evento primeiro e depois volte para registrar.</value>
-  </data>
-  <data name="Create Event Type" xml:space="preserve">
+      <data name="Create Event Type" xml:space="preserve">
     <value>Criar Tipo de Evento</value>
+  </data>
+  <data name="Create an event type first, then come back to record." xml:space="preserve">
+    <value>Crie um tipo de evento primeiro e depois volte para registrar.</value>
   </data>
   <data name="No event types defined" xml:space="preserve">
     <value>Nenhum tipo de evento definido</value>

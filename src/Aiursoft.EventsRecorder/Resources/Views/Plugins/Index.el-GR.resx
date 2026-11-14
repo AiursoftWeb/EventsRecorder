@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Αναλύει τη διάρκεια και τη συνέπεια του ύπνου. Καταγράφει τον μέσο χρόνο ύπνου και τη σταθερότητα του χρόνου ύπνου τις τελευταίες 30 ημέρες.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Μέση Διάρκεια Ύπνου</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Μέσος όρος θερμίδων ανά συνεδρία κατά τις τελευταίες 42 ημέρες.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Μέσος όρος θερμίδων ανά συνεδρία τα τελευταία 7 ημέρες.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Μέση Διάρκεια Ύπνου</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Μέσο βάρος κατά τα τελευταία 30 ημέρες.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Τρέχουσα Σειρά</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Ημέρες που πέρασαν από την πιο πρόσφατη καταγεγραμμένη συμβάν.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Ημέρες από την τελευταία εκδήλωση</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Ημέρες που πέρασαν από την πιο πρόσφατη καταγεγραμμένη συμβάν.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Ανάλυση Άσκησης</value>

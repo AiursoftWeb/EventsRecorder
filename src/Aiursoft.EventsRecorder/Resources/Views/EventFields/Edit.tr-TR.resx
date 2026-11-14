@@ -24,9 +24,6 @@
   <data name="Display Order" xml:space="preserve">
     <value>Görünüm Sırası</value>
   </data>
-  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
-    <value>örn. SeçenekA,SeçenekB,SeçenekC</value>
-  </data>
   <data name="Edit Field:" xml:space="preserve">
     <value>Alan Düzenle:</value>
   </data>
@@ -50,6 +47,9 @@
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>Bu alan zorunludur</value>
+  </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>örn. SeçenekA,SeçenekB,SeçenekC</value>
   </data>
 
 </root>

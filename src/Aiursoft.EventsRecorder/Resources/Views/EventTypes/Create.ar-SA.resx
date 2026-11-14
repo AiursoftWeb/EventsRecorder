@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>الوصف</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>مثال: تمرين، وجبة، وزن...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>تفاصيل نوع الحدث</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>وصف اختياري لهذا النوع من الأحداث</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>مثال: تمرين، وجبة، وزن...</value>
   </data>
 
 </root>

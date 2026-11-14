@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Далі</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Поки що не визначено жодних полів. Додайте поля, щоб визначити, які дані потрібно збирати.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Немає записів</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Поки що не визначено жодних полів. Додайте поля, щоб визначити, які дані потрібно збирати.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>час</value>

@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>다음</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>아직 필드가 정의되지 않았습니다. 수집할 데이터를 정의하려면 필드를 추가하세요.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>기록 없음</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>아직 필드가 정의되지 않았습니다. 수집할 데이터를 정의하려면 필드를 추가하세요.</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>숫자 동향</value>

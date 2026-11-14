@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="-- Select Event Type --" xml:space="preserve">
+      <data name="%" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="-- Select Event Type --" xml:space="preserve">
     <value>-- Olay Türünü Seçin --</value>
   </data>
   <data name="-- Select Numeric Field --" xml:space="preserve">
     <value>-- Sayısal Alan Seçin --</value>
-  </data>
-  <data name="%" xml:space="preserve">
-    <value>%</value>
   </data>
   <data name="30-Day Average" xml:space="preserve">
     <value>30 Günlük Ortalama</value>
@@ -69,6 +69,9 @@
   <data name="Available Metrics" xml:space="preserve">
     <value>Kullanılabilir Metrikler</value>
   </data>
+  <data name="Average Sleep Duration" xml:space="preserve">
+    <value>Ortalama Uyku Süresi</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Son 42 gün boyunca oturum başına ortalama kalori.</value>
   </data>
@@ -80,9 +83,6 @@
   </data>
   <data name="Average mood over the past 7 days." xml:space="preserve">
     <value>Son 7 günün ortalama ruh hali.</value>
-  </data>
-  <data name="Average Sleep Duration" xml:space="preserve">
-    <value>Ortalama Uyku Süresi</value>
   </data>
   <data name="Average sleep duration over the past 30 days." xml:space="preserve">
     <value>Geçen 30 gündeki ortalama uyku süresi.</value>
@@ -135,14 +135,14 @@
   <data name="Create Event Type" xml:space="preserve">
     <value>Olay Türü Oluştur</value>
   </data>
-  <data name="Create one first." xml:space="preserve">
-    <value>Önce bir tane oluşturun.</value>
-  </data>
   <data name="Create Role" xml:space="preserve">
     <value>Rol Oluştur</value>
   </data>
   <data name="Create User" xml:space="preserve">
     <value>Kullanıcı Oluştur</value>
+  </data>
+  <data name="Create one first." xml:space="preserve">
+    <value>Önce bir tane oluşturun.</value>
   </data>
   <data name="Current Streak" xml:space="preserve">
     <value>Mevcut Seri</value>
@@ -150,14 +150,11 @@
   <data name="Dashboard" xml:space="preserve">
     <value>Gösterge Paneli</value>
   </data>
-  <data name="days" xml:space="preserve">
-    <value>gün</value>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Son Etkinlikten Sonra Geçen Gün</value>
   </data>
   <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
     <value>Son kaydedilen olaydan bu yana geçen gün sayısı.</value>
-  </data>
-  <data name="Days Since Last Event" xml:space="preserve">
-    <value>Son Etkinlikten Sonra Geçen Gün</value>
   </data>
   <data name="Delete Account" xml:space="preserve">
     <value>Hesabı Sil</value>
@@ -240,12 +237,6 @@
   <data name="Home" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
-  <data name="hrs" xml:space="preserve">
-    <value>saat</value>
-  </data>
-  <data name="hrs \u03c3" xml:space="preserve">
-    <value>saat \u03c3</value>
-  </data>
   <data name="Index" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
@@ -257,15 +248,6 @@
   </data>
   <data name="Internal Server Error" xml:space="preserve">
     <value>İç Sunucu Hatası</value>
-  </data>
-  <data name="kcal/day" xml:space="preserve">
-    <value>kcal/gün</value>
-  </data>
-  <data name="kg" xml:space="preserve">
-    <value>kg</value>
-  </data>
-  <data name="kg/week" xml:space="preserve">
-    <value>kg/hafta</value>
   </data>
   <data name="Latest Weight" xml:space="preserve">
     <value>Son Ağırlık</value>
@@ -312,11 +294,11 @@
   <data name="No numeric fields found for the selected event type." xml:space="preserve">
     <value>Seçilen etkinlik türü için sayısal alan bulunamadı.</value>
   </data>
-  <data name="Not configured" xml:space="preserve">
-    <value>Yapılandırılmamış</value>
-  </data>
   <data name="Not Found" xml:space="preserve">
     <value>Bulunamadı</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Yapılandırılmamış</value>
   </data>
   <data name="Numeric Field" xml:space="preserve">
     <value>Sayısal Alan</value>
@@ -341,9 +323,6 @@
   </data>
   <data name="Profile Settings" xml:space="preserve">
     <value>Profil Ayarları</value>
-  </data>
-  <data name="pts" xml:space="preserve">
-    <value>puan</value>
   </data>
   <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
     <value>30 günlük değişim oranı. Pozitif = kazanma, negatif = kaybetme.</value>
@@ -419,6 +398,27 @@
   </data>
   <data name="Weight Trend" xml:space="preserve">
     <value>Kilo Eğilimi</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>gün</value>
+  </data>
+  <data name="hrs" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="hrs \u03c3" xml:space="preserve">
+    <value>saat \u03c3</value>
+  </data>
+  <data name="kcal/day" xml:space="preserve">
+    <value>kcal/gün</value>
+  </data>
+  <data name="kg" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="kg/week" xml:space="preserve">
+    <value>kg/hafta</value>
+  </data>
+  <data name="pts" xml:space="preserve">
+    <value>puan</value>
   </data>
 
 </root>

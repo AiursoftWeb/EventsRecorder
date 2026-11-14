@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>Kuvaus</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>esim. Liikunta, Ateria, Paino...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Tapahtumatyyppien tiedot</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>Valinnainen kuvaus tälle tapahtumatyypille</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>esim. Liikunta, Ateria, Paino...</value>
   </data>
 
 </root>

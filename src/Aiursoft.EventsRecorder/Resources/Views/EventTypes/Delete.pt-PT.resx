@@ -39,14 +39,14 @@
   <data name="Records" xml:space="preserve">
     <value>Registos</value>
   </data>
-  <data name="records will be deleted!" xml:space="preserve">
-    <value>registos serão eliminados!</value>
-  </data>
   <data name="This action is irreversible. All records and field values belonging to this event type will be permanently deleted." xml:space="preserve">
     <value>Esta ação é irreversível. Todos os registos e valores de campo pertencentes a este tipo de evento serão permanentemente eliminados.</value>
   </data>
   <data name="Yes, delete this event type" xml:space="preserve">
     <value>Sim, apagar este tipo de evento</value>
+  </data>
+  <data name="records will be deleted!" xml:space="preserve">
+    <value>registos serão eliminados!</value>
   </data>
 
 </root>

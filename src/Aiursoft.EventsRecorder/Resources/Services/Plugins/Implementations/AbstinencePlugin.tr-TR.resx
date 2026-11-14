@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>İntihar Skor</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>En son kaydedilen olaydan bu yana geçen günler.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Son Etkinlikten Beri Geçen Gün</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>En son kaydedilen olaydan bu yana geçen günler.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Günde +10 geri kazanır (maks. 100). Her olayda: ÷2.</value>

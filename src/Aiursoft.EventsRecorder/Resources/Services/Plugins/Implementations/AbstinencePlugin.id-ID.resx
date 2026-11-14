@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Skor Pantang</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Hari yang telah berlalu sejak peristiwa tercatat paling baru.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Hari Sejak Terakhir Terjadi</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Hari yang telah berlalu sejak peristiwa tercatat paling baru.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Pemulihan +10/hari (maks 100). Setiap kejadian: ÷2.</value>

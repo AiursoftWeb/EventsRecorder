@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Buat jenis acara pertama Anda untuk mulai merekam acara.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>bidang</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Jenis Acara Saya</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Perekam</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>bidang</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>rekaman</value>

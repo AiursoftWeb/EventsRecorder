@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Berikutnya</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Belum ada bidang yang didefinisikan. Tambahkan bidang untuk menentukan data apa yang akan dikumpulkan.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Tidak Ada Catatan</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Belum ada bidang yang didefinisikan. Tambahkan bidang untuk menentukan data apa yang akan dikumpulkan.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>waktu</value>

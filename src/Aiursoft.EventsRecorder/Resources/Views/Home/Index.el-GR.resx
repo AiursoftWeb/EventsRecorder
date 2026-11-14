@@ -45,6 +45,15 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
   </data>
+  <data name="AI Driven Translation" xml:space="preserve">
+    <value>Μετάφραση με Βάση την Τεχνητή Νοημοσύνη</value>
+  </data>
+  <data name="AI Readable" xml:space="preserve">
+    <value>ΑΙ αναγνώσιμο</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
+  </data>
   <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
     <value>Κερδίστε περισσότερα με το Aiursoft Event Recorder</value>
   </data>
@@ -62,15 +71,6 @@
   </data>
   <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
     <value>Οι διαχειριστές μπορούν να διαχειρίζονται τις παγκόσμιες ρυθμίσεις μέσω του πίνακα ελέγχου, με δυνατότητα υπεράνθεσης μεταβλητών περιβάλλοντος για τις εγκαταστάσεις παραγωγής.</value>
-  </data>
-  <data name="AI Driven Translation" xml:space="preserve">
-    <value>Μετάφραση με Βάση την Τεχνητή Νοημοσύνη</value>
-  </data>
-  <data name="AI Readable" xml:space="preserve">
-    <value>ΑΙ αναγνώσιμο</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
   </data>
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Event Recorder</value>
@@ -102,11 +102,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>Αυτόματη συμπίεση και ιδιωτικότητα</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>Αυτόματη Εγκατάσταση</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>Αυτόματη συμπίεση και ιδιωτικότητα</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>Αυτόματη μετάφραση με τεχνητή νοημοσύνη σε 28 γλώσσες.</value>
@@ -168,9 +168,6 @@
   <data name="Built-in" xml:space="preserve">
     <value>Ενσωματωμένο</value>
   </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>Ενσωματωμένο πάνελ διαχείρισης</value>
-  </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>Ενσωματωμένη Πιστοποίηση</value>
   </data>
@@ -179,6 +176,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>Ενσωματωμένο πάνελ διαχείρισης</value>
   </data>
   <data name="Can multiple users share the same instance?" xml:space="preserve">
     <value>Μπορούν πολλαπλοί χρήστες να μοιραστούν την ίδια instance;</value>
@@ -225,20 +225,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>Διαπλατφορμικό</value>
   </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Είδη Εργασιών</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>Απαιτείται προσαρμοσμένη ανάπτυξη</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Απαιτείται προσαρμοσμένη ανάπτυξη</value>
   </data>
-  <data name="Custom Event Types" xml:space="preserve">
-    <value>Είδη Εργασιών</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Πίνακας ελέγχου για εργασίες υποβάθρου</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Ημέρα 1 Συμμόρφωση &amp; Ασφάλεια.</value>
@@ -270,14 +270,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>DevOps Φυσικός</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Αναπτύξτε αποκλειστικά στο UTC, ενώ το σύστημα μετατρέπει αυτόματα και εμφανίζει τις ημερομηνίες στην τοπική ώρα του χρήστη.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>Εμπειρία Ανάπτυξης</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>DevOps Φυσικός</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Σελίδα Συζητήσεων</value>
@@ -354,9 +354,6 @@
   <data name="FAQ" xml:space="preserve">
     <value>Συχνές Ερωτήσεις</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>γρηγορότερα</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Λειτουργίες</value>
   </data>
@@ -381,9 +378,6 @@
   <data name="Flexible Field Definitions" xml:space="preserve">
     <value>Εύκαμπτοι Ορισμοί Πεδίων</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
-  </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Ιδρυτής &amp; Αρχιτέκτονας στο Aiursoft</value>
   </data>
@@ -393,11 +387,11 @@
   <data name="Free" xml:space="preserve">
     <value>Δωρεάν</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>Δωρεάν για εμπορική χρήση</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>Ελεύθερο Λογισμικό</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Δωρεάν για εμπορική χρήση</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Συχνές ερωτήσεις</value>
@@ -423,11 +417,11 @@
   <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
     <value>Πλήρως ανοιχτού κώδικα. Δεν υπάρχουν πληρωμένες εκδόσεις, ούτε κλειδώματα από προμηθευτή. Τα δεδομένα σας παραμένουν στην υποδομή σας.</value>
   </data>
-  <data name="Generic configuration" xml:space="preserve">
-    <value>Γενική διαμόρφωση</value>
-  </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Μόνο γενικό αρχείο Dockerfile</value>
+  </data>
+  <data name="Generic configuration" xml:space="preserve">
+    <value>Γενική διαμόρφωση</value>
   </data>
   <data name="Get started for free" xml:space="preserve">
     <value>Ξεκινήστε δωρεάν</value>
@@ -477,6 +471,9 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Περιλαμβάνεται το Horizon</value>
   </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Πώς λειτουργεί</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Πώς μπορώ να λάβω υποστήριξη;</value>
   </data>
@@ -485,9 +482,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
-  </data>
-  <data name="How It Works" xml:space="preserve">
-    <value>Πώς λειτουργεί</value>
   </data>
   <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Δημιούργησα το Aiursoft Event Recorder επειδή ήμουν κουρασμένος από τη διαδικασία δημιουργίας των ίδιων πύλων Auth, Log και CI/CD για κάθε νέο επιχειρηματικό έργο. Δεν είναι απλώς ένα πρότυπο· είναι η συγκεντρωμένη καλύτερη πρακτική από χρόνια λειτουργίας σε περιβάλλοντα υψηλής συγχρονισμού. Επιτρέπει στην ομάδα μου να παραλείψει την ένοικτη διαδικασία ρύθμισης και να προχωρήσει αμέσως στη λογική της επιχείρησης.</value>
@@ -498,11 +492,11 @@
   <data name="Included" xml:space="preserve">
     <value>Συμπεριλαμβανόμενο</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Περιλαμβάνει εκτενή τεκμηρίωση και πρακτικά παραδείγματα για να ξεκινήσετε γρήγορα.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Περιλαμβάνει Οδηγούς</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Περιλαμβάνει εκτενή τεκμηρίωση και πρακτικά παραδείγματα για να ξεκινήσετε γρήγορα.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Ενσωματωμένη Διαχείριση Αρχείων</value>
@@ -515,9 +509,6 @@
   </data>
   <data name="Is EventsRecorder free to use?" xml:space="preserve">
     <value>Το EventsRecorder είναι δωρεάν προς χρήση;</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>είναι Ελεύθερο Λογισμικό</value>
   </data>
   <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
     <value>Είναι δωρεάν η χρήση του Aiursoft Event Recorder;</value>
@@ -546,6 +537,12 @@
   <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
     <value>Καταγράφετε τρέξιμο, προπονήσεις, λήψη φαρμάκων, ώρες ύπνου ή μετρήσεις αρτηριακής πίεσης με προσαρμοσμένα πεδία για κάθε μέτρηση που σας ενδιαφέρει.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Διατηρήστε Υψηλή Ποιότητα Κώδικα</value>
   </data>
@@ -558,20 +555,14 @@
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown σε HTML</value>
   </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Άδεια MIT</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT License</value>
-  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Τα μοντέλα ελέγχονται στην πλευρά του πελάτη και του διακομιστή βάσει των σημειώσεων δεδομένων.</value>
   </data>
-  <data name="Multi-timezone Handling" xml:space="preserve">
-    <value>Χειρισμός Πολλαπλών Ζωνών Ώρας</value>
-  </data>
   <data name="Multi-User Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Χρηστών</value>
+  </data>
+  <data name="Multi-timezone Handling" xml:space="preserve">
+    <value>Χειρισμός Πολλαπλών Ζωνών Ώρας</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Παροχέων Βάσης Δεδομένων</value>
@@ -594,12 +585,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>Απαιτείται Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>Απαιτεί σύνθετη λογική ελέγχου ταυτότητας</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>Απαιτεί ρυθμίσεις/επεκτάσεις</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>Απαιτείται ρύθμιση ESLint/Prettier</value>
   </data>
@@ -608,9 +593,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>Απαιτείται Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>Απαιτείται χειροκίνητη διαμόρφωση</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>Απαιτεί Medialibrary</value>
@@ -624,11 +606,20 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>Απαιτείται διαμόρφωση Spring Security</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>Απαιτεί πρόσθετα τρίτων</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Απαιτεί το TypeORM ή παρόμοιο</value>
+  </data>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>Απαιτεί σύνθετη λογική ελέγχου ταυτότητας</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>Απαιτεί ρυθμίσεις/επεκτάσεις</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>Απαιτείται χειροκίνητη διαμόρφωση</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>Απαιτεί πρόσθετα τρίτων</value>
   </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
     <value>Καμία εξάρτηση από πάροχο cloud. Εκτελέστε οπουδήποτε, οποιαδήποτε στιγμή — τα δεδομένα σας παραμένουν μαζί σας.</value>
@@ -639,11 +630,14 @@
   <data name="Notes &amp; Context" xml:space="preserve">
     <value>Σημειώσεις &amp; Πλαίσιο</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>Εκτός Σύνδεσης Εφοδιασμένο</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM &amp; Μεταναστεύσεις</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>Εκτός Σύνδεσης Εφοδιασμένο</value>
   </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Μία κλικ για έναρξη</value>
@@ -657,20 +651,17 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Βελτιστοποιημένη διαμόρφωση Docker &amp; K8s</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM &amp; Μεταναστεύσεις</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Έτοιμο προς χρήση</value>
   </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Ανίχνευση και συγχρονισμός δικαιωμάτων</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>Προ-διαμορφωμένο και δοκιμασμένο</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Προκαθορισμένα CI/CD pipelines ειδικά για το GitLab.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>Προ-διαμορφωμένο και δοκιμασμένο</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Προκαθορισμένες αλυσίδες για dev/prod</value>
@@ -684,11 +675,11 @@
   <data name="Read the document" xml:space="preserve">
     <value>Διαβάστε το έγγραφο</value>
   </data>
-  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
-    <value>Καταγράψτε καθημερινές συνεδρίες ανάγνωσης, εξάσκηση γλωσσών, ώρες μελέτης ή οποιαδήποτε συνήθεια θέλετε να χτίσετε — με την πρόοδο να είναι ορατή με την πάροδο του χρόνου.</value>
-  </data>
   <data name="Record Everything." xml:space="preserve">
     <value>Καταγράψτε τα πάντα.</value>
+  </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Καταγράψτε καθημερινές συνεδρίες ανάγνωσης, εξάσκηση γλωσσών, ώρες μελέτης ή οποιαδήποτε συνήθεια θέλετε να χτίσετε — με την πρόοδο να είναι ορατή με την πάροδο του χρόνου.</value>
   </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Απαιτεί ρύθμιση Laravel Socialite</value>
@@ -741,20 +732,20 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>
   </data>
+  <data name="Standard OpenID" xml:space="preserve">
+    <value>Standard OpenID</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Πρότυπη υλοποίηση. Αλλάξτε προμηθευτές χωρίς μεταγλώττιση.</value>
   </data>
-  <data name="Standard OpenID" xml:space="preserve">
-    <value>Standard OpenID</value>
+  <data name="Start Shipping Value." xml:space="preserve">
+    <value>Ξεκινήστε την παραγωγή αξίας.</value>
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Ξεκινήστε ένα νέο έργο</value>
   </data>
   <data name="Start recording your events today!" xml:space="preserve">
     <value>Ξεκινήστε την καταγραφή των γεγονότων σας σήμερα!</value>
-  </data>
-  <data name="Start Shipping Value." xml:space="preserve">
-    <value>Ξεκινήστε την παραγωγή αξίας.</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>Ξεκινήστε με μία μόνο εντολή &apos;docker run&apos;.</value>
@@ -768,29 +759,32 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>Αυστηροί κανόνες lint</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>Αυστηρός Έλεγχος Μονάδας</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>Αυστηροί κανόνες linting και μηδέν προειδοποιήσεις προεπιλεγμένα.</value>
   </data>
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Αυστηροί κανόνες lint με 0 προειδοποιήσεις στο προκαθορισμένο έργο.</value>
   </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>Αυστηρός Έλεγχος Μονάδας</value>
-  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Ισχυρή και Συνεπής Έλεγχος Κώδικα</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>Υποστηρίζει και τις δύο μεταβλητές περιβάλλοντος και ρυθμίσεις που βασίζονται σε βάση δεδομένων, με αυτόματη προτεραιότητα προς τις μεταβλητές περιβάλλοντος για ομαλή αντικατάσταση.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>Υποστηρίζει το JetBrains Rider για εύκολη διόρθωση του στυλ κώδικα.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>Υποστηρίζει και τις δύο μεταβλητές περιβάλλοντος και ρυθμίσεις που βασίζονται σε βάση δεδομένων, με αυτόματη προτεραιότητα προς τις μεταβλητές περιβάλλοντος για ομαλή αντικατάσταση.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>Task Runner</value>
   </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Τεχνικός Υπεύθυνος</value>
+  </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>Η Φιλοσοφία</value>
   </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Η αποφασιστική, δοκιμασμένη στην πράξη βάση επιχειρηματικών εφαρμογών .NET. Από την Αυθεντικοποίηση μέχρι την Τεχνητή Νοημοσύνη, έχουμε λύσει τα δύσκολα μέρη, ώστε να μην χρειαστεί να τα κάνετε εσείς.</value>
@@ -800,9 +794,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>Η Φιλοσοφία</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Το πρότυπο είναι κατασκευασμένο για εύκολη ανάπτυξη. Περιλαμβάνει πλήρη υποστήριξη Docker, ώστε να μπορείτε να συσκευάσετε την εφαρμογή σας σε containers και να την εκτελέσετε οπουδήποτε. Μπορείτε επίσης να την αναπτύξετε απευθείας στο IIS, στο Azure App Service ή σε οποιονδήποτε διακομιστή που υποστηρίζει ASP.NET Core.</value>
@@ -816,11 +807,11 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Πεδία με συνειδητότητα ζώνης ώρας</value>
   </data>
-  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
-    <value>Ακολουθήστε τη συντήρηση οχημάτων, τις επισκευές σπιτιών, την εξυπηρέτηση εξοπλισμού ή οποιαδήποτε περιοδική δραστηριότητα συντήρησης με αρχεία χρονολογημένα.</value>
-  </data>
   <data name="Track What Matters." xml:space="preserve">
     <value>Ακολουθήστε αυτό που μετράει.</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Ακολουθήστε τη συντήρηση οχημάτων, τις επισκευές σπιτιών, την εξυπηρέτηση εξοπλισμού ή οποιαδήποτε περιοδική δραστηριότητα συντήρησης με αρχεία χρονολογημένα.</value>
   </data>
   <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
     <value>Ακολουθήστε συναντήσεις εργασίας, αποτελέσματα συναντήσεων, ολοκληρώσεις εργασιών ή οποιαδήποτε επαναλαμβανόμενη εργασία στον χώρο εργασίας με πεδία δομημένων δεδομένων.</value>
@@ -846,11 +837,11 @@
   <data name="Validation Built In" xml:space="preserve">
     <value>Έλεγχος εγκυρότητας ενσωματωμένος</value>
   </data>
-  <data name="View on GitHub" xml:space="preserve">
-    <value>Προβολή στο GitHub</value>
-  </data>
   <data name="View Source Code" xml:space="preserve">
     <value>Προβολή Κώδικα Πηγής</value>
+  </data>
+  <data name="View on GitHub" xml:space="preserve">
+    <value>Προβολή στο GitHub</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Καλώς ήρθατε</value>
@@ -911,6 +902,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>Μηδενική Ανοχή Lint</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>γρηγορότερα</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>είναι Ελεύθερο Λογισμικό</value>
   </data>
 
 </root>

@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>Змінити тип</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>годин</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>Годину тому</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>Ручний ввід</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>хв</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Примітки</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>Додаткові примітки...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Запис:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>Записати!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Запис:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Час запису</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>Кілька годин тому</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>годин</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>хв</value>
   </data>
 
 </root>

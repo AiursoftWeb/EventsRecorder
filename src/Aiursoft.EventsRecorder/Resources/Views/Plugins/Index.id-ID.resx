@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Menganalisis durasi dan konsistensi tidur. Melacak rata-rata waktu tidur dan stabilitas waktu tidur Anda selama 30 hari terakhir.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Rata-rata Tidur</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Rata-rata kalori per sesi selama 42 hari terakhir.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Rata-rata kalori per sesi dalam 7 hari terakhir.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Rata-rata Tidur</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Berat rata-rata selama 30 hari terakhir.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Streak Saat Ini</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Hari yang telah berlalu sejak peristiwa terakhir yang tercatat.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Hari Sejak Event Terakhir</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Hari yang telah berlalu sejak peristiwa terakhir yang tercatat.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Analisis Latihan</value>

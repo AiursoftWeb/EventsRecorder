@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>درجة الامتناع</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>عدد الأيام المنقضية منذ آخر حدث مسجل.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>الأيام منذ آخر حدث</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>عدد الأيام المنقضية منذ آخر حدث مسجل.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>تستعيد +10/يوم (بحد أقصى 100). كل حدث: ÷2.</value>

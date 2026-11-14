@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>เปลี่ยนประเภท</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ชั่วโมง</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>ชั่วโมงที่แล้ว</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>ป้อนด้วยตนเอง</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>นาที</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>บันทึก</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>หมายเหตุเพิ่มเติม...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>บันทึก:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>บันทึก!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>บันทึก:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>เวลาบันทึก</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X ชั่วโมงที่แล้ว</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ชั่วโมง</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>นาที</value>
   </data>
 
 </root>

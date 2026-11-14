@@ -45,6 +45,15 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>A modern, feature-rich, and highly extensible foundation for your next web application.</value>
   </data>
+  <data name="AI Driven Translation" xml:space="preserve">
+    <value>AI-Driven Translation</value>
+  </data>
+  <data name="AI Readable" xml:space="preserve">
+    <value>AI Readable</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-Powered Translations</value>
+  </data>
   <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
     <value>Achieve more with Aiursoft Event Recorder</value>
   </data>
@@ -62,15 +71,6 @@
   </data>
   <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
     <value>Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments.</value>
-  </data>
-  <data name="AI Driven Translation" xml:space="preserve">
-    <value>AI-Driven Translation</value>
-  </data>
-  <data name="AI Readable" xml:space="preserve">
-    <value>AI Readable</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-Powered Translations</value>
   </data>
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Event Recorder</value>
@@ -102,11 +102,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>Automatic compression and privacy</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>Auto Deployment</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>Automatic compression and privacy</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>Automatic AI translation into 28 languages.</value>
@@ -168,9 +168,6 @@
   <data name="Built-in" xml:space="preserve">
     <value>Built-in</value>
   </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>Built-in administration panel</value>
-  </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>Built-in Auth</value>
   </data>
@@ -179,6 +176,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Built-in User Management</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>Built-in administration panel</value>
   </data>
   <data name="Can multiple users share the same instance?" xml:space="preserve">
     <value>Can multiple users share the same instance?</value>
@@ -225,20 +225,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>Cross Platform</value>
   </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Custom Event Types</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>Custom development required</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Custom development required</value>
   </data>
-  <data name="Custom Event Types" xml:space="preserve">
-    <value>Custom Event Types</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Control Panel Website</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dashboard for background tasks</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Control Panel Website</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Day 1 Compliance &amp; Security.</value>
@@ -270,14 +270,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>DevOps Native</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>Developer Experience</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>DevOps Native</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Discussions page</value>
@@ -354,9 +354,6 @@
   <data name="FAQ" xml:space="preserve">
     <value>Frequently Asked Questions</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>quicker</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Features</value>
   </data>
@@ -381,9 +378,6 @@
   <data name="Flexible Field Definitions" xml:space="preserve">
     <value>Flexible Field Definitions</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>for any enquiries or to report issues.</value>
-  </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Founder &amp; Architect at Aiursoft</value>
   </data>
@@ -393,11 +387,11 @@
   <data name="Free" xml:space="preserve">
     <value>Free</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>Free for Commercial Use</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>Free Software</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Free for Commercial Use</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Frequently asked questions</value>
@@ -423,11 +417,11 @@
   <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
     <value>Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure.</value>
   </data>
-  <data name="Generic configuration" xml:space="preserve">
-    <value>Generic configuration</value>
-  </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Generic Dockerfile only</value>
+  </data>
+  <data name="Generic configuration" xml:space="preserve">
+    <value>Generic configuration</value>
   </data>
   <data name="Get started for free" xml:space="preserve">
     <value>Get started for free</value>
@@ -477,6 +471,9 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon included</value>
   </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>How It Works</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>How can I get support?</value>
   </data>
@@ -485,9 +482,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>How do I deploy my application?</value>
-  </data>
-  <data name="How It Works" xml:space="preserve">
-    <value>How It Works</value>
   </data>
   <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic.</value>
@@ -498,11 +492,11 @@
   <data name="Included" xml:space="preserve">
     <value>Included</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Includes extensive documentation and practical examples to get you started quickly.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Includes Tutorials</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Includes extensive documentation and practical examples to get you started quickly.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Integrated File Management</value>
@@ -515,9 +509,6 @@
   </data>
   <data name="Is EventsRecorder free to use?" xml:space="preserve">
     <value>Is EventsRecorder free to use?</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>is Free Software</value>
   </data>
   <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
     <value>Is it free to use Aiursoft Event Recorder?</value>
@@ -546,6 +537,12 @@
   <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
     <value>Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT Licence</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Maintain High Code Quality</value>
   </data>
@@ -558,20 +555,14 @@
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown to HTML</value>
   </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT License</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT Licence</value>
-  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Models are validated on both client and server sides based on data annotations.</value>
   </data>
-  <data name="Multi-timezone Handling" xml:space="preserve">
-    <value>Multi-timezone Handling</value>
-  </data>
   <data name="Multi-User Support" xml:space="preserve">
     <value>Multi-User Support</value>
+  </data>
+  <data name="Multi-timezone Handling" xml:space="preserve">
+    <value>Multi-timezone Handling</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Multiple Database Provider Support</value>
@@ -594,12 +585,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>Requires Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>Requires complex authentication logic</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>Requires configuration/plugins</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>Needs ESLint/Prettier configuration</value>
   </data>
@@ -608,9 +593,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>Needs Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>Needs manual configuration</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>Needs MediaLibrary</value>
@@ -624,11 +606,20 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>Needs Spring Security config</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>Requires third-party plugins</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Requires TypeORM or similar</value>
+  </data>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>Requires complex authentication logic</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>Requires configuration/plugins</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>Needs manual configuration</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>Requires third-party plugins</value>
   </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
     <value>No dependency on any cloud vendor. Run anywhere, any time — your data stays with you.</value>
@@ -639,11 +630,14 @@
   <data name="Notes &amp; Context" xml:space="preserve">
     <value>Notes &amp; Context</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>Offline Capable</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM &amp; Migrations</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>Offline Capable</value>
   </data>
   <data name="One Click Start" xml:space="preserve">
     <value>One Click Start</value>
@@ -657,20 +651,17 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Optimised Docker &amp; K8s config</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM &amp; Migrations</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Out-of-the-box</value>
   </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Permission discovery and sync</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>Pre-configured and tested</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Pre-configured CI/CD pipelines specifically for GitLab.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>Pre-configured and tested</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Pre-configured pipelines for dev/prod</value>
@@ -684,11 +675,11 @@
   <data name="Read the document" xml:space="preserve">
     <value>Read the documentation</value>
   </data>
-  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
-    <value>Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time.</value>
-  </data>
   <data name="Record Everything." xml:space="preserve">
     <value>Record Everything.</value>
+  </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time.</value>
   </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Requires Laravel Socialite configuration</value>
@@ -741,20 +732,20 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>An intelligent dark mode that automatically adapts to the user&apos;s system settings.</value>
   </data>
+  <data name="Standard OpenID" xml:space="preserve">
+    <value>Standard OpenID</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Standard implementation. Switch providers without compilation.</value>
   </data>
-  <data name="Standard OpenID" xml:space="preserve">
-    <value>Standard OpenID</value>
+  <data name="Start Shipping Value." xml:space="preserve">
+    <value>Start shipping value.</value>
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Start a new project</value>
   </data>
   <data name="Start recording your events today!" xml:space="preserve">
     <value>Start recording your events today!</value>
-  </data>
-  <data name="Start Shipping Value." xml:space="preserve">
-    <value>Start shipping value.</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>Start with a single &apos;docker run&apos; command.</value>
@@ -768,29 +759,32 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>Strict Lint Rules</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>Strict Unit Testing</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>Strict linting rules and zero warnings by default.</value>
   </data>
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Strict linting rules with 0 warnings in the default project.</value>
   </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>Strict Unit Testing</value>
-  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Strongly Consistent Linting</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>Supports JetBrains Rider for easy code style fixes.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>Task Runner</value>
   </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Technical Lead</value>
+  </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>The Philosophy</value>
   </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to.</value>
@@ -800,9 +794,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>The navigation bar automatically adjusts based on user roles and permissions.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>The Philosophy</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>The template is designed for straightforward deployment. It includes comprehensive Docker support, allowing you to containerise your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core.</value>
@@ -816,11 +807,11 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Timezone-aware fields</value>
   </data>
-  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
-    <value>Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records.</value>
-  </data>
   <data name="Track What Matters." xml:space="preserve">
     <value>Track What Matters.</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records.</value>
   </data>
   <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
     <value>Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields.</value>
@@ -846,11 +837,11 @@
   <data name="Validation Built In" xml:space="preserve">
     <value>Built-in Validation</value>
   </data>
-  <data name="View on GitHub" xml:space="preserve">
-    <value>View on GitHub</value>
-  </data>
   <data name="View Source Code" xml:space="preserve">
     <value>View Source Code</value>
+  </data>
+  <data name="View on GitHub" xml:space="preserve">
+    <value>View on GitHub</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome</value>
@@ -911,6 +902,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>Zero Tolerance Lint</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>quicker</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>for any enquiries or to report issues.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>is Free Software</value>
   </data>
 
 </root>

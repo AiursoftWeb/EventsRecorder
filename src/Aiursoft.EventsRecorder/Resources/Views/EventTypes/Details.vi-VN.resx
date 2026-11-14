@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Tiếp theo</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Chưa có trường nào được định nghĩa. Hãy thêm các trường để xác định dữ liệu cần thu thập.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Không có bản ghi</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Chưa có trường nào được định nghĩa. Hãy thêm các trường để xác định dữ liệu cần thu thập.</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>Xu hướng số liệu</value>

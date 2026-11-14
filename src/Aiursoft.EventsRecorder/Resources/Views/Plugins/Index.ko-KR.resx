@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>수면 시간과 일관성을 분석합니다. 지난 30일 동안 평균 수면 시간과 취침 시간의 안정성을 추적합니다.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>평균 수면 시간</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>지난 42일 동안 세션당 평균 칼로리</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>지난 7일 동안 세션당 평균 칼로리</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>평균 수면 시간</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>지난 30일 동안의 평균 체중</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>현재 연속 기록</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>최종 기록된 이벤트 이후 경과한 일수</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>마지막 이벤트 이후 경과 일수</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>최종 기록된 이벤트 이후 경과한 일수</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>운동 분석</value>

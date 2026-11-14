@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analizează durata și consistența somnului. Îți urmărește timpul mediu de somn și stabilitatea orei de culcare în ultimele 30 de zile.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Somn mediu</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Calorii medii pe sesiune în ultimele 42 de zile.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Calorii medii pe sesiune în ultimele 7 zile.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Somn mediu</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Greutatea medie în ultimele 30 de zile.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Seria curentă</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Zile scurse de la cel mai recent eveniment înregistrat.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Zile de la ultima eveniment</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Zile scurse de la cel mai recent eveniment înregistrat.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Analiza exercițiilor</value>

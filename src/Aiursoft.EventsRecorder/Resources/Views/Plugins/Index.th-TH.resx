@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>วิเคราะห์ระยะเวลาและการคงที่ของการนอนหลับ ติดตามเวลาการนอนหลับเฉลี่ยและความเสถียรของเวลานอนของคุณในช่วง 30 วันที่ผ่านมา</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>การนอนหลับเฉลี่ย</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>จำนวนแคลอรีเฉลี่ยต่อเซสชันในช่วง 42 วันที่ผ่านมา</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>ค่าแคลอรีเฉลี่ยต่อเซสชันในช่วง 7 วันที่ผ่านมา</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>การนอนหลับเฉลี่ย</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>น้ำหนักเฉลี่ยในช่วง 30 วันที่ผ่านมา</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>จำนวนวันที่ติดต่อกันในปัจจุบัน</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>จำนวนวันที่ผ่านมาตั้งแต่เหตุการณ์ล่าสุดที่บันทึกไว้</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>จำนวนวันที่ผ่านมาตั้งแต่เหตุการณ์ล่าสุด</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>จำนวนวันที่ผ่านมาตั้งแต่เหตุการณ์ล่าสุดที่บันทึกไว้</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>การวิเคราะห์การออกกำลังกาย</value>

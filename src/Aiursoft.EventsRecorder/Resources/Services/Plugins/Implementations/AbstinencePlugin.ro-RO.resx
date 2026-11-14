@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Scor de abținere</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Zile trecute de la cel mai recent eveniment înregistrat.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Zile de la ultima eveniment</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Zile trecute de la cel mai recent eveniment înregistrat.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Se recuperează +10/zi (maxim 100). Fiecare eveniment: ÷2.</value>

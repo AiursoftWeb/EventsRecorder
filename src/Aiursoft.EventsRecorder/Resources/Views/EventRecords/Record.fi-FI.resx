@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>Vaihda tyyppiä</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>tuntia</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>Tuntia sitten</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>Manuaalinen syöttö</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Huomautukset</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>Valinnaiset huomautukset...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Tallenne:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>Tallenna!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Tallenne:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Nauhoitusajankohta</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X tuntia sitten</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>tuntia</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

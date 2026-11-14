@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>説明</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>例：運動、食事、体重...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>イベントタイプの詳細</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>このイベントタイプ用のオプションの説明</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>例：運動、食事、体重...</value>
   </data>
 
 </root>

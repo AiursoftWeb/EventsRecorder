@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>Deskripsi</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>misalnya Olahraga, Makan, Berat...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Rincian Tipe Event</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>Deskripsi opsional untuk tipe acara ini</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>misalnya Olahraga, Makan, Berat...</value>
   </data>
 
 </root>

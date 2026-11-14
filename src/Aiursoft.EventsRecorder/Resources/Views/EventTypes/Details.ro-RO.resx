@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Următor</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Nu există câmpuri definite încă. Adăugați câmpuri pentru a defini ce date trebuie colectate.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Fără înregistrări</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Nu există câmpuri definite încă. Adăugați câmpuri pentru a defini ce date trebuie colectate.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>timp</value>
