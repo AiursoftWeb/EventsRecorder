@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Opret din første eventtype for at starte optagelse af events.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>felter</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Mine hændelsestyper</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Record</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>felter</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>registre</value>

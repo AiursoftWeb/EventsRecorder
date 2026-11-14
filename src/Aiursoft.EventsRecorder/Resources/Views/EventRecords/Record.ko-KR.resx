@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>타입 변경</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>시간</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>시간 전</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>수동 입력</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>분</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>메모</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>선택적 메모...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>기록:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>기록!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>기록:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>녹화 시간</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X 시간 전</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>분</value>
   </data>
 
 </root>

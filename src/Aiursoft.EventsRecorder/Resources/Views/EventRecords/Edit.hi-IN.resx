@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>फ़ाइल अपलोड की गई</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>घंटे</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>मिनट</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>नोट्स</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>इसे प्रतिस्थापित करने के लिए एक नया फ़ाइल अपलोड करें</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>मिनट</value>
   </data>
 
 </root>

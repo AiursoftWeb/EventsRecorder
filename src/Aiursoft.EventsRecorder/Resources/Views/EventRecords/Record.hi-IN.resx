@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>प्रकार बदलें</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>घंटे</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>घंटे पहले</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>मैन्युअल इनपुट</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>टिप्पणियाँ</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>वैकल्पिक नोट...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>रिकॉर्ड:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>रिकॉर्ड करें!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>रिकॉर्ड:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>रिकॉर्डिंग समय</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X घंटे पहले</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

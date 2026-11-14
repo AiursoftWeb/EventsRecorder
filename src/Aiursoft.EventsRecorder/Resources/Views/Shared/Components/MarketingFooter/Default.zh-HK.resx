@@ -42,11 +42,11 @@
   <data name="Get Started" xml:space="preserve">
     <value>開始使用</value>
   </data>
-  <data name="Github" xml:space="preserve">
-    <value>Github</value>
-  </data>
   <data name="GitLab" xml:space="preserve">
     <value>GitLab</value>
+  </data>
+  <data name="Github" xml:space="preserve">
+    <value>Github</value>
   </data>
   <data name="Install Script" xml:space="preserve">
     <value>安裝腳本</value>

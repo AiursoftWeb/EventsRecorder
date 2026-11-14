@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Luo ensimmäinen tapahtumatyyppisi alkaaksesi tallentaa tapahtumia.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>kenttä</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Omat tapahtumatyyppini</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Tallenna</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>kenttä</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>tapahtumaa</value>

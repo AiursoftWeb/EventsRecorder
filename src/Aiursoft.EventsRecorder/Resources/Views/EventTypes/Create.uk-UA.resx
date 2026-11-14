@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>Опис</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>напр. Вправа, Їжа, Вага...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>Деталі типу події</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>Додатковий опис для цього типу події</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>напр. Вправа, Їжа, Вага...</value>
   </data>
 
 </root>

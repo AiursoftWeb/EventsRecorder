@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>Skift type</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>timer</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>Timer siden</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>Manuel input</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Noter</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>Valgfrie noter...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Optegnelse:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>Gem!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Optegnelse:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Optagelsestid</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>X timer siden</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

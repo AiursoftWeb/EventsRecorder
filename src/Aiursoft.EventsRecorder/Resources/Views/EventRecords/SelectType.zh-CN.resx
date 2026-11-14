@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create an event type first, then come back to record." xml:space="preserve">
-    <value>请先创建事件类型，然后回来记录。</value>
-  </data>
-  <data name="Create Event Type" xml:space="preserve">
+      <data name="Create Event Type" xml:space="preserve">
     <value>创建事件类型</value>
+  </data>
+  <data name="Create an event type first, then come back to record." xml:space="preserve">
+    <value>请先创建事件类型，然后回来记录。</value>
   </data>
   <data name="No event types defined" xml:space="preserve">
     <value>未定义任何事件类型</value>

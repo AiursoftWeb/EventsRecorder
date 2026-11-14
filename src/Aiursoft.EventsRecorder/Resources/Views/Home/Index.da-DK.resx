@@ -45,6 +45,15 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>En moderne, funktionsrig og meget udvidelsesparat fundament til din næste webapplikation.</value>
   </data>
+  <data name="AI Driven Translation" xml:space="preserve">
+    <value>AI-drevet oversættelse</value>
+  </data>
+  <data name="AI Readable" xml:space="preserve">
+    <value>AI-læsbart</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-drevne oversættelser</value>
+  </data>
   <data name="Achieve more with Aiursoft Event Recorder" xml:space="preserve">
     <value>Opnå mere med Aiursoft Event Recorder</value>
   </data>
@@ -62,15 +71,6 @@
   </data>
   <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
     <value>Administrators kan administrere globale indstillinger via dashboardet med omgåelse af miljøvariabler til produktionsudrullinger.</value>
-  </data>
-  <data name="AI Driven Translation" xml:space="preserve">
-    <value>AI-drevet oversættelse</value>
-  </data>
-  <data name="AI Readable" xml:space="preserve">
-    <value>AI-læsbart</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-drevne oversættelser</value>
   </data>
   <data name="Aiursoft Event Recorder" xml:space="preserve">
     <value>Aiursoft Event Recorder</value>
@@ -102,11 +102,11 @@
   <data name="Authentik &amp; Okta" xml:space="preserve">
     <value>Authentik &amp; Okta</value>
   </data>
-  <data name="Auto compression and privacy" xml:space="preserve">
-    <value>Automatisk komprimering og privatliv</value>
-  </data>
   <data name="Auto Deployment" xml:space="preserve">
     <value>Automatisk implementering</value>
+  </data>
+  <data name="Auto compression and privacy" xml:space="preserve">
+    <value>Automatisk komprimering og privatliv</value>
   </data>
   <data name="Automatic AI translation into 28 languages." xml:space="preserve">
     <value>Automatisk AI-oversættelse til 28 sprog.</value>
@@ -168,9 +168,6 @@
   <data name="Built-in" xml:space="preserve">
     <value>Indbygget</value>
   </data>
-  <data name="Built-in administration panel" xml:space="preserve">
-    <value>Indbygget administrationspanel</value>
-  </data>
   <data name="Built-in Auth" xml:space="preserve">
     <value>Indbygget Auth</value>
   </data>
@@ -179,6 +176,9 @@
   </data>
   <data name="Built-in User Management" xml:space="preserve">
     <value>Indbygget brugeradministration</value>
+  </data>
+  <data name="Built-in administration panel" xml:space="preserve">
+    <value>Indbygget administrationspanel</value>
   </data>
   <data name="Can multiple users share the same instance?" xml:space="preserve">
     <value>Kan flere brugere dele den samme instans?</value>
@@ -225,20 +225,20 @@
   <data name="Cross Platform" xml:space="preserve">
     <value>Krydssystem</value>
   </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Tilpassede hændelsestyper</value>
+  </data>
   <data name="Custom dev required" xml:space="preserve">
     <value>Kræver tilpasset udvikling</value>
   </data>
   <data name="Custom development required" xml:space="preserve">
     <value>Kræver skræddersyet udvikling</value>
   </data>
-  <data name="Custom Event Types" xml:space="preserve">
-    <value>Tilpassede hændelsestyper</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Dashboard-websted</value>
   </data>
   <data name="Dashboard for background tasks" xml:space="preserve">
     <value>Dashboard for baggrundopgaver</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Dashboard-websted</value>
   </data>
   <data name="Day 1 Compliance &amp; Security." xml:space="preserve">
     <value>Dag 1 Compliance &amp; Sikkerhed.</value>
@@ -270,14 +270,14 @@
   <data name="Dev &amp; Prod" xml:space="preserve">
     <value>Dev &amp; Prod</value>
   </data>
+  <data name="DevOps Native" xml:space="preserve">
+    <value>DevOps-native</value>
+  </data>
   <data name="Develop exclusively in UTC while the system automatically converts and displays dates in the user&apos;s local time zone." xml:space="preserve">
     <value>Udvikl eksklusivt i UTC, mens systemet automatisk konverterer og viser datoer i brugeren&apos;s lokale tidszone.</value>
   </data>
   <data name="Developer Experience" xml:space="preserve">
     <value>Udvikleroplevelse</value>
-  </data>
-  <data name="DevOps Native" xml:space="preserve">
-    <value>DevOps-native</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Diskussionsside</value>
@@ -354,9 +354,6 @@
   <data name="FAQ" xml:space="preserve">
     <value>OFTE STILLEDE SPØRGSMÅL</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>hurtigere</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Funktioner</value>
   </data>
@@ -381,9 +378,6 @@
   <data name="Flexible Field Definitions" xml:space="preserve">
     <value>Flexibelt feltdefinerings</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>for eventuelle henvendelser eller for at rapportere problemer.</value>
-  </data>
   <data name="Founder &amp; Architect at Aiursoft" xml:space="preserve">
     <value>Oprettelse &amp; Arkitekt ved Aiursoft</value>
   </data>
@@ -393,11 +387,11 @@
   <data name="Free" xml:space="preserve">
     <value>Gratis</value>
   </data>
-  <data name="Free for Commercial Use" xml:space="preserve">
-    <value>Gratis til kommerciel brug</value>
-  </data>
   <data name="Free Software" xml:space="preserve">
     <value>Frit Software</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Gratis til kommerciel brug</value>
   </data>
   <data name="Frequently asked questions" xml:space="preserve">
     <value>Ofte stillede spørgsmål</value>
@@ -423,11 +417,11 @@
   <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
     <value>Fuld open source. Ingen betalte niveauer, ingen vendor lock-in. Dine data forbliver på dit eget infrastruktur.</value>
   </data>
-  <data name="Generic configuration" xml:space="preserve">
-    <value>Generisk konfiguration</value>
-  </data>
   <data name="Generic Dockerfile only" xml:space="preserve">
     <value>Kun generisk Dockerfile</value>
+  </data>
+  <data name="Generic configuration" xml:space="preserve">
+    <value>Generisk konfiguration</value>
   </data>
   <data name="Get started for free" xml:space="preserve">
     <value>Kom i gang gratis</value>
@@ -477,6 +471,9 @@
   <data name="Horizon included" xml:space="preserve">
     <value>Horizon inkluderet</value>
   </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Sådan virker det</value>
+  </data>
   <data name="How can I get support?" xml:space="preserve">
     <value>Hvordan kan jeg få support?</value>
   </data>
@@ -485,9 +482,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Hvordan deployer jeg min applikation?</value>
-  </data>
-  <data name="How It Works" xml:space="preserve">
-    <value>Sådan virker det</value>
   </data>
   <data name="I built Aiursoft Event Recorder because I was tired of setting up the same Auth, Log, and CI/CD pipelines for every new enterprise project. This isn&apos;t just a template; it&apos;s the crystallized best practices from years of high-concurrency production environments. It allows my team to skip the boring setup and jump straight to business logic." xml:space="preserve">
     <value>Jeg har bygget Aiursoft Event Recorder, fordi jeg var træt af at indstille de samme Auth, Log og CI/CD-pipelines for hvert nye enterprise-projekt. Dette er ikke blot en skabelon; det er de kristalliserede bedste praksisser fra år med højkonkurrenceproduktionsmiljøer. Det giver mit team mulighed for at springe over den kedelige opsætning og direkte begynde med business logik.</value>
@@ -498,11 +492,11 @@
   <data name="Included" xml:space="preserve">
     <value>Inkluderet</value>
   </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Inkluderer omfattende dokumentation og praktiske eksempler for at få dig i gang hurtigt.</value>
-  </data>
   <data name="Includes Tutorials" xml:space="preserve">
     <value>Inkluderer vejledninger</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Inkluderer omfattende dokumentation og praktiske eksempler for at få dig i gang hurtigt.</value>
   </data>
   <data name="Integrated File Management" xml:space="preserve">
     <value>Integreret Filhåndtering</value>
@@ -515,9 +509,6 @@
   </data>
   <data name="Is EventsRecorder free to use?" xml:space="preserve">
     <value>Er EventsRecorder gratis at bruge?</value>
-  </data>
-  <data name="is Free Software" xml:space="preserve">
-    <value>er fri software</value>
   </data>
   <data name="Is it free to use Aiursoft Event Recorder?" xml:space="preserve">
     <value>Er det gratis at bruge Aiursoft Event Recorder?</value>
@@ -546,6 +537,12 @@
   <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
     <value>Log løb, træning, medicinindtagelse, søvntimer eller blodtryksmålinger med tilpassede felter for hver måling, der betyder noget for dig.</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
   <data name="Maintain High Code Quality" xml:space="preserve">
     <value>Vedligehold høj kodekvalitet</value>
   </data>
@@ -558,20 +555,14 @@
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown til HTML</value>
   </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-licens</value>
-  </data>
-  <data name="MIT License" xml:space="preserve">
-    <value>MIT License</value>
-  </data>
   <data name="Models are validated on both client and server sides based on data annotations." xml:space="preserve">
     <value>Modeller valideres på både klient- og serversiden baseret på dataanmerkninger.</value>
   </data>
-  <data name="Multi-timezone Handling" xml:space="preserve">
-    <value>Håndtering af flere tidszoner</value>
-  </data>
   <data name="Multi-User Support" xml:space="preserve">
     <value>Multi-brugersupport</value>
+  </data>
+  <data name="Multi-timezone Handling" xml:space="preserve">
+    <value>Håndtering af flere tidszoner</value>
   </data>
   <data name="Multiple Database Provider Support" xml:space="preserve">
     <value>Understøttelse af flere databaseudbydere</value>
@@ -594,12 +585,6 @@
   <data name="Needs Celery + Flower" xml:space="preserve">
     <value>Kræver Celery + Flower</value>
   </data>
-  <data name="Needs complex authentication logic" xml:space="preserve">
-    <value>Kræver kompleks autentificeringslogik</value>
-  </data>
-  <data name="Needs config/plugins" xml:space="preserve">
-    <value>Kræver konfiguration/plugins</value>
-  </data>
   <data name="Needs ESLint/Prettier setup" xml:space="preserve">
     <value>Kræver opsætning af ESLint/Prettier</value>
   </data>
@@ -608,9 +593,6 @@
   </data>
   <data name="Needs Laravel Sail" xml:space="preserve">
     <value>Kræver Laravel Sail</value>
-  </data>
-  <data name="Needs manual configuration" xml:space="preserve">
-    <value>Kræver manuel konfiguration</value>
   </data>
   <data name="Needs Medialibrary" xml:space="preserve">
     <value>Kræver Medialibrary</value>
@@ -624,11 +606,20 @@
   <data name="Needs Spring Security config" xml:space="preserve">
     <value>Kræver Spring Security-konfiguration</value>
   </data>
-  <data name="Needs third-party plugins" xml:space="preserve">
-    <value>Kræver plugins fra tredjepart</value>
-  </data>
   <data name="Needs TypeORM or similar" xml:space="preserve">
     <value>Kræver TypeORM eller lignende</value>
+  </data>
+  <data name="Needs complex authentication logic" xml:space="preserve">
+    <value>Kræver kompleks autentificeringslogik</value>
+  </data>
+  <data name="Needs config/plugins" xml:space="preserve">
+    <value>Kræver konfiguration/plugins</value>
+  </data>
+  <data name="Needs manual configuration" xml:space="preserve">
+    <value>Kræver manuel konfiguration</value>
+  </data>
+  <data name="Needs third-party plugins" xml:space="preserve">
+    <value>Kræver plugins fra tredjepart</value>
   </data>
   <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
     <value>Ingen afhængighed af nogen cloud-udbyder. Kør hvor som helst, når som helst — dine data forbliver hos dig.</value>
@@ -639,11 +630,14 @@
   <data name="Notes &amp; Context" xml:space="preserve">
     <value>Noter &amp; Kontekst</value>
   </data>
-  <data name="Offline Capable" xml:space="preserve">
-    <value>Offline-funktion</value>
-  </data>
   <data name="OIDC &amp; SSO" xml:space="preserve">
     <value>OIDC &amp; SSO</value>
+  </data>
+  <data name="ORM &amp; Migrations" xml:space="preserve">
+    <value>ORM &amp; Migrationer</value>
+  </data>
+  <data name="Offline Capable" xml:space="preserve">
+    <value>Offline-funktion</value>
   </data>
   <data name="One Click Start" xml:space="preserve">
     <value>Én-klik-start</value>
@@ -657,20 +651,17 @@
   <data name="Optimized Docker &amp; K8s config" xml:space="preserve">
     <value>Optimeret Docker &amp; K8s-konfiguration</value>
   </data>
-  <data name="ORM &amp; Migrations" xml:space="preserve">
-    <value>ORM &amp; Migrationer</value>
-  </data>
   <data name="Out-of-the-box" xml:space="preserve">
     <value>Klar til brug</value>
   </data>
   <data name="Permission discovery and sync" xml:space="preserve">
     <value>Opdagelse og synkronisering af tilladelser</value>
   </data>
-  <data name="Pre-configured and tested" xml:space="preserve">
-    <value>Forudkonfigureret og testet</value>
-  </data>
   <data name="Pre-configured CI/CD pipelines specifically for GitLab." xml:space="preserve">
     <value>Forudkonfigurerede CI/CD-pipelines specifikt til GitLab.</value>
+  </data>
+  <data name="Pre-configured and tested" xml:space="preserve">
+    <value>Forudkonfigureret og testet</value>
   </data>
   <data name="Pre-configured pipelines for dev/prod" xml:space="preserve">
     <value>Forudkonfigurerede pipelines til dev/prod</value>
@@ -684,11 +675,11 @@
   <data name="Read the document" xml:space="preserve">
     <value>Læs dokumentationen</value>
   </data>
-  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
-    <value>Registrer daglige læsesessioner, sprogøvelser, studietimer eller enhver vane, du ønsker at opbygge — med fremskridt synligt over tid.</value>
-  </data>
   <data name="Record Everything." xml:space="preserve">
     <value>Record alt</value>
+  </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Registrer daglige læsesessioner, sprogøvelser, studietimer eller enhver vane, du ønsker at opbygge — med fremskridt synligt over tid.</value>
   </data>
   <data name="Requires Laravel Socialite config" xml:space="preserve">
     <value>Kræver Laravel Socialite-konfiguration</value>
@@ -741,20 +732,20 @@
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Smart mørktilstand, der automatisk tilpasser sig brugerens systemindstillinger.</value>
   </data>
+  <data name="Standard OpenID" xml:space="preserve">
+    <value>Standard OpenID</value>
+  </data>
   <data name="Standard implementation. Switch providers without compilation." xml:space="preserve">
     <value>Standardimplementering. Skift leverandører uden kompilering.</value>
   </data>
-  <data name="Standard OpenID" xml:space="preserve">
-    <value>Standard OpenID</value>
+  <data name="Start Shipping Value." xml:space="preserve">
+    <value>Start levering værdi.</value>
   </data>
   <data name="Start a new project" xml:space="preserve">
     <value>Start et nyt projekt</value>
   </data>
   <data name="Start recording your events today!" xml:space="preserve">
     <value>Start optagelse af dine begivenheder i dag!</value>
-  </data>
-  <data name="Start Shipping Value." xml:space="preserve">
-    <value>Start levering værdi.</value>
   </data>
   <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
     <value>Start med en enkelt &apos;docker run&apos; kommando.</value>
@@ -768,29 +759,32 @@
   <data name="Strict Lint Rules" xml:space="preserve">
     <value>Strenge linter-regler</value>
   </data>
+  <data name="Strict Unit Testing" xml:space="preserve">
+    <value>Streng enhedstest</value>
+  </data>
   <data name="Strict linting rules and zero warnings by default." xml:space="preserve">
     <value>Strikte lint-regler og nul advarsler som standard.</value>
   </data>
   <data name="Strict linting rules with 0 warnings in the default project." xml:space="preserve">
     <value>Strenge linter-regler med 0 advarsler i standardprojektet.</value>
   </data>
-  <data name="Strict Unit Testing" xml:space="preserve">
-    <value>Streng enhedstest</value>
-  </data>
   <data name="Strongly Consistent Linting" xml:space="preserve">
     <value>Stærk Konsistent Linting</value>
   </data>
-  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
-    <value>Støtter både miljøvariabler og databasebaserede indstillinger, med automatisk prioritet til miljøvariabler for smertefri overtagelser.</value>
-  </data>
   <data name="Supports JetBrains Rider for easy code style fixes." xml:space="preserve">
     <value>Støtter JetBrains Rider til nemme justeringer af kodeformat.</value>
+  </data>
+  <data name="Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides." xml:space="preserve">
+    <value>Støtter både miljøvariabler og databasebaserede indstillinger, med automatisk prioritet til miljøvariabler for smertefri overtagelser.</value>
   </data>
   <data name="Task Runner" xml:space="preserve">
     <value>Opdriftsudførelse</value>
   </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Teknisk Lead</value>
+  </data>
+  <data name="The Philosophy" xml:space="preserve">
+    <value>Filosofien</value>
   </data>
   <data name="The definitive, battle-tested .NET enterprise foundation. From Auth to AI, we&apos;ve solved the hard parts so you don&apos;t have to." xml:space="preserve">
     <value>Den definitive, prøvet og testet .NET enterprise-grundlag. Fra Auth til AI, har vi løst de svære dele, så du ikke behøver at gøre det.</value>
@@ -800,9 +794,6 @@
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigationslinjen tilpasser sig automatisk baseret på brugerroller og tilladelser.</value>
-  </data>
-  <data name="The Philosophy" xml:space="preserve">
-    <value>Filosofien</value>
   </data>
   <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
     <value>Skabelonen er bygget til nem installation. Den inkluderer fuld Docker-understøttelse, så du kan containerisere din app og køre den hvor som helst. Du kan også installere den direkte på IIS, Azure App Service eller enhver server, der understøtter ASP.NET Core.</value>
@@ -816,11 +807,11 @@
   <data name="Timezone-aware fields" xml:space="preserve">
     <value>Felter med tidssonebevidsthed</value>
   </data>
-  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
-    <value>Spor biler vedligeholdelse, hjemmearbejder, udstyrsservice eller enhver periodisk vedligeholdelsesaktivitet med tidsstemplerede poster.</value>
-  </data>
   <data name="Track What Matters." xml:space="preserve">
     <value>Spur, hvad der betyder noget.</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Spor biler vedligeholdelse, hjemmearbejder, udstyrsservice eller enhver periodisk vedligeholdelsesaktivitet med tidsstemplerede poster.</value>
   </data>
   <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
     <value>Sporarbejdsessioner, mødeudfald, opgaveafslutninger eller enhver tilbagevendende aktivitet på arbejdspladsen med strukturerede datafelter.</value>
@@ -846,11 +837,11 @@
   <data name="Validation Built In" xml:space="preserve">
     <value>Validering indbygget</value>
   </data>
-  <data name="View on GitHub" xml:space="preserve">
-    <value>Se på GitHub</value>
-  </data>
   <data name="View Source Code" xml:space="preserve">
     <value>Se kildekoden</value>
+  </data>
+  <data name="View on GitHub" xml:space="preserve">
+    <value>Se på GitHub</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Velkommen</value>
@@ -911,6 +902,15 @@
   </data>
   <data name="Zero Tolerance Lint" xml:space="preserve">
     <value>Linting med nul tolerance</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>hurtigere</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>for eventuelle henvendelser eller for at rapportere problemer.</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>er fri software</value>
   </data>
 
 </root>

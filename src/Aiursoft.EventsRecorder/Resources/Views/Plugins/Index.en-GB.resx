@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analyses sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Average Sleep</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Average calories per session over the past 42 days.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Average calories per session over the past 7 days.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Average Sleep</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Average weight over the past 30 days.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Current Streak</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Days elapsed since the most recent recorded event.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Days Since Last Event</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Days elapsed since the most recent recorded event.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Exercise Analytics</value>

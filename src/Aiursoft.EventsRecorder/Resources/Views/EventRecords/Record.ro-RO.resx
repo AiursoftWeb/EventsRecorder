@@ -30,17 +30,11 @@
   <data name="Change Type" xml:space="preserve">
     <value>Schimbă tipul</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ore</value>
-  </data>
   <data name="Hours ago" xml:space="preserve">
     <value>Acum câteva ore</value>
   </data>
   <data name="Manual input" xml:space="preserve">
     <value>Introducere manuală</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
   </data>
   <data name="Notes" xml:space="preserve">
     <value>Notițe</value>
@@ -48,11 +42,11 @@
   <data name="Optional notes..." xml:space="preserve">
     <value>Note opționale...</value>
   </data>
-  <data name="Record:" xml:space="preserve">
-    <value>Înregistrare:</value>
-  </data>
   <data name="Record!" xml:space="preserve">
     <value>Înregistrează!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Înregistrare:</value>
   </data>
   <data name="Recording Time" xml:space="preserve">
     <value>Timp înregistrare</value>
@@ -62,6 +56,12 @@
   </data>
   <data name="X hours ago" xml:space="preserve">
     <value>Acum X ore</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>Dosya yüklendi</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>saat</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>dk</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Notlar</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Yeni bir dosya yükleyerek değiştirebilirsiniz.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>dk</value>
   </data>
 
 </root>

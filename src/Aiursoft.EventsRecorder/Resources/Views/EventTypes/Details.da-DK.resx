@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Næste</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Ingen felter defineret endnu. Tilføj felter for at definere, hvilke data der skal indsamles.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Ingen poster</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Ingen felter defineret endnu. Tilføj felter for at definere, hvilke data der skal indsamles.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>tid</value>

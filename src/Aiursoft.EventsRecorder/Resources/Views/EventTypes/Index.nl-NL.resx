@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Maak uw eerste evenementtype aan om met het opnemen van gebeurtenissen te beginnen.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>velden</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Mijn gebeurtenistypes</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Registreren</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>velden</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>records</value>

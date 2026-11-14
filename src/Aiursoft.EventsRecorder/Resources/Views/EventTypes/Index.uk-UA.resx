@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Створіть свій перший тип подій, щоб почати запис подій.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>поля</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Мої типи подій</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Запис</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>поля</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>записів</value>

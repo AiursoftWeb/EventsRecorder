@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>अगला</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>कोई फ़ील्ड अभी परिभाषित नहीं है। कृपया डेटा संकलित करने के लिए फ़ील्ड जोड़ें।</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>कोई रिकॉर्ड नहीं</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>कोई फ़ील्ड अभी परिभाषित नहीं है। कृपया डेटा संकलित करने के लिए फ़ील्ड जोड़ें।</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>समय</value>

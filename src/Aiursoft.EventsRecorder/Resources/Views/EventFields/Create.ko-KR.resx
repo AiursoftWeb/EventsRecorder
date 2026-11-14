@@ -27,12 +27,6 @@
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>
-  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
-    <value>예: 옵션A, 옵션B, 옵션C</value>
-  </data>
-  <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
-    <value>예: 체중, 지속 시간, 사진...</value>
-  </data>
   <data name="Enum Values" xml:space="preserve">
     <value>열거 값</value>
   </data>
@@ -50,6 +44,12 @@
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>필수는 필수입니다</value>
+  </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>예: 옵션A, 옵션B, 옵션C</value>
+  </data>
+  <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
+    <value>예: 체중, 지속 시간, 사진...</value>
   </data>
 
 </root>

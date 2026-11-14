@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analyseert slaaptijd en consistentie. Volgt je gemiddelde slaapduur en stabiliteit van je bedtijd gedurende de afgelopen 30 dagen.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Gemiddelde slaap</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Gemiddeld aantal calorieën per sessie in de afgelopen 42 dagen.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Gemiddeld aantal calorieën per sessie in de afgelopen 7 dagen.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Gemiddelde slaap</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Gemiddeld gewicht over de afgelopen 30 dagen.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Huidige reeks</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Aantal verstreken dagen sinds het meest recente geregistreerde gebeurtenis.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Aantal dagen sinds laatste gebeurtenis</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Aantal verstreken dagen sinds het meest recente geregistreerde gebeurtenis.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Fitheid Analytics</value>

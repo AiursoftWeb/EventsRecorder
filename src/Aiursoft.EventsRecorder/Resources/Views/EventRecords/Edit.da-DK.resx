@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>Filen er uploadet</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>timer</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>min</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Noter</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Upload en ny fil for at erstatte den.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
   </data>
 
 </root>

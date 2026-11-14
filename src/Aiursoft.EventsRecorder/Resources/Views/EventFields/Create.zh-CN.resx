@@ -27,12 +27,6 @@
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
-    <value>例如：选项 A、选项 B、选项 C</value>
-  </data>
-  <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
-    <value>例如：体重、时长、照片...</value>
-  </data>
   <data name="Enum Values" xml:space="preserve">
     <value>枚举值</value>
   </data>
@@ -50,6 +44,12 @@
   </data>
   <data name="This field is required" xml:space="preserve">
     <value>此字段为必填项</value>
+  </data>
+  <data name="e.g. OptionA,OptionB,OptionC" xml:space="preserve">
+    <value>例如：选项 A、选项 B、选项 C</value>
+  </data>
+  <data name="e.g. Weight, Duration, Photo..." xml:space="preserve">
+    <value>例如：体重、时长、照片...</value>
   </data>
 
 </root>

@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Pontuação de Abstinência</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Dias decorridos desde o evento registado mais recente.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Dias desde o último evento</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Dias decorridos desde o evento registado mais recente.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Recupera +10/dia (máx. 100). Cada evento: ÷2.</value>

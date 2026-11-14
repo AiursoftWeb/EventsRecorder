@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analyse la durée et la régularité du sommeil. Suit votre temps de sommeil moyen et la stabilité de votre heure de coucher sur les 30 derniers jours.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Sommeil moyen</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Calories moyennes par séance au cours des 42 derniers jours.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Calories moyennes par séance au cours des 7 derniers jours.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Sommeil moyen</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Poids moyen sur les 30 derniers jours.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Série actuelle</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Nombre de jours écoulés depuis le dernier événement enregistré.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Jours depuis le dernier événement</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Nombre de jours écoulés depuis le dernier événement enregistré.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Analytique de l&apos;exercice</value>

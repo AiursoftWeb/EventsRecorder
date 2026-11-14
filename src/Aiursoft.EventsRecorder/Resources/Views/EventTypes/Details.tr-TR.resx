@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>Sonraki</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>Henüz alan tanımlanmadı. Toplanacak verileri tanımlamak için alan ekleyin.</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>Kayıt Yok</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>Henüz alan tanımlanmadı. Toplanacak verileri tanımlamak için alan ekleyin.</value>
   </data>
   <data name="Occurrence" xml:space="preserve">
     <value>zaman</value>

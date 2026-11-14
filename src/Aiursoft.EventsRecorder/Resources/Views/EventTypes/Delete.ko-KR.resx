@@ -39,14 +39,14 @@
   <data name="Records" xml:space="preserve">
     <value>레코드</value>
   </data>
-  <data name="records will be deleted!" xml:space="preserve">
-    <value>레코드가 삭제됩니다!</value>
-  </data>
   <data name="This action is irreversible. All records and field values belonging to this event type will be permanently deleted." xml:space="preserve">
     <value>이 작업은 되돌릴 수 없습니다. 이 이벤트 유형에 속하는 모든 기록 및 필드 값이 영구적으로 삭제됩니다.</value>
   </data>
   <data name="Yes, delete this event type" xml:space="preserve">
     <value>네, 이 이벤트 유형을 삭제합니다</value>
+  </data>
+  <data name="records will be deleted!" xml:space="preserve">
+    <value>레코드가 삭제됩니다!</value>
   </data>
 
 </root>

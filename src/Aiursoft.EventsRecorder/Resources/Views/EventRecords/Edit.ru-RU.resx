@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>Файл загружен</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>часов</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>мин</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Заметки</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Загрузите новый файл, чтобы заменить его.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>мин</value>
   </data>
 
 </root>

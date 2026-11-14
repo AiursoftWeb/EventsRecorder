@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>睡眠時間と一貫性を分析します。過去30日間の平均睡眠時間と就寝時刻の安定性を追跡します。</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>平均睡眠時間</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>過去42日間のセッションあたりの平均カロリー</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>過去7日間のセッションあたりの平均カロリー</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>平均睡眠時間</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>過去30日間の平均体重</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>現在のストリーク</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>最新の記録されたイベントからの経過日数</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>最後のイベントからの経過日数</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>最新の記録されたイベントからの経過日数</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>運動分析</value>

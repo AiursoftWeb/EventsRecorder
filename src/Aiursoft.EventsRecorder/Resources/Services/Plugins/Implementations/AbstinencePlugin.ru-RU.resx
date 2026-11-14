@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Оценка воздержания</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Количество дней, прошедших с момента последней зафиксированной записи.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Дней с последнего события</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Количество дней, прошедших с момента последней зафиксированной записи.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Восстанавливается +10/день (макс. 100). За каждое событие: ÷2.</value>

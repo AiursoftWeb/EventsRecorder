@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Pidättyminen-pisteet</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Päiviä kulunut viimeisimmästä merkitystä tapahtumasta.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Päiviä viimeisestä tapahtumasta</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Päiviä kulunut viimeisimmästä merkitystä tapahtumasta.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Palautuu +10/pv (max 100). Jokainen tapahtuma: ÷2.</value>

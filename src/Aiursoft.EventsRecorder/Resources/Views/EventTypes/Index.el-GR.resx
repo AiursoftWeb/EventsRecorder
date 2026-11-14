@@ -24,9 +24,6 @@
   <data name="Create your first event type to start recording events." xml:space="preserve">
     <value>Δημιουργήστε το πρώτο σας τύπο γεγονότος για να ξεκινήσετε την καταγραφή γεγονότων.</value>
   </data>
-  <data name="fields" xml:space="preserve">
-    <value>πεδίων</value>
-  </data>
   <data name="My Event Types" xml:space="preserve">
     <value>Οι τύποι των γεγονότων μου</value>
   </data>
@@ -35,6 +32,9 @@
   </data>
   <data name="Record" xml:space="preserve">
     <value>Καταγραφή</value>
+  </data>
+  <data name="fields" xml:space="preserve">
+    <value>πεδίων</value>
   </data>
   <data name="records" xml:space="preserve">
     <value>καταγραφές</value>

@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>ไฟล์ที่อัปโหลดแล้ว</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>ชั่วโมง</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>นาที</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>บันทึก</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>อัปโหลดไฟล์ใหม่เพื่อแทนที่</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>ชั่วโมง</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>นาที</value>
   </data>
 
 </root>

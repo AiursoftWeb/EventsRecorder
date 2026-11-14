@@ -30,9 +30,6 @@
   <data name="Description" xml:space="preserve">
     <value>विवरण</value>
   </data>
-  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
-    <value>उदा. व्यायाम, भोजन, वजन...</value>
-  </data>
   <data name="Event Type Details" xml:space="preserve">
     <value>ईवेंट प्रकार विवरण</value>
   </data>
@@ -41,6 +38,9 @@
   </data>
   <data name="Optional description for this event type" xml:space="preserve">
     <value>इस इवेंट प्रकार के लिए वैकल्पिक विवरण</value>
+  </data>
+  <data name="e.g. Exercise, Meal, Weight..." xml:space="preserve">
+    <value>उदा. व्यायाम, भोजन, वजन...</value>
   </data>
 
 </root>

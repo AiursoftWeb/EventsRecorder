@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>금욕 점수</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>가장 최근 기록된 사건 이후 경과한 일수입니다.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>마지막 사건 이후 경과 일수</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>가장 최근 기록된 사건 이후 경과한 일수입니다.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>하루 +10 회복 (최대 100). 각 사건 발생 시 ÷2.</value>

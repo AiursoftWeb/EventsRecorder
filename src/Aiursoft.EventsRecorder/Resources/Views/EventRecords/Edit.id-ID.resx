@@ -30,12 +30,6 @@
   <data name="File uploaded" xml:space="preserve">
     <value>File diunggah</value>
   </data>
-  <data name="hours" xml:space="preserve">
-    <value>jam</value>
-  </data>
-  <data name="min" xml:space="preserve">
-    <value>menit</value>
-  </data>
   <data name="Notes" xml:space="preserve">
     <value>Catatan</value>
   </data>
@@ -47,6 +41,12 @@
   </data>
   <data name="Upload a new file to replace it." xml:space="preserve">
     <value>Unggah file baru untuk menggantinya.</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>menit</value>
   </data>
 
 </root>

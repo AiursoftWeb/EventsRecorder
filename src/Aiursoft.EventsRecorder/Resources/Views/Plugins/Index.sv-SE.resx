@@ -48,14 +48,14 @@
   <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
     <value>Analyserar sömntid och konsekvens. Spårar din genomsnittliga sömntid och stabilitet i läggdags under de senaste 30 dagarna.</value>
   </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Genomsnittlig sömntid</value>
+  </data>
   <data name="Average calories per day over the past 42 days." xml:space="preserve">
     <value>Genomsnittliga kalorier per pass under de senaste 42 dagarna.</value>
   </data>
   <data name="Average calories per day over the past 7 days." xml:space="preserve">
     <value>Genomsnittliga kalorier per pass under de senaste 7 dagarna.</value>
-  </data>
-  <data name="Average Sleep" xml:space="preserve">
-    <value>Genomsnittlig sömntid</value>
   </data>
   <data name="Average weight over the past 30 days." xml:space="preserve">
     <value>Genomsnittlig vikt under de senaste 30 dagarna.</value>
@@ -81,11 +81,11 @@
   <data name="Current Streak" xml:space="preserve">
     <value>Aktuell svit</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Antal dagar sedan senaste registrerade händelse.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Dagar sedan senaste händelse</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Antal dagar sedan senaste registrerade händelse.</value>
   </data>
   <data name="Exercise Analytics" xml:space="preserve">
     <value>Träningsanalys</value>

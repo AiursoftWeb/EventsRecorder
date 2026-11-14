@@ -72,11 +72,11 @@
   <data name="Next" xml:space="preserve">
     <value>下一頁</value>
   </data>
-  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
-    <value>尚未定義任何欄位。請新增欄位以定義要收集哪些資料。</value>
-  </data>
   <data name="No Records" xml:space="preserve">
     <value>無記錄</value>
+  </data>
+  <data name="No fields defined yet. Add fields to define what data to collect." xml:space="preserve">
+    <value>尚未定義任何欄位。請新增欄位以定義要收集哪些資料。</value>
   </data>
   <data name="Number Trends" xml:space="preserve">
     <value>數字趨勢</value>

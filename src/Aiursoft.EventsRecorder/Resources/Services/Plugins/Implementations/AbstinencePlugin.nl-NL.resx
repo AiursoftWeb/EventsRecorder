@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>Onthoudingscore</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>Aantal verstreken dagen sinds de meest recente geregistreerde gebeurtenis.</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>Dagen sinds laatste gebeurtenis</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Aantal verstreken dagen sinds de meest recente geregistreerde gebeurtenis.</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>Herstelt +10/dag (max 100). Elke gebeurtenis: ÷2.</value>

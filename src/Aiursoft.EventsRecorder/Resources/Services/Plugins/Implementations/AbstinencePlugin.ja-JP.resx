@@ -21,11 +21,11 @@
       <data name="Abstinence Score" xml:space="preserve">
     <value>禁欲スコア</value>
   </data>
-  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
-    <value>最も最近の記録されたイベントから経過した日数。</value>
-  </data>
   <data name="Days Since Last Event" xml:space="preserve">
     <value>最後のイベントからの日数</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>最も最近の記録されたイベントから経過した日数。</value>
   </data>
   <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
     <value>毎日+10回復（最大100）。各イベントで÷2。</value>
