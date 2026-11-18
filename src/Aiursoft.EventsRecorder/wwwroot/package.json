@@ -5,11 +5,13 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
+    "@aiursoft/uistack": "^2.0.25",
     "chart.js": "^4.6.1",
     "chartjs-adapter-date-fns": "^3.0.0",
     "dropify": "^0.2.2"
   },
   "keep": {
+    "@aiursoft/uistack": "dist",
     "chart.js": "dist",
     "chartjs-adapter-date-fns": "dist",
     "dropify": "dist"
