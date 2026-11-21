@@ -11,7 +11,6 @@ using Aiursoft.EventsRecorder.MySql;
 using Aiursoft.EventsRecorder.Services.Authentication;
 using Aiursoft.EventsRecorder.Services.Plugins;
 using Aiursoft.EventsRecorder.Sqlite;
-using Aiursoft.UiStack;
 using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
 using Microsoft.AspNetCore.Mvc.Razor;
