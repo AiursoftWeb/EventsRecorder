@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Create a new event type to start tracking." xml:space="preserve">
+    <value>Napravite novi tip događaja za početak praćenja.</value>
+  </data>
+  <data name="Define and manage event types and their fields." xml:space="preserve">
+    <value>Definirajte i upravljajte vrstama događaja i njihovim poljima.</value>
+  </data>
+  <data name="Define your event types, then record life moments with a single tap." xml:space="preserve">
+    <value>Definirajte svoje vrste događaja, a zatim snimajte životne trenutke jednim dodirom.</value>
+  </data>
+  <data name="Events Recorder" xml:space="preserve">
+    <value>Snimač događaja</value>
+  </data>
+  <data name="My Event Types" xml:space="preserve">
+    <value>Moje vrste događaja</value>
+  </data>
+  <data name="My Records" xml:space="preserve">
+    <value>Moje zapisi</value>
+  </data>
+  <data name="New Event Type" xml:space="preserve">
+    <value>Novi tip događaja</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Brzi linkovi</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Zabilježi!</value>
+  </data>
+  <data name="View your event recording timeline." xml:space="preserve">
+    <value>Pogledajte vremensku crtu svojih zapisa događaja.</value>
+  </data>
+
+</root>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="-- Select an option --" xml:space="preserve">
+    <value>-- Odaberite opciju --</value>
+  </data>
+  <data name="Advanced Options" xml:space="preserve">
+    <value>Napredne opcije</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Change Type" xml:space="preserve">
+    <value>Promijeni tip</value>
+  </data>
+  <data name="Hours ago" xml:space="preserve">
+    <value>Prije sati</value>
+  </data>
+  <data name="Manual input" xml:space="preserve">
+    <value>Ručni unos</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Bilješke</value>
+  </data>
+  <data name="Optional notes..." xml:space="preserve">
+    <value>Neobavezne napomene...</value>
+  </data>
+  <data name="Record!" xml:space="preserve">
+    <value>Zabilježi!</value>
+  </data>
+  <data name="Record:" xml:space="preserve">
+    <value>Zapis:</value>
+  </data>
+  <data name="Recording Time" xml:space="preserve">
+    <value>Vrijeme snimanja</value>
+  </data>
+  <data name="Right now" xml:space="preserve">
+    <value>Upravo sada</value>
+  </data>
+  <data name="X hours ago" xml:space="preserve">
+    <value>prije X sati</value>
+  </data>
+  <data name="hours" xml:space="preserve">
+    <value>sati</value>
+  </data>
+  <data name="min" xml:space="preserve">
+    <value>min</value>
+  </data>
+
+</root>

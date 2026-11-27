@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="30-Day Average" xml:space="preserve">
+    <value>Prosjek za 30 dana</value>
+  </data>
+  <data name="30-Day Avg" xml:space="preserve">
+    <value>Prosjek za 30 dana</value>
+  </data>
+  <data name="30-Day Completion" xml:space="preserve">
+    <value>Popunjavanje u 30 dana</value>
+  </data>
+  <data name="7-Day Average" xml:space="preserve">
+    <value>7-dnevni prosjek</value>
+  </data>
+  <data name="7-Day Avg" xml:space="preserve">
+    <value>7-dnevni prosjek</value>
+  </data>
+  <data name="About {0}" xml:space="preserve">
+    <value>O {0}</value>
+  </data>
+  <data name="Abstinence Score" xml:space="preserve">
+    <value>Bod ocjene uzdržanosti</value>
+  </data>
+  <data name="All-time longest consecutive daily streak." xml:space="preserve">
+    <value>Najduži dosadašnji uzastopni dnevni niz.</value>
+  </data>
+  <data name="Analyzes sleep duration and consistency. Tracks your average sleep time and bedtime stability over the past 30 days." xml:space="preserve">
+    <value>Analizira trajanje i dosljednost sna. Praćenje prosječnog vremena spavanja i stabilnosti vremena odlaska u krevet tijekom zadnjih 30 dana.</value>
+  </data>
+  <data name="Average Sleep" xml:space="preserve">
+    <value>Prosječan san</value>
+  </data>
+  <data name="Average calories per day over the past 42 days." xml:space="preserve">
+    <value>Prosjek kalorija po danu u posljednjih 42 dana.</value>
+  </data>
+  <data name="Average calories per day over the past 7 days." xml:space="preserve">
+    <value>Prosjечan unos kalorija dnevno u posljednjih 7 dana.</value>
+  </data>
+  <data name="Average weight over the past 30 days." xml:space="preserve">
+    <value>Prosječna težina u posljednjih 30 dana.</value>
+  </data>
+  <data name="Average weight over the past 7 days." xml:space="preserve">
+    <value>Prosječna težina u posljednjih 7 dana.</value>
+  </data>
+  <data name="Computes Fitness (42-day load), Fatigue (7-day load), and Form using the CTL/ATL training-load model. Supports multiple sources." xml:space="preserve">
+    <value>Izračunava Kondiciju (opterećenje 42 dana), Umor (opterećenje 7 dana) i Oblik koristeći model trening opterećenja CTL/ATL. Podržava više izvora.</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Podesi</value>
+  </data>
+  <data name="Configured" xml:space="preserve">
+    <value>Konfigurirano</value>
+  </data>
+  <data name="Consecutive days with at least one record, up to today." xml:space="preserve">
+    <value>Uzastopni dani s barem jednim zapiskom, do danas.</value>
+  </data>
+  <data name="Current Streak" xml:space="preserve">
+    <value>Trenutna serija</value>
+  </data>
+  <data name="Days Since Last Event" xml:space="preserve">
+    <value>Dana od posljednjeg događaja</value>
+  </data>
+  <data name="Days elapsed since the most recent recorded event." xml:space="preserve">
+    <value>Dana proteklih od najnovijeg zabilježenog događaja.</value>
+  </data>
+  <data name="Exercise Analytics" xml:space="preserve">
+    <value>Analitika vježbanja</value>
+  </data>
+  <data name="Exponential moving average (α=0.2). Recent entries weighted more." xml:space="preserve">
+    <value>Eksponencijalna pokretna prosječna vrijednost (α=0.2). Nedavnim unosima pridaje se veća težina.</value>
+  </data>
+  <data name="Fatigue (ATL)" xml:space="preserve">
+    <value>Umor (ATL)</value>
+  </data>
+  <data name="Fitness (CTL)" xml:space="preserve">
+    <value>Fitnes (CTL)</value>
+  </data>
+  <data name="Fitness minus Fatigue. Positive = fresh; negative = fatigued." xml:space="preserve">
+    <value>Fitness minus Fatigue. Pozitivno = svjež; negativno = umoran.</value>
+  </data>
+  <data name="Form (CTL − ATL)" xml:space="preserve">
+    <value>Oblik (CTL − ATL)</value>
+  </data>
+  <data name="Habit Streak" xml:space="preserve">
+    <value>Niz navika</value>
+  </data>
+  <data name="How consistent your bedtime is. Higher is more stable." xml:space="preserve">
+    <value>Koliko je konzistentno vaše vrijeme za spavanje. Viša vrijednost označava veću stabilnost.</value>
+  </data>
+  <data name="Latest Weight" xml:space="preserve">
+    <value>Najnovija težina</value>
+  </data>
+  <data name="Longest Streak" xml:space="preserve">
+    <value>Najduži niz</value>
+  </data>
+  <data name="Mood EMA" xml:space="preserve">
+    <value>EMA raspoloženja</value>
+  </data>
+  <data name="Mood Tracker" xml:space="preserve">
+    <value>Praćenje raspoloženja</value>
+  </data>
+  <data name="Mood Volatility" xml:space="preserve">
+    <value>Volatilnost raspoloženja</value>
+  </data>
+  <data name="Most recent recorded weight." xml:space="preserve">
+    <value>Najnovije zabilježeno tjelesne težine.</value>
+  </data>
+  <data name="My Plugins" xml:space="preserve">
+    <value>Moji pluginovi</value>
+  </data>
+  <data name="No metrics available." xml:space="preserve">
+    <value>Nema dostupnih metrika.</value>
+  </data>
+  <data name="Not configured" xml:space="preserve">
+    <value>Nije konfigurirano</value>
+  </data>
+  <data name="Percentage of days in the past 30 days with at least one record." xml:space="preserve">
+    <value>Postotak dana u posljednjih 30 dana s barem jednim zapisom.</value>
+  </data>
+  <data name="Rate of change over 30 days. Positive = gaining, negative = losing." xml:space="preserve">
+    <value>Stopa promjene tijekom 30 dana. Pozitivno = povećanje, negativno = smanjenje.</value>
+  </data>
+  <data name="Recovers +10/day (max 100). Each event: ÷2." xml:space="preserve">
+    <value>Oporavlja +10/dan (max 100). Svaki događaj: ÷2.</value>
+  </data>
+  <data name="Simple average mood score over the past 30 days." xml:space="preserve">
+    <value>Jednostavan prosječni bod ocjene raspoloženja u posljednjih 30 dana.</value>
+  </data>
+  <data name="Simple average mood score over the past 7 days." xml:space="preserve">
+    <value>Jednostavan prosječni bod ocjene raspoloženja u posljednjih 7 dana.</value>
+  </data>
+  <data name="Sleep Analysis" xml:space="preserve">
+    <value>Analiza sna</value>
+  </data>
+  <data name="Sleep Stability" xml:space="preserve">
+    <value>Stabilnost sna</value>
+  </data>
+  <data name="Standard deviation over the past 30 days. Lower = more stable." xml:space="preserve">
+    <value>Standardna devijacija u posljednjih 30 dana. Niže = stabilnije.</value>
+  </data>
+  <data name="Tracks body weight with moving averages and a weekly trend direction computed via linear regression over the past 30 days." xml:space="preserve">
+    <value>Prati tjelesnu težinu pomoću kliznih prosjeka i tjednog smjera trenda izračunatog linearnom regresijom tijekom zadnjih 30 dana.</value>
+  </data>
+  <data name="Tracks mood trends with an exponential moving average (α=0.2), 7/30-day averages, and 30-day volatility (standard deviation)." xml:space="preserve">
+    <value>Prahća trendove raspoloženja pomoću eksponencijalne klizne prosječne vrijednosti (α=0,2), prosjeka za 7/30 dana i volatilnosti za 30 dana (standardna devijacija).</value>
+  </data>
+  <data name="Tracks self-control for any behavior you want to reduce. Score recovers +10/day (max 100) and halves on each event." xml:space="preserve">
+    <value>Praćenje samokontrole za bilo koje ponašanje koje želite smanjiti. Bodovi se oporavljaju +10/dan (maks. 100) i polovica se oduzima pri svakom događaju.</value>
+  </data>
+  <data name="Tracks your daily habit streak, all-time longest streak, and 30-day completion rate. Any day with at least one record counts as a completed day." xml:space="preserve">
+    <value>Praćenje vašeg dnevnog niza navika, najdužeg niza do sada i stope završenosti u 30 dana. Svaki dan s barem jednim zapiskom računa se kao završen dan.</value>
+  </data>
+  <data name="Weekly Trend" xml:space="preserve">
+    <value>Tjedni trend</value>
+  </data>
+  <data name="Weight Trend" xml:space="preserve">
+    <value>Trend tjelesne težine</value>
+  </data>
+  <data name="Your average daily sleep duration over the past 30 days." xml:space="preserve">
+    <value>Vaša prosječna dnevna dužina sna u posljednjih 30 dana.</value>
+  </data>
+
+</root>
