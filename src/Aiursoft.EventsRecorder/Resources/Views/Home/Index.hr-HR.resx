@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="1. Define an Event Type" xml:space="preserve">
+    <value>1. Definirajte tip događaja</value>
+  </data>
+  <data name="2. Configure Custom Fields" xml:space="preserve">
+    <value>2. Podesite prilagođena polja</value>
+  </data>
+  <data name="3. Log Every Occurrence" xml:space="preserve">
+    <value>3. Zabilježite svaki slučaj</value>
+  </data>
+  <data name="Add free-form notes to any event record for additional context that doesn&apos;t fit neatly into structured fields." xml:space="preserve">
+    <value>Dodajte bilješke slobodnog oblika bilo kojem zapisu događaja radi dodatnog konteksta koji se ne uklapa u strukturirana polja.</value>
+  </data>
+  <data name="Add the data fields that matter for this event — Distance, Duration, Medication Name, Dosage — choosing the field type and whether each is required." xml:space="preserve">
+    <value>Dodajte polja podataka koja su bitna za ovaj događaj — Udaljenost, Trajanje, Naziv lijeka, Doza — odabirući vrstu polja i je li svako od njih obavezno.</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>Administratorske postavke</value>
+  </data>
+  <data name="Administrators can manage global settings through the dashboard, with environment variable overrides for production deployments." xml:space="preserve">
+    <value>Administratori mogu upravljati globalnim postavkama putem nadzorne ploče, s izmjenama varijabli okruženja za produkcijska razmještavanja.</value>
+  </data>
+  <data name="An Event Type is a template for a category of events you want to track. For example, &apos;Morning Run&apos; or &apos;Medicine Intake&apos;. Each Event Type can have custom fields so you always capture exactly the data you need." xml:space="preserve">
+    <value>Vrsta događaja predložak je za kategoriju događaja koje želite pratiti. Na primjer, &apos;Jutarnji trčanje&apos; ili &apos;Uzimanje lijekova&apos;. Svaka vrsta događaja može imati prilagođena polja kako biste uvijek zabilježili točno one podatke koje trebate.</value>
+  </data>
+  <data name="Anything Else" xml:space="preserve">
+    <value>Sve ostalo</value>
+  </data>
+  <data name="Attach custom fields of various types to each event type — text, numbers, booleans, and more — with configurable order and required constraints." xml:space="preserve">
+    <value>Pripojedinite prilagođena polja različitih tipova na svaki tip događaja — tekst, brojevi, logičke vrijednosti i još mnogo toga — s podešavljivim redoslijedom i obveznim ograničenjima.</value>
+  </data>
+  <data name="Browse, search, and filter your event history to spot patterns, review past activity, and gain insights from your long-term data." xml:space="preserve">
+    <value>Pregledajte, pretražite i filtrirajte povijest svojih događaja kako biste prepoznali obrasce, pregledali prethodne aktivnosti i stekli uvid u svoje podatke dugoročnog prikupljanja.</value>
+  </data>
+  <data name="Built-in Auth" xml:space="preserve">
+    <value>Ugrađena autentikacija</value>
+  </data>
+  <data name="Can multiple users share the same instance?" xml:space="preserve">
+    <value>Mogu li više korisnika dijeliti istu instancu?</value>
+  </data>
+  <data name="Choose from SQLite, MySQL, or SQL Server depending on your scale. Easily swap providers with minimal configuration." xml:space="preserve">
+    <value>Odaberite između SQLite, MySQL ili SQL Server ovisno o vašoj razini. Lako zamijenite pružatelje uz minimalnu konfiguraciju.</value>
+  </data>
+  <data name="Core Features" xml:space="preserve">
+    <value>Osnovne značajke</value>
+  </data>
+  <data name="Create a named event type such as &apos;Morning Run&apos;, &apos;Medicine Intake&apos;, or &apos;Work Session&apos;. Add a description so everyone knows what it tracks." xml:space="preserve">
+    <value>Stvorite imenovanu vrstu događaja, na primjer &apos;Jutarnji trčanje&apos;, &apos;Uzimanje lijekova&apos; ili &apos;Radna sesija&apos;. Dodajte opis kako bi svi znali što se prati.</value>
+  </data>
+  <data name="Custom Event Types" xml:space="preserve">
+    <value>Prilagodljive vrste događaja</value>
+  </data>
+  <data name="Default SQLite database, no configuration needed." xml:space="preserve">
+    <value>Zadana SQLite baza podataka, nije potrebna konfiguracija.</value>
+  </data>
+  <data name="Define your own event types with custom fields, then log every occurrence with structured data. Understand your habits, activities, and history at a glance." xml:space="preserve">
+    <value>Definirajte vlastite tipove događaja s prilagođenim poljima, a zatim zabilježite svaki pojavnost strukturiranim podacima. Razumijte svoje navike, aktivnosti i povijest na prvi pogled.</value>
+  </data>
+  <data name="Define your own event types with names and descriptions tailored to your specific tracking needs." xml:space="preserve">
+    <value>Definirajte vlastite vrste događaja s imenima i opisima prilagođenima vašim specifičnim potrebama praćenja.</value>
+  </data>
+  <data name="Dev &amp; Prod" xml:space="preserve">
+    <value>Razvoj i produkcija</value>
+  </data>
+  <data name="Each time the event happens, create a record. Fill in the field values, optionally add notes, and the timestamp is captured automatically." xml:space="preserve">
+    <value>Svaki put kada se događaj dogodi, kreirajte zapis. Popunite vrijednosti polja, po želji dodajte bilješke, a vremenska oznaka se bilježi automatski.</value>
+  </data>
+  <data name="Each user manages their own isolated event types and records. Built-in RBAC ensures administrators can oversee all activity." xml:space="preserve">
+    <value>Svaki korisnik upravlja vlastitim izoliranim tipovima događaja i zapiskama. Ugrađeni RBAC osigurava da administratori mogu nadzirati svu aktivnost.</value>
+  </data>
+  <data name="EventsRecorder" xml:space="preserve">
+    <value>EventsRecorder</value>
+  </data>
+  <data name="EventsRecorder is schema-flexible. If you have a recurring event you want to capture in a structured way, it fits right in." xml:space="preserve">
+    <value>EventsRecorder je fleksibilan u pogledu sheme. Ako imate ponavljajući događaj koji želite zabilježiti na strukturiran način, on je pravo rješenje.</value>
+  </data>
+  <data name="EventsRecorder supports multiple field types including text, numbers, and booleans. Each field can be marked as required and assigned a display order, giving you full control over the data structure." xml:space="preserve">
+    <value>EventsRecorder podržava više vrsta polja, uključujući tekst, brojeve i booleove vrijednosti. Svako polje može se označiti kao obavezno i dodijeliti mu redoslijed prikaza, čime dobivate punu kontrolu nad strukturom podataka.</value>
+  </data>
+  <data name="Every event record is automatically timestamped in UTC so you can accurately reconstruct a history of occurrences over time." xml:space="preserve">
+    <value>Svaki zapis događaja automatski se vremenski bilježi u UTC, što vam omogućuje točno rekonstrukciju povijesti događanja kroz vrijeme.</value>
+  </data>
+  <data name="Everything you need to track structured events." xml:space="preserve">
+    <value>Sve što vam je potrebno za praćenje strukturiranih događaja.</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>ČPP</value>
+  </data>
+  <data name="Fields are validated on both client and server sides, ensuring your data is clean and consistent across all records." xml:space="preserve">
+    <value>Polja se provjeravaju na klijentskoj i poslužiteljskoj strani, čime se osigurava da su vaši podaci čisti i dosljedni u svim zapiskama.</value>
+  </data>
+  <data name="Flexible Field Definitions" xml:space="preserve">
+    <value>Fleksibilne definicije polja</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Besplatno</value>
+  </data>
+  <data name="Free Software" xml:space="preserve">
+    <value>Besplatni softver</value>
+  </data>
+  <data name="Free for Commercial Use" xml:space="preserve">
+    <value>Besplatno za komercijalnu upotrebu</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Česta pitanja</value>
+  </data>
+  <data name="From personal health habits to team workflow checkpoints, EventsRecorder adapts to any structured data you want to capture over time." xml:space="preserve">
+    <value>Od osobnih zdravstvenih navika do točaka provjere timskih radnih tokova, EventsRecorder se prilagođava bilo kakvim strukturiranim podacima koje želite bilježiti s vremenom.</value>
+  </data>
+  <data name="Full RBAC" xml:space="preserve">
+    <value>Potpuni RBAC</value>
+  </data>
+  <data name="Full Stack Open Source" xml:space="preserve">
+    <value>Open Source cijeli stack</value>
+  </data>
+  <data name="Fully Offline" xml:space="preserve">
+    <value>U potpunosti offline</value>
+  </data>
+  <data name="Fully open source. No paid tiers, no vendor lock-in. Your data stays on your infrastructure." xml:space="preserve">
+    <value>Potpuno otvorenog koda. Nema plaćenih razina, nema ovisnosti o dobavljaču. Vaši podaci ostaju na vašoj infrastrukturi.</value>
+  </data>
+  <data name="Get started for free" xml:space="preserve">
+    <value>Počnite besplatno</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Idi na nadzornu ploču</value>
+  </data>
+  <data name="Health &amp; Fitness" xml:space="preserve">
+    <value>Zdravlje i fitnes</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Evo nekih odgovora koje možda tražite.</value>
+  </data>
+  <data name="Historical Browsing" xml:space="preserve">
+    <value>Pregled povijesti</value>
+  </data>
+  <data name="How It Works" xml:space="preserve">
+    <value>Kako funkcionira</value>
+  </data>
+  <data name="How do I deploy EventsRecorder?" xml:space="preserve">
+    <value>Kako instaliram EventsRecorder?</value>
+  </data>
+  <data name="Is EventsRecorder free to use?" xml:space="preserve">
+    <value>Je li EventsRecorder besplatan za korištenje?</value>
+  </data>
+  <data name="Learning &amp; Habits" xml:space="preserve">
+    <value>Učenje i navike</value>
+  </data>
+  <data name="Log garden watering, bird sightings, photography outings, or any hobby with the exact custom fields your activity demands." xml:space="preserve">
+    <value>Evidirajte zalijevanje vrta, promatranje ptica, izlete fotografiranja ili bilo koje hobije s točno onim prilagodljivim poljima koja vaša aktivnost zahtijeva.</value>
+  </data>
+  <data name="Log runs, workouts, medicine intake, sleep hours, or blood pressure readings with custom fields for every metric that matters to you." xml:space="preserve">
+    <value>Evidirajte trčanje, vježbe, unos lijekova, sate spavanja ili mjerenja krvnog tlaka uz prilagodljiva polja za svaku metriku koja je vama važna.</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT licence</value>
+  </data>
+  <data name="MIT License" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="Maintenance Logs" xml:space="preserve">
+    <value>Dnevnik održavanja</value>
+  </data>
+  <data name="Multi-User Support" xml:space="preserve">
+    <value>Podrška za više korisnika</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Podrška za više baza podataka</value>
+  </data>
+  <data name="Nature &amp; Hobbies" xml:space="preserve">
+    <value>Priroda i hobiji</value>
+  </data>
+  <data name="No dependency on any cloud vendor. Run anywhere, any time — your data stays with you." xml:space="preserve">
+    <value>Bez ovisnosti o bilo kojem cloud pružatelju. Pokrenite bilo gdje, bilo kada — vaši podaci ostaju s vama.</value>
+  </data>
+  <data name="Notes &amp; Context" xml:space="preserve">
+    <value>Bilješke i kontekst</value>
+  </data>
+  <data name="One Click Start" xml:space="preserve">
+    <value>Pokretanje jednim klikom</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Otvoreni izvor</value>
+  </data>
+  <data name="Record Everything." xml:space="preserve">
+    <value>Zabilježi sve.</value>
+  </data>
+  <data name="Record daily reading sessions, language practice, study hours, or any habit you want to build — with progress visible over time." xml:space="preserve">
+    <value>Zabilježite dnevne sesije čitanja, vježbanje jezika, satove učenja ili bilo koju naviku koju želite usvojiti — s vidljivim napretkom s vremenom.</value>
+  </data>
+  <data name="Runs without any internet connection required." xml:space="preserve">
+    <value>Radi bez potrebe za internetskom vezom.</value>
+  </data>
+  <data name="Self Hosted" xml:space="preserve">
+    <value>Samostalo hostano</value>
+  </data>
+  <data name="Self-host it, fork it, and adapt it to your needs freely under the MIT License." xml:space="preserve">
+    <value>Samostalno ga hostajte, forkajte i prilagodite svojim potrebama slobodno pod MIT licencom.</value>
+  </data>
+  <data name="Sign up for free and start defining your event types in minutes." xml:space="preserve">
+    <value>Prijavite se besplatno i počnite definirati svoje tipove događaja u nekoliko minuta.</value>
+  </data>
+  <data name="Single Container" xml:space="preserve">
+    <value>Jedini kontejner</value>
+  </data>
+  <data name="Start recording your events today!" xml:space="preserve">
+    <value>Počnite snimati svoje događaje danas!</value>
+  </data>
+  <data name="Start with a single &apos;docker run&apos; command." xml:space="preserve">
+    <value>Pokrenite s jednim &apos;docker run&apos; naredbom.</value>
+  </data>
+  <data name="The easiest way is Docker: a single &apos;docker run&apos; command is all you need. EventsRecorder is fully self-contained and works offline with SQLite by default. You can also install it directly on Ubuntu via the provided install script, or run it locally with the .NET 10 SDK." xml:space="preserve">
+    <value>Najlakši način je Docker: potrebna vam je samo jedna &apos;docker run&apos; naredba. EventsRecorder je potpuno samostalan i radi offline s SQLite po zadanoj postavci. Možete ga i instalirati izravno na Ubuntu putem priloženog skripte za instalaciju ili pokrenuti lokalno pomoću .NET 10 SDK-a.</value>
+  </data>
+  <data name="Three simple steps to structured event tracking." xml:space="preserve">
+    <value>Tri jednostavna koraka do strukturiranog praćenja događaja.</value>
+  </data>
+  <data name="Timestamped Records" xml:space="preserve">
+    <value>Zapisi s vremenskim žigom</value>
+  </data>
+  <data name="Track What Matters." xml:space="preserve">
+    <value>Prati ono što je bitno.</value>
+  </data>
+  <data name="Track vehicle maintenance, home repairs, equipment servicing, or any periodic maintenance activity with timestamped records." xml:space="preserve">
+    <value>Praćenje održavanja vozila, popravaka u kući, servisa opreme ili bilo kakvih periodičnih aktivnosti održavanja s zapisima s vremenskim žigovima.</value>
+  </data>
+  <data name="Track work sessions, meeting outcomes, task completions, or any recurring workplace activity with structured data fields." xml:space="preserve">
+    <value>Pratite radne sesije, rezultate sastanaka, završene zadatke ili bilo koju ponavljajuću aktivnost na radnom mjestu pomoću strukturiranih polja podataka.</value>
+  </data>
+  <data name="Unified Env" xml:space="preserve">
+    <value>Ujednačeno okruženje</value>
+  </data>
+  <data name="Use Cases" xml:space="preserve">
+    <value>Primjena</value>
+  </data>
+  <data name="Validation Built In" xml:space="preserve">
+    <value>Ugrađena validacija</value>
+  </data>
+  <data name="What can you track with EventsRecorder?" xml:space="preserve">
+    <value>Što možete pratiti pomoću EventsRecordera?</value>
+  </data>
+  <data name="What field types are supported?" xml:space="preserve">
+    <value>Koje vrste polja se podržavaju?</value>
+  </data>
+  <data name="What is an Event Type?" xml:space="preserve">
+    <value>Što je tip događaja?</value>
+  </data>
+  <data name="Work &amp; Productivity" xml:space="preserve">
+    <value>Posao i produktivnost</value>
+  </data>
+  <data name="Yes, EventsRecorder is completely free and open-source under the MIT License. You can use it for personal or commercial purposes at no cost and self-host it on your own infrastructure." xml:space="preserve">
+    <value>Da, EventsRecorder je potpuno besplatan i otvorenog koda pod MIT licencom. Možete ga koristiti za osobne ili komercijalne svrhe bez ikakvih troškova i samostalno ga hostirati na vlastitoj infrastrukturi.</value>
+  </data>
+  <data name="Yes. EventsRecorder supports multiple users on a single instance. Each user has their own private event types and records. Administrators have additional oversight capabilities through the built-in RBAC system." xml:space="preserve">
+    <value>Da. EventsRecorder podržava više korisnika na jednoj instanci. Svaki korisnik ima vlastite privatne tipove događaja i zapise. Administratori imaju dodatne nadzorne mogućnosti putem ugrađenog RBAC sustava.</value>
+  </data>
+  <data name="Zero Configuration" xml:space="preserve">
+    <value>Nulta konfiguracija</value>
+  </data>
+  <data name="is Free Software" xml:space="preserve">
+    <value>je besplatni softver</value>
+  </data>
+
+</root>
